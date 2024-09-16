@@ -1,6 +1,5 @@
 {
     "origin_key": "derive",
-    "l2beat_stage": "NA",
     "caip2": "eip155-957",
     "da_mapping": {
         "celestia": [

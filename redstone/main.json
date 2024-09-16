@@ -1,6 +1,5 @@
 {
     "origin_key": "redstone",
-    "l2beat_stage": "NA",
     "caip2": "eip155-690",
     "da_mapping": null,
     "evm_chain_id": 690.0,

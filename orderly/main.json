@@ -1,6 +1,5 @@
 {
     "origin_key": "orderly",
-    "l2beat_stage": "NA",
     "caip2": "eip155-291",
     "da_mapping": {
         "celestia": [

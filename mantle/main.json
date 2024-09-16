@@ -1,6 +1,5 @@
 {
     "origin_key": "mantle",
-    "l2beat_stage": "NA",
     "caip2": "eip155-5000",
     "da_mapping": null,
     "evm_chain_id": 5000.0,

@@ -1,6 +1,5 @@
 {
     "origin_key": "frax",
-    "l2beat_stage": "NA",
     "caip2": "eip155-252",
     "da_mapping": null,
     "evm_chain_id": 252.0,

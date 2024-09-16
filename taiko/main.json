@@ -1,6 +1,5 @@
 {
     "origin_key": "taiko",
-    "l2beat_stage": "Stage 0",
     "caip2": "eip155-167000",
     "da_mapping": null,
     "evm_chain_id": 167000.0,

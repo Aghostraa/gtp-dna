@@ -1,6 +1,5 @@
 {
     "origin_key": "manta",
-    "l2beat_stage": "NA",
     "caip2": "eip155-169",
     "da_mapping": {
         "celestia": [

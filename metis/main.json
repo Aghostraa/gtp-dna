@@ -1,6 +1,5 @@
 {
     "origin_key": "metis",
-    "l2beat_stage": "NA",
     "caip2": "eip155-1088",
     "da_mapping": null,
     "evm_chain_id": 1088.0,

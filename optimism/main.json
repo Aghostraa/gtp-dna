@@ -1,6 +1,5 @@
 {
     "origin_key": "optimism",
-    "l2beat_stage": "Stage 1",
     "caip2": "eip155-10",
     "da_mapping": null,
     "evm_chain_id": 10.0,

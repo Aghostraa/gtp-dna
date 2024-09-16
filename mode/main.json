@@ -1,6 +1,5 @@
 {
     "origin_key": "mode",
-    "l2beat_stage": "Stage 0",
     "caip2": "eip155-34443",
     "da_mapping": null,
     "evm_chain_id": 34443.0,
