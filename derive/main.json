@@ -1,0 +1,71 @@
+{
+    "origin_key": "derive",
+    "l2beat_stage": "NA",
+    "caip2": "eip155-957",
+    "da_mapping": {
+        "celestia": [
+            "AAAAAAAAAAAAAAAAAAAAAAAAAAAACLkdk+ILapw="
+        ]
+    },
+    "evm_chain_id": 957.0,
+    "name": "Derive",
+    "name_short": "Derive",
+    "bucket": "Offchain Data Availability",
+    "block_explorers": {
+        "Blockscout": "https://explorer.lyra.finance/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#FA8836",
+            "#FA8836"
+        ],
+        "dark": [
+            "#FA8836",
+            "#FA8836"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": false,
+    "api_in_api_economics": true,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": [
+        "stables_mcap",
+        "blockspace",
+        "fdv",
+        "market_cap"
+    ],
+    "aliases_l2beat": "lyra",
+    "aliases_coingecko": null,
+    "aliases_rhino": null,
+    "metadata_description": "Derive (former Lyra) is built using the OP Stack specially for Derive protocol - a settlement protocol for spot, perpetuals, and options trading.",
+    "metadata_symbol": "LYRA",
+    "metadata_launch_date": "2023-12-15",
+    "metadata_da_layer": "Celestia",
+    "metadata_technology": "Optimium",
+    "metadata_purpose": "Exchange",
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Conduit",
+    "socials_website": "https://www.derive.xyz/",
+    "socials_twitter ": "https://x.com/derivexyz",
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://l2beat.com/api/activity/derive.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_abi": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}

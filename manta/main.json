@@ -1,0 +1,68 @@
+{
+    "origin_key": "manta",
+    "l2beat_stage": "NA",
+    "caip2": "eip155-169",
+    "da_mapping": {
+        "celestia": [
+            "AAAAAAAAAAAAAAAAAAAAAAAAAIZiad33fbxA7Z0="
+        ]
+    },
+    "evm_chain_id": 169.0,
+    "name": "Manta Pacific",
+    "name_short": "Manta",
+    "bucket": "Offchain Data Availability",
+    "block_explorers": {
+        "Blockscout": "https://pacific-explorer.manta.network/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#FB4FF2",
+            "#FB4FF2"
+        ],
+        "dark": [
+            "#FB4FF2",
+            "#FB4FF2"
+        ],
+        "darkTextOnBackground": false
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": false,
+    "api_in_api_economics": true,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "blockspace",
+        "profit"
+    ],
+    "aliases_l2beat": "mantapacific",
+    "aliases_coingecko": "manta-network",
+    "aliases_rhino": null,
+    "metadata_description": "Manta Pacific is an Optimium empowering EVM-native zero-knowledge (ZK) applications and general dapps.",
+    "metadata_symbol": "MANTA",
+    "metadata_launch_date": "2023-09-12",
+    "metadata_da_layer": "Celestia",
+    "metadata_technology": "Optimium",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Caldera",
+    "socials_website": "https://pacific.manta.network/",
+    "socials_twitter ": "https://twitter.com/MantaNetwork",
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://l2beat.com/api/activity/mantapacific.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+    "circulating_supply_token_deployment_date": "2024-01-24",
+    "circulating_supply_token_deployment_origin_key": "manta",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}

@@ -1,0 +1,66 @@
+{
+    "origin_key": "linea",
+    "l2beat_stage": "Stage 0",
+    "caip2": "eip155-59144",
+    "da_mapping": null,
+    "evm_chain_id": 59144.0,
+    "name": "Linea",
+    "name_short": "Linea",
+    "bucket": "ZK-Rollups",
+    "block_explorers": {
+        "LineaScan": "https://lineascan.build/",
+        "Blockscout": "https://explorer.linea.build/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#9CE5FF",
+            "#9CE5FF"
+        ],
+        "dark": [
+            "#A9E9FF",
+            "#A9E9FF"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": true,
+    "api_in_api_labels": true,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "fdv",
+        "market_cap"
+    ],
+    "aliases_l2beat": "linea",
+    "aliases_coingecko": null,
+    "aliases_rhino": "LINEA",
+    "metadata_description": "Linea is a developer-friendly ZK Rollup by ConsenSys, enhancing Ethereum by enabling a new wave of decentralized applications.",
+    "metadata_symbol": null,
+    "metadata_launch_date": "2023-07-12",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "ZK Rollup",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "Custom",
+        "url": null
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://linea.build/",
+    "socials_twitter ": "https://twitter.com/LineaBuild",
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": true,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://lineascan.build/chart/tx?output=csv",
+    "cross_check_type": "etherscan",
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_abi": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}

@@ -1,0 +1,64 @@
+{
+    "origin_key": "optimism",
+    "l2beat_stage": "Stage 1",
+    "caip2": "eip155-10",
+    "da_mapping": null,
+    "evm_chain_id": 10.0,
+    "name": "OP Mainnet",
+    "name_short": "OP Mainnet",
+    "bucket": "OP Chains",
+    "block_explorers": {
+        "Optimistic Etherscan": "https://optimistic.etherscan.io/",
+        "Blockscout": "https://optimism.blockscout.com/"
+    },
+    "ecosystem_old": [
+        "op-stack",
+        "op-super",
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#DD3408",
+            "#DD3408"
+        ],
+        "dark": [
+            "#FE5468",
+            "#FE5468"
+        ],
+        "darkTextOnBackground": false
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": true,
+    "api_in_api_labels": true,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [],
+    "aliases_l2beat": "optimism",
+    "aliases_coingecko": "optimism",
+    "aliases_rhino": "OPTIMISM",
+    "metadata_description": "OP Mainnet uses an optimistic rollup approach and is one of the oldest rollups. It is fully EVM compatible and it's tech-stack is widely used.",
+    "metadata_symbol": "OP",
+    "metadata_launch_date": "2021-12-16",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "OP Stack, Superchain",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://optimism.io/",
+    "socials_twitter ": "https://twitter.com/Optimism",
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": true,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://l2beat.com/api/activity/optimism.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0x4200000000000000000000000000000000000042",
+    "circulating_supply_token_deployment_date": "2022-04-26",
+    "circulating_supply_token_deployment_origin_key": "optimism",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}

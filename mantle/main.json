@@ -1,0 +1,64 @@
+{
+    "origin_key": "mantle",
+    "l2beat_stage": "NA",
+    "caip2": "eip155-5000",
+    "da_mapping": null,
+    "evm_chain_id": 5000.0,
+    "name": "Mantle",
+    "name_short": "Mantle",
+    "bucket": "Offchain Data Availability",
+    "block_explorers": {
+        "Blockscout": "https://explorer.mantle.xyz/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#08373C",
+            "#08373C"
+        ],
+        "dark": [
+            "#10808C",
+            "#10808C"
+        ],
+        "darkTextOnBackground": false
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "rent_paid",
+        "profit"
+    ],
+    "aliases_l2beat": "mantle",
+    "aliases_coingecko": "mantle",
+    "aliases_rhino": "MANTLE",
+    "metadata_description": "Mantle is an OVM based EVM-compatible rollup. Public launch was in July 2023.",
+    "metadata_symbol": "MNT",
+    "metadata_launch_date": "2023-07-14",
+    "metadata_da_layer": "EigenDA",
+    "metadata_technology": "Optimium",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://mantle.xyz/",
+    "socials_twitter ": "https://twitter.com/0xMantle",
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://l2beat.com/api/activity/mantle.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
+    "circulating_supply_token_deployment_date": "2023-06-20",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}

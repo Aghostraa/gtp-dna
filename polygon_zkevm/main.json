@@ -1,0 +1,62 @@
+{
+    "origin_key": "polygon_zkevm",
+    "l2beat_stage": "Stage 0",
+    "caip2": "eip155-1101",
+    "da_mapping": null,
+    "evm_chain_id": 1101.0,
+    "name": "Polygon zkEVM",
+    "name_short": "Polygon zk",
+    "bucket": "ZK-Rollups",
+    "block_explorers": {
+        "PolygonScan": "https://zkevm.polygonscan.com/",
+        "Blockscout": "https://zkevm.blockscout.com/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#800094",
+            "#800094"
+        ],
+        "dark": [
+            "#AD0DC5",
+            "#AD0DC5"
+        ],
+        "darkTextOnBackground": false
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": true,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [],
+    "aliases_l2beat": "polygonzkevm",
+    "aliases_coingecko": "polygon-ecosystem-token",
+    "aliases_rhino": "ZKEVM",
+    "metadata_description": "Polygon zkEVM uses zero-knowledge proofs to run EVM-compatible smart contracts, simplifying migration for developers to the Polygon network.",
+    "metadata_symbol": "MATIC",
+    "metadata_launch_date": "2023-03-24",
+    "metadata_da_layer": "Ethereum (calldata)",
+    "metadata_technology": "ZK Rollup",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "Polygon zkEVM",
+        "url": "https://docs.polygon.technology/zkEVM/"
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://polygon.technology/polygon-zkevm",
+    "socials_twitter ": "https://twitter.com/0xPolygon",
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://zkevm.polygonscan.com/chart/tx?output=csv",
+    "cross_check_type": "etherscan",
+    "circulating_supply_token_address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+    "circulating_supply_token_deployment_date": "2019-04-20",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}

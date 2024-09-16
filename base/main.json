@@ -1,0 +1,68 @@
+{
+    "origin_key": "base",
+    "l2beat_stage": "Stage 0",
+    "caip2": "eip155-8453",
+    "da_mapping": null,
+    "evm_chain_id": 8453.0,
+    "name": "Base",
+    "name_short": "Base",
+    "bucket": "OP Chains",
+    "block_explorers": {
+        "BaseScan": "https://basescan.org/",
+        "Blockscout": "https://base.blockscout.com/"
+    },
+    "ecosystem_old": [
+        "op-stack",
+        "op-super",
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#2151F5",
+            "#2151F5"
+        ],
+        "dark": [
+            "#2151F5",
+            "#2151F5"
+        ],
+        "darkTextOnBackground": false
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": true,
+    "api_in_api_labels": true,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "fdv",
+        "market_cap"
+    ],
+    "aliases_l2beat": "base",
+    "aliases_coingecko": null,
+    "aliases_rhino": "BASE",
+    "metadata_description": "Base is an Ethereum Layer 2 offering a secure, low-cost, builder-friendly way for anyone, anywhere, to build onchain.",
+    "metadata_symbol": null,
+    "metadata_launch_date": "2023-07-13",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "OP Stack, Superchain",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://base.org/",
+    "socials_twitter ": "https://twitter.com/base",
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": true,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 10,
+    "cross_check_url": "https://basescan.org/chart/tx?output=csv",
+    "cross_check_type": "etherscan",
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_abi": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}

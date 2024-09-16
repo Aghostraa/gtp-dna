@@ -1,0 +1,67 @@
+{
+    "origin_key": "ethereum",
+    "l2beat_stage": "NA",
+    "caip2": "eip155-1",
+    "da_mapping": null,
+    "evm_chain_id": 1.0,
+    "name": "Ethereum",
+    "name_short": "Ethereum",
+    "bucket": "Layer 1",
+    "block_explorers": {
+        "Etherscan": "https://etherscan.io/",
+        "Blockscout": "https://eth.blockscout.com/"
+    },
+    "ecosystem_old": [],
+    "colors": {
+        "light": [
+            "#8B8B8B",
+            "#8B8B8B"
+        ],
+        "dark": [
+            "#C1C1C1",
+            "#C1C1C1"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L1",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "tvl",
+        "rent_paid",
+        "profit",
+        "blockspace",
+        "fdv"
+    ],
+    "aliases_l2beat": null,
+    "aliases_coingecko": "ethereum",
+    "aliases_rhino": "ETHEREUM",
+    "metadata_description": "Ethereum, proposed by Vitalik Buterin in 2013 and launched in 2015, is the most decentralized smart contract to date and aiming to scale via Layer 2s.",
+    "metadata_symbol": "ETH",
+    "metadata_launch_date": "2015-07-30",
+    "metadata_da_layer": null,
+    "metadata_technology": "Mainnet",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "Custom",
+        "url": null
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://ethereum.org/",
+    "socials_twitter ": "https://twitter.com/ethereum",
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 3,
+    "cross_check_url": "https://l2beat.com/api/activity/arbitrum.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_abi": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}

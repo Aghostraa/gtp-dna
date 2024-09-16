@@ -1,0 +1,64 @@
+{
+    "origin_key": "gitcoin_pgn",
+    "l2beat_stage": "NA",
+    "caip2": "eip155-424",
+    "da_mapping": {
+        "celestia": [
+            "AAAAAAAAAAAAAAAAAAAAAAAAAAAADNtEcdl1sYY="
+        ]
+    },
+    "evm_chain_id": 424.0,
+    "name": "Public Goods Network",
+    "name_short": "PGN",
+    "bucket": "Offchain Data Availability",
+    "block_explorers": null,
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#B9EE75",
+            "#B9EE75"
+        ],
+        "dark": [
+            "#D7FD7B",
+            "#D7FD7B"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+    "api_in_api_main": false,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": [],
+    "aliases_l2beat": "publicgoodsnetwork",
+    "aliases_coingecko": "gitcoin",
+    "aliases_rhino": null,
+    "metadata_description": "Public Goods Network is a fully EVM compatible optimistic rollup built on the OP Stack.",
+    "metadata_symbol": "GTC",
+    "metadata_launch_date": "2023-07-26",
+    "metadata_da_layer": "Celestia",
+    "metadata_technology": "Optimium",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Conduit",
+    "socials_website": "https://publicgoods.network/",
+    "socials_twitter ": "https://twitter.com/pgn_eth",
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": false,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": null,
+    "backfiller_batch_size": 0,
+    "cross_check_url": null,
+    "cross_check_type": null,
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_abi": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}

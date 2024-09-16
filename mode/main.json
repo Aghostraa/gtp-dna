@@ -1,0 +1,63 @@
+{
+    "origin_key": "mode",
+    "l2beat_stage": "Stage 0",
+    "caip2": "eip155-34443",
+    "da_mapping": null,
+    "evm_chain_id": 34443.0,
+    "name": "Mode Network",
+    "name_short": "Mode",
+    "bucket": "OP Chains",
+    "block_explorers": {
+        "Blockscout": "https://explorer.mode.network/"
+    },
+    "ecosystem_old": [
+        "op-stack",
+        "op-super",
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#C4DF00",
+            "#C4DF00"
+        ],
+        "dark": [
+            "#C4DF00",
+            "#C4DF00"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": true,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [],
+    "aliases_l2beat": "mode",
+    "aliases_coingecko": "mode",
+    "aliases_rhino": "MODE",
+    "metadata_description": "Mode is an Optimistic Rollup and part of the Superchain.",
+    "metadata_symbol": "MODE",
+    "metadata_launch_date": "2024-01-31",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "OP Stack, Superchain",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Conduit",
+    "socials_website": "https://mode.network/",
+    "socials_twitter ": "https://twitter.com/modenetwork",
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://l2beat.com/api/activity/mode.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
+    "circulating_supply_token_deployment_date": "2024-04-29",
+    "circulating_supply_token_deployment_origin_key": "mode",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}

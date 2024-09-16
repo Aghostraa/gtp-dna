@@ -1,0 +1,67 @@
+{
+    "origin_key": "loopring",
+    "l2beat_stage": "NA",
+    "caip2": null,
+    "da_mapping": null,
+    "evm_chain_id": null,
+    "name": "Loopring",
+    "name_short": "Loopring",
+    "bucket": "ZK-Rollups",
+    "block_explorers": {
+        "Loopring Explorer": "https://explorer.loopring.io/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#4F5EDF",
+            "#4F5EDF"
+        ],
+        "dark": [
+            "#4F5EDF",
+            "#4F5EDF"
+        ],
+        "darkTextOnBackground": false
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "blockspace",
+        "profit",
+        "fees",
+        "txcosts",
+        "throughput"
+    ],
+    "aliases_l2beat": "loopring",
+    "aliases_coingecko": "loopring",
+    "aliases_rhino": null,
+    "metadata_description": "Loopring is a zk Rollup exchange and payment protocol. It is arguably the oldest rollup with its mainnet launch in December 2019.",
+    "metadata_symbol": "LRC",
+    "metadata_launch_date": "2019-12-04",
+    "metadata_da_layer": "Ethereum (calldata)",
+    "metadata_technology": "ZK Rollup",
+    "metadata_purpose": "Token Transfers, Swaps",
+    "metadata_stack": {
+        "label": "Custom",
+        "url": null
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://loopring.org/",
+    "socials_twitter ": "https://twitter.com/loopringorg",
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": null,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://l2beat.com/api/activity/loopring.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+    "circulating_supply_token_deployment_date": "2019-04-11",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}

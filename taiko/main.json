@@ -1,0 +1,61 @@
+{
+    "origin_key": "taiko",
+    "l2beat_stage": "Stage 0",
+    "caip2": "eip155-167000",
+    "da_mapping": null,
+    "evm_chain_id": 167000.0,
+    "name": "Taiko",
+    "name_short": "Taiko",
+    "bucket": "Other Optimistic Rollups",
+    "block_explorers": {
+        "Taikoscan": "https://taikoscan.io/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#E81899",
+            "#E81899"
+        ],
+        "dark": [
+            "#E81899",
+            "#E81899"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": true,
+    "api_in_api_labels": true,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [],
+    "aliases_l2beat": "taiko",
+    "aliases_coingecko": "taiko",
+    "aliases_rhino": "TAIKO",
+    "metadata_description": "Taiko is an Ethereum-equivalent EVM chain which combines based sequencing with a multi-proof design.",
+    "metadata_symbol": "TAIKO",
+    "metadata_launch_date": "2024-05-27",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "Custom",
+        "url": null
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://taiko.xyz/",
+    "socials_twitter ": "https://twitter.com/taikoxyz",
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": true,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 5,
+    "cross_check_url": "https://l2beat.com/api/activity/taiko.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800",
+    "circulating_supply_token_deployment_date": "2024-06-05",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}

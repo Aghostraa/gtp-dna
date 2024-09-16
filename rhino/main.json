@@ -1,0 +1,68 @@
+{
+    "origin_key": "rhino",
+    "l2beat_stage": "NA",
+    "caip2": null,
+    "da_mapping": null,
+    "evm_chain_id": null,
+    "name": "rhino.fi",
+    "name_short": "rhino.fi",
+    "bucket": "Offchain Data Availability",
+    "block_explorers": {
+        "Rhino Explorer": "https://app.rhino.fi/stats"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#ECB16B",
+            "#ECB16B"
+        ],
+        "dark": [
+            "#ECB16B",
+            "#ECB16B"
+        ],
+        "darkTextOnBackground": false
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "blockspace",
+        "profit",
+        "fees",
+        "txcosts",
+        "rent_paid",
+        "throughput"
+    ],
+    "aliases_l2beat": "deversifi",
+    "aliases_coingecko": "rhinofi",
+    "aliases_rhino": "DVF",
+    "metadata_description": "rhino.fi is a Validium based on StarkEX technology. Its main focus is on bridging assets between other chains.",
+    "metadata_symbol": "DVF",
+    "metadata_launch_date": "2022-07-13",
+    "metadata_da_layer": "DAC",
+    "metadata_technology": "Validium",
+    "metadata_purpose": "Bridge",
+    "metadata_stack": {
+        "label": "Custom",
+        "url": null
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://rhino.fi/",
+    "socials_twitter ": "https://twitter.com/rhinofi",
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+    "backfiller_backfiller_on": null,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://l2beat.com/api/activity/rhinofi.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0xDDdddd4301A082e62E84e43F474f044423921918",
+    "circulating_supply_token_deployment_date": "2021-03-10",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}

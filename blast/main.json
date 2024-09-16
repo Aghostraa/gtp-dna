@@ -1,0 +1,63 @@
+{
+    "origin_key": "blast",
+    "l2beat_stage": "Stage 0",
+    "caip2": "eip155-81457",
+    "da_mapping": null,
+    "evm_chain_id": 81457.0,
+    "name": "Blast",
+    "name_short": "Blast",
+    "bucket": "Other Optimistic Rollups",
+    "block_explorers": {
+        "Blast Explorer": "https://blastscan.io/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#E9E238",
+            "#E9E238"
+        ],
+        "dark": [
+            "#FEFF00",
+            "#FEFF00"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "blockspace"
+    ],
+    "aliases_l2beat": "blast",
+    "aliases_coingecko": "blast",
+    "aliases_rhino": "BLAST",
+    "metadata_description": "Blast is an EVM-compatible Optimistic Rollup which invests bridged funds in order to offer native yield to its users.",
+    "metadata_symbol": "BLAST",
+    "metadata_launch_date": "2024-02-29",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Self-hosted",
+    "socials_website": "https://blast.io/en",
+    "socials_twitter ": "https://twitter.com/Blast_L2",
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": true,
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 20,
+    "cross_check_url": "https://l2beat.com/api/activity/blast.json",
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0xb1a5700fA2358173Fe465e6eA4Ff52E36e88E2ad",
+    "circulating_supply_token_deployment_date": "2024-06-26",
+    "circulating_supply_token_deployment_origin_key": "blast",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}
