@@ -28,6 +28,7 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": false,
     "api_in_api_economics": true,
@@ -39,9 +40,12 @@
         "fdv",
         "market_cap"
     ],
+
     "aliases_l2beat": "orderly",
+    "aliases_l2beat_slug": "orderly",
     "aliases_coingecko": "orderly-network",
     "aliases_rhino": null,
+
     "metadata_description": "Orderly is an OP stack Optimium on Ethereum using Celestia for data availability. It has a unified ledger for assets from multiple chains and an orderbook that can be used by apps.",
     "metadata_symbol": "ORDER",
     "metadata_launch_date": "2024-01-22",
@@ -53,15 +57,20 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Conduit",
+
     "socials_website": "https://orderly.network/",
     "socials_twitter ": "https://twitter.com/OrderlyNetwork",
+
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 20,
+
     "cross_check_url": "https://l2beat.com/api/activity/orderly.json",
     "cross_check_type": "l2beat",
+    
     "circulating_supply_token_address": null,
     "circulating_supply_token_abi": null,
     "circulating_supply_token_deployment_date": null,

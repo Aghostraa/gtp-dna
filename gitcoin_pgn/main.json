@@ -33,6 +33,7 @@
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": [],
     "aliases_l2beat": "publicgoodsnetwork",
+    "aliases_l2beat_slug": "publicgoodsnetwork",
     "aliases_coingecko": "gitcoin",
     "aliases_rhino": null,
     "metadata_description": "Public Goods Network is a fully EVM compatible optimistic rollup built on the OP Stack.",

@@ -37,6 +37,7 @@
         "throughput"
     ],
     "aliases_l2beat": "immutablex",
+    "aliases_l2beat_slug": "immutablex",
     "aliases_coingecko": "immutable-x",
     "aliases_rhino": null,
     "metadata_description": "Immutable X is a game-specific (not EVM compatible) zk rollup for minting, transferring, and trading tokens/NFTs at high volumes with zero gas fees.",

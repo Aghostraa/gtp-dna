@@ -25,6 +25,7 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": false,
@@ -34,9 +35,12 @@
         "blockspace",
         "throughput"
     ],
+
     "aliases_l2beat": "starknet",
+    "aliases_l2beat_slug": "starknet",
     "aliases_coingecko": "starknet",
     "aliases_rhino": "STARKNET",
+
     "metadata_description": "Starknet is a ZK Rollup developed by Starkware. It uses it's own programming language and general purpose virtual machine (Cairo VM).",
     "metadata_symbol": "STRK",
     "metadata_launch_date": "2021-11-29",
@@ -48,15 +52,20 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://starknet.io/",
     "socials_twitter ": "https://twitter.com/StarkWareLtd",
+
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 20,
+
     "cross_check_url": "https://l2beat.com/api/activity/starknet.json",
     "cross_check_type": "l2beat",
+    
     "circulating_supply_token_address": "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766",
     "circulating_supply_token_deployment_date": "2022-11-16",
     "circulating_supply_token_deployment_origin_key": "ethereum",

@@ -25,15 +25,19 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
+
     "aliases_l2beat": "polygonzkevm",
+    "aliases_l2beat_slug": "polygonzkevm",
     "aliases_coingecko": "polygon-ecosystem-token",
     "aliases_rhino": "ZKEVM",
+
     "metadata_description": "Polygon zkEVM uses zero-knowledge proofs to run EVM-compatible smart contracts, simplifying migration for developers to the Polygon network.",
     "metadata_symbol": "MATIC",
     "metadata_launch_date": "2023-03-24",
@@ -45,15 +49,20 @@
         "url": "https://docs.polygon.technology/zkEVM/"
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://polygon.technology/polygon-zkevm",
     "socials_twitter ": "https://twitter.com/0xPolygon",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
+
     "cross_check_url": "https://zkevm.polygonscan.com/chart/tx?output=csv",
     "cross_check_type": "etherscan",
+    
     "circulating_supply_token_address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
     "circulating_supply_token_deployment_date": "2019-04-20",
     "circulating_supply_token_deployment_origin_key": "ethereum",

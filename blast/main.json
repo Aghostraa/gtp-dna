@@ -33,6 +33,7 @@
         "blockspace"
     ],
     "aliases_l2beat": "blast",
+    "aliases_l2beat_slug": "blast",
     "aliases_coingecko": "blast",
     "aliases_rhino": "BLAST",
     "metadata_description": "Blast is an EVM-compatible Optimistic Rollup which invests bridged funds in order to offer native yield to its users.",

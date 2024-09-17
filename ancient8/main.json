@@ -34,6 +34,7 @@
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": [],
     "aliases_l2beat": "ancient",
+    "aliases_l2beat_slug": "ancient8",
     "aliases_coingecko": "ancient8",
     "aliases_rhino": null,
     "metadata_description": null,

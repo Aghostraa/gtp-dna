@@ -34,6 +34,7 @@
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
     "aliases_l2beat": "optimism",
+    "aliases_l2beat_slug": "optimism",
     "aliases_coingecko": "optimism",
     "aliases_rhino": "OPTIMISM",
     "metadata_description": "OP Mainnet uses an optimistic rollup approach and is one of the oldest rollups. It is fully EVM compatible and it's tech-stack is widely used.",

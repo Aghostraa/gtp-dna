@@ -25,6 +25,7 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+    
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -33,9 +34,12 @@
     "api_api_exclude_metrics": [
         "throughput"
     ],
+
     "aliases_l2beat": "zksync2",
+    "aliases_l2beat_slug": "zksync-era",
     "aliases_coingecko": "zksync",
     "aliases_rhino": "ZKSYNC",
+
     "metadata_description": "ZKsync Era uses ZK tech, aiming to boost throughput while preserving Ethereum's core values: freedom, self-sovereignty, and decentralization.",
     "metadata_symbol": "ZK",
     "metadata_launch_date": "2023-03-24",
@@ -47,15 +51,20 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://zksync.io/",
     "socials_twitter ": "https://twitter.com/zksync",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": true,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
+
     "cross_check_url": "https://l2beat.com/api/activity/zksync-era.json",
     "cross_check_type": "l2beat",
+
     "circulating_supply_token_address": "0x01a6715d3560241E09E865a46122bf347A576c09",
     "circulating_supply_token_abi": null,
     "circulating_supply_token_deployment_date": "2024-06-16",

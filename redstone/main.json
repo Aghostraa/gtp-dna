@@ -26,6 +26,7 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
@@ -36,9 +37,12 @@
         "fdv",
         "market_cap"
     ],
+
     "aliases_l2beat": "redstone",
+    "aliases_l2beat_slug": "redstone",
     "aliases_coingecko": null,
     "aliases_rhino": null,
+
     "metadata_description": "Redstone is a chain built from the ground up for onchain games and autonomous worlds",
     "metadata_symbol": null,
     "metadata_launch_date": "2024-05-01",
@@ -50,15 +54,20 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://redstone.xyz/",
     "socials_twitter ": "https://twitter.com/redstonexyz",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": true,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 50,
+
     "cross_check_url": "https://l2beat.com/api/activity/redstone.json",
     "cross_check_type": "l2beat",
+    
     "circulating_supply_token_address": null,
     "circulating_supply_token_abi": null,
     "circulating_supply_token_deployment_date": null,

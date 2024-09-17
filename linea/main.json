@@ -35,6 +35,7 @@
         "market_cap"
     ],
     "aliases_l2beat": "linea",
+    "aliases_l2beat_slug": "linea",
     "aliases_coingecko": null,
     "aliases_rhino": "LINEA",
     "metadata_description": "Linea is a developer-friendly ZK Rollup by ConsenSys, enhancing Ethereum by enabling a new wave of decentralized applications.",

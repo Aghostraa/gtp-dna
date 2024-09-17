@@ -40,6 +40,7 @@
         "market_cap"
     ],
     "aliases_l2beat": "lyra",
+    "aliases_l2beat_slug": "derive",
     "aliases_coingecko": null,
     "aliases_rhino": null,
     "metadata_description": "Derive (former Lyra) is built using the OP Stack specially for Derive protocol - a settlement protocol for spot, perpetuals, and options trading.",

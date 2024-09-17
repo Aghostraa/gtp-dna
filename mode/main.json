@@ -33,6 +33,7 @@
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
     "aliases_l2beat": "mode",
+    "aliases_l2beat_slug": "mode",
     "aliases_coingecko": "mode",
     "aliases_rhino": "MODE",
     "metadata_description": "Mode is an Optimistic Rollup and part of the Superchain.",

@@ -24,6 +24,7 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
@@ -37,9 +38,12 @@
         "rent_paid",
         "throughput"
     ],
+
     "aliases_l2beat": "deversifi",
+    "aliases_l2beat_slug": "rhinofi",
     "aliases_coingecko": "rhinofi",
     "aliases_rhino": "DVF",
+
     "metadata_description": "rhino.fi is a Validium based on StarkEX technology. Its main focus is on bridging assets between other chains.",
     "metadata_symbol": "DVF",
     "metadata_launch_date": "2022-07-13",
@@ -51,15 +55,20 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://rhino.fi/",
     "socials_twitter ": "https://twitter.com/rhinofi",
+
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 20,
+
     "cross_check_url": "https://l2beat.com/api/activity/rhinofi.json",
     "cross_check_type": "l2beat",
+    
     "circulating_supply_token_address": "0xDDdddd4301A082e62E84e43F474f044423921918",
     "circulating_supply_token_deployment_date": "2021-03-10",
     "circulating_supply_token_deployment_origin_key": "ethereum",

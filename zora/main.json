@@ -26,6 +26,7 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": false,
@@ -35,9 +36,12 @@
         "fdv",
         "market_cap"
     ],
+
     "aliases_l2beat": "zora",
+    "aliases_l2beat_slug": "zora",
     "aliases_coingecko": null,
     "aliases_rhino": null,
+
     "metadata_description": "Zora is a fully EVM compatible optimistic rollup built on the OP Stack with focus on NFTs.",
     "metadata_symbol": null,
     "metadata_launch_date": "2023-06-21",
@@ -49,15 +53,20 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Conduit",
+
     "socials_website": "https://zora.co/",
     "socials_twitter ": "https://twitter.com/ourzora",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
+
     "cross_check_url": "https://explorer.zora.energy/api/v2/stats/charts/transactions",
     "cross_check_type": "blockscout",
+    
     "circulating_supply_token_address": null,
     "circulating_supply_token_abi": null,
     "circulating_supply_token_deployment_date": null,
