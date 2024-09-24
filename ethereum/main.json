@@ -23,6 +23,7 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L1",
+
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": false,
@@ -35,10 +36,12 @@
         "blockspace",
         "fdv"
     ],
+
     "aliases_l2beat": null,
     "aliases_l2beat_slug": null,
     "aliases_coingecko": "ethereum",
     "aliases_rhino": "ETHEREUM",
+
     "metadata_description": "Ethereum, proposed by Vitalik Buterin in 2013 and launched in 2015, is the most decentralized smart contract to date and aiming to scale via Layer 2s.",
     "metadata_symbol": "ETH",
     "metadata_launch_date": "2015-07-30",
@@ -50,15 +53,20 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://ethereum.org/",
     "socials_twitter ": "https://twitter.com/ethereum",
-    "runs_aggregate_blockspace": false,
+
+    "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 3,
+
     "cross_check_url": "https://l2beat.com/api/activity/arbitrum.json",
     "cross_check_type": "l2beat",
+
     "circulating_supply_token_address": null,
     "circulating_supply_token_abi": null,
     "circulating_supply_token_deployment_date": null,
