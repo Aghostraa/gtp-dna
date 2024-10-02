@@ -34,8 +34,7 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
-        "blockspace",
-        "profit"
+        "blockspace"
     ],
     "aliases_l2beat": "mantapacific",
     "aliases_l2beat_slug": "mantapacific",
