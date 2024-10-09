@@ -36,10 +36,13 @@
         "fdv",
         "market_cap"
     ],
+
     "aliases_l2beat": "base",
     "aliases_l2beat_slug": "base",
     "aliases_coingecko": null,
     "aliases_rhino": "BASE",
+    "aliases_blockscout_url": "https://base.blockscout.com/api/v2/",
+
     "metadata_description": "Base is an Ethereum Layer 2 offering a secure, low-cost, builder-friendly way for anyone, anywhere, to build onchain.",
     "metadata_symbol": null,
     "metadata_launch_date": "2023-07-13",

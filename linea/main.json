@@ -34,10 +34,13 @@
         "fdv",
         "market_cap"
     ],
+
     "aliases_l2beat": "linea",
     "aliases_l2beat_slug": "linea",
     "aliases_coingecko": null,
     "aliases_rhino": "LINEA",
+    "aliases_blockscout_url": "https://api-explorer.linea.build/api/v2/",
+
     "metadata_description": "Linea is a developer-friendly ZK Rollup by ConsenSys, enhancing Ethereum by enabling a new wave of decentralized applications.",
     "metadata_symbol": null,
     "metadata_launch_date": "2023-07-12",

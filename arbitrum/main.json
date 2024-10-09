@@ -31,10 +31,13 @@
     "api_in_api_labels": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
+
     "aliases_l2beat": "arbitrum",
     "aliases_l2beat_slug": "arbitrum",
     "aliases_coingecko": "arbitrum",
     "aliases_rhino": "ARBITRUM",
+    "aliases_blockscout_url": "https://arbitrum.blockscout.com/api/v2/",
+
     "metadata_description": "Arbitrum One is developed by Offchain Labs. It uses an optimistic rollup approach and is fully EVM compatible, making it developer-friendly.",
     "metadata_symbol": "ARB",
     "metadata_launch_date": "2021-08-31",
