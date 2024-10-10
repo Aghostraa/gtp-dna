@@ -39,6 +39,7 @@
     "aliases_l2beat_slug": "zksync-era",
     "aliases_coingecko": "zksync",
     "aliases_rhino": "ZKSYNC",
+    "aliases_blockscout_url": "https://zksync.blockscout.com/api/v2/",
 
     "metadata_description": "ZKsync Era uses ZK tech, aiming to boost throughput while preserving Ethereum's core values: freedom, self-sovereignty, and decentralization.",
     "metadata_symbol": "ZK",

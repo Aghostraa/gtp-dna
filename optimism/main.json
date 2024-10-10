@@ -37,6 +37,8 @@
     "aliases_l2beat_slug": "optimism",
     "aliases_coingecko": "optimism",
     "aliases_rhino": "OPTIMISM",
+    "aliases_blockscout_url": "https://optimism.blockscout.com/api/v2/",
+
     "metadata_description": "OP Mainnet uses an optimistic rollup approach and is one of the oldest rollups. It is fully EVM compatible and it's tech-stack is widely used.",
     "metadata_symbol": "OP",
     "metadata_launch_date": "2021-12-16",

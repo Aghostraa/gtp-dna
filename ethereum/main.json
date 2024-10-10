@@ -41,6 +41,7 @@
     "aliases_l2beat_slug": null,
     "aliases_coingecko": "ethereum",
     "aliases_rhino": "ETHEREUM",
+    "aliases_blockscout_url": "https://eth.blockscout.com/api/v2/",
 
     "metadata_description": "Ethereum, proposed by Vitalik Buterin in 2013 and launched in 2015, is the most decentralized smart contract to date and aiming to scale via Layer 2s.",
     "metadata_symbol": "ETH",
