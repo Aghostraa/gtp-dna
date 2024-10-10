@@ -36,16 +36,17 @@
         "fees",
         "txcosts",
         "rent_paid",
-        "throughput"
+        "throughput",
+        "fdv", 
+        "market_cap"
     ],
 
     "aliases_l2beat": "deversifi",
     "aliases_l2beat_slug": "rhinofi",
-    "aliases_coingecko": "rhinofi",
     "aliases_rhino": "DVF",
 
     "metadata_description": "rhino.fi is a Validium based on StarkEX technology. Its main focus is on bridging assets between other chains.",
-    "metadata_symbol": "DVF",
+    "metadata_symbol": "-",
     "metadata_launch_date": "2022-07-13",
     "metadata_da_layer": "DAC",
     "metadata_technology": "Validium",
@@ -67,10 +68,5 @@
     "backfiller_batch_size": 20,
 
     "cross_check_url": "https://l2beat.com/api/activity/rhinofi.json",
-    "cross_check_type": "l2beat",
-    
-    "circulating_supply_token_address": "0xDDdddd4301A082e62E84e43F474f044423921918",
-    "circulating_supply_token_deployment_date": "2021-03-10",
-    "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "cross_check_type": "l2beat"
 }
