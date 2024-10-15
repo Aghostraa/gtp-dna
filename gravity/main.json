@@ -29,7 +29,7 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
-    "api_api_exclude_metrics": [],
+    "api_api_exclude_metrics": ["blockspace", "stables_mcap"],
 
     "aliases_l2beat": "galxegravity",
     "aliases_l2beat_slug": "galxegravity",
@@ -61,9 +61,8 @@
     "cross_check_url": null,
     "cross_check_type": null,
 
-    "circulating_supply_token_address": null,
-    "circulating_supply_token_abi": null,
-    "circulating_supply_token_deployment_date": null,
-    "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_address": "0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649",
+    "circulating_supply_token_deployment_date": "2024-05-13",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
 }
