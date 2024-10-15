@@ -33,7 +33,7 @@
 
     "aliases_l2beat": "galxegravity",
     "aliases_l2beat_slug": "galxegravity",
-    "aliases_coingecko": "gravity",
+    "aliases_coingecko": "g-token",
     "aliases_rhino": null,
 
     "metadata_description": "Gravity is an Optimium built on the Orbit stack. It has its own gas token - G. A future migration to an L1 of the same name is planned.",
