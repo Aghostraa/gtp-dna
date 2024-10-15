@@ -57,7 +57,7 @@
     "runs_contract_metadata": true,
 
     "backfiller_backfiller_on": true,
-    "backfiller_batch_size": 5,
+    "backfiller_batch_size": 3,
 
     "cross_check_url": "https://l2beat.com/api/activity/taiko.json",
     "cross_check_type": "l2beat",
