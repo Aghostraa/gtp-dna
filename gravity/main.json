@@ -1,0 +1,69 @@
+{
+    "origin_key": "gravity",
+    "caip2": "eip155-1625",
+    "evm_chain_id": 1625,
+    "name": "Gravity",
+    "name_short": "Gravity",
+    "bucket": "Offchain Data Availability",
+    "block_explorers": {
+        "Blockscout": "https://explorer.gravity.xyz/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#FFAC43",
+            "#FFAC43"
+        ],
+        "dark": [
+            "#FFAC43",
+            "#FFAC43"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+
+    "api_in_api_main": false,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": [],
+
+    "aliases_l2beat": "galxegravity",
+    "aliases_l2beat_slug": "galxegravity",
+    "aliases_coingecko": "gravity",
+    "aliases_rhino": null,
+
+    "metadata_description": "Gravity is an Optimium built on the Orbit stack. It has its own gas token - G. A future migration to an L1 of the same name is planned.",
+    "metadata_symbol": "G",
+    "metadata_launch_date": "2024-08-13",
+    "metadata_da_layer": "DAC",
+    "metadata_technology": "Optimium",
+    "metadata_purpose": "General Purpose (EVM), Quests",
+    "metadata_stack": {
+        "label": "Arbitrum Nitro",
+        "url": "https://arbitrum.io/orbit"
+    },
+    "metadata_raas": "Conduit",
+
+    "socials_website": "https://gravity.xyz/",
+    "socials_twitter ": "https://x.com/GravityChain",
+
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 50,
+
+    "cross_check_url": null,
+    "cross_check_type": null,
+
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_abi": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}

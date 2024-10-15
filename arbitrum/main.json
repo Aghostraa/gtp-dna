@@ -2,7 +2,7 @@
     "origin_key": "arbitrum",
     "caip2": "eip155-42161",
     "da_mapping": null,
-    "evm_chain_id": 42161.0,
+    "evm_chain_id": 42161,
     "name": "Arbitrum One",
     "name_short": "Arbitrum",
     "bucket": "Other Optimistic Rollups",
@@ -25,6 +25,7 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -49,15 +50,20 @@
         "url": "https://arbitrum.io/orbit"
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://arbitrum.io/",
     "socials_twitter ": "https://twitter.com/arbitrum",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": true,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
+
     "cross_check_url": "https://l2beat.com/api/activity/arbitrum.json",
     "cross_check_type": "l2beat",
+    
     "circulating_supply_token_address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
     "circulating_supply_token_deployment_date": "2023-03-16",
     "circulating_supply_token_deployment_origin_key": "arbitrum",
