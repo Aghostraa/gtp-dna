@@ -31,7 +31,7 @@
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": [],
 
-    "aliases_l2beat": "world",
+    "aliases_l2beat": "worldchain",
     "aliases_l2beat_slug": "world",
     "aliases_coingecko": "worldcoin-wld",
     "aliases_rhino": null,
@@ -56,7 +56,7 @@
     "runs_contract_metadata": false,
 
     "backfiller_backfiller_on": false,
-    "backfiller_batch_size": 20,
+    "backfiller_batch_size": 10,
 
     "cross_check_url": null,
     "cross_check_type": null,
