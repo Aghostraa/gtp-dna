@@ -55,7 +55,7 @@
     "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
 
-    "backfiller_backfiller_on": false,
+    "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,
 
     "cross_check_url": null,
