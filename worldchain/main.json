@@ -5,7 +5,9 @@
     "name": "World Chain",
     "name_short": "World Chain",
     "bucket": "OP Chains",
-    "block_explorers": null,
+    "block_explorers": {
+        "Alchemy Explorer": "https://worldchain-mainnet.explorer.alchemy.com/"
+    },
     "ecosystem_old": [
         "op-stack",
         "op-super",
