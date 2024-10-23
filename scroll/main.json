@@ -65,7 +65,7 @@
     "cross_check_url": "https://scrollscan.com/chart/tx?output=csv",
     "cross_check_type": "etherscan",
     
-    "circulating_supply_token_address": "0x7600174E2a730a05da046fFA8Fc32DEC27FfdDC8",
+    "circulating_supply_token_address": "0xd29687c813D741E2F938F4aC377128810E217b1b",
     "circulating_supply_token_deployment_date": "2024-10-21",
     "circulating_supply_token_deployment_origin_key": "scroll",
     "circulating_supply_token_circulating_supply_function": "totalSupply"
