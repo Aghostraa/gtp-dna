@@ -37,7 +37,7 @@
 
     "aliases_l2beat": "scroll",
     "aliases_l2beat_slug": "scroll",
-    "aliases_coingecko": null,
+    "aliases_coingecko": "scroll",
     "aliases_rhino": "SCROLL",
 
     "metadata_description": "Scroll is a general purpose zkEVM rollup. Public launch was in October 2023.",
@@ -65,9 +65,8 @@
     "cross_check_url": "https://scrollscan.com/chart/tx?output=csv",
     "cross_check_type": "etherscan",
     
-    "circulating_supply_token_address": null,
-    "circulating_supply_token_abi": null,
-    "circulating_supply_token_deployment_date": null,
-    "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_address": "0x7600174e2a730a05da046ffa8fc32dec27ffddc8",
+    "circulating_supply_token_deployment_date": "2024-10-21",
+    "circulating_supply_token_deployment_origin_key": "scroll",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
 }
