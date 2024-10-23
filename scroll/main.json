@@ -30,10 +30,7 @@
     "api_in_api_economics": true,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": [
-        "fdv",
-        "market_cap"
-    ],
+    "api_api_exclude_metrics": [],
 
     "aliases_l2beat": "scroll",
     "aliases_l2beat_slug": "scroll",
