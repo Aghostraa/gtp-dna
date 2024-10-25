@@ -5,7 +5,7 @@
     "evm_chain_id": 8453.0,
     "name": "Base",
     "name_short": "Base",
-    "bucket": "Superchain",
+    "bucket": "OP Chains",
     "block_explorers": {
         "BaseScan": "https://basescan.org/",
         "Blockscout": "https://base.blockscout.com/"
