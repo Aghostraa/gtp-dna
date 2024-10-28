@@ -5,7 +5,7 @@
     "evm_chain_id": 81457.0,
     "name": "Blast",
     "name_short": "Blast",
-    "bucket": "Other Optimistic Rollups",
+    "bucket": "Others",
     "block_explorers": {
         "Blast Explorer": "https://blastscan.io/"
     },

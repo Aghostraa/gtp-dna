@@ -5,7 +5,7 @@
     "evm_chain_id": 1101.0,
     "name": "Polygon zkEVM",
     "name_short": "Polygon zk",
-    "bucket": "ZK-Rollups",
+    "bucket": "Polygon AggLayer",
     "block_explorers": {
         "PolygonScan": "https://zkevm.polygonscan.com/",
         "Blockscout": "https://zkevm.blockscout.com/"

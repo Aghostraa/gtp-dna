@@ -5,7 +5,7 @@
     "evm_chain_id": 7777777.0,
     "name": "Zora",
     "name_short": "Zora",
-    "bucket": "OP Chains",
+    "bucket": "Superchain",
     "block_explorers": {
         "Blockscout": "https://explorer.zora.energy/"
     },

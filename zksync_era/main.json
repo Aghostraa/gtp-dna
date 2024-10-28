@@ -5,7 +5,7 @@
     "evm_chain_id": 324.0,
     "name": "ZKsync Era",
     "name_short": "ZKsync Era",
-    "bucket": "ZK-Rollups",
+    "bucket": "Elastic Chain",
     "block_explorers": {
         "zkSync Explorer": "https://explorer.zksync.io/",
         "Blockscout": "https://zksync.blockscout.com/"

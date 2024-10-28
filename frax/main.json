@@ -5,7 +5,7 @@
     "evm_chain_id": 252.0,
     "name": "Frax",
     "name_short": "Frax",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Superchain",
     "block_explorers": null,
     "ecosystem_old": [
         "all-chains"

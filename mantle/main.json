@@ -5,7 +5,7 @@
     "evm_chain_id": 5000.0,
     "name": "Mantle",
     "name_short": "Mantle",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Others",
     "block_explorers": {
         "Blockscout": "https://explorer.mantle.xyz/"
     },

@@ -4,7 +4,7 @@
     "evm_chain_id": 1625,
     "name": "Gravity",
     "name_short": "Gravity",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Arbitrum Orbit",
     "block_explorers": {
         "Blockscout": "https://explorer.gravity.xyz/"
     },

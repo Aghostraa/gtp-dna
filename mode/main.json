@@ -5,7 +5,7 @@
     "evm_chain_id": 34443.0,
     "name": "Mode Network",
     "name_short": "Mode",
-    "bucket": "OP Chains",
+    "bucket": "Superchain",
     "block_explorers": {
         "Blockscout": "https://explorer.mode.network/"
     },

@@ -5,7 +5,7 @@
     "evm_chain_id": null,
     "name": "rhino.fi",
     "name_short": "rhino.fi",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Starkware",
     "block_explorers": {
         "Rhino Explorer": "https://app.rhino.fi/stats"
     },

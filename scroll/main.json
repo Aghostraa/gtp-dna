@@ -5,7 +5,7 @@
     "evm_chain_id": 534352.0,
     "name": "Scroll",
     "name_short": "Scroll",
-    "bucket": "ZK-Rollups",
+    "bucket": "Others",
     "block_explorers": {
         "ScrollScan": "https://scrollscan.com/"
     },

@@ -5,7 +5,7 @@
     "evm_chain_id": null,
     "name": "Starknet",
     "name_short": "Starknet",
-    "bucket": "ZK-Rollups",
+    "bucket": "Starkware",
     "block_explorers": {
         "StarkScan": "https://starkscan.co/",
         "Voyager": "https://voyager.online/"

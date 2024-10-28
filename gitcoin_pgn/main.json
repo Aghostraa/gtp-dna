@@ -9,7 +9,7 @@
     "evm_chain_id": 424.0,
     "name": "Public Goods Network",
     "name_short": "PGN",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Superchain",
     "block_explorers": null,
     "ecosystem_old": [
         "all-chains"

@@ -9,7 +9,7 @@
     "evm_chain_id": 2410.0,
     "name": "Karak",
     "name_short": "Karak",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Others",
     "block_explorers": null,
     "ecosystem_old": [
         "all-chains"

@@ -9,7 +9,7 @@
     "evm_chain_id": 957.0,
     "name": "Derive",
     "name_short": "Derive",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Superchain",
     "block_explorers": {
         "Blockscout": "https://explorer.lyra.finance/"
     },

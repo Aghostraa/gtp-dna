@@ -5,7 +5,7 @@
     "evm_chain_id": 167000.0,
     "name": "Taiko",
     "name_short": "Taiko",
-    "bucket": "Other Optimistic Rollups",
+    "bucket": "Based Rollups",
     "block_explorers": {
         "Taikoscan": "https://taikoscan.io/"
     },

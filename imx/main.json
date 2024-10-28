@@ -5,7 +5,7 @@
     "evm_chain_id": null,
     "name": "Immutable X",
     "name_short": "IMX",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Starkware",
     "block_explorers": {
         "Immutascan": "https://immutascan.io/"
     },

@@ -9,7 +9,7 @@
     "evm_chain_id": 169.0,
     "name": "Manta Pacific",
     "name_short": "Manta",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Others",
     "block_explorers": {
         "Blockscout": "https://pacific-explorer.manta.network/"
     },

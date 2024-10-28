@@ -5,7 +5,7 @@
     "evm_chain_id": 42161,
     "name": "Arbitrum One",
     "name_short": "Arbitrum",
-    "bucket": "Other Optimistic Rollups",
+    "bucket": "Arbitrum Orbit",
     "block_explorers": {
         "Arbiscan": "https://arbiscan.io/",
         "Blockscout": "https://arbitrum.blockscout.com/"

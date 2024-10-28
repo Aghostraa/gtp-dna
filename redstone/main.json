@@ -5,7 +5,7 @@
     "evm_chain_id": 690.0,
     "name": "Redstone",
     "name_short": "Redstone",
-    "bucket": "OP Chains",
+    "bucket": "Superchain",
     "block_explorers": {
         "Blockscout": "https://explorer.redstone.xyz/"
     },

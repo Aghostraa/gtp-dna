@@ -5,7 +5,7 @@
     "evm_chain_id": 1088.0,
     "name": "Metis",
     "name_short": "Metis",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Others",
     "block_explorers": {
         "Blockscout": "https://andromeda-explorer.metis.io/"
     },

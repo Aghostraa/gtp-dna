@@ -5,7 +5,7 @@
     "evm_chain_id": null,
     "name": "Loopring",
     "name_short": "Loopring",
-    "bucket": "ZK-Rollups",
+    "bucket": "Others",
     "block_explorers": {
         "Loopring Explorer": "https://explorer.loopring.io/"
     },

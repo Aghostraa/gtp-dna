@@ -9,7 +9,7 @@
     "evm_chain_id": 291.0,
     "name": "Orderly",
     "name_short": "Orderly",
-    "bucket": "Offchain Data Availability",
+    "bucket": "Superchain",
     "block_explorers": {
         "Blockscout": "https://explorer.orderly.network/"
     },
