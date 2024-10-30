@@ -33,6 +33,7 @@
         "tvl",
         "rent_paid",
         "profit",
+        "blockspace",
         "fdv"
     ],
 
