@@ -61,7 +61,7 @@
     "runs_contract_metadata": false,
 
     "backfiller_backfiller_on": null,
-    "backfiller_batch_size": 20,
+    "backfiller_batch_size": 5,
 
     "cross_check_url": "https://l2beat.com/api/activity/starknet.json",
     "cross_check_type": "l2beat",
