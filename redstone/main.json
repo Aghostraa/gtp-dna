@@ -66,7 +66,6 @@
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 50,
 
-    "cross_check_url": "https://l2beat.com/api/activity/redstone.json",
     "cross_check_type": "l2beat",
     
     "circulating_supply_token_address": null,

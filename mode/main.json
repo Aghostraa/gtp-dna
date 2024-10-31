@@ -26,6 +26,7 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -50,15 +51,19 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Conduit",
+
     "socials_website": "https://mode.network/",
     "socials_twitter ": "https://twitter.com/modenetwork",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-    "cross_check_url": "https://l2beat.com/api/activity/mode.json",
+
     "cross_check_type": "l2beat",
+    
     "circulating_supply_token_address": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
     "circulating_supply_token_deployment_date": "2024-04-29",
     "circulating_supply_token_deployment_origin_key": "mode",

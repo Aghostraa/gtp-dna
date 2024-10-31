@@ -27,12 +27,14 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
     "api_in_api_labels": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
+
     "aliases_l2beat": "optimism",
     "aliases_l2beat_slug": "optimism",
     "aliases_coingecko": "optimism",
@@ -50,15 +52,19 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://optimism.io/",
     "socials_twitter ": "https://twitter.com/Optimism",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": true,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-    "cross_check_url": "https://l2beat.com/api/activity/optimism.json",
+
     "cross_check_type": "l2beat",
+    
     "circulating_supply_token_address": "0x4200000000000000000000000000000000000042",
     "circulating_supply_token_deployment_date": "2022-04-26",
     "circulating_supply_token_deployment_origin_key": "optimism",

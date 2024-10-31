@@ -54,15 +54,20 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
+    
     "socials_website": "https://base.org/",
     "socials_twitter ": "https://twitter.com/base",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": true,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,
+
     "cross_check_url": "https://basescan.org/chart/tx?output=csv",
     "cross_check_type": "etherscan",
+
     "circulating_supply_token_address": null,
     "circulating_supply_token_abi": null,
     "circulating_supply_token_deployment_date": null,

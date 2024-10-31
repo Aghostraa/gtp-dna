@@ -63,7 +63,6 @@
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
 
-    "cross_check_url": "https://l2beat.com/api/activity/zksync-era.json",
     "cross_check_type": "l2beat",
 
     "circulating_supply_token_address": "0x01a6715d3560241E09E865a46122bf347A576c09",

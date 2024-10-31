@@ -24,6 +24,7 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
@@ -36,10 +37,12 @@
         "profit",
         "throughput"
     ],
+
     "aliases_l2beat": "immutablex",
     "aliases_l2beat_slug": "immutablex",
     "aliases_coingecko": "immutable-x",
     "aliases_rhino": null,
+
     "metadata_description": "Immutable X is a game-specific (not EVM compatible) zk rollup for minting, transferring, and trading tokens/NFTs at high volumes with zero gas fees.",
     "metadata_symbol": "IMX",
     "metadata_launch_date": "2021-03-26",
@@ -51,15 +54,20 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://www.immutable.com/",
     "socials_twitter ": "https://twitter.com/immutable",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 20,
+
     "cross_check_url": null,
     "cross_check_type": null,
+    
     "circulating_supply_token_address": "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF",
     "circulating_supply_token_deployment_date": "2021-10-14",
     "circulating_supply_token_deployment_origin_key": "ethereum",

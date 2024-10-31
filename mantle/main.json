@@ -24,6 +24,7 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": false,
@@ -37,6 +38,7 @@
     "aliases_l2beat_slug": "mantle",
     "aliases_coingecko": "mantle",
     "aliases_rhino": "MANTLE",
+
     "metadata_description": "Mantle is an OVM based EVM-compatible rollup. Public launch was in July 2023.",
     "metadata_symbol": "MNT",
     "metadata_launch_date": "2023-07-14",
@@ -48,15 +50,19 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
+
     "socials_website": "https://mantle.xyz/",
     "socials_twitter ": "https://twitter.com/0xMantle",
+
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-    "cross_check_url": "https://l2beat.com/api/activity/mantle.json",
+
     "cross_check_type": "l2beat",
+    
     "circulating_supply_token_address": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
     "circulating_supply_token_deployment_date": "2023-06-20",
     "circulating_supply_token_deployment_origin_key": "ethereum",

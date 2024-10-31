@@ -59,7 +59,6 @@
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 3,
 
-    "cross_check_url": "https://l2beat.com/api/activity/taiko.json",
     "cross_check_type": "l2beat",
     
     "circulating_supply_token_address": "0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800",
