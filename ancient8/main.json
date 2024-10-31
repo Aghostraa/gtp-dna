@@ -27,16 +27,19 @@
     },
     "chain_type": "L2",
     "logo": null,
+
     "api_in_api_main": false,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": [],
+
     "aliases_l2beat": "ancient",
     "aliases_l2beat_slug": "ancient8",
     "aliases_coingecko": "ancient8",
     "aliases_rhino": null,
+
     "metadata_description": null,
     "metadata_symbol": "A8",
     "metadata_launch_date": "2024-02-22",
@@ -48,11 +51,14 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Conduit",
+
     "socials_website": "https://ancient8.gg/",
     "socials_twitter ": "https://twitter.com/Ancient8_gg",
+
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
+    
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 0,
 
