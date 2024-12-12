@@ -43,8 +43,8 @@
     },
     "metadata_raas": "RAAS",
 
-    "socials_website": "WEBSITE_LINK",
-    "socials_twitter ": "TWITTER_LINK",
+    "socials_website": "https://EXAMPLE.COM",
+    "socials_twitter ": "https://EXAMPLE.COM",
 
     "api_in_api_main": false,
     "api_in_api_fees": false,
