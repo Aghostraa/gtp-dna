@@ -45,8 +45,8 @@
     },
     "metadata_raas": "RAAS", // Conduit, Caldera, etc.
 
-    "socials_website": "WEBSITE_LINK",
-    "socials_twitter ": "TWITTER_LINK",
+    "socials_website": "https://EXAMPLE.COM",
+    "socials_twitter ": "https://EXAMPLE.COM",
 
     // GTP BACKEND CONFIG
     "api_in_api_main": false,
