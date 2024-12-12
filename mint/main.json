@@ -1,0 +1,65 @@
+{
+    "origin_key": "mint",
+    "caip2": "eip155-185",
+    "da_mapping": null,
+    "evm_chain_id": 185,
+    "name": "Mint",
+    "name_short": "Mint",
+
+    "aliases_l2beat": "mint",
+    "aliases_l2beat_slug": "mint",
+    "aliases_coingecko": null,
+    "aliases_rhino": null,
+
+    "bucket": "Others",
+    "block_explorers": {
+        "EXPLORER_NAME": "EXPLORER_LINK"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#8B8B8B",
+            "#8B8B8B"
+        ],
+        "dark": [
+            "#C1C1C1",
+            "#C1C1C1"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+
+    "metadata_description": "This is a Layer 2",
+    "metadata_symbol": "TOKEN_SYMBOl",
+    "metadata_launch_date": "LAUNCH_DATE",
+    "metadata_da_layer": "DA_LAYER",
+    "metadata_technology": "TECHNOLOGY",
+    "metadata_purpose": "PURPOSE",
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "RAAS",
+
+    "socials_website": "WEBSITE_LINK",
+    "socials_twitter ": "TWITTER_LINK",
+
+    "api_in_api_main": false,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": [],
+    
+    "backfiller_backfiller_on": false,
+    "backfiller_batch_size": 10,
+
+    "cross_check_type": "l2beat",
+
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}

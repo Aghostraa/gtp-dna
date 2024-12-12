@@ -1,0 +1,69 @@
+{
+    // MUST be filled out
+    "origin_key": "XXX",
+    "caip2": "eip155-XXX",
+    "da_mapping": null,
+    "evm_chain_id": 0, // EVM Chain ID
+    "name": "XXX",
+    "name_short": "XXX", // max 12 characters
+
+    "aliases_l2beat": "L2BEAT_BACKEND_ALIAS", // what is used in the backend
+    "aliases_l2beat_slug": "L2BEAT_SLUG", // what is used in the URL
+    "aliases_coingecko": "COINGECKO_API_ID", //found on coingecko token page
+    "aliases_rhino": null,
+
+    // Metadata
+    "bucket": "Others", // Superchain, Arbitrum Orbit, Others, etc.
+    "block_explorers": {
+        "EXPLORER_NAME": "EXPLORER_LINK"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#8B8B8B",
+            "#8B8B8B"
+        ],
+        "dark": [
+            "#C1C1C1",
+            "#C1C1C1"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+
+    "metadata_description": "This is a Layer 2", // to be updated
+    "metadata_symbol": "TOKEN_SYMBOl",
+    "metadata_launch_date": "LAUNCH_DATE", // YYYY-MM-DD - when mainnet publicly launched (i.e. check L2Beat)
+    "metadata_da_layer": "DA_LAYER", // Celestia, Ethereum (blobs)  - can also be found on L2Beat
+    "metadata_technology": "TECHNOLOGY", // L2Beat Type (Optimism, Validium, Optimistic Rollup, ZK Rollup)
+    "metadata_purpose": "PURPOSE", // General Purpose (EVM), NFTs (EVM), etc.
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "RAAS", // Conduit, Caldera, etc.
+
+    "socials_website": "WEBSITE_LINK",
+    "socials_twitter ": "TWITTER_LINK",
+
+    // GTP BACKEND CONFIG
+    "api_in_api_main": false,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": [], // field to exclude certain metrics, i.e. ["blockspace", "tvl", "txcount", "daa", "fdv", "market_cap", "stables_mcap", "fees", "rent_paid"]
+    
+    "backfiller_backfiller_on": false,
+    "backfiller_batch_size": 10,
+
+    "cross_check_type": "l2beat", // Explorer that is used to cross-check raw tx, usually l2beat
+
+    // token_abi.json needed if circulating_supply_token_address is not null
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}

@@ -2,7 +2,7 @@
     "origin_key": "base",
     "caip2": "eip155-8453",
     "da_mapping": null,
-    "evm_chain_id": 8453.0,
+    "evm_chain_id": 8453,
     "name": "Base",
     "name_short": "Base",
     "bucket": "Superchain",
@@ -27,6 +27,7 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
+    
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,

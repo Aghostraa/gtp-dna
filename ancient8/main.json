@@ -6,7 +6,7 @@
             "AAAAAAAAAAAAAAAAAAAAAAAAAAAADE4vVvVyRsg="
         ]
     },
-    "evm_chain_id": 888888888.0,
+    "evm_chain_id": 888888888,
     "name": "Ancient8",
     "name_short": "Ancient8",
     "bucket": "Others",
@@ -26,7 +26,6 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
-    "logo": null,
 
     "api_in_api_main": false,
     "api_in_api_fees": false,
