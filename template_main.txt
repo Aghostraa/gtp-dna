@@ -12,6 +12,10 @@
     "aliases_coingecko": "COINGECKO_API_ID", //found on coingecko token page
     "aliases_rhino": null,
 
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true, // only disable if it's a non EVM chain
+    "runs_contract_metadata": false,
+
     // Metadata
     "bucket": "Others", // Superchain, Arbitrum Orbit, Others, etc.
     "block_explorers": {
