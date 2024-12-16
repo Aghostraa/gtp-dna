@@ -34,8 +34,8 @@
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": [],
 
-    "aliases_l2beat": "publicgoodsnetwork",
-    "aliases_l2beat_slug": "publicgoodsnetwork",
+    "aliases_l2beat": null,
+    "aliases_l2beat_slug": null,
     "aliases_coingecko": "gitcoin",
     "aliases_rhino": null,
 
