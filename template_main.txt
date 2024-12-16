@@ -2,7 +2,6 @@
     // MUST be filled out
     "origin_key": "XXX",
     "caip2": "eip155-XXX",
-    "da_mapping": null,
     "evm_chain_id": 0, // EVM Chain ID
     "name": "XXX",
     "name_short": "XXX", // max 12 characters
