@@ -22,7 +22,7 @@ jobs:
 
     - name: Run the Python Script
       run: |
-        python scripts/run_script.py
+        python .github/scripts/run_script.py
 
     - name: Upload CSV File
       uses: actions/upload-artifact@v3
