@@ -4,7 +4,14 @@ This repository defines all transactions sent by L2s that should be considered i
 
 The result is a list of transactions grouped by each L2, enabling calculations such as total transaction fees and total blob data size per L2.
 
-## Community Contribution
+### Dune Analytics Table
+
+This mapping is automatically syced to a Dune table and can be accessed as follows:
+
+`SELECT * 
+FROM dune.growthepie.l2economics_mapping`
+
+### Community Contribution
 
 This is a community-driven effort. Please feel free to double-check the [mapping](economics_mapping.yml) and submit a PR to add, update, or adjust any mappings. Thank you for your contribution. 
 
