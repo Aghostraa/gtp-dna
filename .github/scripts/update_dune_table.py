@@ -36,5 +36,6 @@ url = "https://api.dune.com/api/v1/table/growthepie/l2economics_mapping/insert"
 headers['Content-Type'] = "text/csv"
 with open("./economics_mapping.csv", "rb") as data:
   response = requests.request("POST", url, data=data, headers=headers)
+  print(response.json())
   print("Total rows inserted:", response.json()['rows_written'])
   print("Total data size [bytes]:", response.json()['bytes_written'])
