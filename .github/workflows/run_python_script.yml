@@ -54,7 +54,7 @@ table = [
 # Convert table to DataFrame and save to CSV
 df = pd.DataFrame(table, columns=['l2', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
 df.to_csv('economics_mapping.csv', index=False)
-        "
+"
         
     # Upload CSV as an artifact (optional)
     - name: Upload CSV File
