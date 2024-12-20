@@ -675,7 +675,7 @@ rhino:
     - from_address: null
       to_address: "0x28780349a33eee56bb92241baab8095449e24306"
       method: "0x504f7f6f"
-      comment: "verifyAvailabilityProof, verifying DAC (first used 2020-12-02) "
+      comment: "verifyAvailabilityProof, verifying DAC (first used 2020-12-02)"
     - from_address: null
       to_address: "0x5d22045daceab03b158031ecb7d9d06fad24609b"
       method: "0x538f9406"
