@@ -20,6 +20,8 @@ jobs:
         python-version: '3.9'
 
     - name: Install Dependencies
+      env:
+        DUNE_KEY: ${{ secrets.DUNE_KEY }}
       run: |
         pip install pyyaml pandas requests
 
