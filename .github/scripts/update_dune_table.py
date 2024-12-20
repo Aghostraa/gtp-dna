@@ -3,6 +3,10 @@ import yaml
 import pandas as pd
 import os
 
+api_key = os.getenv('DUNE_KEY')
+if not api_key:
+    raise ValueError("API Key not set. Ensure DUNE_KEY is configured correctly.")
+
 # define the header for DUNE Api
 headers = {
     "X-DUNE-API-KEY": os.getenv('DUNE_KEY')
