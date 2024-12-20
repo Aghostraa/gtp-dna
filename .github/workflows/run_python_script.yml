@@ -1,62 +1,29 @@
 name: Run Python Script on Commit
 
-# Trigger the workflow on every commit push
 on: 
   push:
 
-# Define jobs
 jobs:
   run-script:
     runs-on: ubuntu-latest
 
     steps:
-    # Check out the repository
     - name: Checkout Code
       uses: actions/checkout@v2
 
-    # Set up Python environment
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.9'
 
-    # Install dependencies
     - name: Install Dependencies
       run: |
         pip install pyyaml pandas
 
-    # Execute the Python script
     - name: Run the Python Script
       run: |
-        python -c "
-import yaml
-import pandas as pd
+        python scripts/run_script.py
 
-# Load YAML data
-with open('economics_da/economics_mapping.yml') as f:
-    data = yaml.load(f, Loader=yaml.FullLoader)
-
-# Process YAML data into a table
-table = [
-    [
-        L2, 
-        settlement_layer, 
-        f.get('from_address'), 
-        f.get('to_address'), 
-        f.get('method'), 
-        f.get('namespace') if settlement_layer == 'celestia' else None
-    ]
-    for L2, layers in data.items()
-    for settlement_layer, filters in layers.items()
-    for f in filters
-]
-
-# Convert table to DataFrame and save to CSV
-df = pd.DataFrame(table, columns=['l2', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
-df.to_csv('economics_mapping.csv', index=False)
-"
-        
-    # Upload CSV as an artifact (optional)
     - name: Upload CSV File
       uses: actions/upload-artifact@v3
       with:
