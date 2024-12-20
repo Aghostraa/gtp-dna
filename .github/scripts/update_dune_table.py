@@ -9,7 +9,7 @@ if not api_key:
 
 # define the header for DUNE Api
 headers = {
-    "X-DUNE-API-KEY": os.getenv('DUNE_KEY')
+    "X-DUNE-API-KEY": api_key
 }
 
 # create & save csv file
@@ -41,5 +41,3 @@ headers['Content-Type'] = "text/csv"
 with open("./economics_mapping.csv", "rb") as data:
   response = requests.request("POST", url, data=data, headers=headers)
   print(response.json())
-  print("Total rows inserted:", response.json()['rows_written'])
-  print("Total data size [bytes]:", response.json()['bytes_written'])
