@@ -1,0 +1,17 @@
+{
+    "name": "Ethereum Blobs",
+    "name_short": "Eth Blobs",
+    "incl_in_da_overview": true,
+    
+    "colors": {
+        "light": [
+            "#FFC300",
+            "#FFC300"
+        ],
+        "dark": [
+            "#FFC300",
+            "#FFC300"
+        ],
+        "darkTextOnBackground": true
+    }
+}

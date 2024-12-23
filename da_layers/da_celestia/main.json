@@ -1,0 +1,17 @@
+{
+    "name": "Celestia",
+    "name_short": "Celestia",
+    "incl_in_da_overview": true,
+    
+    "colors": {
+        "light": [
+            "#8E44ED",
+            "#8E44ED"
+        ],
+        "dark": [
+            "#8E44ED",
+            "#8E44ED"
+        ],
+        "darkTextOnBackground": true
+    }
+}

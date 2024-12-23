@@ -1,0 +1,17 @@
+{
+    "name": "Ethereum Calldata",
+    "name_short": "Eth Calldata",
+    "incl_in_da_overview": false,
+    
+    "colors": {
+        "light": [
+            "#00B3B3",
+            "#00B3B3"
+        ],
+        "dark": [
+            "#00B3B3",
+            "#00B3B3"
+        ],
+        "darkTextOnBackground": true
+    }
+}
