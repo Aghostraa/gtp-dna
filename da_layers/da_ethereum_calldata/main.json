@@ -1,8 +1,11 @@
 {
+    "da_layer": "da_ethereum_calldata",
     "name": "Ethereum Calldata",
     "name_short": "Eth Calldata",
-    "incl_in_da_overview": false,
-    
+    "block_explorers": {
+        "Etherscan": "https://etherscan.io/"
+    },
+
     "colors": {
         "light": [
             "#00B3B3",
@@ -13,5 +16,10 @@
             "#00B3B3"
         ],
         "darkTextOnBackground": true
-    }
+    },
+
+    "socials_website": "https://ethereum.org/en/",
+    "socials_twitter ": "https://x.com/ethereum",
+
+    "incl_in_da_overview": false
 }
