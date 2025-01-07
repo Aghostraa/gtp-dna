@@ -3,7 +3,7 @@ arbitrum:
     - from_address: null
       to_address: "0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6"
       method: "0x3e5aa082"
-      comment: "addSequencerL2BatchFromBlobs (first used 2024-03-14) blobs function "
+      comment: "addSequencerL2BatchFromBlobs (first used 2024-03-14) blobs function"
     - from_address: null
       to_address: "0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6"
       method: "0x8f111f3c"
