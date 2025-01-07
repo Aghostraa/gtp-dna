@@ -1,0 +1,29 @@
+name: Update Dune Table (dune.growthepie.l2economics_mapping)
+
+on: 
+  push:
+    paths:
+      - "economics_da/economics_mapping.yml"
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install Dependencies
+      run: |
+        pip install pyyaml pandas requests
+
+    - name: Run the Python Script
+      env:
+        DUNE_KEY: ${{ secrets.DUNE_KEY }}
+      run: |
+        python .github/scripts/update_dune_table.py
