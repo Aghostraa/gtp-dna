@@ -1,0 +1,25 @@
+{
+    "da_layer": "da_celestia",
+    "name": "Celestia",
+    "name_short": "Celestia",
+    "block_explorers": {
+        "Celenium": "https://celenium.io/"
+    },
+
+    "colors": {
+        "light": [
+            "#8E44ED",
+            "#8E44ED"
+        ],
+        "dark": [
+            "#8E44ED",
+            "#8E44ED"
+        ],
+        "darkTextOnBackground": true
+    },
+
+    "socials_website": "https://x.com/celestia",
+    "socials_twitter ": "https://celestia.org/",
+
+    "incl_in_da_overview": true
+}

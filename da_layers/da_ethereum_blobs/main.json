@@ -1,0 +1,25 @@
+{
+    "da_layer": "da_ethereum_blobs",
+    "name": "Ethereum Blobs",
+    "name_short": "Eth Blobs",
+    "block_explorers": {
+        "beaconcha.in": "https://beaconcha.in/"
+    },
+
+    "colors": {
+        "light": [
+            "#FFC300",
+            "#FFC300"
+        ],
+        "dark": [
+            "#FFC300",
+            "#FFC300"
+        ],
+        "darkTextOnBackground": true
+    },
+
+    "socials_website": "https://ethereum.org/en/",
+    "socials_twitter ": "https://x.com/ethereum",
+
+    "incl_in_da_overview": true
+}
