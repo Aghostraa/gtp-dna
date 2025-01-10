@@ -1,4 +1,5 @@
 arbitrum:
+  name: "Arbitrum"
   gtp_origin_key: "arbitrum"
   L1:
     - from_address: null
@@ -132,6 +133,7 @@ arbitrum:
       comment: "blob producer"
 
 gravity:
+  name: "Gravity"
   gtp_origin_key: "gravity"
   L1:
     - from_address: null
@@ -152,6 +154,7 @@ gravity:
       comment: "addSequencerL2BatchFromOrigin (first used 2024-05-19)"
 
 optimism:
+  name: "OP Mainnet"
   gtp_origin_key: "optimism"
   L1:
     - from_address: null
@@ -189,6 +192,7 @@ optimism:
       comment: "blob producer"
 
 base:
+  name: "Base"
   gtp_origin_key: "base"
   L1:
     - from_address: "0x5050f69a9786f081509234f1a7f4684b5e5b76c9"
@@ -210,6 +214,7 @@ base:
       comment: "blob producer"
 
 blast:
+  name: "Blast"
   gtp_origin_key: "blast"
   L1:
     - from_address: "0x415c8893d514f9bc5211d36eeda4183226b84aa7"
@@ -227,6 +232,7 @@ blast:
       comment: "blob producer"
 
 zora:
+  name: "Zora"
   gtp_origin_key: "zora"
   L1:
     - from_address: "0x625726c858dbf78c0125436c943bf4b4be9d9033"
@@ -244,6 +250,7 @@ zora:
       comment: "blob producer"
 
 mode:
+  name: "Mode"
   gtp_origin_key: "mode"
   L1:
     - from_address: "0x99199a22125034c808ff20f377d91187e8050f2e"
@@ -261,6 +268,7 @@ mode:
       comment: "blob producer"
 
 manta:
+  name: "Manta Pacific"
   gtp_origin_key: "manta"
   L1:
     - from_address: "0xa76e31d8471d569efdd3d95d1b11ce6710f4533f"
@@ -275,6 +283,7 @@ manta:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAIZiad33fbxA7Z0="
 
 derive:
+  name: "Derive"
   gtp_origin_key: "derive"
   L1:
     - from_address: "0x14e4E97bDc195d399Ad8E7FC14451C279FE04c8e"
@@ -289,6 +298,7 @@ derive:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAACLkdk+ILapw="
 
 orderly:
+  name: "Orderly"
   gtp_origin_key: "orderly"
   L1:
     - from_address: "0xf8dB8Aba597fF36cCD16fECfbb1B816B3236E9b8"
@@ -303,6 +313,7 @@ orderly:
     -  namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABYTLU4hLOUU="
 
 metis:
+  name: "Metis"
   gtp_origin_key: "metis"
   L1:
     - from_address: "0x1A9da0aedA630dDf2748a453BF6d92560762D914"
@@ -327,6 +338,7 @@ metis:
       comment: "appendStateBatchByChainId (first used 2024-03-21)"
 
 redstone:
+  name: "Redstone"
   gtp_origin_key: "redstone"
   L1:
     - from_address: null
@@ -347,6 +359,7 @@ redstone:
       comment: "OutputOracle, proposeL2Output"
 
 worldchain:
+  name: "Worldchain"
   gtp_origin_key: "worldchain"
   L1:
     - from_address: null
@@ -364,6 +377,7 @@ worldchain:
       comment: "blob producer (first used 2024-06-26)"
 
 lisk:
+  name: "Lisk"
   L1:
     - from_address: null
       to_address: "0x113cB99283AF242Da0A0C54347667edF531Aa7d6"
@@ -380,6 +394,7 @@ lisk:
       comment: "blob producer (first used 2024-05-03)"
 
 imx:
+  name: "Immutable X"
   gtp_origin_key: "imx"
   L1:
     - from_address: null
@@ -392,6 +407,7 @@ imx:
       comment: "updateState"
 
 linea:
+  name: "Linea"
   gtp_origin_key: "linea"
   L1:
     - from_address: null
@@ -437,6 +453,7 @@ linea:
       comment: "blob producer (first used 2024-10-21)"
 
 loopring:
+  name: "Loopring"
   gtp_origin_key: "loopring"
   L1:
     - from_address: null
@@ -445,6 +462,7 @@ loopring:
       comment: "submitBlocksWithCallbacks (proof is verified immediately)"
 
 mantle:
+  name: "Mantle"
   gtp_origin_key: "mantle"
   L1:
     - from_address: null
@@ -473,6 +491,7 @@ mantle:
       comment: "L2OutputOracle, proposeL2Output (used since 2024-03-15)"
 
 polygon_zkevm:
+  name: "Polygon zkEVM"
   gtp_origin_key: "polygon_zkevm"
   L1:
     - from_address: null
@@ -501,6 +520,7 @@ polygon_zkevm:
       comment: "verifyBatchesTrustedAggregator (first used 2024-02-13, last used 2024-08-27)"
 
 scroll:
+  name: "Scroll"
   gtp_origin_key: "scroll"
   L1:
     - from_address: null
@@ -538,6 +558,7 @@ scroll:
       comment: "blob producer"
 
 starknet:
+  name: "Starknet"
   gtp_origin_key: "starknet"
   L1:
     - from_address: null
@@ -563,6 +584,7 @@ starknet:
       comment: "blob producer"
 
 zksync_era:
+  name: "ZKsync Era"
   gtp_origin_key: "zksync_era"
   L1:
     - from_address: null
@@ -620,6 +642,7 @@ zksync_era:
       comment: "blob producer"
 
 taiko:
+  name: "Taiko"
   gtp_origin_key: "taiko"
   L1:
     - from_address: null
@@ -689,6 +712,7 @@ taiko:
       comment: "all blob producer including self deployed contracts v2 (first used 2024-11-07)"
 
 rhino:
+  name: "rhinofi"
   gtp_origin_key: "rhino"
   L1:
     - from_address: null
@@ -705,6 +729,7 @@ rhino:
       comment: "updateState (first used 2020-05-31)"
 
 fraxtal:
+  name: "Fraxtal"
   gtp_origin_key: "fraxtal"
   L1:
     - from_address: "0x6017f75108f251a488B045A7ce2a7C15b179d1f2"
@@ -717,6 +742,7 @@ fraxtal:
       comment: "proposeL2Output (first used 2024-02-01)"
 
 kroma:
+  name: "Kroma"
   gtp_origin_key: "kroma"
   L1:
     - from_address: null
@@ -734,6 +760,7 @@ kroma:
       comment: "0x blob producer"
 
 mint:
+  name: "Mint"
   gtp_origin_key: "mint"
   L1:
     - from_address: null
@@ -751,6 +778,7 @@ mint:
       comment: "0x (first used 2024-05-13)"
 
 fuel:
+  name: "Fuel"
   L1:
     - from_address: null
       to_address: "0xf3D20Db1D16A4D0ad2f280A5e594FF3c7790f130"
@@ -767,72 +795,89 @@ fuel:
       comment: "0x (first used 2024-08-30)"
 
 aevo:
+  name: "Aevo"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADBuw7+PjGs8="
 
 ancient8:
+  name: "Ancient8"
   gtp_origin_key: "ancient8"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADE4vVvVyRsg="
 
 b3:
+  name: "B3"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMod4SqMAivUaAM="
 
 bittendo:
+  name: "Bittendo"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAYml0dGVuZG8="
 
 eclipse:
+  name: "Eclipse"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVjbGlwc2U="
 
 eternal_ai:
+  name: "Eternal AI"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAABldGVybmFsYWk="
 
 flame:
+  name: "Flame"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAL2dxfeNrJ+tg6Y="
 
 forma:
+  name: "Forma"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAKKnitomrCy/HoY="
 
 gold:
+  name: "Gold"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADhBcVuNN75c="
 
 ham:
+  name: "Ham"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMod4SpeLVvrm6k="
 
 hypr:
+  name: "Hypr"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABqVjuNvNnoE="
 
 karak:
+  name: "Karak"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBA="
 
 lightlink:
+  name: "Lightlink"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAABsaWdodGxpbms="
 
 onchain:
+  name: "Onchain"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABNfLrOLSCTY="
 
 gitcoin_pgn:
+  name: "Public Goods Network"
   gtp_origin_key: "gitcoin_pgn"
   celestia:
     - gtp_origin_key: "gitcoin_pgn"
       namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADNtEcdl1sYY="
 
 stack:
+  name: "Stack"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADtb2kYRqm8M="
 
 turbo:
+  name: "Turbo"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAg="
