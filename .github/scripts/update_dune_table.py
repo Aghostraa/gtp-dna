@@ -25,7 +25,7 @@ table = [
         f.get('namespace') if settlement_layer == 'celestia' else None
     ]
     for L2, layers in data.items()
-    for settlement_layer, filters in layers.items()
+    for settlement_layer, filters in layers.items() if isinstance(filters, list)
     for f in filters
 ]
 df = pd.DataFrame(table, columns=['l2', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
