@@ -10,7 +10,9 @@
         "Etherscan": "https://etherscan.io/",
         "Blockscout": "https://eth.blockscout.com/"
     },
-    "ecosystem_old": [],
+    "ecosystem_old": [
+        "all-chains"
+    ],
     "colors": {
         "light": [
             "#8B8B8B",
