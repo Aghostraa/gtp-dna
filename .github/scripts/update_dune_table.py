@@ -18,6 +18,7 @@ with open('economics_da/economics_mapping.yml') as f:
 table = [
     [
         L2, 
+        layers.get('name'),
         settlement_layer, 
         f.get('from_address'), 
         f.get('to_address'), 
@@ -28,7 +29,7 @@ table = [
     for settlement_layer, filters in layers.items() if isinstance(filters, list)
     for f in filters
 ]
-df = pd.DataFrame(table, columns=['l2', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
+df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
 df.to_csv('economics_mapping.csv', index=False)
 
 # clear the current table:
