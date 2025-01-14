@@ -20,7 +20,7 @@ This is a community-driven effort. Please feel free to double-check the [mapping
 
 Each L2 network has its own section, which is further divided by the underlying fee markets where the L2 pays fees. These could be any of the following layers:
 
-- **Ethereum L1 Execution Layer (`L1`):** Used for execution and settlement of transactions.
+- **Ethereum L1 Execution Layer (`l1`):** Used for execution and settlement of transactions.
 - **Ethereum Beacon Chain Layer (`beacon`):** Used by L2s to post blobs.
 - **Celestia (`celestia`):** Most common altDA also used to post blobs.
 

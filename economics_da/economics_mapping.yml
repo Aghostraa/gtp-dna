@@ -1,7 +1,17 @@
+# Economics Mapping
+
+# This file contains the mapping of the different chains to the contracts and methods that are used for settlement and DA
+
+# Structure of the `chains` object
+# key: chain identifier (e.g. "arbitrum", always all lowercase and no spaces. Only use underscores if necessary)
+# name: name of the chain
+# L1: list of objects that are called on Ethereuem L1
+# Beacon: list of objects that are called on the beacon chain
+# celestia: list of objects that are called on the celestia chain
+
 arbitrum:
   name: "Arbitrum"
-  gtp_origin_key: "arbitrum"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6"
       method: "0x3e5aa082"
@@ -134,8 +144,7 @@ arbitrum:
 
 gravity:
   name: "Gravity"
-  gtp_origin_key: "gravity"
-  L1:
+  l1:
     - from_address: null
       to_address: "0xf993AF239770932A0EDaB88B6A5ba3708Bd58239"
       method: "0x4774e576"
@@ -155,8 +164,7 @@ gravity:
 
 optimism:
   name: "OP Mainnet"
-  gtp_origin_key: "optimism"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x4bf681894abec828b212c906082b444ceb2f6cf6"
       method: "0xd0f89344"
@@ -193,8 +201,7 @@ optimism:
 
 base:
   name: "Base"
-  gtp_origin_key: "base"
-  L1:
+  l1:
     - from_address: "0x5050f69a9786f081509234f1a7f4684b5e5b76c9"
       to_address: "0xff00000000000000000000000000000000008453"
       method: null
@@ -215,8 +222,7 @@ base:
 
 blast:
   name: "Blast"
-  gtp_origin_key: "blast"
-  L1:
+  l1:
     - from_address: "0x415c8893d514f9bc5211d36eeda4183226b84aa7"
       to_address: "0xff00000000000000000000000000000000081457"
       method: null
@@ -233,8 +239,7 @@ blast:
 
 zora:
   name: "Zora"
-  gtp_origin_key: "zora"
-  L1:
+  l1:
     - from_address: "0x625726c858dbf78c0125436c943bf4b4be9d9033"
       to_address: "0x6f54ca6f6ede96662024ffd61bfd18f3f4e34dff"
       method: null
@@ -251,8 +256,7 @@ zora:
 
 mode:
   name: "Mode"
-  gtp_origin_key: "mode"
-  L1:
+  l1:
     - from_address: "0x99199a22125034c808ff20f377d91187e8050f2e"
       to_address: "0x24e59d9d3bd73ccc28dc54062af7ef7bff58bd67"
       method: null
@@ -269,8 +273,7 @@ mode:
 
 manta:
   name: "Manta Pacific"
-  gtp_origin_key: "manta"
-  L1:
+  l1:
     - from_address: "0xa76e31d8471d569efdd3d95d1b11ce6710f4533f"
       to_address: "0xaeba8e2307a22b6824a9a7a39f8b016c357cd1fe"
       method: null
@@ -284,8 +287,7 @@ manta:
 
 derive:
   name: "Derive"
-  gtp_origin_key: "derive"
-  L1:
+  l1:
     - from_address: "0x14e4E97bDc195d399Ad8E7FC14451C279FE04c8e"
       to_address: "0x5f7f7f6DB967F0ef10BdA0678964DBA185d16c50"
       method: null
@@ -299,8 +301,7 @@ derive:
 
 orderly:
   name: "Orderly"
-  gtp_origin_key: "orderly"
-  L1:
+  l1:
     - from_address: "0xf8dB8Aba597fF36cCD16fECfbb1B816B3236E9b8"
       to_address: "0x08aA34cC843CeEBcC88A627F18430294aA9780be"
       method: null
@@ -314,8 +315,7 @@ orderly:
 
 metis:
   name: "Metis"
-  gtp_origin_key: "metis"
-  L1:
+  l1:
     - from_address: "0x1A9da0aedA630dDf2748a453BF6d92560762D914"
       to_address: "0xFf00000000000000000000000000000000001088"
       method: null
@@ -339,8 +339,7 @@ metis:
 
 redstone:
   name: "Redstone"
-  gtp_origin_key: "redstone"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x97A2dA87d3439b172e6DD027220e01c9Cb565B80"
       method: "0x7ae929d9"
@@ -360,8 +359,7 @@ redstone:
 
 worldchain:
   name: "Worldchain"
-  gtp_origin_key: "worldchain"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x19A6d1E9034596196295CF148509796978343c5D"
       method: "0x9aaab648"
@@ -378,7 +376,7 @@ worldchain:
 
 lisk:
   name: "Lisk"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x113cB99283AF242Da0A0C54347667edF531Aa7d6"
       method: "0x9aaab648"
@@ -395,8 +393,7 @@ lisk:
 
 imx:
   name: "Immutable X"
-  gtp_origin_key: "imx"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x16BA0f221664A5189cf2C1a7AF0d3AbFc70aA295"
       method: "0x504f7f6f"
@@ -408,8 +405,7 @@ imx:
 
 linea:
   name: "Linea"
-  gtp_origin_key: "linea"
-  L1:
+  l1:
     - from_address: null
       to_address: "0xd19d4B5d358258f05D7B411E21A1460D11B0876F"
       method: "0x4165d6dd"
@@ -454,8 +450,7 @@ linea:
 
 loopring:
   name: "Loopring"
-  gtp_origin_key: "loopring"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x153CdDD727e407Cb951f728F24bEB9A5FaaA8512"
       method: "0xdcb2aa31"
@@ -463,8 +458,7 @@ loopring:
 
 mantle:
   name: "Mantle"
-  gtp_origin_key: "mantle"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x50Fa427235C7C8cAA4A0C21b5009f5a0d015B23A"
       method: "0x5e4a3056"
@@ -492,8 +486,7 @@ mantle:
 
 polygon_zkevm:
   name: "Polygon zkEVM"
-  gtp_origin_key: "polygon_zkevm"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x5132a183e9f3cb7c848b0aac5ae0c4f0491b7ab2"
       method: "0x5e9145c9"
@@ -521,8 +514,7 @@ polygon_zkevm:
 
 scroll:
   name: "Scroll"
-  gtp_origin_key: "scroll"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x987e300fDfb06093859358522a79098848C33852"
       method: "0xd99bc80e"
@@ -559,8 +551,7 @@ scroll:
 
 starknet:
   name: "Starknet"
-  gtp_origin_key: "starknet"
-  L1:
+  l1:
     - from_address: null
       to_address: "0xc662c410C0ECf747543f5bA90660f6ABeBD9C8c4"
       method: "0x507ee528"
@@ -585,8 +576,7 @@ starknet:
 
 zksync_era:
   name: "ZKsync Era"
-  gtp_origin_key: "zksync_era"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x3dB52cE065f728011Ac6732222270b3F2360d919"
       method: "0x0c4dd810"
@@ -643,8 +633,7 @@ zksync_era:
 
 taiko:
   name: "Taiko"
-  gtp_origin_key: "taiko"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x06a9Ab27c7e2255df1815E6CC0168d7755Feb19a"
       method: "0xef16e845"
@@ -713,8 +702,7 @@ taiko:
 
 rhino:
   name: "rhinofi"
-  gtp_origin_key: "rhino"
-  L1:
+  l1:
     - from_address: null
       to_address: "0xc3a5b823b3c7e5f5a7da674b50e7c95993330ddd"
       method: "0x504f7f6f"
@@ -730,8 +718,7 @@ rhino:
 
 fraxtal:
   name: "Fraxtal"
-  gtp_origin_key: "fraxtal"
-  L1:
+  l1:
     - from_address: "0x6017f75108f251a488B045A7ce2a7C15b179d1f2"
       to_address: "0xfF000000000000000000000000000000000420fC"
       method: null
@@ -743,8 +730,7 @@ fraxtal:
 
 kroma:
   name: "Kroma"
-  gtp_origin_key: "kroma"
-  L1:
+  l1:
     - from_address: null
       to_address: "0x180c77aE51a9c505a43A2C7D81f8CE70cacb93A6"
       method: "0x5a045f78"
@@ -761,8 +747,7 @@ kroma:
 
 mint:
   name: "Mint"
-  gtp_origin_key: "mint"
-  L1:
+  l1:
     - from_address: null
       to_address: "0xB751A613f2Db932c6cdeF5048E6D2af05F9B98ED"
       method: "0x9aaab648"
@@ -779,7 +764,7 @@ mint:
 
 fuel:
   name: "Fuel"
-  L1:
+  l1:
     - from_address: null
       to_address: "0xf3D20Db1D16A4D0ad2f280A5e594FF3c7790f130"
       method: "0xe900ead8"
@@ -801,7 +786,6 @@ aevo:
 
 ancient8:
   name: "Ancient8"
-  gtp_origin_key: "ancient8"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADE4vVvVyRsg="
 
@@ -867,10 +851,8 @@ onchain:
 
 gitcoin_pgn:
   name: "Public Goods Network"
-  gtp_origin_key: "gitcoin_pgn"
   celestia:
-    - gtp_origin_key: "gitcoin_pgn"
-      namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADNtEcdl1sYY="
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADNtEcdl1sYY="
 
 stack:
   name: "Stack"
