@@ -63,6 +63,6 @@
 
     "circulating_supply_token_address": "0x0156e33c6FF235Ba4f2430AD4b1Bac2E19935618",
     "circulating_supply_token_deployment_date": "2024-05-15",
-    "circulating_supply_token_deployment_origin_key": "arbitrum",
+    "circulating_supply_token_deployment_origin_key": "real",
     "circulating_supply_token_circulating_supply_function": "totalSupply"
 }
