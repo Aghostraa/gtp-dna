@@ -70,3 +70,5 @@
     "circulating_supply_token_deployment_origin_key": null,
     "circulating_supply_token_circulating_supply_function": null
 }
+
+// run /trigger_dag_conf_pickles  on discord after updates
