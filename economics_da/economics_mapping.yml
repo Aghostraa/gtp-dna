@@ -530,7 +530,7 @@ scroll:
     - from_address: null
       to_address: "0xa13BAF47339d63B743e7Da8741db5456DAc1E556"
       method: "0x1325aca0"
-      comment: "commitBatch (first used 2023-10-10, deprecated)"
+      comment: "commitBatch (first used 2023-10-10, last used 2024-11-10)"
     - from_address: null
       to_address: "0xa13BAF47339d63B743e7Da8741db5456DAc1E556"
       method: "0x86b053a9"
@@ -549,6 +549,10 @@ scroll:
       comment: "finalizeBundleWithProof (first used 2024-08-21)"
   beacon:
     - from_address: "0xcf2898225ed05be911d3709d9417e86e0b4cfc8f"
+      to_address: null
+      method: null
+      comment: "blob producer (last used 2024-12-23)"
+    - from_address: "0x054a47B9E2a22aF6c0CE55020238C8FEcd7d334B"
       to_address: null
       method: null
       comment: "blob producer"
