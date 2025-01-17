@@ -498,7 +498,11 @@ polygon_zkevm:
     - from_address: null
       to_address: "0x519E42c24163192Dca44CD3fBDCEBF6be9130987"
       method: "0xdef57e54"
-      comment: "sequenceBatches (first used 2024-03-14)"
+      comment: "sequenceBatches (first used 2024-03-14, last used 2025-01-15)"
+    - from_address: null
+      to_address: "0x519E42c24163192Dca44CD3fBDCEBF6be9130987"
+      method: "0xb910e0f9"
+      comment: "sequenceBatches (first used 2025-01-15)"
     - from_address: null
       to_address: "0x5132a183e9f3cb7c848b0aac5ae0c4f0491b7ab2"
       method: "0xa50a164b"
@@ -510,7 +514,7 @@ polygon_zkevm:
     - from_address: null
       to_address: "0x5132a183e9f3cb7c848b0aac5ae0c4f0491b7ab2"
       method: "0x1489ed10"
-      comment: "verifyBatchesTrustedAggregator (first used 2024-02-13, last used 2024-08-27)"
+      comment: "verifyBatchesTrustedAggregator (first used 2024-02-13)"
 
 scroll:
   name: "Scroll"
