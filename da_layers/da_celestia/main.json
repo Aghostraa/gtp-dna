@@ -21,5 +21,12 @@
     "socials_website": "https://x.com/celestia",
     "socials_twitter ": "https://celestia.org/",
 
+    "parameters": {
+        "block_time": "6s",
+        "blob_size": "2 MB",
+        "bandwidth": "0.333 MB/s",
+        "l2beat_risk": "https://l2beat.com/data-availability/projects/celestia/no-bridge"
+    },
+
     "incl_in_da_overview": true
 }
