@@ -1,6 +1,6 @@
 # Welcome to the Economics and DA Mapping
 
-This repository defines all transactions sent by L2s that should be considered in the cost and DA metrics calculations for the [Economics Overview](https://www.growthepie.xyz/economics) and the [DA Overview](http://growthepie.xyz/data-availability/overview) pages.  
+This repository defines all transactions sent by L2s that should be considered in the cost and DA metrics calculations for the [Economics Overview](https://www.growthepie.xyz/economics) and the [DA Overview](https://growthepie.xyz/data-availability/overview) pages.  
 
 The result is a list of transactions grouped by each L2, enabling calculations such as total L1 fees paid or total blob daten size per L2.
 
