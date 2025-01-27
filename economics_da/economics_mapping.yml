@@ -838,6 +838,23 @@ ink:
       method: null
       comment: "Commit Blob (first used 2024-12-06)"
 
+soneium:
+  name: "Soneium"
+  l1:
+    - from_address: "0x6776BE80dBAda6A02B5F2095cF13734ac303B8d1"
+      to_address: "0x008dC74CecC9dedA8595B2Fe210cE5979F0BfA8e"
+      method: null
+      comment: "Commit Blob (first used 2024-12-02)"
+    - from_address: null
+      to_address: "0x512A3d2c7a43BD9261d2B8E8C9c70D4bd4D503C0"
+      method: "0x82ecf2f6"
+      comment: "Create (first used 2024-12-02)"
+  beacon:
+    - from_address: "0x6776BE80dBAda6A02B5F2095cF13734ac303B8d1"
+      to_address: null
+      method: null
+      comment: "Commit Blob (first used 2024-12-02)"
+
 aevo:
   name: "Aevo"
   celestia:
