@@ -867,6 +867,30 @@ arbitrum_nova:
       method: "0x6f12b0c9"
       comment: "addSequencerL2BatchFromOrigin (first used 2022-06-25, last used 2022-09-18)"
 
+real:
+  name: "Re.al"
+  l1:
+    - from_address: null
+      to_address: "0x51C4a227D59E49E26Ea07D8e4E9Af163da4c87A0"
+      method: "0x8f111f3c"
+      comment: "addSequencerL2BatchFromOrigin (first used 2024-03-26)"
+    - from_address: null
+      to_address: "0x118Ab5501564F1Cfa755d0b3070874a26c1C3A50"
+      method: "0x6a761202"
+      comment: "execTransaction (first used 2025-01-27)"
+    - from_address: null
+      to_address: "0x118Ab5501564F1Cfa755d0b3070874a26c1C3A50"
+      method: "0xd4d9bdcd"
+      comment: "approveHash (first used 2025-01-27)"
+    - from_address: null
+      to_address: "0xc4F7B37bE2bBbcF07373F28c61b1A259dfe49d2a"
+      method: "0x54ce8961"
+      comment: "stakeOnNewNode (first used 2024-03-27)"
+    - from_address: null
+      to_address: "0xc4F7B37bE2bBbcF07373F28c61b1A259dfe49d2a"
+      method: "0x5eb405d5"
+      comment: "confirmNextNode (first used 2024-03-27, last used 2024-11-01)"
+
 aevo:
   name: "Aevo"
   celestia:
