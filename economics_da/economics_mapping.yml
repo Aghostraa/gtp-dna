@@ -787,6 +787,23 @@ fuel:
       method: null
       comment: "0x (first used 2024-08-30)"
 
+bob:
+  name: "Build On Bitcoin"
+  l1:
+    - from_address: "0x08F9F14fF43E112B18c96f0986F28Cb1878f1D11"
+      to_address: "0x3A75346f81302aAc0333FB5DCDD407e12A6CfA83"
+      method: null
+      comment: "Commit Blob (first used 2024-04-11)"
+    - from_address: null
+      to_address: "0xdDa53E23f8a32640b04D7256e651C1db98dB11C1"
+      method: "0x9aaab648"
+      comment: "Propose L2 Output (first used 2024-04-12)"
+  beacon:
+    - from_address: "0x08F9F14fF43E112B18c96f0986F28Cb1878f1D11"
+      to_address: "0x3A75346f81302aAc0333FB5DCDD407e12A6CfA83"
+      method: null
+      comment: "Commit Blob (first used 2024-04-11)"
+
 aevo:
   name: "Aevo"
   celestia:
