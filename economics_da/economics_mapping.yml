@@ -855,6 +855,18 @@ soneium:
       method: null
       comment: "Commit Blob (first used 2024-12-02)"
 
+arbitrum_nova:
+  name: "Arbitrum Nova"
+  l1:
+    - from_address: null
+      to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
+      method: "0x8f111f3c"
+      comment: "addSequencerL2BatchFromOrigin (first used 2022-09-18)"
+    - from_address: null
+      to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
+      method: "0x6f12b0c9"
+      comment: "addSequencerL2BatchFromOrigin (first used 2022-06-25, last used 2022-09-18)"
+
 aevo:
   name: "Aevo"
   celestia:
