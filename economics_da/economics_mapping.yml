@@ -804,12 +804,11 @@ bob:
       method: null
       comment: "Commit Blob (first used 2024-04-11)"
 
-
 swell:
   name: "Swellchain"
   l1:
     - from_address: "0xf854cd5B26bfd73d51236c0122798907Ed65B1f2"
-      to_address: null
+      to_address: "0x005dE5857e38dFD703a1725c0900E9C6f24cbdE0"
       method: null
       comment: "Commit Blob (first used 2024-11-27)"
     - from_address: "0xfE5dD32c3799249dC6A5D637CCB2f28e0ec227e3"
@@ -821,6 +820,23 @@ swell:
       to_address: null
       method: null
       comment: "Commit Blob (first used 2024-11-27)"
+
+ink:
+  name: "Ink"
+  l1:
+    - from_address: "0x500d7Ea63CF2E501dadaA5feeC1FC19FE2Aa72Ac"
+      to_address: "0x005969bf0EcbF6eDB6C47E5e94693b1C3651Be97"
+      method: null
+      comment: "Commit Blob (first used 2024-12-06)"
+    - from_address: null
+      to_address: "0x10d7B35078d3baabB96Dd45a9143B94be65b12CD"
+      method: "0x82ecf2f6"
+      comment: "Create (first used 2024-12-06)"
+  beacon:
+    - from_address: "0x500d7Ea63CF2E501dadaA5feeC1FC19FE2Aa72Ac"
+      to_address: null
+      method: null
+      comment: "Commit Blob (first used 2024-12-06)"
 
 aevo:
   name: "Aevo"
