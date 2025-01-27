@@ -788,7 +788,7 @@ fuel:
       comment: "0x (first used 2024-08-30)"
 
 bob:
-  name: "Build On Bitcoin"
+  name: "Build on Bitcoin"
   l1:
     - from_address: "0x08F9F14fF43E112B18c96f0986F28Cb1878f1D11"
       to_address: "0x3A75346f81302aAc0333FB5DCDD407e12A6CfA83"
@@ -803,6 +803,24 @@ bob:
       to_address: "0x3A75346f81302aAc0333FB5DCDD407e12A6CfA83"
       method: null
       comment: "Commit Blob (first used 2024-04-11)"
+
+
+swell:
+  name: "Swellchain"
+  l1:
+    - from_address: "0xf854cd5B26bfd73d51236c0122798907Ed65B1f2"
+      to_address: null
+      method: null
+      comment: "Commit Blob (first used 2024-11-27)"
+    - from_address: "0xfE5dD32c3799249dC6A5D637CCB2f28e0ec227e3"
+      to_address: null
+      method: "0x82ecf2f6"
+      comment: "Create (first used 2024-11-27)"
+  beacon:
+    - from_address: "0xf854cd5B26bfd73d51236c0122798907Ed65B1f2"
+      to_address: null
+      method: null
+      comment: "Commit Blob (first used 2024-11-27)"
 
 aevo:
   name: "Aevo"
