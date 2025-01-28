@@ -598,46 +598,124 @@ zksync_era:
       method: "0x701f58c5"
       comment: "commitBatches (first used 2024-03-11, last used 2024-06-06)"
     - from_address: null
-      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
-      method: "0x6edd4f12"
-      comment: "commitBatchesSharedBridge (first used 2024-06-06)"
-    - from_address: null
       to_address: "0x3dB52cE065f728011Ac6732222270b3F2360d919"
       method: "0x7739cbe7"
       comment: "proveBlocks (first used 2023-03-24, last used 2023-12-04)"
+    - from_address: null
+      to_address: "0xa0425d71cB1D6fb80E65a5361a04096E0672De03"
+      method: "0x7f61885c"
+      comment: "proveBatches (first used 2023-12-04, last used 2024-03-11)"
+    - from_address: null
+      to_address: "0xa8CB082A5a689E0d594d7da1E2d72A3D63aDc1bD"
+      method: "0x7f61885c"
+      comment: "proveBatches (first used 2024-03-11, last used 2024-06-06)"
     - from_address: null
       to_address: "0x3dB52cE065f728011Ac6732222270b3F2360d919"
       method: "0xce9dcf16"
       comment: "executeBlocks (first used 2023-03-25, last used 2023-12-04)"
     - from_address: null
       to_address: "0xa0425d71cB1D6fb80E65a5361a04096E0672De03"
-      method: "0x7f61885c"
-      comment: "proveBatches (first used 2023-12-04, last used 2024-03-11)"
-    - from_address: null
-      to_address: "0xa0425d71cB1D6fb80E65a5361a04096E0672De03"
       method: "0xc3d93e7c"
       comment: "executeBatches (first used 2023-12-04, last used 2024-03-11)"
     - from_address: null
       to_address: "0xa8CB082A5a689E0d594d7da1E2d72A3D63aDc1bD"
-      method: "0x7f61885c"
-      comment: "proveBatches (first used 2024-03-11, last used 2024-06-06)"
-    - from_address: null
-      to_address: "0xa8CB082A5a689E0d594d7da1E2d72A3D63aDc1bD"
       method: "0xc3d93e7c"
       comment: "executeBatches (first used 2024-03-11, last used 2024-06-06)"
-    - from_address: null
+    - from_address: "0x3527439923a63f8c13cf72b8fe80a77f6e572092"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
-      method: "0xc37533bb"
-      comment: "proveBatchesSharedBridge (first used 2024-06-06)"
-    - from_address: null
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-06-06)"
+    - from_address: "0x0d3250c3d5facb74ac15834096397a3ef790ec99"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
-      method: "0x6f497ac6"
-      comment: "executeBatchesSharedBridge (first used 2024-06-06)"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2024-06-06)"
   beacon:
     - from_address: "0x0d3250c3d5facb74ac15834096397a3ef790ec99"
       to_address: null
       method: null
       comment: "blob producer"
+
+sophon:
+  name: "Sophon"
+  l1:
+    - from_address: "0xf3b07f6744e06cd5074b7d15ed2c33760837ce1f"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22)"
+    - from_address: "0x4cc87b0a504047967ced9a955431b3229237e7de"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2024-10-22)"
+
+abstract:
+  name: "Abstract"
+  l1:
+    - from_address: "0x54ab716d465be3d5eeca64e63ac0048d7a81659a"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-28)"
+    - from_address: "0x11805594be0229ef08429d775af0c55f7c4535de"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2024-10-26)"
+  beacon:
+    - from_address: "0x11805594be0229ef08429d775af0c55f7c4535de"
+      to_address: null
+      method: null
+      comment: "blob producer"
+
+zero_network:
+  name: "ZERO Network"
+  l1:
+    - from_address: "0x0f9b807d5b0ce12450059b425dc35c727d65cb2f"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22)"
+    - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2024-10-22)"
+  beacon:
+    - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
+      to_address: null
+      method: null
+      comment: "blob producer"
+
+grvt:
+  name: "GRVT"
+  l1:
+    - from_address: "0x58d14960e0a2be353edde61ad719196a2b816522"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-11-13)"
+    - from_address: "0x0b114d4675cb79507e68f2616c93e124122c6ef0"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2024-11-13)"
+
+cronos:
+  name: "Cronos zkEVM"
+  l1:
+    - from_address: "0x7fea26a181a792b5107ee0a31e434f5dbcbbe0b7"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-07-27)"
+    - from_address: "0xb9d48daf26f3cbe01a959f09f98e8a2ec8204122"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2024-07-27)"
+
+treasure:
+  name: "Treasure"
+  l1:
+    - from_address: "0x2572835e02b59078711aa0800490e80975e4169d"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-11-29)"
+    - from_address: "0x4131719fb0fa1cb3e3a052a4a309ea7575d8c283"
+      to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2024-11-26)"
 
 taiko:
   name: "Taiko"
