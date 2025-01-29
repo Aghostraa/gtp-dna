@@ -23,8 +23,8 @@
 
     "parameters": {
         "block_time": "6s",
-        "blob_size": "2 MB",
-        "bandwidth": "0.333 MB/s",
+        "blob_size": "8 MB",
+        "bandwidth": "1.333 MB/s",
         "l2beat_risk": "https://l2beat.com/data-availability/projects/celestia/no-bridge"
     },
 
