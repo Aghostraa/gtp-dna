@@ -2,8 +2,8 @@
     "origin_key": "real",
     "caip2": "eip155-111188",
     "evm_chain_id": 111188,
-    "name": "Re.al",
-    "name_short": "Re.al",
+    "name": "re.al",
+    "name_short": "re.al",
 
     "aliases_l2beat": "real",
     "aliases_l2beat_slug": "real",
@@ -34,7 +34,7 @@
     },
     "chain_type": "L2",
 
-    "metadata_description": "Re.al is an Arbitrum Orbit stack L2 with AnyTrust data availability, focusing on Real World Assets.",
+    "metadata_description": "re.al is an Arbitrum Orbit stack L2 with AnyTrust data availability, focusing on Real World Assets.",
     "metadata_symbol": "RWA",
     "metadata_launch_date": "2024-03-16",
     "metadata_da_layer": "DAC",
