@@ -363,7 +363,11 @@ worldchain:
     - from_address: null
       to_address: "0x19A6d1E9034596196295CF148509796978343c5D"
       method: "0x9aaab648"
-      comment: "proposeL2Output (first used 2024-06-26)"
+      comment: "proposeL2Output (first used 2024-06-26, last used 2025-01-27)"
+    - from_address: null
+      to_address: "0x069c4c579671f8c120b1327a73217d01ea2ec5ea"
+      method: "0x82ecf2f6"
+      comment: "create (first used 2025-01-06)"
     - from_address: "0xdBBE3D8c2d2b22A2611c5A94A9a12C2fCD49Eb29"
       to_address: "0xff00000000000000000000000000000000000480"
       method: null
