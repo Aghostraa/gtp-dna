@@ -2,8 +2,8 @@
     "origin_key": "ink",
     "caip2": "eip155-57073",
     "evm_chain_id": 57073,
-    "name": "ink",
-    "name_short": "ink",
+    "name": "Ink",
+    "name_short": "Ink",
 
     "aliases_l2beat": "ink",
     "aliases_l2beat_slug": "ink",
