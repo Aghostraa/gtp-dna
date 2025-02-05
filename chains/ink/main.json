@@ -8,13 +8,13 @@
     "aliases_l2beat": "ink",
     "aliases_l2beat_slug": "ink",
     "aliases_coingecko": null,
-    "aliases_rhino": null,
+    "aliases_rhino": "INK",
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
 
-    "bucket": "Others",
+    "bucket": "Superchain",
     "block_explorers": {
         "Blockscout": "https://explorer.inkonchain.com/"
     },
