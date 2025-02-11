@@ -34,7 +34,7 @@
     },
     "chain_type": "L2",
 
-    "metadata_description": "This is a Layer 2",
+    "metadata_description": "Swellchain operates as a restaking-focused L2 built on the OP Stack. It aims to extend ETH security through EigenLayer restaking while using OP infra",
     "metadata_symbol": "SWELL",
     "metadata_launch_date": "2024-12-19",
     "metadata_da_layer": "Ethereum (blobs)",
