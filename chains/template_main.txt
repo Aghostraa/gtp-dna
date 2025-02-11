@@ -46,7 +46,7 @@
         "label": "OP Stack",
         "url": "https://docs.optimism.io/stack/getting-started"
     },
-    "metadata_raas": "RAAS", // Conduit, Caldera, etc. rollup as a service provider
+    "metadata_raas": "Self-hosted", // Conduit, Caldera, etc. rollup as a service provider. If no RaaS we put "Self-hosted"
 
     "socials_website": "https://EXAMPLE.COM",
     "socials_twitter ": "https://EXAMPLE.COM",
