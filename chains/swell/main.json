@@ -48,8 +48,8 @@
     "socials_website": "https://www.swellnetwork.io/",
     "socials_twitter ": "https://x.com/swellnetworkio",
 
-    "api_in_api_main": false,
-    "api_in_api_fees": false,
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
