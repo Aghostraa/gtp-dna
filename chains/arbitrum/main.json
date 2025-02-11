@@ -1,6 +1,6 @@
 {
     "origin_key": "arbitrum",
-    "caip2": "eip155-42161",
+    "caip2": "eip155:42161",
     "da_mapping": null,
     "evm_chain_id": 42161,
     "name": "Arbitrum One",

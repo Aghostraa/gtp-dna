@@ -1,6 +1,6 @@
 {
     "origin_key": "taiko",
-    "caip2": "eip155-167000",
+    "caip2": "eip155:167000",
     "da_mapping": null,
     "evm_chain_id": 167000.0,
     "name": "Taiko Alethia",

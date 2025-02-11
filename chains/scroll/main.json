@@ -1,6 +1,6 @@
 {
     "origin_key": "scroll",
-    "caip2": "eip155-534352",
+    "caip2": "eip155:534352",
     "da_mapping": null,
     "evm_chain_id": 534352.0,
     "name": "Scroll",

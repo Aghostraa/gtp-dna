@@ -1,6 +1,6 @@
 {
     "origin_key": "manta",
-    "caip2": "eip155-169",
+    "caip2": "eip155:169",
     "da_mapping": {
         "celestia": [
             "AAAAAAAAAAAAAAAAAAAAAAAAAIZiad33fbxA7Z0="

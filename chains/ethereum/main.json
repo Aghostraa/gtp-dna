@@ -1,6 +1,6 @@
 {
     "origin_key": "ethereum",
-    "caip2": "eip155-1",
+    "caip2": "eip155:1",
     "da_mapping": null,
     "evm_chain_id": 1.0,
     "name": "Ethereum",

@@ -1,6 +1,6 @@
 {
     "origin_key": "mint",
-    "caip2": "eip155-185",
+    "caip2": "eip155:185",
     "evm_chain_id": 185,
     "name": "Mint",
     "name_short": "Mint",

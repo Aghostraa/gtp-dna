@@ -1,6 +1,6 @@
 {
     "origin_key": "zksync_era",
-    "caip2": "eip155-324",
+    "caip2": "eip155:324",
     "da_mapping": null,
     "evm_chain_id": 324.0,
     "name": "ZKsync Era",

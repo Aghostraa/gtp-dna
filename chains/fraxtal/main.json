@@ -1,6 +1,6 @@
 {
     "origin_key": "fraxtal",
-    "caip2": "eip155-252",
+    "caip2": "eip155:252",
     "evm_chain_id": 252,
     "name": "Fraxtal",
     "name_short": "fraxtal",

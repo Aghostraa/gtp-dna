@@ -1,6 +1,6 @@
 {
     "origin_key": "gravity",
-    "caip2": "eip155-1625",
+    "caip2": "eip155:1625",
     "evm_chain_id": 1625,
     "name": "Gravity",
     "name_short": "Gravity",

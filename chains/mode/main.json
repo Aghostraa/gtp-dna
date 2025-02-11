@@ -1,6 +1,6 @@
 {
     "origin_key": "mode",
-    "caip2": "eip155-34443",
+    "caip2": "eip155:34443",
     "da_mapping": null,
     "evm_chain_id": 34443.0,
     "name": "Mode Network",

@@ -1,6 +1,6 @@
 {
     "origin_key": "blast",
-    "caip2": "eip155-81457",
+    "caip2": "eip155:81457",
     "da_mapping": null,
     "evm_chain_id": 81457.0,
     "name": "Blast",
