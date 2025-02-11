@@ -1,6 +1,6 @@
 {
     "origin_key": "redstone",
-    "caip2": "eip155-690",
+    "caip2": "eip155:690",
     "da_mapping": null,
     "evm_chain_id": 690.0,
     "name": "Redstone",

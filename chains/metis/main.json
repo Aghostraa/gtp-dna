@@ -1,6 +1,6 @@
 {
     "origin_key": "metis",
-    "caip2": "eip155-1088",
+    "caip2": "eip155:1088",
     "da_mapping": null,
     "evm_chain_id": 1088.0,
     "name": "Metis",

@@ -1,6 +1,6 @@
 {
     "origin_key": "orderly",
-    "caip2": "eip155-291",
+    "caip2": "eip155:291",
     "da_mapping": {
         "celestia": [
             "AAAAAAAAAAAAAAAAAAAAAAAAAAAABYTLU4hLOUU="

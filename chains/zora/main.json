@@ -1,6 +1,6 @@
 {
     "origin_key": "zora",
-    "caip2": "eip155-7777777",
+    "caip2": "eip155:7777777",
     "da_mapping": null,
     "evm_chain_id": 7777777.0,
     "name": "Zora",

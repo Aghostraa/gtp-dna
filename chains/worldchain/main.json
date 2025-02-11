@@ -1,6 +1,6 @@
 {
     "origin_key": "worldchain",
-    "caip2": "eip155-480",
+    "caip2": "eip155:480",
     "evm_chain_id": 480,
     "name": "World Chain",
     "name_short": "World Chain",

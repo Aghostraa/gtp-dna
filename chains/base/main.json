@@ -1,6 +1,6 @@
 {
     "origin_key": "base",
-    "caip2": "eip155-8453",
+    "caip2": "eip155:8453",
     "da_mapping": null,
     "evm_chain_id": 8453,
     "name": "Base",

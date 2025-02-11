@@ -1,6 +1,6 @@
 {
     "origin_key": "ancient8",
-    "caip2": "eip155-888888888",
+    "caip2": "eip155:888888888",
     "da_mapping": {
         "celestia": [
             "AAAAAAAAAAAAAAAAAAAAAAAAAAAADE4vVvVyRsg="

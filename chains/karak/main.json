@@ -1,6 +1,6 @@
 {
     "origin_key": "karak",
-    "caip2": "eip155-2410",
+    "caip2": "eip155:2410",
     "da_mapping": {
         "celestia": [
             "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBA="

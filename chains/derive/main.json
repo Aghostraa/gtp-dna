@@ -1,6 +1,6 @@
 {
     "origin_key": "derive",
-    "caip2": "eip155-957",
+    "caip2": "eip155:957",
     "da_mapping": {
         "celestia": [
             "AAAAAAAAAAAAAAAAAAAAAAAAAAAACLkdk+ILapw="

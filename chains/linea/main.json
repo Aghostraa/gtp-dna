@@ -1,6 +1,6 @@
 {
     "origin_key": "linea",
-    "caip2": "eip155-59144",
+    "caip2": "eip155:59144",
     "da_mapping": null,
     "evm_chain_id": 59144.0,
     "name": "Linea",

@@ -1,6 +1,6 @@
 {
     "origin_key": "gitcoin_pgn",
-    "caip2": "eip155-424",
+    "caip2": "eip155:424",
     "da_mapping": {
         "celestia": [
             "AAAAAAAAAAAAAAAAAAAAAAAAAAAADNtEcdl1sYY="

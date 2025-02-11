@@ -1,6 +1,6 @@
 {
     "origin_key": "real",
-    "caip2": "eip155-111188",
+    "caip2": "eip155:111188",
     "evm_chain_id": 111188,
     "name": "re.al",
     "name_short": "re.al",
