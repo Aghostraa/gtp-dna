@@ -1,0 +1,67 @@
+{
+    "origin_key": "swell",
+    "caip2": "eip155-1923",
+    "evm_chain_id": 1923,
+    "name": "Swellchain",
+    "name_short": "Swellchain",
+
+    "aliases_l2beat": "swell",
+    "aliases_l2beat_slug": "swell",
+    "aliases_coingecko": "swell-network", 
+    "aliases_rhino": null,
+
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+
+    "bucket": "Superchain",
+    "block_explorers": {
+        "Blockscout": "https://explorer.swellnetwork.io/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#2956DE",
+            "#2956DE"
+        ],
+        "dark": [
+            "#2956DE",
+            "#2956DE"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+
+    "metadata_description": "Swellchain operates as a restaking-focused L2 built on the OP Stack. It aims to extend ETH security through EigenLayer restaking while using OP infra",
+    "metadata_symbol": "SWELL",
+    "metadata_launch_date": "2024-12-19",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "Universal, Restaking",
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "AltLayer",
+    "socials_website": "https://www.swellnetwork.io/",
+    "socials_twitter ": "https://x.com/swellnetworkio",
+
+    "api_in_api_main": true,
+    "api_in_api_fees": true,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": ["blockspace", "stables_mcap", "rent_paid", "profit", "fdv", "market_cap"],
+    
+    "backfiller_backfiller_on": false,
+    "backfiller_batch_size": 10,
+
+    "cross_check_type": "l2beat",
+
+    "circulating_supply_token_address": "0x0a6e7ba5042b38349e437ec6db6214aec7b35676",
+    "circulating_supply_token_deployment_date": "2024-07-19",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
+}
