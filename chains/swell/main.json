@@ -60,7 +60,7 @@
 
     "cross_check_type": "l2beat",
 
-    "circulating_supply_token_address": "0x0a6e7ba5042b38349e437ec6db6214aec7b35676",
+    "circulating_supply_token_address": "0X0A6E7BA5042B38349E437EC6DB6214AEC7B35676",
     "circulating_supply_token_deployment_date": "2024-07-19",
     "circulating_supply_token_deployment_origin_key": "ethereum",
     "circulating_supply_token_circulating_supply_function": "totalSupply"
