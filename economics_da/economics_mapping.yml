@@ -395,6 +395,36 @@ lisk:
       method: null
       comment: "blob producer (first used 2024-05-03)"
 
+parallel:
+  name: "Parallel"
+  l1:
+    - from_address: null
+      to_address: "0xb4795a0edae98d7820c37f06f6b858e7acb51df8"
+      method: null
+      comment: "addSequencerL2BatchFromBlobs & addSequencerL2BatchFromOrigin (first used 2024-01-01), DEPRECATED CHAIN?"
+  beacon:
+    - from_address: null
+      to_address: "0xb4795a0edae98d7820c37f06f6b858e7acb51df8"
+      method: "0x3e5aa082"
+      comment: "blob producer (first used 2024-04-11, last used 2024-08-28)"
+
+optopia:
+  name: "Optopia"
+  l1:
+    - from_address: "0x3d0bf26e60a689a7da5ea3ddad7371f27f7671a5"
+      to_address: "0xff00000000000000000000000000000000062050"
+      method: null
+      comment: "commit blob (first used 2024-05-10)"
+    - from_address: "0x33397410000A219fa5a476c5B51032B367C77e78"
+      to_address: "0xdd80e05004f40815eaef12ffee69c2a8a5112aa5"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-05-10)"
+  beacon:
+    - from_address: null
+      to_address: "0xff00000000000000000000000000000000062050"
+      method: null
+      comment: "commit blob (first used 2024-05-10)"
+
 imx:
   name: "Immutable X"
   l1:
@@ -818,6 +848,104 @@ fraxtal:
       method: "0x9aaab648"
       comment: "proposeL2Output (first used 2024-02-01)"
 
+paradex:
+  name: "Paradex"
+  l1:
+    - from_address: "0xC70ae19B5FeAA5c19f576e621d2bad9771864fe2"
+      to_address: "0xf338cad020d506e8e3d9b4854986e0ece6c23640"
+      method: null
+      comment: "updateStateKzgDA & updateState (first used 2023-07-29), missing the SHARP Verifier cost here"
+  beacon:
+    - from_address: "0xC70ae19B5FeAA5c19f576e621d2bad9771864fe2"
+      to_address: "0xf338cad020d506e8e3d9b4854986e0ece6c23640"
+      method: null
+      comment: "updateStateKzgDA (first used 2024-03-14)"
+
+metal:
+  name: "Metal"
+  l1:
+    - from_address: "0xC8187d40AD440328104A52BBed2D8Efc5ab1F1F6"
+      to_address: "0x3b1f7ada0fcc26b13515af752dd07fb1cac11426"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-03-28)"
+    - from_address: "0xc94c243f8fb37223f3eb2f7961f7072602a51b8b"
+      to_address: "0xc83f7d9f2d4a76e81145849381aba02602373723"
+      method: null
+      comment: "commmit blob (first used 2024-03-27)"
+  beacon:
+    - from_address: "0xc94c243f8fb37223f3eb2f7961f7072602a51b8b"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2024-03-27)"
+
+bobanetwork:
+  name: "Boba Network"
+  l1:
+    - from_address: "0xbfBAB4363034A930687B9320599a69DfBf1D21d0"
+      to_address: "0xbB7aD3f9CCbC94085b7F7B1D5258e59F5F068741"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-04-16), history before not implemented!"
+    - from_address: "0xe1b64045351b0b6e9821f19b39f81bc4711d2230"
+      to_address: "0xfff0000000000000000000000000000000000288"
+      method: null
+      comment: "commit blob (firsts used 2024-04-16)"
+  beacon:
+    - from_address: "0xe1b64045351b0b6e9821f19b39f81bc4711d2230"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2024-04-16)"
+
+lumio:
+  name: "Lumio"
+  l1:
+    - from_address: "0x5c53f2fF1030C7fbC0616fD5B8fC6bE97aa27e00"
+      to_address: "0xa12cf34001e553dc254d131105364351f5174d75"
+      method: null
+      comment: "commit blob & submit calldata function (first used 2024-02-27)"
+    - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
+      to_address: "0xffb004874cbbf8692b5f397b602f4b8a630aed59"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-02-27)"
+  beacon:
+    - from_address: "0x5c53f2fF1030C7fbC0616fD5B8fC6bE97aa27e00"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2024-05-15)"
+
+debank:
+  name: "DeBank Chain"
+  l1:
+    - from_address: "0x7ab7da0c3117d7dfe0abfaa8d8d33883f8477c74"
+      to_address: "0xff00000000000000000000000000000020240603"
+      method: null
+      comment: "commit blob (first used 2024-06-04)"
+    - from_address: "0x322C9a45368FdcdF358a4Ba340f88073Dc239e24"
+      to_address: "0x0341bb689CB8a4c16c61307F4BdA254E1bFD525e"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-06-04)"
+  beacon:
+    - from_address: "0x7ab7da0c3117d7dfe0abfaa8d8d33883f8477c74"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2024-06-04)"
+
+kinto:
+  name: "Kinto"
+  l1:
+    - from_address: "0x64Cf65036a76E3827e448cadbc53D31EefDCE04a"
+      to_address: "0x5073dA9cA4810f3E0aA01c20c7d9d02C3f522e11"
+      method: ""
+      comment: "validator functions: stakeOnNewNode & confirmNextNode (first used 2023-12-15)"
+    - from_address: "0xe27f3f6db6824def1738b2aace2672ac59046a39"
+      to_address: "0xf4ef823d57819ac7202a081a5b49376bd28e7b3a"
+      method: null
+      comment: "addSequencerL2BatchFromOrigin & addSequencerL2BatchFromBlobs (first used 2023-12-15)"
+  beacon:
+    - from_address: "0xe27f3f6db6824def1738b2aace2672ac59046a39"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2024-07-23)"
+
 kroma:
   name: "Kroma"
   l1:
@@ -975,13 +1103,29 @@ real:
 
 aevo:
   name: "Aevo"
+  l1:
+    - from_address: "0x889e21d7BA3d6dD62e75d4980A4Ad1349c61599d"
+      to_address: "0x253887577420Cb7e7418cD4d50147743c8041b28"
+      method: null
+      comment: "varies methods"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADBuw7+PjGs8="
+      comment: "used Celestia from 2024-01-16 until 202501-15"
 
 ancient8:
   name: "Ancient8"
+  l1:
+    - from_address: "0x6079e9c37b87fe06d0bde2431a0fa309826c9b67"
+      to_address: "0xd5df46c580fd2fbdaee751dc535e14295c0336f3"
+      method: null
+      comment: "post DA hashes as calldata (first used 2024-01-23)"
+    - from_address: "0xAF24199C29D5cc3fd298356137913A42847eA690"
+      to_address: "0xb09dc08428c8b4efb4ff9c0827386cdf34277996"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-01-23)"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADE4vVvVyRsg="
+      comment: "namespace (frist used 2024-01-23)"
 
 b3:
   name: "B3"
@@ -1029,9 +1173,19 @@ hypr:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABqVjuNvNnoE="
 
 karak:
-  name: "Karak"
+  name: "Karak Network (K2)"
+  l1:
+    - from_address: "0x84BdFb21ed7C8B332a42bFD595744a84F3101e4E"
+      to_address: "0xff00000000000000000000000000000000002410"
+      method: null
+      comment: "post DA hashes as calldata (first used 2023-12-22)"
+    - from_address: "0x4179f43f3b994e97090557363b09F403138a729e"
+      to_address: null
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2023-11-21)"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBA="
+      comment: "namespace (first used 2023-12-22)"
 
 lightlink:
   name: "Lightlink"
