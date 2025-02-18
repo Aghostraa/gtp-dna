@@ -34,12 +34,12 @@
     },
     "chain_type": "L2",
 
-    "metadata_description": "This is a Layer 2",
+    "metadata_description": "Ink is an Ethereum OP Stack layer 2 blockchain designed to be the house of DeFi for the Superchain.",
     "metadata_symbol": null,
     "metadata_launch_date": "2024-12-07",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",
-    "metadata_purpose": "Universal",
+    "metadata_purpose": "General Purpose (EVM), DeFi",
     "metadata_stack": {
         "label": "OP Stack",
         "url": "https://docs.optimism.io/stack/getting-started"
@@ -54,7 +54,7 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
-    "api_api_exclude_metrics": ["blockspace", "stables_mcap", "fdv", "market_cap"],
+    "api_api_exclude_metrics": ["blockspace", "fdv", "market_cap"],
     
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 10,
