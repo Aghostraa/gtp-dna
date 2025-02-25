@@ -53,7 +53,7 @@
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_api_deployment_flag": "DEV",
+    "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": ["blockspace", "stables_mcap", "fdv", "market_cap"],
     
     "backfiller_backfiller_on": false,
