@@ -1,0 +1,68 @@
+{
+    "origin_key": "arbitrum_nova",
+    "caip2": "eip155-42170",
+    "evm_chain_id": 42170,
+    "name": "Arbitrum Nova",
+    "name_short": "ArbitrumNova",
+
+    "aliases_l2beat": "nova",
+    "aliases_l2beat_slug": "nova",
+    "aliases_coingecko": "null",
+    "aliases_rhino": null,
+
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": true,
+    "runs_contract_metadata": false,
+
+    "bucket": "Arbitrum Orbit",
+    "block_explorers": {
+        "Etherscan": "https://nova.arbiscan.io/"
+    },
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#8B8B8B",
+            "#8B8B8B"
+        ],
+        "dark": [
+            "#C1C1C1",
+            "#C1C1C1"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+
+    "metadata_description": "This is a Layer 2",
+    "metadata_symbol": null,
+    "metadata_launch_date": "2022-08-09",
+    "metadata_da_layer": "External (DAC)",
+    "metadata_technology": "Optimium",
+    "metadata_purpose": "Universal",
+    "metadata_stack": {
+        "label": "OP Stack",
+        "url": "https://docs.optimism.io/stack/getting-started"
+    },
+    "metadata_raas": "Self-hosted",
+
+    "socials_website": "https://arbitrum.io/anytrust",
+    "socials_twitter ": "https://x.com/arbitrum",
+
+    "api_in_api_main": false,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": ["blockspace", "stables_mcap", "rent_paid", "profit", "fdv", "market_cap"],
+    
+    "backfiller_backfiller_on": false,
+    "backfiller_batch_size": 10,
+
+    "cross_check_type": "l2beat",
+
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null
+}
