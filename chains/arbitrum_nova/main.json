@@ -7,7 +7,7 @@
 
     "aliases_l2beat": "nova",
     "aliases_l2beat_slug": "nova",
-    "aliases_coingecko": "null",
+    "aliases_coingecko": null,
     "aliases_rhino": null,
 
     "runs_aggregate_blockspace": false,
