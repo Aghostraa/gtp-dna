@@ -31,6 +31,7 @@
     "api_in_api_fees": true,
     "api_in_api_economics": true,
     "api_in_api_labels": false,
+    "api_in_api_apps": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
 
@@ -57,6 +58,7 @@
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
+    "runs_aggregate_apps": true,
     "runs_contract_metadata": false,
 
     "backfiller_backfiller_on": true,

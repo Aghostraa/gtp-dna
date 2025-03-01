@@ -13,6 +13,7 @@
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true, // only disable if it's a non EVM chain
+    "runs_aggregate_apps": false,
     "runs_contract_metadata": false,
 
     // Metadata
@@ -56,6 +57,7 @@
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
+    "api_in_api_apps": false,
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": ["blockspace", "stables_mcap", "rent_paid", "profit", "fdv", "market_cap"],
     
