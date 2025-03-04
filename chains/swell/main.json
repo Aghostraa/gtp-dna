@@ -53,7 +53,7 @@
     "api_in_api_economics": true,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
-    "api_api_exclude_metrics": ["stables_mcap"],
+    "api_api_exclude_metrics": [],
     
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 10,
