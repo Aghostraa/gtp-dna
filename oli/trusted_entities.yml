@@ -6,6 +6,10 @@ trusted_entities:
   - address: "0xA725646c05e6Bb813d98C5aBB4E72DF4bcF00B56"
     description: "growthepie attest"
     tags:
+      - tag_id: "is_eoa"
+        score: 40
+      - tag_id: "is_contract"
+        score: 90
       - tag_id: "*"
         score: 80
 
