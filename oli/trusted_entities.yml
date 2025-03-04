@@ -1,6 +1,6 @@
 # Open Labels Initiative - Trusted Entities List
 # Each entity (address) is mapped to multiple tag_ids, each with its own confidence score (1-100).
-# Special case: If tag_id is "*", it applies to all tags.
+# Special case: If tag_id is "*", it applies to all (other) tags not explicitly listed.
 
 trusted_entities:
   - address: "0xA725646c05e6Bb813d98C5aBB4E72DF4bcF00B56"
@@ -13,10 +13,16 @@ trusted_entities:
     description: "mseidl.eth"
     tags:
       - tag_id: "*"
-        score: 80
+        score: 50
 
   - address: "0x5C05740dF496ddC881642566C431B88bdf60842e"
     description: "Lorenz"
+    tags:
+      - tag_id: "*"
+        score: 50
+
+  - address: "0x634F22CEB7f99FB507e14E7eC3a658b09E85e998"
+    description: "ahouraz.eth"
     tags:
       - tag_id: "*"
         score: 50
