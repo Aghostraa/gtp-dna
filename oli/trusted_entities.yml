@@ -18,15 +18,3 @@ trusted_entities:
     tags:
       - tag_id: "*"
         score: 50
-
-  - address: "0x5C05740dF496ddC881642566C431B88bdf60842e"
-    description: "Lorenz"
-    tags:
-      - tag_id: "*"
-        score: 50
-
-  - address: "0x634F22CEB7f99FB507e14E7eC3a658b09E85e998"
-    description: "ahouraz.eth"
-    tags:
-      - tag_id: "*"
-        score: 50
