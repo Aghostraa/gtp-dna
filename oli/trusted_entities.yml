@@ -1,9 +1,9 @@
 # Open Labels Initiative - Trusted Entities List
-# Each entity (address) is mapped to multiple tag_ids, each with its own confidence score (1-100).
+# Each attester (address) is mapped to multiple tag_ids, each with its own confidence score (1-100).
 # Special case: If tag_id is "*", it applies to all (other) tags not explicitly listed.
 
 trusted_entities:
-  - address: "0xA725646c05e6Bb813d98C5aBB4E72DF4bcF00B56"
+  - attester: "0xA725646c05e6Bb813d98C5aBB4E72DF4bcF00B56"
     description: "growthepie attest"
     tags:
       - tag_id: "is_eoa"
@@ -13,7 +13,7 @@ trusted_entities:
       - tag_id: "*"
         score: 80
 
-  - address: "0xdC1d963D21C9c1bFf7b6Bea6e10080dAa9b4fc51"
+  - attester: "0xdC1d963D21C9c1bFf7b6Bea6e10080dAa9b4fc51"
     description: "mseidl.eth"
     tags:
       - tag_id: "*"
