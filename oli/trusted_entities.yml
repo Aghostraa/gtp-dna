@@ -6,15 +6,23 @@ trusted_entities:
   - attester: "0xA725646c05e6Bb813d98C5aBB4E72DF4bcF00B56"
     description: "growthepie attest"
     tags:
-      - tag_id: "is_eoa"
-        score: 40
-      - tag_id: "is_contract"
-        score: 90
       - tag_id: "*"
         score: 80
 
   - attester: "0xdC1d963D21C9c1bFf7b6Bea6e10080dAa9b4fc51"
     description: "mseidl.eth"
+    tags:
+      - tag_id: "*"
+        score: 50
+
+  - attester: "0x5C05740dF496ddC881642566C431B88bdf60842e"
+    description: "Lorenz"
+    tags:
+      - tag_id: "*"
+        score: 50
+
+  - attester: "0x634F22CEB7f99FB507e14E7eC3a658b09E85e998"
+    description: "ahouraz.eth"
     tags:
       - tag_id: "*"
         score: 50
