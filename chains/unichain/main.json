@@ -7,7 +7,7 @@
 
     "aliases_l2beat": "unichain",
     "aliases_l2beat_slug": "unichain",
-    "aliases_coingecko": null,
+    "aliases_coingecko": "uniswap",
     "aliases_rhino": null,
 
     "runs_aggregate_blockspace": false,
@@ -36,7 +36,7 @@
     "chain_type": "L2",
 
     "metadata_description": "This is a Layer 2",
-    "metadata_symbol": null,
+    "metadata_symbol": "UNI",
     "metadata_launch_date": "2025-02-12",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",
@@ -63,8 +63,8 @@
 
     "cross_check_type": "l2beat",
 
-    "circulating_supply_token_address": null,
-    "circulating_supply_token_deployment_date": null,
-    "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "circulating_supply_token_deployment_date": "2020-09-14",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
 }
