@@ -1,6 +1,6 @@
 {
     "origin_key": "zircuit",
-    "caip2": "eip155-48900",
+    "caip2": "eip155:48900",
     "evm_chain_id": 48900,
     "name": "Zircuit",
     "name_short": "Zircuit",

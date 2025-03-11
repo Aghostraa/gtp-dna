@@ -1,6 +1,6 @@
 {
     "origin_key": "unichain",
-    "caip2": "eip155-130",
+    "caip2": "eip155:130",
     "evm_chain_id": 130,
     "name": "Unichain",
     "name_short": "Unichain",
