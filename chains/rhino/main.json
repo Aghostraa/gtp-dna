@@ -25,11 +25,11 @@
     },
     "chain_type": "L2",
 
-    "api_in_api_main": true,
+    "api_in_api_main": false,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_api_deployment_flag": "PROD",
+    "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": [
         "blockspace",
         "profit",
@@ -41,9 +41,9 @@
         "market_cap"
     ],
 
-    "aliases_l2beat": "deversifi",
-    "aliases_l2beat_slug": "rhinofi",
-    "aliases_rhino": "DVF",
+    "aliases_l2beat": null,
+    "aliases_l2beat_slug": null,
+    "aliases_rhino": null,
 
     "metadata_description": "rhino.fi is a Validium based on StarkEX technology. Its main focus is on bridging assets between other chains.",
     "metadata_symbol": "-",
@@ -67,5 +67,5 @@
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 20,
 
-    "cross_check_type": "l2beat"
+    "cross_check_type": null
 }

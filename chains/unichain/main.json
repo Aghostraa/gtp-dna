@@ -1,13 +1,13 @@
 {
-    "origin_key": "zircuit",
-    "caip2": "eip155:48900",
-    "evm_chain_id": 48900,
-    "name": "Zircuit",
-    "name_short": "Zircuit",
+    "origin_key": "unichain",
+    "caip2": "eip155:130",
+    "evm_chain_id": 130,
+    "name": "Unichain",
+    "name_short": "Unichain",
 
-    "aliases_l2beat": "zircuit",
-    "aliases_l2beat_slug": "zircuit",
-    "aliases_coingecko": "zircuit",
+    "aliases_l2beat": "unichain",
+    "aliases_l2beat_slug": "unichain",
+    "aliases_coingecko": "uniswap",
     "aliases_rhino": null,
 
     "runs_aggregate_blockspace": false,
@@ -15,9 +15,9 @@
     "runs_aggregate_apps": false,
     "runs_contract_metadata": false,
 
-    "bucket": "Others",
+    "bucket": "Superchain",
     "block_explorers": {
-        "Zircuit Explorer": "https://explorer.zircuit.com/"
+        "Block Explorer": "https://uniscan.xyz/"
     },
     "ecosystem_old": [
         "all-chains"
@@ -36,19 +36,19 @@
     "chain_type": "L2",
 
     "metadata_description": "This is a Layer 2",
-    "metadata_symbol": "ZRC",
-    "metadata_launch_date": "2024-08-05",
+    "metadata_symbol": "UNI",
+    "metadata_launch_date": "2025-02-12",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",
-    "metadata_purpose": "Universal",
+    "metadata_purpose": "Universal, Exchange",
     "metadata_stack": {
         "label": "OP Stack",
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://www.zircuit.com/",
-    "socials_twitter ": "https://x.com/ZircuitL2",
+    "socials_website": "https://www.unichain.org/",
+    "socials_twitter ": "https://x.com/unichain",
 
     "api_in_api_main": true,
     "api_in_api_fees": false,
@@ -61,10 +61,10 @@
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 10,
 
-    "cross_check_type": "l2beat", 
+    "cross_check_type": "l2beat",
 
-    "circulating_supply_token_address": "0xfd418e42783382e86ae91e445406600ba144d162",
-    "circulating_supply_token_deployment_date": "2024-08-03",
+    "circulating_supply_token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "circulating_supply_token_deployment_date": "2020-09-14",
     "circulating_supply_token_deployment_origin_key": "ethereum",
     "circulating_supply_token_circulating_supply_function": "totalSupply"
 }
