@@ -10,7 +10,7 @@
     "aliases_coingecko": "uniswap",
     "aliases_rhino": null,
 
-    "runs_aggregate_blockspace": false,
+    "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": false,
     "runs_contract_metadata": false,
@@ -56,7 +56,7 @@
     "api_in_api_labels": false,
     "api_in_api_apps": false,
     "api_api_deployment_flag": "DEV",
-    "api_api_exclude_metrics": ["blockspace", "stables_mcap", "rent_paid", "profit", "fdv", "market_cap"],
+    "api_api_exclude_metrics": ["blockspace"],
     
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 10,
