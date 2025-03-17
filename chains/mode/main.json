@@ -7,7 +7,8 @@
     "name_short": "Mode",
     "bucket": "Superchain",
     "block_explorers": {
-        "Blockscout": "https://explorer.mode.network/"
+        "Blockscout": "https://explorer.mode.network/",
+        "Routescan": "https://modescan.io/"
     },
     "ecosystem_old": [
         "op-stack",

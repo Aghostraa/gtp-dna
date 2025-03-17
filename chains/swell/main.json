@@ -16,7 +16,8 @@
 
     "bucket": "Superchain",
     "block_explorers": {
-        "Blockscout": "https://explorer.swellnetwork.io/"
+        "Blockscout": "https://explorer.swellnetwork.io/",
+        "Routescan": "https://1923.routescan.io/"
     },
     "ecosystem_old": [
         "all-chains"

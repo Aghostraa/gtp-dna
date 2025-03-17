@@ -16,7 +16,8 @@
 
     "bucket": "Superchain",
     "block_explorers": {
-        "Blockscout": "https://explorer.inkonchain.com/"
+        "Blockscout": "https://explorer.inkonchain.com/",
+        "Routescan": "https://57073.routescan.io/"
     },
     "ecosystem_old": [
         "all-chains"

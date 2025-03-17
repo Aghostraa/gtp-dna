@@ -8,7 +8,8 @@
     "bucket": "Superchain",
     "block_explorers": {
         "Optimistic Etherscan": "https://optimistic.etherscan.io/",
-        "Blockscout": "https://optimism.blockscout.com/"
+        "Blockscout": "https://optimism.blockscout.com/",
+        "Routescan": "https://mainnet.thesuperscan.io/"
     },
     "ecosystem_old": [
         "op-stack",

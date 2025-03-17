@@ -16,7 +16,8 @@
 
     "bucket": "Superchain",
     "block_explorers": {
-        "Etherscan": "https://fraxscan.com/"
+        "Etherscan": "https://fraxscan.com/",
+        "Routescan": "https://252.routescan.io/"
     },
     "ecosystem_old": [
         "all-chains"

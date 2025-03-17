@@ -11,7 +11,8 @@
     "name_short": "Orderly",
     "bucket": "Superchain",
     "block_explorers": {
-        "Blockscout": "https://explorer.orderly.network/"
+        "Blockscout": "https://explorer.orderly.network/",
+        "Routescan": "https://291.routescan.io/"
     },
     "ecosystem_old": [
         "all-chains"

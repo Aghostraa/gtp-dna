@@ -8,7 +8,8 @@
     "bucket": "Layer 1",
     "block_explorers": {
         "Etherscan": "https://etherscan.io/",
-        "Blockscout": "https://eth.blockscout.com/"
+        "Blockscout": "https://eth.blockscout.com/",
+        "Routescan": "https://1.routescan.io/"
     },
     "ecosystem_old": [
         "all-chains"

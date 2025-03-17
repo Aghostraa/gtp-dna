@@ -7,7 +7,8 @@
     "name_short": "Blast",
     "bucket": "Others",
     "block_explorers": {
-        "Blast Explorer": "https://blastscan.io/"
+        "Blast Explorer": "https://blastscan.io/",
+        "Routescan": "https://blastexplorer.io/"
     },
     "ecosystem_old": [
         "all-chains"
