@@ -34,14 +34,14 @@
     },
     "chain_type": "L2",
 
-    "metadata_description": "This is a Layer 2",
+    "metadata_description": "Arbitrum Nova is an Optimium developed by Offchain using AnyTrust protocol. As part of the Nitro stack Arbitrum Nova is fully EVM compatible.",
     "metadata_symbol": null,
     "metadata_launch_date": "2022-08-09",
     "metadata_da_layer": "External (DAC)",
     "metadata_technology": "Optimium",
-    "metadata_purpose": "Universal",
+    "metadata_purpose": "General Purpose (EVM)",
     "metadata_stack": {
-        "label": "OP Stack",
+        "label": "Arbitrum Nitro",
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
