@@ -718,11 +718,11 @@ mantle:
     - from_address: null
       to_address: "0x5BD63a7ECc13b955C4F57e3F12A64c10263C14c1"
       method: "0x58942e73"
-      comment: "confirmDataStore (DA-v2, used since 2024-03-15)"
+      comment: "MantleDA confirmDataStore (DA-v2, used since 2024-03-15, last used 2025-03-19)"
     - from_address: null
       to_address: "0x5BD63a7ECc13b955C4F57e3F12A64c10263C14c1"
       method: "0xdcf49ea7"
-      comment: "initDataStore (DA-v2, used since 2024-03-15)"
+      comment: "MantleDA initDataStore (DA-v2, used since 2024-03-15), last used 2025-03-19)"
     - from_address: null
       to_address: "0xD1328C9167e0693B689b5aa5a024379d4e437858"
       method: "0x49cd3004"
@@ -731,6 +731,16 @@ mantle:
       to_address: "0x31d543e7BE1dA6eFDc2206Ef7822879045B9f481"
       method: "0x9aaab648"
       comment: "L2OutputOracle, proposeL2Output (used since 2024-03-15)"
+    - from_address: "0x2f40D796917ffB642bD2e2bdD2C762A5e40fd749"
+      to_address: "0xFFEEDDCcBbAA0000000000000000000000000000"
+      method: null
+      comment: "EigenDA (used since 2025-03-19)"
+  beacon:
+    - from_address: "0x2f40D796917ffB642bD2e2bdD2C762A5e40fd749"
+      to_address: "0xFFEEDDCcBbAA0000000000000000000000000000"
+      method: null
+      comment: "commit blob (used for one day 2025-03-19)"
+
 
 polygon_zkevm:
   name: "Polygon zkEVM"
