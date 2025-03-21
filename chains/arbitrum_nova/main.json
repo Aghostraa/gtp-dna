@@ -3,7 +3,7 @@
     "caip2": "eip155:42170",
     "evm_chain_id": 42170,
     "name": "Arbitrum Nova",
-    "name_short": "ArbitrumNova",
+    "name_short": "Arbitrum Nova",
 
     "aliases_l2beat": "nova",
     "aliases_l2beat_slug": "nova",
@@ -43,11 +43,11 @@
     "metadata_purpose": "General Purpose (EVM)",
     "metadata_stack": {
         "label": "Arbitrum Nitro",
-        "url": "https://docs.optimism.io/stack/getting-started"
+        "url": "https://arbitrum.io/orbit"
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://arbitrum.io/anytrust",
+    "socials_website": "https://nova.arbitrum.io/",
     "socials_twitter ": "https://x.com/arbitrum",
 
     "api_in_api_main": true,
