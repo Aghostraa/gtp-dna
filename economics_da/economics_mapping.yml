@@ -734,7 +734,7 @@ mantle:
     - from_address: "0x2f40D796917ffB642bD2e2bdD2C762A5e40fd749"
       to_address: "0xFFEEDDCcBbAA0000000000000000000000000000"
       method: null
-      comment: "EigenDA (used since 2025-03-19)"
+      comment: "EigenDA & L1 part of any beacon trx (used since 2025-03-19)"
   beacon:
     - from_address: "0x2f40D796917ffB642bD2e2bdD2C762A5e40fd749"
       to_address: "0xFFEEDDCcBbAA0000000000000000000000000000"
