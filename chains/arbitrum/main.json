@@ -8,7 +8,8 @@
     "bucket": "Arbitrum Orbit",
     "block_explorers": {
         "Arbiscan": "https://arbiscan.io/",
-        "Blockscout": "https://arbitrum.blockscout.com/"
+        "Blockscout": "https://arbitrum.blockscout.com/",
+        "Routescan": "https://42161.routescan.io/"
     },
     "ecosystem_old": [
         "all-chains"

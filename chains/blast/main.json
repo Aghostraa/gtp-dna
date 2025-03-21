@@ -7,7 +7,8 @@
     "name_short": "Blast",
     "bucket": "Others",
     "block_explorers": {
-        "Blast Explorer": "https://blastscan.io/"
+        "Blast Explorer": "https://blastscan.io/",
+        "Routescan": "https://blastexplorer.io/"
     },
     "ecosystem_old": [
         "all-chains"
@@ -18,8 +19,8 @@
             "#E9E238"
         ],
         "dark": [
-            "#FEFF00",
-            "#FEFF00"
+            "#E9E238",
+            "#E9E238"
         ],
         "darkTextOnBackground": true
     },

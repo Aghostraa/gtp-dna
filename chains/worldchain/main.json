@@ -6,7 +6,8 @@
     "name_short": "World Chain",
     "bucket": "Superchain",
     "block_explorers": {
-        "Alchemy Explorer": "https://worldchain-mainnet.explorer.alchemy.com/"
+        "Alchemy Explorer": "https://worldchain-mainnet.explorer.alchemy.com/",
+        "Routescan": "https://480.routescan.io/"
     },
     "ecosystem_old": [
         "op-stack",

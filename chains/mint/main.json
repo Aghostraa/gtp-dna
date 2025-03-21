@@ -16,7 +16,8 @@
 
     "bucket": "Superchain",
     "block_explorers": {
-        "Blockscout": "https://explorer.mintchain.io/"
+        "Blockscout": "https://explorer.mintchain.io/",
+        "Routescan": "https://mintscan.org/"
     },
     "ecosystem_old": [
         "op-stack",

@@ -8,7 +8,8 @@
     "bucket": "Elastic Chain",
     "block_explorers": {
         "zkSync Explorer": "https://explorer.zksync.io/",
-        "Blockscout": "https://zksync.blockscout.com/"
+        "Blockscout": "https://zksync.blockscout.com/",
+        "Routescan": "https://hyperscan.xyz/"
     },
     "ecosystem_old": [
         "all-chains"

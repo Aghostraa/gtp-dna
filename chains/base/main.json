@@ -8,7 +8,8 @@
     "bucket": "Superchain",
     "block_explorers": {
         "BaseScan": "https://basescan.org/",
-        "Blockscout": "https://base.blockscout.com/"
+        "Blockscout": "https://base.blockscout.com/",
+        "Routescan": "https://base.thesuperscan.io/"
     },
     "ecosystem_old": [
         "op-stack",

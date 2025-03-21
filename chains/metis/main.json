@@ -7,7 +7,8 @@
     "name_short": "Metis",
     "bucket": "Others",
     "block_explorers": {
-        "Blockscout": "https://andromeda-explorer.metis.io/"
+        "Blockscout": "https://andromeda-explorer.metis.io/",
+        "Routescan": "https://explorer.metis.io/"
     },
     "ecosystem_old": [
         "all-chains"
