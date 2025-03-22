@@ -67,7 +67,8 @@
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 3,
 
-    "cross_check_type": "l2beat",
+    "cross_check_url": "https://etherscan.io/chart/tx?output=csv",
+    "cross_check_type": "etherscan",
 
     "circulating_supply_token_address": null,
     "circulating_supply_token_abi": null,
