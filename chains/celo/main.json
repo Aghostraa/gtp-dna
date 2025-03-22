@@ -5,8 +5,8 @@
     "name": "Celo",
     "name_short": "Celo",
 
-    "aliases_l2beat": "celo",
-    "aliases_l2beat_slug": "celo",
+    "aliases_l2beat": null,
+    "aliases_l2beat_slug": null,
     "aliases_coingecko": "celo",
     "aliases_rhino": null,
 
