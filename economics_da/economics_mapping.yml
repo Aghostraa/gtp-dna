@@ -262,7 +262,31 @@ celo:
     - from_address: null
       to_address: "0x1f2EC15657dd9Cb304d414f0257C23aAf73B64e4"
       method: "0x82ecf2f6"
-      comment: "create (first used 2025-03-12) ???"
+      comment: "create (first used 2025-03-12, last used 2025-03-14)"
+    - from_address: null
+      to_address: "0x2384acf4110f8935376d363c6e16dc881cb4697b"
+      method: "0x82ecf2f6"
+      comment: "create (first used 2025-03-19, last used 2025-03-21)"
+    - from_address: null
+      to_address: "0x78e86406656efa6808a678ef18e305f5bd9a9a51"
+      method: "0x82ecf2f6"
+      comment: "create (first used 2025-03-21)"
+    - from_address: "0x9e21944B9Dd761e7a89Ecb17be005E955e750f2B"
+      to_address: null
+      method: "0x2810e1d6"
+      comment: "resolve, by central resolver (first used ???)"
+    - from_address: "0x9e21944B9Dd761e7a89Ecb17be005E955e750f2B"
+      to_address: null
+      method: "0x03c2924d"
+      comment: "resolveClaim, by central resolver (first used ???)"
+    - from_address: "0x9e21944B9Dd761e7a89Ecb17be005E955e750f2B"
+      to_address: null
+      method: "0x60e27464"
+      comment: "claimCredit, by central resolver (first used ???)"
+    - from_address: "0x9e21944B9Dd761e7a89Ecb17be005E955e750f2B"
+      to_address: null
+      method: "0x472777c6"
+      comment: "attack, by central resolver (first used ???)"
 
 blast:
   name: "Blast"
