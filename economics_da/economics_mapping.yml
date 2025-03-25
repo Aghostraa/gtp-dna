@@ -262,7 +262,15 @@ celo:
     - from_address: null
       to_address: "0x1f2EC15657dd9Cb304d414f0257C23aAf73B64e4"
       method: "0x82ecf2f6"
-      comment: "create (first used 2025-03-12) ???"
+      comment: "create (first used 2025-03-12, last used 2025-03-14)"
+    - from_address: null
+      to_address: "0x2384acf4110f8935376d363c6e16dc881cb4697b"
+      method: "0x82ecf2f6"
+      comment: "create (first used 2025-03-19, last used 2025-03-21)"
+    - from_address: null
+      to_address: "0x78e86406656efa6808a678ef18e305f5bd9a9a51"
+      method: "0x82ecf2f6"
+      comment: "create (first used 2025-03-21)"
 
 blast:
   name: "Blast"
