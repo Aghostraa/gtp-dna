@@ -55,10 +55,14 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
-    "api_api_exclude_metrics": ["blockspace", "rent_paid", "profit", "fdv", "market_cap", "tvl"],
+    "api_api_exclude_metrics": ["blockspace", "rent_paid", "profit", "tvl"],
     
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 10,
 
-    "cross_check_type": null
+    "cross_check_type": null,
+
+    "circulating_supply_token_address": "0x471ece3750da237f93b8e339c536989b8978a438",
+    "circulating_supply_token_deployment_date": "2020-05-22",
+    "circulating_supply_token_deployment_origin_key": "celo"
 }
