@@ -46,7 +46,7 @@
     "metadata_launch_date": "2021-11-29",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "ZK Rollup",
-    "metadata_purpose": "General Purpose (Cairo VM)",
+    "metadata_purpose": "Universal (Cairo VM)",
     "metadata_stack": {
         "label": "Custom",
         "url": null

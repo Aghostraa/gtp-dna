@@ -42,7 +42,7 @@
     "metadata_launch_date": "LAUNCH_DATE", // YYYY-MM-DD - when mainnet publicly launched (i.e. check L2Beat)
     "metadata_da_layer": "DA_LAYER", // Celestia, Ethereum (blobs)  - can also be found on L2Beat
     "metadata_technology": "TECHNOLOGY", // L2Beat category (Optimism, Validium, Optimistic Rollup, ZK Rollup)
-    "metadata_purpose": "PURPOSE", // General Purpose (EVM), NFTs (EVM), etc.
+    "metadata_purpose": "PURPOSE", // Universal (EVM), NFTs (EVM), etc.
     "metadata_stack": {
         "label": "OP Stack",
         "url": "https://docs.optimism.io/stack/getting-started"

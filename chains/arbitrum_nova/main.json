@@ -40,7 +40,7 @@
     "metadata_launch_date": "2022-08-09",
     "metadata_da_layer": "External (DAC)",
     "metadata_technology": "Optimium",
-    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
         "label": "Arbitrum Nitro",
         "url": "https://arbitrum.io/orbit"

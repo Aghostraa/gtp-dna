@@ -46,7 +46,7 @@
     "metadata_launch_date": "2021-08-31",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",
-    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
         "label": "Arbitrum Nitro",
         "url": "https://arbitrum.io/orbit"

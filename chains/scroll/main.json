@@ -42,7 +42,7 @@
     "metadata_launch_date": "2023-10-17",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "ZK Rollup",
-    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
         "label": "Custom",
         "url": null

@@ -50,7 +50,7 @@
     "metadata_launch_date": "2015-07-30",
     "metadata_da_layer": null,
     "metadata_technology": "Mainnet",
-    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
         "label": "Custom",
         "url": null

@@ -40,7 +40,7 @@
     "metadata_launch_date": "2024-02-03",
     "metadata_da_layer": "Custom DA",
     "metadata_technology": "Optimium",
-    "metadata_purpose": "General Purpose (EVM), AIVM",
+    "metadata_purpose": "Universal (EVM), AIVM",
     "metadata_stack": {
         "label": "OP Stack",
         "url": "https://docs.optimism.io/stack/getting-started"

@@ -47,7 +47,7 @@
     "metadata_launch_date": "2024-01-31",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",
-    "metadata_purpose": "General Purpose (EVM)",
+    "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
         "label": "OP Stack, Superchain",
         "url": "https://docs.optimism.io/stack/getting-started"
