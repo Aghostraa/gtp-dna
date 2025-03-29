@@ -920,18 +920,10 @@ sophon:
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
       comment: "commitBatchesSharedBridge (first used 2025-03-27)"
-
-
-
-
     - from_address: ""
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
       comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used )"
-    - from_address: ""
-      to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
-      method: null
-      comment: "commitBatchesSharedBridge (first used )"
 
 abstract:
   name: "Abstract"
