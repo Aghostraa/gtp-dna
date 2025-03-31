@@ -29,4 +29,4 @@ jobs:
         
     - name: Validate Economics Mapping
       run: |
-        python .github/scripts/validate_dune.py
+        python .github/scripts/validate_economics_mapping.py
