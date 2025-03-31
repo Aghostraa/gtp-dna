@@ -1,0 +1,32 @@
+name: Validate Economics Mapping
+
+on:
+  pull_request:
+    paths:
+      - "economics_da/economics_mapping.yml"
+  push:
+    branches:
+      - "**"
+    paths:
+      - "economics_da/economics_mapping.yml"
+
+jobs:
+  validate-mapping:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install Dependencies
+      run: |
+        pip install pyyaml pandas
+        
+    - name: Validate Economics Mapping
+      run: |
+        python .github/scripts/validate_dune.py
