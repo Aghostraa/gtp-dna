@@ -920,10 +920,6 @@ sophon:
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
       comment: "commitBatchesSharedBridge (first used 2025-03-27)"
-    - from_address: ""
-      to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
-      method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used )"
 
 abstract:
   name: "Abstract"
@@ -1222,7 +1218,7 @@ kinto:
   l1:
     - from_address: "0x64Cf65036a76E3827e448cadbc53D31EefDCE04a"
       to_address: "0x5073dA9cA4810f3E0aA01c20c7d9d02C3f522e11"
-      method: ""
+      method: null
       comment: "validator functions: stakeOnNewNode & confirmNextNode (first used 2023-12-15)"
     - from_address: "0xe27f3f6db6824def1738b2aace2672ac59046a39"
       to_address: "0xf4ef823d57819ac7202a081a5b49376bd28e7b3a"
