@@ -1489,6 +1489,11 @@ forma:
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAKKnitomrCy/HoY="
 
+form:
+  name: "Form"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMod4SpR3bjJQT0="
+
 gold:
   name: "Gold"
   celestia:
@@ -1503,6 +1508,16 @@ hypr:
   name: "Hypr"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABqVjuNvNnoE="
+
+foundation_network:
+  name: "Foundation Network"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAN/xAxpagCrjLVQ="
+
+rari_chain:
+  name: "Rari Chain"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMod4SqHjry4i0U="
 
 karak:
   name: "Karak Network (K2)"
@@ -1543,6 +1558,11 @@ turbo:
   name: "Turbo"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAg="
+
+towns_protocol:
+  name: "Towns Protocol"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMod4Sor8Q7yCoU="
 
 zircuit:
   name: "Zircuit"
