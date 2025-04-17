@@ -1329,7 +1329,11 @@ swell:
     - from_address: "0xf854cd5B26bfd73d51236c0122798907Ed65B1f2"
       to_address: null
       method: null
-      comment: "Commit Blob (first used 2024-11-27)"
+      comment: "Commit Blob (first used 2024-11-27, last used 2025-04-05)"
+    - from_address: "0xeb18EA5dEDeE42e7af378991DFEb719D21c17b4C"
+      to_address: null
+      method: null
+      comment: "Commit Blob (first used 2025-04-05)"
 
 ink:
   name: "Ink"
