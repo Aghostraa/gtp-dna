@@ -412,20 +412,32 @@ hashkey:
     - from_address: "0x9391791f7cb74f8bfda65edc0749efd964311b55"
       to_address: "0x0004cb44C80b6Fbf8ceb1d80AF688C9f7C0b2aB5"
       method: null
-      comment: "commit blob (first used 2024-12-16)"
+      comment: "commit blob (first used 2024-12-16, last used 2025-04-10)"
+    - from_address: "0xf09ebb62b5ba0cf402b77aBA61691cBCf005206f"
+      to_address: "0x0004cb44C80b6Fbf8ceb1d80AF688C9f7C0b2aB5"
+      method: null
+      comment: "commit blob (first used 2025-04-10)"
     - from_address: "0xAdC9eAdA4070f9f363F41c21fA1C2d84FF2E0803"
       to_address: null
       method: "0x2810e1d6"
-      comment: "resolve, by central resolver (first used 2024-12-20)"
+      comment: "resolve, by central resolver (first used 2024-12-20, last used 2025-04-10)"
     - from_address: "0xAdC9eAdA4070f9f363F41c21fA1C2d84FF2E0803"
       to_address: null
       method: "0x03c2924d"
-      comment: "resolveClaim, by central resolver (first used 2024-12-20)"
-    - from_address: "0xAdC9eAdA4070f9f363F41c21fA1C2d84FF2E0803"
+      comment: "resolveClaim, by central resolver (first used 2024-12-20, last used 2025-04-10)"
+    - from_address: "0xdDdE0735c8Fa90e9942F92F4BBca7a0417dC9Cd0"
+      to_address: null
+      method: "0x2810e1d6"
+      comment: "resolve, by central resolver (first used 2025-04-11)"
+    - from_address: "0xdDdE0735c8Fa90e9942F92F4BBca7a0417dC9Cd0"
+      to_address: null
+      method: "0x03c2924d"
+      comment: "resolveClaim, by central resolver (first used 2025-04-11)"
+    - from_address: "0xdDdE0735c8Fa90e9942F92F4BBca7a0417dC9Cd0"
       to_address: null
       method: "0x60e27464"
       comment: "claimCredit, by central resolver (not yet used)"
-    - from_address: "0xAdC9eAdA4070f9f363F41c21fA1C2d84FF2E0803"
+    - from_address: "0xdDdE0735c8Fa90e9942F92F4BBca7a0417dC9Cd0"
       to_address: null
       method: "0x472777c6"
       comment: "attack, by central resolver (not yet used)"
@@ -433,7 +445,11 @@ hashkey:
     - from_address: "0x9391791f7cb74f8bfda65edc0749efd964311b55"
       to_address: null
       method: null
-      comment: "blob producer (first used 2024-12-16)"
+      comment: "blob producer (first used 2024-12-16, last used 2025-04-10)"
+    - from_address: "0xf09ebb62b5ba0cf402b77aBA61691cBCf005206f"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2025-04-10)"
 
 zora:
   name: "Zora"
@@ -1304,7 +1320,11 @@ swell:
     - from_address: "0xf854cd5B26bfd73d51236c0122798907Ed65B1f2"
       to_address: "0x005dE5857e38dFD703a1725c0900E9C6f24cbdE0"
       method: null
-      comment: "Commit Blob (first used 2024-11-27)"
+      comment: "Commit Blob (first used 2024-11-27, last used 2025-04-05)"
+    - from_address: "0xeb18EA5dEDeE42e7af378991DFEb719D21c17b4C"
+      to_address: "0x005dE5857e38dFD703a1725c0900E9C6f24cbdE0"
+      method: null
+      comment: "Commit Blob (first used 2025-04-05)"
     - from_address: "0xfE5dD32c3799249dC6A5D637CCB2f28e0ec227e3"
       to_address: null
       method: "0x82ecf2f6"
@@ -1329,7 +1349,11 @@ swell:
     - from_address: "0xf854cd5B26bfd73d51236c0122798907Ed65B1f2"
       to_address: null
       method: null
-      comment: "Commit Blob (first used 2024-11-27)"
+      comment: "Commit Blob (first used 2024-11-27, last used 2025-04-05)"
+    - from_address: "0xeb18EA5dEDeE42e7af378991DFEb719D21c17b4C"
+      to_address: null
+      method: null
+      comment: "Commit Blob (first used 2025-04-05)"
 
 ink:
   name: "Ink"
