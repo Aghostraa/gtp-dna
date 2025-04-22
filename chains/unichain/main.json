@@ -12,7 +12,7 @@
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
-    "runs_aggregate_apps": false,
+    "runs_aggregate_apps": true,
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
@@ -35,7 +35,7 @@
     },
     "chain_type": "L2",
 
-    "metadata_description": "This is a Layer 2",
+    "metadata_description": "A Layer 2 sepcifically designed to be the home for DeFi and the home for multichain liquidity.",
     "metadata_symbol": "UNI",
     "metadata_launch_date": "2025-02-12",
     "metadata_da_layer": "Ethereum (blobs)",
@@ -54,7 +54,7 @@
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_in_api_apps": false,
+    "api_in_api_apps": true,
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": [],
     
