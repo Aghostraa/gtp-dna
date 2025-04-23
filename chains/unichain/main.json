@@ -51,7 +51,7 @@
     "socials_twitter ": "https://x.com/unichain",
 
     "api_in_api_main": true,
-    "api_in_api_fees": false,
+    "api_in_api_fees": true,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_in_api_apps": false,
