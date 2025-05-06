@@ -60,7 +60,7 @@
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,
 
-    "cross_check_type": null,
+    "cross_check_type": "l2beat",
 
     "circulating_supply_token_address": "0x471ece3750da237f93b8e339c536989b8978a438",
     "circulating_supply_token_deployment_date": "2020-05-22",
