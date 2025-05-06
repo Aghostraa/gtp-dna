@@ -98,7 +98,7 @@ def save_token_abi_and_creation_date(contract_address, api_key, provider_url):
 
 if __name__ == "__main__":
     # Specify the contract address to inspect
-    contract_address = "0x0a6e7ba5042b38349e437ec6db6214aec7b35676"
+    contract_address = "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f"
 
     try:
         save_token_abi_and_creation_date(contract_address, etherscan_api_key, infura_provider_url)
