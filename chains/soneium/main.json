@@ -56,7 +56,7 @@
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": ["blockspace", "fdv", "market_cap"],
     
-    "backfiller_backfiller_on": false,
+    "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,
 
     "cross_check_type": "l2beat",
