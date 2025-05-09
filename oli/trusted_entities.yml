@@ -26,3 +26,21 @@ trusted_entities:
     tags:
       - tag_id: "*"
         score: 50
+
+  - attester: "0x3E22084dFAaca6D5E4d1FB235A675fEa6f5EB6Ee"
+    description: "ETH Wave"
+    tags:
+      - tag_id: "*"
+        score: 50
+
+  - attester: "0xE7d1405C20A23a8e8f9F1BD572d1320c479233EE"
+    description: "0xKofi"
+    tags:
+      - tag_id: "is_paymaster"
+        score: 70
+      - tag_id: "paymaster_category"
+        score: 70
+      - tag_id: "is_bundler"
+        score: 70
+      - tag_id: "*"
+        score: 40
