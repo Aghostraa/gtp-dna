@@ -1,4 +1,4 @@
-# GTP-DNA: growthepie DNA
+# growthepie DNA
 
 This repository contains the core data definitions and mapping files that power [growthepie.xyz](https://www.growthepie.xyz) - an open-source Ethereum analytics platform.
 
