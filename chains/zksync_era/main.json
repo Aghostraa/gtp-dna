@@ -67,7 +67,6 @@
     "cross_check_type": "l2beat",
 
     "circulating_supply_token_address": "0x01a6715d3560241E09E865a46122bf347A576c09",
-    "circulating_supply_token_abi": null,
     "circulating_supply_token_deployment_date": "2024-06-16",
     "circulating_supply_token_deployment_origin_key": "zksync_era",
     "circulating_supply_token_circulating_supply_function": null

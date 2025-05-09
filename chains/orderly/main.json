@@ -72,7 +72,6 @@
     "cross_check_type": "l2beat",
     
     "circulating_supply_token_address": null,
-    "circulating_supply_token_abi": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
     "circulating_supply_token_circulating_supply_function": null

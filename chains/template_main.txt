@@ -66,7 +66,6 @@
 
     "cross_check_type": "l2beat", // Explorer that is used to cross-check raw tx, usually l2beat
 
-    // token_abi.json needed if circulating_supply_token_address is not null
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
