@@ -2,8 +2,8 @@
     "origin_key": "lisk",
     "caip2": "eip155:1135",
     "evm_chain_id": 1135,
-    "name": "lisk",
-    "name_short": "lisk",
+    "name": "Lisk",
+    "name_short": "Lisk",
 
     "aliases_l2beat": "lisk",
     "aliases_l2beat_slug": "lisk",
