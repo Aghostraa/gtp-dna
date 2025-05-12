@@ -1083,70 +1083,50 @@ taiko:
   name: "Taiko"
   l1:
     - from_address: null
-      to_address: "0x06a9Ab27c7e2255df1815E6CC0168d7755Feb19a"
+      to_address: null
       method: "0xef16e845"
-      comment: "proposeBlock (first used 2024-05-25, last used 2024-11-07)"
+      comment: "proposeBlock (first used 2024-05-25, last used 2024-11-26)"
     - from_address: null
-      to_address: "0x68d30f47F19c07bCCEf4Ac7FAE2Dc12FCa3e0dC9"
-      method: "0xef16e845"
-      comment: "proposeBlock (first used 2024-06-08, last used 2024-11-07)"
-    - from_address: null
-      to_address: "0x06a9Ab27c7e2255df1815E6CC0168d7755Feb19a"
+      to_address: null
       method: "0x648885fb"
-      comment: "proposeBlock v2 (first used 2024-11-07, deprecated)"
+      comment: "proposeBlockV2 (first used 2024-11-07)"
     - from_address: null
-      to_address: "0x06a9Ab27c7e2255df1815E6CC0168d7755Feb19a"
+      to_address: null
       method: "0x0c8f4a10"
-      comment: "proposeBlock v2 (first used 2024-11-07)"
+      comment: "proposeBlocksV2 (first used 2024-11-07)"
     - from_address: null
-      to_address: "0x68d30f47F19c07bCCEf4Ac7FAE2Dc12FCa3e0dC9"
-      method: "0x648885fb"
-      comment: "proposeBlock v2 (first used 2024-11-07, deprecated)"
+      to_address: null
+      method: "0x8778209d"
+      comment: "verifyBlocks (first used 2024-07-27, last used 2024-09-08)"
     - from_address: null
-      to_address: "0x68d30f47F19c07bCCEf4Ac7FAE2Dc12FCa3e0dC9"
-      method: "0x0c8f4a10"
-      comment: "proposeBlock v2 (first used 2024-11-07, deprecated)"
-    - from_address: null
-      to_address: "0x68d30f47F19c07bCCEf4Ac7FAE2Dc12FCa3e0dC9"
+      to_address: null
       method: "0x10d008bd"
-      comment: "proveBlock by Prover by taiko (first used 2024-05-25)"
+      comment: "proveBlock (first used 2024-05-25)"
     - from_address: null
-      to_address: "0xa01d464ca3982DAa97B19fa7F8a232eB11A9DDb3"
-      method: "0x10d008bd"
-      comment: "proveBlock by Contester by taiko (first used 2024-06-07, address deprecated)"
+      to_address: null
+      method: "0x440b6e18"
+      comment: "proveBlocks (first used 2024-11-07)"
     - from_address: null
-      to_address: "0x06a9Ab27c7e2255df1815E6CC0168d7755Feb19a"
-      method: "0x10d008bd"
-      comment: "proveBlock by 3rd parties (first used 2024-06-08)"
+      to_address: null
+      method: "0x4dcb05f9"
+      comment: "depositBond (first used 2024-09-10)"
     - from_address: null
-      to_address: "0x06a9Ab27c7e2255df1815E6CC0168d7755Feb19a"
+      to_address: null
       method: "0xc3daab96"
-      comment: "withdrawBond by 3rd parties (first used 2024-07-14)"
-    - from_address: null
-      to_address: "0x68d30f47F19c07bCCEf4Ac7FAE2Dc12FCa3e0dC9"
-      method: "0x440b6e18"
-      comment: "proveBlock v2 by Prover by taiko (first used 2024-11-07)"
-    - from_address: null
-      to_address: "0xa01d464ca3982DAa97B19fa7F8a232eB11A9DDb3"
-      method: "0x440b6e18"
-      comment: "proveBlock v2 by Contester by taiko (first used 2024-11-07, address deprecated)"
-    - from_address: null
-      to_address: "0x06a9Ab27c7e2255df1815E6CC0168d7755Feb19a"
-      method: "0x440b6e18"
-      comment: "proveBlock v2 by 3rd parties (first used 2024-11-07)"
+      comment: "withdrawBond (first used 2024-07-14)"
   beacon:
     - from_address: null
       to_address: null
       method: "0xef16e845"
-      comment: "all blob producer including self deployed contracts (first used 2024-05-25, deprecated)"
+      comment: "proposeBlock"
     - from_address: null
       to_address: null
       method: "0x648885fb"
-      comment: "all blob producer including self deployed contracts v2 (first used 2024-11-07, deprecated)"
+      comment: "proposeBlockV2"
     - from_address: null
       to_address: null
       method: "0x0c8f4a10"
-      comment: "all blob producer including self deployed contracts v2 (first used 2024-11-07)"
+      comment: "proposeBlocksV2"
 
 rhino:
   name: "rhinofi"
