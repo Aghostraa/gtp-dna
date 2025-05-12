@@ -1101,7 +1101,7 @@ taiko:
     - from_address: null
       to_address: null
       method: "0x10d008bd"
-      comment: "proveBlock (first used 2024-05-25, last used )"
+      comment: "proveBlock (first used 2024-05-25)"
     - from_address: null
       to_address: null
       method: "0x440b6e18"
