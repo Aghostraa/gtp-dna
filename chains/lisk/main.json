@@ -35,7 +35,7 @@
     },
     "chain_type": "L2",
 
-    "metadata_description": "Lisk is developed by the non‑profit Onchain Foundation. It runs on the OP Stack as an EVM‑equivalent Layer 2 secured by Ethereum, offering low‑cost, scalable transactions for Web3 builders.",
+    "metadata_description": "Lisk is developed by the Onchain Foundation. It runs on the OP Stack as an EVM‑equivalent Layer 2, offering low‑cost, scalable transactions for Web3 builders.",
     "metadata_symbol": "LSK",
     "metadata_launch_date": "2024-11-12",
     "metadata_da_layer": "EthereumBlobs",
