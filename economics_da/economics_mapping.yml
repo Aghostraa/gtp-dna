@@ -570,9 +570,9 @@ metis:
       to_address: "0xf209815e595cdf3ed0aaf9665b1772e608ab9380"
       method: "0xd710083f"
       comment: "appendStateBatchByChainId (first used 2021-11-18, last used 2024-03-15)"
-    - from_address: null
+    - from_address: "0xf3CEB4C2ef996CdBc95C4E18c6D0CA988CC09040"
       to_address: "0xA2FaAAC9120c1Ff75814F0c6DdB119496a12eEA6"
-      method: "0xd710083f"
+      method: null
       comment: "appendStateBatchByChainId (first used 2024-03-21)"
 
 redstone:
