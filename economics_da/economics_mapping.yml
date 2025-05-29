@@ -943,7 +943,11 @@ zksync_era:
     - from_address: "0x0d3250c3d5facb74ac15834096397a3ef790ec99"
       to_address: null
       method: null
-      comment: "blob producer"
+      comment: "blob producer (first used 2024-06-06, last used 2025-05-12)"
+    - from_address: "0xE1D8d4C8656949764c2c9Fa9faB2C15d3F42e6C2"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2025-05-12)"
 
 sophon:
   name: "Sophon"
