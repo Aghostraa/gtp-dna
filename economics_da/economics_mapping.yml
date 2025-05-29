@@ -1630,22 +1630,22 @@ zircuit:
       method: null
       comment: "blob producer (first used 2024-07-02)"
 
-  soon:
-    name: "SOON"
-    eigenda:
-      - namespace: "SOON"
+soon:
+  name: "SOON"
+  eigenda:
+    - namespace: "SOON"
 
-  layer_n:
-    name: "Layer N"
-    eigenda:
-      - namespace: "Layer N"
+layer_n:
+  name: "Layer N"
+  eigenda:
+    - namespace: "Layer N"
 
-  altlayer:
-    name: "AltLayer"
-    eigenda:
-      - namespace: "AltLayer"
+altlayer:
+  name: "AltLayer"
+  eigenda:
+    - namespace: "AltLayer"
 
-  cyber:
-    name: "Cyber"
-    eigenda:
-      - namespace: "AltLayer Cyber"
+cyber:
+  name: "Cyber"
+  eigenda:
+    - namespace: "AltLayer Cyber"
