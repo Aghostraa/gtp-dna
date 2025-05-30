@@ -264,7 +264,7 @@ celo:
       method: "0x82ecf2f6"
       comment: "create (first used 2025-03-26)"
   eigenda:
-    - namespace: "Celo Mainnet"
+    - account_name: "Celo Mainnet"
 
 blast:
   name: "Blast"
@@ -779,8 +779,7 @@ mantle:
       method: null
       comment: "commit blob (used for one day 2025-03-19)"
   eigenda:
-    - namespace: "Mantle"
-    - namespace: "Mantle Production"
+    - account_name: "Mantle Production"
 
 
 polygon_zkevm:
@@ -1633,19 +1632,19 @@ zircuit:
 soon:
   name: "SOON"
   eigenda:
-    - namespace: "SOON"
+    - account_name: "SOON"
 
 layer_n:
   name: "Layer N"
   eigenda:
-    - namespace: "Layer N"
+    - account_name: "Layer N"
 
 altlayer:
   name: "AltLayer"
   eigenda:
-    - namespace: "AltLayer"
+    - account_name: "AltLayer"
 
 cyber:
   name: "Cyber"
   eigenda:
-    - namespace: "AltLayer Cyber"
+    - account_name: "AltLayer Cyber"
