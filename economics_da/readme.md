@@ -22,7 +22,8 @@ Each L2 network has its own section, which is further divided by the underlying 
 
 - **Ethereum L1 Execution Layer (`l1`):** Used for execution and settlement of transactions. This should include all fees paid in the L1 fee market. 
 - **Ethereum Beacon Chain Layer (`beacon`):** Used by L2s to post blobs. This should include all fees paid in the beacon chain fee market.
-- **Celestia (`celestia`):** Most common altDA also used to post blobs. This should include all fees paid to Celestia.
+- **Celestia (`celestia`):** AltDA also used to post blobs. This should include all fees paid to Celestia.
+- **EigenDA (`eigenda`):** AltDA by EigenLayer, also used to post blobs. This should include all fees paid to EigenDA.
 
 ### Key Concepts Behind the Mapping
 
@@ -41,6 +42,10 @@ For **Ethereum L1 Execution Layer (`L1`)** and **Ethereum Beacon Chain Layer (`b
 For **Celestia (`celestia`)** the following filter must be set:
 
 - **Namespace:** Namespace of the blobs (in base64 format e.g. "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVjbGlwc2U=").
+
+For **EigenDA (`eigenda`)** the following filter must be set:
+
+- **account_name:** Account name of the blob space (in string format e.g. "Mantle Production").
 
 *more fee markets (altDAs) to be listed soon*
 

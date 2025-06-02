@@ -25,7 +25,8 @@ try:
                         f.get('from_address'),
                         f.get('to_address'),
                         f.get('method'),
-                        f.get('namespace') if settlement_layer == 'celestia' else None
+                        f.get('namespace') if settlement_layer == 'celestia' else None,
+                        f.get('account_name') if settlement_layer == 'eigenda' else None
                     ]
                     table.append(row)
 except Exception as e:
