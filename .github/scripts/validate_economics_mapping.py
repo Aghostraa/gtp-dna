@@ -89,7 +89,7 @@ if missing_required.any():
     sys.exit(1)
 
 # make sure each row has at least one of these columns filled
-required_columns = ['from_address', 'to_address', 'method', 'namespace']
+required_columns = ['from_address', 'to_address', 'method', 'namespace', 'account_name']
 missing_required = df[required_columns].isnull().all(axis=1)
 if missing_required.any():
     print("❌ ERROR: Missing required columns in the DataFrame")
