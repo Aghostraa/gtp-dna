@@ -51,7 +51,7 @@ if not duplicates.empty:
     sys.exit(1)
 
 # check for unsoported settlement layers
-allowed_settlement_layers = ['beacon', 'l1', 'celestia']
+allowed_settlement_layers = ['beacon', 'l1', 'celestia', 'eigenda']
 unsupported_settlement_layers = df[~df['settlement_layer'].isin(allowed_settlement_layers)]
 if not unsupported_settlement_layers.empty:
     print("❌ ERROR: Unsupported settlement layers found in economics_mapping.yml")
