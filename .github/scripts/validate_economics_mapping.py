@@ -35,14 +35,14 @@ except Exception as e:
 
 # Create DataFrame
 try:
-    df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
+    df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace', 'account_name'])
 except Exception as e:
     print("❌ ERROR: Failed to create DataFrame from extracted data")
     print(f"Error details: {e}")
     sys.exit(1)
 
 # check for duplicate rows
-duplicate_columns = ['l2', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace']
+duplicate_columns = ['l2', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace', 'account_name']
 duplicates = df[df.duplicated(subset=duplicate_columns, keep=False)]
 if not duplicates.empty:
     print("❌ ERROR: Duplicates found in economics_mapping.yml")
@@ -79,7 +79,7 @@ if not invalid_addresses.all().all():
     sys.exit(1)
 
 # Ensure all required columns are None and not empty strings e.g. ""
-required_columns = ['from_address', 'to_address', 'method', 'namespace']
+required_columns = ['from_address', 'to_address', 'method', 'namespace', 'account_name']
 missing_required = (df[required_columns] == "").any(axis=1)
 if missing_required.any():
     print(f"❌ ERROR: No empty strings (e.g. \"\" or \'\') allowed in {required_columns} columns!")
