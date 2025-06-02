@@ -1688,3 +1688,13 @@ polymer:
   name: "Polymer"
   eigenda:
     - customer_id: "0xf33f8cfea5857ebf248520cf6bc33640680ff83b"
+
+megaeth_testnet:
+  name: "MegaETH Testnet"
+  eigenda:
+    - customer_id: "0xcd1161b78f01da838ce0d42ec750891ec8708f1d"
+
+mantle_testnet:
+  name: "Mantle Testnet"
+  eigenda:
+    - customer_id: "0xc16267ecb2297f8a98fce214686e80697da91198"
