@@ -264,7 +264,7 @@ celo:
       method: "0x82ecf2f6"
       comment: "create (first used 2025-03-26)"
   eigenda:
-    - customer_id: "0xecf08b0a4f196e06e9aece95d5dd724bc121f09c"
+    - namespace: "0xecf08b0a4f196e06e9aece95d5dd724bc121f09c"
 
 blast:
   name: "Blast"
@@ -783,7 +783,7 @@ mantle:
       method: null
       comment: "commit blob (used for one day 2025-03-19)"
   eigenda:
-    - customer_id: "0x24f0a3716805e8973bf48eb908d6d4a2f34af785"
+    - namespace: "0x24f0a3716805e8973bf48eb908d6d4a2f34af785"
 
 
 polygon_zkevm:
@@ -1672,29 +1672,29 @@ zircuit:
 soon:
   name: "SOON"
   eigenda:
-    - customer_id: "0x52ebeea8a7dcaaa17ee398b9f9b01dfa64db63ae"
+    - namespace: "0x52ebeea8a7dcaaa17ee398b9f9b01dfa64db63ae"
 
 layer_n:
   name: "Layer N"
   eigenda:
-    - customer_id: "0xd697219f32129f4544a554be015386fac9445507"
+    - namespace: "0xd697219f32129f4544a554be015386fac9445507"
 
 cyber:
   name: "Cyber"
   eigenda:
-    - customer_id: "35.167.254.127"
+    - namespace: "35.167.254.127"
 
 polymer:
   name: "Polymer"
   eigenda:
-    - customer_id: "0xf33f8cfea5857ebf248520cf6bc33640680ff83b"
+    - namespace: "0xf33f8cfea5857ebf248520cf6bc33640680ff83b"
 
 megaeth_testnet:
   name: "MegaETH Testnet"
   eigenda:
-    - customer_id: "0xcd1161b78f01da838ce0d42ec750891ec8708f1d"
+    - namespace: "0xcd1161b78f01da838ce0d42ec750891ec8708f1d"
 
 mantle_testnet:
   name: "Mantle Testnet"
   eigenda:
-    - customer_id: "0xc16267ecb2297f8a98fce214686e80697da91198"
+    - namespace: "0xc16267ecb2297f8a98fce214686e80697da91198"
