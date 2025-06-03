@@ -45,7 +45,7 @@ For **Celestia (`celestia`)** the following filter must be set:
 
 For **EigenDA (`eigenda`)** the following filter must be set:
 
-- **customer_id:** Account name of the blob space (in string format e.g. "0x24f0a3716805e8973bf48eb908d6d4a2f34af785").
+- **namespace:** Namespace of the blob space (in string format e.g. "0x24f0a3716805e8973bf48eb908d6d4a2f34af785" or "35.167.254.127").
 
 *more fee markets (altDAs) to be listed soon*
 

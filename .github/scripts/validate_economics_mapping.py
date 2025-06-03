@@ -25,8 +25,7 @@ try:
                         f.get('from_address'),
                         f.get('to_address'),
                         f.get('method'),
-                        f.get('namespace') if settlement_layer == 'celestia' else None,
-                        f.get('customer_id') if settlement_layer == 'eigenda' else None
+                        f.get('namespace') if settlement_layer in ['celestia', 'eigenda'] else None
                     ]
                     table.append(row)
 except Exception as e:
@@ -36,14 +35,14 @@ except Exception as e:
 
 # Create DataFrame
 try:
-    df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace', 'customer_id'])
+    df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
 except Exception as e:
     print("❌ ERROR: Failed to create DataFrame from extracted data")
     print(f"Error details: {e}")
     sys.exit(1)
 
 # check for duplicate rows
-duplicate_columns = ['l2', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace', 'customer_id']
+duplicate_columns = ['l2', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace']
 duplicates = df[df.duplicated(subset=duplicate_columns, keep=False)]
 if not duplicates.empty:
     print("❌ ERROR: Duplicates found in economics_mapping.yml")
@@ -80,7 +79,7 @@ if not invalid_addresses.all().all():
     sys.exit(1)
 
 # Ensure all required columns are None and not empty strings e.g. ""
-required_columns = ['from_address', 'to_address', 'method', 'namespace', 'customer_id']
+required_columns = ['from_address', 'to_address', 'method', 'namespace']
 missing_required = (df[required_columns] == "").any(axis=1)
 if missing_required.any():
     print(f"❌ ERROR: No empty strings (e.g. \"\" or \'\') allowed in {required_columns} columns!")
@@ -90,7 +89,7 @@ if missing_required.any():
     sys.exit(1)
 
 # make sure each row has at least one of these columns filled
-required_columns = ['from_address', 'to_address', 'method', 'namespace', 'customer_id']
+required_columns = ['from_address', 'to_address', 'method', 'namespace']
 missing_required = df[required_columns].isnull().all(axis=1)
 if missing_required.any():
     print("❌ ERROR: Missing required columns in the DataFrame")
