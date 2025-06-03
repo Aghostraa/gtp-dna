@@ -1,0 +1,32 @@
+{
+    "da_layer": "da_eigenda",
+    "name": "EigenDA",
+    "name_short": "EigenDA",
+    "block_explorers": {
+        "EigenDA Explorer": "https://blobs.eigenda.xyz/"
+    },
+
+    "colors": {
+        "light": [
+            "#C1C1C1",
+            "#C1C1C1"
+        ],
+        "dark": [
+            "#C1C1C1",
+            "#C1C1C1"
+        ],
+        "darkTextOnBackground": true
+    },
+
+    "socials_website": "https://www.eigenda.xyz/",
+    "socials_twitter ": "http://x.com/eigen_da",
+
+    "parameters": {
+        "block_time": "10s",
+        "blob_size": "16 MiB",
+        "bandwidth": "-",
+        "l2beat_risk": "https://l2beat.com/data-availability/projects/eigenda/no-bridge"
+    },
+
+    "incl_in_da_overview": true
+}

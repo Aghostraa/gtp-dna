@@ -18,8 +18,8 @@
         "darkTextOnBackground": true
     },
 
-    "socials_website": "https://x.com/celestia",
-    "socials_twitter ": "https://celestia.org/",
+    "socials_website": "https://celestia.org/",
+    "socials_twitter ": "https://x.com/celestia",
 
     "parameters": {
         "block_time": "6s",
