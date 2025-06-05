@@ -10,6 +10,7 @@
     "aliases_l2beat_slug": "L2BEAT_SLUG", // what is used in the URL
     "aliases_coingecko": "COINGECKO_API_ID", //found on coingecko token page
     "aliases_rhino": null,
+    "aliases_defillama": "DEFILLAMA_ID",
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true, // only disable if it's a non EVM chain
