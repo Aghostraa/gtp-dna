@@ -9,6 +9,7 @@
     "aliases_l2beat_slug": "unichain",
     "aliases_coingecko": "uniswap",
     "aliases_rhino": null,
+    "aliases_defillama": "unichain",
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

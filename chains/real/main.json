@@ -9,6 +9,7 @@
     "aliases_l2beat_slug": "real",
     "aliases_coingecko": "re-al",
     "aliases_rhino": null,
+    "aliases_defillama": "re.al",
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

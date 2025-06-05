@@ -38,6 +38,7 @@
     "aliases_l2beat_slug": "mantle",
     "aliases_coingecko": "mantle",
     "aliases_rhino": "MANTLE",
+    "aliases_defillama": "mantle",
 
     "metadata_description": "Mantle is an OVM based EVM-compatible rollup. Public launch was in July 2023.",
     "metadata_symbol": "MNT",

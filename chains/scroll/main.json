@@ -36,6 +36,7 @@
     "aliases_l2beat_slug": "scroll",
     "aliases_coingecko": "scroll",
     "aliases_rhino": "SCROLL",
+    "aliases_defillama": "scroll",
 
     "metadata_description": "Scroll is a general purpose zkEVM rollup. Public launch was in October 2023.",
     "metadata_symbol": null,

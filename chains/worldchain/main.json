@@ -38,6 +38,7 @@
     "aliases_l2beat_slug": "world",
     "aliases_coingecko": "worldcoin-wld",
     "aliases_rhino": null,
+    "aliases_defillama": "world-chain",
 
     "metadata_description": "World Chain is an OP Stack Rollup built to scale Proof of Personhood, aiming to offer priority blockspace for users with a World ID.",
     "metadata_symbol": "WLD",

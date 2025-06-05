@@ -9,6 +9,7 @@
     "aliases_l2beat_slug": "celo",
     "aliases_coingecko": "celo",
     "aliases_rhino": null,
+    "aliases_defillama": "celo",
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

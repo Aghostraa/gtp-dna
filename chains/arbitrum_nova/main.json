@@ -9,6 +9,7 @@
     "aliases_l2beat_slug": "nova",
     "aliases_coingecko": null,
     "aliases_rhino": null,
+    "aliases_defillama": "arbitrum-nova",
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

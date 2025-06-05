@@ -37,6 +37,7 @@
     "aliases_l2beat_slug": "taiko",
     "aliases_coingecko": "taiko",
     "aliases_rhino": "TAIKO",
+    "aliases_defillama": "taiko",
 
     "metadata_description": "Taiko Alethia is a based, general purpose type-1 zk-rollup built to scale Ethereum without compromising decentralization.",
     "metadata_symbol": "TAIKO",

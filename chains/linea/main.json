@@ -41,6 +41,7 @@
     "aliases_coingecko": null,
     "aliases_rhino": "LINEA",
     "aliases_blockscout_url": "https://api-explorer.linea.build/api/v2/",
+    "aliases_defillama": "linea",
 
     "metadata_description": "Linea is a developer-friendly ZK Rollup by ConsenSys, enhancing Ethereum by enabling a new wave of decentralized applications.",
     "metadata_symbol": null,

@@ -42,6 +42,7 @@
     "aliases_l2beat_slug": "mantapacific",
     "aliases_coingecko": "manta-network",
     "aliases_rhino": null,
+    "aliases_defillama": "manta",
 
     "metadata_description": "Manta Pacific is an Optimium empowering EVM-native zero-knowledge (ZK) applications and general dapps.",
     "metadata_symbol": "MANTA",

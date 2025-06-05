@@ -9,6 +9,7 @@
     "aliases_l2beat_slug": "swell",
     "aliases_coingecko": "swell-network", 
     "aliases_rhino": null,
+    "aliases_defillama": "swellchain",
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

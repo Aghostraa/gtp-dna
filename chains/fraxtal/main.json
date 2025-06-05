@@ -9,6 +9,7 @@
     "aliases_l2beat_slug": "fraxtal",
     "aliases_coingecko": "frax-share",
     "aliases_rhino": null,
+    "aliases_defillama": "fraxtal",
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

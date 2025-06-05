@@ -9,6 +9,7 @@
     "aliases_l2beat_slug": "lisk",
     "aliases_coingecko": "lisk",
     "aliases_rhino": null,
+    "aliases_defillama": "lisk",
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
