@@ -43,7 +43,7 @@
     "metadata_technology": "Optimistic Rollup",
     "metadata_purpose": "Universal (EVM), Restaking",
     "metadata_stack": {
-        "label": "OP Stack",
+        "label": "OP Stack, Superchain",
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "AltLayer",
