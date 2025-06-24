@@ -45,7 +45,7 @@
     "metadata_technology": "Optimistic Rollup",
     "metadata_purpose": "Universal (EVM), NFTs",
     "metadata_stack": {
-        "label": "Superchain",
+        "label": "OP Stack",
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Conduit",
