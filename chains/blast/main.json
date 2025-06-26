@@ -32,7 +32,8 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
-        "blockspace"
+        "blockspace",
+        "stables_mcap"
     ],
 
     "aliases_l2beat": "blast",
