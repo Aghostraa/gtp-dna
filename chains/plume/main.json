@@ -9,7 +9,7 @@
     "aliases_l2beat_slug": "plumenetwork",
     "aliases_coingecko": "plume",
     "aliases_rhino": null,
-    "aliases_defillama": "DEFILLAMA_ID",
+    "aliases_defillama": null,
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
