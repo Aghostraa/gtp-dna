@@ -49,9 +49,9 @@
     "metadata_raas": "Conduit",
 
     "socials_website": "https://plume.org/",
-    "socials_twitter ": "https://x.com/plumenetwork",
+    "socials_twitter ": "https://xde.com/plumenetwork",
 
-    "api_in_api_main": false,
+    "api_in_api_main": true,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
