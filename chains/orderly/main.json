@@ -39,7 +39,8 @@
         "stables_mcap",
         "blockspace",
         "fdv",
-        "market_cap"
+        "market_cap",
+        "app_revenue"
     ],
 
     "aliases_l2beat": "orderly",
