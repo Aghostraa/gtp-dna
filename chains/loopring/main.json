@@ -35,7 +35,8 @@
         "profit",
         "fees",
         "txcosts",
-        "throughput"
+        "throughput",
+        "app_revenue"
     ],
 
     "aliases_l2beat": "loopring",

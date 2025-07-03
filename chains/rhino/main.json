@@ -38,7 +38,8 @@
         "rent_paid",
         "throughput",
         "fdv", 
-        "market_cap"
+        "market_cap",
+        "app_revenue"
     ],
 
     "aliases_l2beat": null,

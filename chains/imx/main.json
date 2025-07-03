@@ -35,7 +35,8 @@
         "fees",
         "rent_paid",
         "profit",
-        "throughput"
+        "throughput",
+        "app_revenue"
     ],
 
     "aliases_l2beat": "immutablex",
