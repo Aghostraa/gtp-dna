@@ -4,6 +4,7 @@
     "evm_chain_id": 1868,
     "name": "Soneium",
     "name_short": "Soneium",
+    "company": "Sony",
 
     "aliases_l2beat": "soneium",
     "aliases_l2beat_slug": "soneium",

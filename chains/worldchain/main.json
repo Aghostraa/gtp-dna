@@ -4,6 +4,8 @@
     "evm_chain_id": 480,
     "name": "World Chain",
     "name_short": "World Chain",
+    "company": "World",
+
     "bucket": "Superchain",
     "block_explorers": {
         "Alchemy Explorer": "https://worldchain-mainnet.explorer.alchemy.com/",

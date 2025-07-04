@@ -5,6 +5,8 @@
     "evm_chain_id": 8453,
     "name": "Base",
     "name_short": "Base",
+    "company": "Coinbase",
+
     "bucket": "Superchain",
     "block_explorers": {
         "BaseScan": "https://basescan.org/",

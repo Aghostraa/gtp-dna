@@ -4,6 +4,7 @@
     "evm_chain_id": 57073,
     "name": "Ink",
     "name_short": "Ink",
+    "company": "Kraken",
 
     "aliases_l2beat": "ink",
     "aliases_l2beat_slug": "ink",

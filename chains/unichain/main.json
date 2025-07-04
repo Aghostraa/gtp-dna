@@ -4,6 +4,7 @@
     "evm_chain_id": 130,
     "name": "Unichain",
     "name_short": "Unichain",
+    "company": "Uniswap",
 
     "aliases_l2beat": "unichain",
     "aliases_l2beat_slug": "unichain",
