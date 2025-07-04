@@ -5,6 +5,8 @@
     "evm_chain_id": 59144.0,
     "name": "Linea",
     "name_short": "Linea",
+    "company": "ConsenSys",
+
     "bucket": "Others",
     "block_explorers": {
         "LineaScan": "https://lineascan.build/",
