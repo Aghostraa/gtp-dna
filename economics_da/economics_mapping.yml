@@ -1272,16 +1272,44 @@ bobanetwork:
     - from_address: "0xbfBAB4363034A930687B9320599a69DfBf1D21d0"
       to_address: "0xbB7aD3f9CCbC94085b7F7B1D5258e59F5F068741"
       method: "0x9aaab648"
-      comment: "proposeL2Output (first used 2024-04-16), history before not implemented!"
+      comment: "proposeL2Output (first used 2024-04-16, last used 2025-06-25), history before not implemented!"
     - from_address: "0xe1b64045351b0b6e9821f19b39f81bc4711d2230"
       to_address: "0xfff0000000000000000000000000000000000288"
       method: null
-      comment: "commit blob (firsts used 2024-04-16)"
+      comment: "commit blob (firsts used 2024-04-16, last used 2025-06-25)"
+    - from_address: "0xA4eD58737Fc5C4861C33410c29ECb1E2AF29d960"
+      to_address: "0xfFF0000000000000000000000000000000000288"
+      method: null
+      comment: "commit blob (firsts used 2025-06-25)"
+    - from_address: "0xf115011037999B39F0f89A40722AC8887a5f0515"
+      to_address: null
+      method: "0x82ecf2f6"
+      comment: "create, only whitelisted entitiy so far (first used 2025-06-25)"
+    - from_address: "0x67b2426fB1ba42c6168e53E1e40E116A4E963d60"
+      to_address: null
+      method: "0x2810e1d6"
+      comment: "resolve, by central resolver (first used 2025-06-29)"
+    - from_address: "0x67b2426fB1ba42c6168e53E1e40E116A4E963d60"
+      to_address: null
+      method: "0x03c2924d"
+      comment: "resolveClaim, by central resolver (first used 2025-06-29)"
+    - from_address: "0x67b2426fB1ba42c6168e53E1e40E116A4E963d60"
+      to_address: null
+      method: "0x60e27464"
+      comment: "claimCredit, by central resolver (not yet used)"
+    - from_address: "0x67b2426fB1ba42c6168e53E1e40E116A4E963d60"
+      to_address: null
+      method: "0x472777c6"
+      comment: "attack, by central resolver (not yet used)"
   beacon:
     - from_address: "0xe1b64045351b0b6e9821f19b39f81bc4711d2230"
       to_address: null
       method: null
-      comment: "blob producer (first used 2024-04-16)"
+      comment: "blob producer (first used 2024-04-16, last used 2025-06-25)"
+    - from_address: "0xA4eD58737Fc5C4861C33410c29ECb1E2AF29d960"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2025-06-25)"
 
 lumio:
   name: "Lumio"
