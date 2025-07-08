@@ -1378,12 +1378,12 @@ fuel:
     - from_address: "0xEA0337EFC12e98AB118948dA570C07691E8E4b37"
       to_address: "0xEA0337EFC12e98AB118948dA570C07691E8E4b37"
       method: null
-      comment: "0x (first used 2024-08-30)"
+      comment: "0x (first used 2024-08-30, last used 2025-07-03)"
   beacon:
     - from_address: null
       to_address: "0xEA0337EFC12e98AB118948dA570C07691E8E4b37"
       method: null
-      comment: "0x (first used 2024-08-30)"
+      comment: "0x (first used 2024-08-30, last used 2025-07-03)"
 
 bob:
   name: "Build on Bitcoin"
