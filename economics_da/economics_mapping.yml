@@ -1340,16 +1340,16 @@ kroma:
     - from_address: null
       to_address: "0x180c77aE51a9c505a43A2C7D81f8CE70cacb93A6"
       method: "0x5a045f78"
-      comment: "submitL2Output (first used 2023-09-05)"
+      comment: "submitL2Output (first used 2023-09-05, chain shut down as of 2025-06-30)"
     - from_address: "0x41b8cD6791De4D8f9E0eaF7861aC506822AdcE12"
       to_address: "0xfF00000000000000000000000000000000000255"
       method: null
-      comment: "0x (first used 2023-09-05)"
+      comment: "0x (first used 2023-09-05, chain shut down as of 2025-06-30)"
   beacon:
     - from_address: "0x41b8cD6791De4D8f9E0eaF7861aC506822AdcE12"
       to_address: null
       method: null
-      comment: "0x blob producer"
+      comment: "0x blob producer (chain shut down as of 2025-06-30)"
 
 mint:
   name: "Mint"
