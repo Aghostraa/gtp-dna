@@ -504,7 +504,27 @@ mode:
     - from_address: null
       to_address: "0x4317ba146d4933d889518a3e5e11fe7a53199b04"
       method: "0x9aaab648"
-      comment: "OutputOracle, proposeL2Output"
+      comment: "OutputOracle, proposeL2Output (first used 2023-11-16, last used 2025-06-13)"
+    - from_address: "0x674F64D64Ddc198db83cd9047dF54BF89cCD0ddB"
+      to_address: null
+      method: "0x82ecf2f6"
+      comment: "create, only whitelisted entitiy so far (first used 2025-06-13)"
+    - from_address: "0x674F64D64Ddc198db83cd9047dF54BF89cCD0ddB"
+      to_address: null
+      method: "0x2810e1d6"
+      comment: "resolve, by central resolver (first used 2025-06-21)"
+    - from_address: "0x674F64D64Ddc198db83cd9047dF54BF89cCD0ddB"
+      to_address: null
+      method: "0x03c2924d"
+      comment: "resolveClaim, by central resolver (first used 2025-06-21)"
+    - from_address: "0x674F64D64Ddc198db83cd9047dF54BF89cCD0ddB"
+      to_address: null
+      method: "0x60e27464"
+      comment: "claimCredit, by central resolver (not yet used)"
+    - from_address: "0x674F64D64Ddc198db83cd9047dF54BF89cCD0ddB"
+      to_address: null
+      method: "0x472777c6"
+      comment: "attack, by central resolver (not yet used)"
   beacon:
     - from_address: "0x99199a22125034c808ff20f377d91187e8050f2e"
       to_address: null
