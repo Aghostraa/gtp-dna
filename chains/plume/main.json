@@ -25,12 +25,12 @@
     ],
     "colors": {
         "light": [
-            "#8B8B8B",
-            "#8B8B8B"
+            "#FF3D00",
+            "#FF3D00"
         ],
         "dark": [
-            "#C1C1C1",
-            "#C1C1C1"
+            "#FF3D00",
+            "#FF3D00"
         ],
         "darkTextOnBackground": true
     },
@@ -53,11 +53,11 @@
 
     "api_in_api_main": true,
     "api_in_api_fees": false,
-    "api_in_api_economics": false,
+    "api_in_api_economics": true,
     "api_in_api_labels": false,
     "api_in_api_apps": false,
     "api_api_deployment_flag": "DEV",
-    "api_api_exclude_metrics": ["blockspace", "stables_mcap", "rent_paid", "profit", "fdv", "market_cap", "app_revenue"],
+    "api_api_exclude_metrics": ["blockspace", "app_revenue"],
     
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,
