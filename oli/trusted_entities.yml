@@ -44,3 +44,9 @@ trusted_entities:
         score: 70
       - tag_id: "*"
         score: 40
+
+  - attester: "0x53AE41B0E48A33eDf13e01b7136025f744c973e3"
+    description: "johncalabrese"
+    tags:
+      - tag_id: "*"
+        score: 40
