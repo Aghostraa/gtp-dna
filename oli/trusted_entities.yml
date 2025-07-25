@@ -50,3 +50,9 @@ trusted_entities:
     tags:
       - tag_id: "*"
         score: 40
+
+  - attester: "0x10dBAc4d35f4aD47E85f70c74e4449c632EC4047"
+    description: "Krzys Tech"
+    tags:
+      - tag_id: "*"
+        score: 1 # only trust for Zircuit chain 48900, to be implemented soon
