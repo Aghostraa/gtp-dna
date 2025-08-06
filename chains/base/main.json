@@ -20,12 +20,12 @@
     ],
     "colors": {
         "light": [
-            "#2151F5",
-            "#2151F5"
+            "#0000FF",
+            "#0000FF"
         ],
         "dark": [
-            "#2151F5",
-            "#2151F5"
+            "#0000FF",
+            "#0000FF"
         ],
         "darkTextOnBackground": false
     },
