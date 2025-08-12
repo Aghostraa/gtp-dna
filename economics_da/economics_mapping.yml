@@ -660,7 +660,27 @@ lisk:
     - from_address: null
       to_address: "0x113cB99283AF242Da0A0C54347667edF531Aa7d6"
       method: "0x9aaab648"
-      comment: "proposeL2Output (first used 2024-05-03)"
+      comment: "proposeL2Output (first used 2024-05-03, last used 2025-07-15)"
+    - from_address: null
+      to_address: "0x0CF7D3706a27CCE2017aEB11E8a9c8b5388c282C"
+      method: "0x82ecf2f6"
+      comment: "Create (first used 2025-07-16)"
+    - from_address: "0x9AF635D1CD4449D863333b7Dc17aFF2ddD89f39B"
+      to_address: null
+      method: "0x2810e1d6"
+      comment: "resolve, by central resolver (first used 2025-07-20)"
+    - from_address: "0x9AF635D1CD4449D863333b7Dc17aFF2ddD89f39B"
+      to_address: null
+      method: "0x03c2924d"
+      comment: "resolveClaim, by central resolver (first used 2025-07-20)"
+    - from_address: "0x9AF635D1CD4449D863333b7Dc17aFF2ddD89f39B"
+      to_address: null
+      method: "0x60e27464"
+      comment: "claimCredit, by central resolver (never used)"
+    - from_address: "0x9AF635D1CD4449D863333b7Dc17aFF2ddD89f39B"
+      to_address: null
+      method: "0x472777c6"
+      comment: "attack, by central resolver (never used)"
     - from_address: "0xa6ea2f3299b63c53143c993d2d5e60a69cd6fe24"
       to_address: "0xFf00000000000000000000000000000000001135"
       method: null
