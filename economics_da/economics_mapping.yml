@@ -1361,7 +1361,27 @@ lumio:
     - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
       to_address: "0xffb004874cbbf8692b5f397b602f4b8a630aed59"
       method: "0x9aaab648"
-      comment: "proposeL2Output (first used 2024-02-27)"
+      comment: "proposeL2Output (first used 2024-02-27, last used 2025-07-24)"
+    - from_address: null
+      to_address: "0xEe136B6087070d35D98b1bb1B33C3a00D907F0c1"
+      method: "0x82ecf2f6"
+      comment: "Create (first used 2025-07-24)"
+    - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
+      to_address: null
+      method: "0x2810e1d6"
+      comment: "resolve, by central resolver (first used 2025-07-28)"
+    - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
+      to_address: null
+      method: "0x03c2924d"
+      comment: "resolveClaim, by central resolver (first used 2025-07-28)"
+    - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
+      to_address: null
+      method: "0x60e27464"
+      comment: "claimCredit, by central resolver (never used)"
+    - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
+      to_address: null
+      method: "0x472777c6"
+      comment: "attack, by central resolver (never used)"
   beacon:
     - from_address: "0x5c53f2fF1030C7fbC0616fD5B8fC6bE97aa27e00"
       to_address: null
@@ -1698,7 +1718,7 @@ ancient8:
     - from_address: "0xAF24199C29D5cc3fd298356137913A42847eA690"
       to_address: "0xb09dc08428c8b4efb4ff9c0827386cdf34277996"
       method: "0x9aaab648"
-      comment: "proposeL2Output (first used 2024-01-23)"
+      comment: "proposeL2Output (first used 2024-01-23, last used 2025-07-24)"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADE4vVvVyRsg="
       comment: "namespace (frist used 2024-01-23)"
