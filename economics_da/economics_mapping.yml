@@ -1675,6 +1675,26 @@ ancient8:
       to_address: "0xd5df46c580fd2fbdaee751dc535e14295c0336f3"
       method: null
       comment: "post DA hashes as calldata (first used 2024-01-23)"
+    - from_address: null
+      to_address: "0x3CEa4B383D855208f5d06e5b1A602E4006a1d0E1"
+      method: "0x82ecf2f6"
+      comment: "Create (first used 2025-07-24)"
+    - from_address: "0xAF24199C29D5cc3fd298356137913A42847eA690"
+      to_address: null
+      method: "0x2810e1d6"
+      comment: "resolve, by central resolver (first used 2025-07-28)"
+    - from_address: "0xAF24199C29D5cc3fd298356137913A42847eA690"
+      to_address: null
+      method: "0x03c2924d"
+      comment: "resolveClaim, by central resolver (first used 2025-07-28)"
+    - from_address: "0xAF24199C29D5cc3fd298356137913A42847eA690"
+      to_address: null
+      method: "0x60e27464"
+      comment: "claimCredit, by central resolver (never used)"
+    - from_address: "0xAF24199C29D5cc3fd298356137913A42847eA690"
+      to_address: null
+      method: "0x472777c6"
+      comment: "attack, by central resolver (never used)"
     - from_address: "0xAF24199C29D5cc3fd298356137913A42847eA690"
       to_address: "0xb09dc08428c8b4efb4ff9c0827386cdf34277996"
       method: "0x9aaab648"
