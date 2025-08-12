@@ -1697,13 +1697,14 @@ arbitrum_nova:
       method: "0x6f12b0c9"
       comment: "addSequencerL2BatchFromOrigin (first used 2022-06-25, last used 2022-09-18)"
 
+# chain shut down as of 2025-07-20
 real:
   name: "Re.al"
   l1:
     - from_address: null
       to_address: "0x51C4a227D59E49E26Ea07D8e4E9Af163da4c87A0"
       method: "0x8f111f3c"
-      comment: "addSequencerL2BatchFromOrigin (first used 2024-03-26)"
+      comment: "addSequencerL2BatchFromOrigin (first used 2024-03-26, last used 2025-07-29)"
     - from_address: null
       to_address: "0x118Ab5501564F1Cfa755d0b3070874a26c1C3A50"
       method: "0x6a761202"
@@ -1852,6 +1853,7 @@ onchain:
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABNfLrOLSCTY="
 
+# chain shut down as of June 2024
 gitcoin_pgn:
   name: "Public Goods Network"
   celestia:
