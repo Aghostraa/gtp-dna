@@ -69,5 +69,5 @@
     "circulating_supply_token_address": "0x1111111111166b7fe7bd91427724b487980afc69",
     "circulating_supply_token_deployment_date": "2025-04-23",
     "circulating_supply_token_deployment_origin_key": "base",
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": "totalSupply"
 }
