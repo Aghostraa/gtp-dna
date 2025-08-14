@@ -77,7 +77,7 @@
     "runs_contract_metadata": true,
 
     "backfiller_backfiller_on": true,
-    "backfiller_batch_size": 10,
+    "backfiller_batch_size": 5,
 
     "cross_check_type": "l2beat",
 
