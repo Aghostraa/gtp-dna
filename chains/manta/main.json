@@ -37,6 +37,10 @@
     "api_api_exclude_metrics": [
         "blockspace"
     ],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals"
+    ],
 
     "aliases_l2beat": "mantapacific",
     "aliases_l2beat_slug": "mantapacific",

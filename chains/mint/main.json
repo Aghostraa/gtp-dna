@@ -59,6 +59,10 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": ["blockspace", "fdv", "market_cap"],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals"
+    ],
     
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,

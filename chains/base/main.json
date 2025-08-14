@@ -41,6 +41,13 @@
         "fdv",
         "market_cap"
     ],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals",
+        "economics",
+        "apps",
+        "blockspace"
+    ],
 
     "aliases_l2beat": "base",
     "aliases_l2beat_slug": "base",

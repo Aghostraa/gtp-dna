@@ -34,6 +34,13 @@
     "api_in_api_apps": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals",
+        "economics",
+        "apps",
+        "blockspace"
+    ],
 
     "aliases_l2beat": "arbitrum",
     "aliases_l2beat_slug": "arbitrum",

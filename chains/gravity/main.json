@@ -30,6 +30,10 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": ["blockspace", "stables_mcap", "profit"],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals"
+    ],
 
     "aliases_l2beat": "galxegravity",
     "aliases_l2beat_slug": "galxegravity",

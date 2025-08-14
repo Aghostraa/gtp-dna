@@ -31,6 +31,12 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals",
+        "economics",
+        "blockspace"
+    ],
 
     "aliases_l2beat": "scroll",
     "aliases_l2beat_slug": "scroll",

@@ -39,6 +39,13 @@
         "profit",
         "fdv"
     ],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals",
+        "economics",
+        "apps",
+        "blockspace"
+    ],
 
     "aliases_l2beat": "ethereum",
     "aliases_l2beat_slug": "ethereum",

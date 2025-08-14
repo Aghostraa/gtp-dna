@@ -42,6 +42,10 @@
         "market_cap",
         "app_revenue"
     ],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals"
+    ],
 
     "aliases_l2beat": "orderly",
     "aliases_l2beat_slug": "orderly",

@@ -38,6 +38,10 @@
         "throughput",
         "app_revenue"
     ],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals"
+    ],
 
     "aliases_l2beat": "loopring",
     "aliases_l2beat_slug": "loopring",

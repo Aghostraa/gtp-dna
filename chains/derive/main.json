@@ -39,6 +39,11 @@
         "blockspace",
         "fdv"
     ],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals",
+        "economics"
+    ],
 
     "aliases_l2beat": "lyra",
     "aliases_l2beat_slug": "derive",

@@ -35,6 +35,10 @@
         "blockspace",
         "profit"
     ],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals"
+    ],
 
     "aliases_l2beat": "metis",
     "aliases_l2beat_slug": "metis",

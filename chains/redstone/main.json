@@ -37,6 +37,11 @@
         "fdv",
         "market_cap"
     ],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals",
+        "blockspace"
+    ],
 
     "aliases_l2beat": "redstone",
     "aliases_l2beat_slug": "redstone",

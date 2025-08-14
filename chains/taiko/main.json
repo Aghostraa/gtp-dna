@@ -32,6 +32,12 @@
     "api_in_api_labels": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
+    "api_active_tabs": [
+        "overview",
+        "fundamentals",
+        "economics",
+        "blockspace"
+    ],
 
     "aliases_l2beat": "taiko",
     "aliases_l2beat_slug": "taiko",
