@@ -68,8 +68,7 @@
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
 
-    "cross_check_url": "https://zkevm.polygonscan.com/chart/tx?output=csv",
-    "cross_check_type": "etherscan",
+    "cross_check_type": "l2beat",
     
     "circulating_supply_token_address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
     "circulating_supply_token_deployment_date": "2019-04-20",
