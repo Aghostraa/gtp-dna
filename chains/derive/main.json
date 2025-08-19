@@ -39,11 +39,13 @@
         "blockspace",
         "fdv"
     ],
-    "api_active_tabs": [
-        "overview",
-        "fundamentals",
-        "economics"
-    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
 
     "aliases_l2beat": "lyra",
     "aliases_l2beat_slug": "derive",

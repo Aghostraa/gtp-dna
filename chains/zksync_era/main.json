@@ -35,12 +35,13 @@
     "api_api_exclude_metrics": [
         "throughput"
     ],
-    "api_active_tabs": [
-        "overview",
-        "fundamentals",
-        "economics",
-        "blockspace"
-    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "active",
+        "apps": "locked",
+        "blockspace": "active"
+    },
 
     "aliases_l2beat": "zksync2",
     "aliases_l2beat_slug": "zksync-era",

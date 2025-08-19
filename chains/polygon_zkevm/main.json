@@ -32,12 +32,13 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
-    "api_active_tabs": [
-        "overview",
-        "fundamentals",
-        "economics",
-        "blockspace"
-    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
 
     "aliases_l2beat": "polygonzkevm",
     "aliases_l2beat_slug": "polygonzkevm",

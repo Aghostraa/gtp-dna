@@ -57,10 +57,13 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": ["blockspace", "fees", "rent_paid", "profit", "txcosts"],
-    "api_active_tabs": [
-        "overview",
-        "fundamentals"
-    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
     
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,

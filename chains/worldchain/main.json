@@ -35,11 +35,13 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": ["blockspace"],
-    "api_active_tabs": [
-        "overview",
-        "fundamentals",
-        "economics"
-    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
 
     "aliases_l2beat": "worldchain",
     "aliases_l2beat_slug": "world",

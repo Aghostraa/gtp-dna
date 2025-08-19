@@ -41,12 +41,13 @@
     "aliases_rhino": null,
     "aliases_blockscout_url": "https://explorer.zora.energy/api/v2/",
     "aliases_defillama": "zora",
-    "api_active_tabs": [
-        "overview",
-        "fundamentals",
-        "economics",
-        "blockspace"
-    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "active",
+        "apps": "locked",
+        "blockspace": "active"
+    },
 
     "metadata_description": "Zora is a fully EVM compatible optimistic rollup built on the OP Stack with focus on NFTs.",
     "metadata_symbol": null,

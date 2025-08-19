@@ -37,11 +37,13 @@
         "fdv",
         "market_cap"
     ],
-    "api_active_tabs": [
-        "overview",
-        "fundamentals",
-        "blockspace"
-    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "active"
+    },
 
     "aliases_l2beat": "redstone",
     "aliases_l2beat_slug": "redstone",

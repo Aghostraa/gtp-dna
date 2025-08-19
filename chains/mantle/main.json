@@ -34,10 +34,13 @@
         "rent_paid",
         "profit"
     ],
-    "api_active_tabs": [
-        "overview",
-        "fundamentals"
-    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
 
     "aliases_l2beat": "mantle",
     "aliases_l2beat_slug": "mantle",
