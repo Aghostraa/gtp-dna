@@ -30,5 +30,6 @@
 
     "incl_in_da_overview": true,
 
-    "api_in_api_main": true
+    "api_in_api_main": true,
+    "api_api_exclude_metrics": []
 }

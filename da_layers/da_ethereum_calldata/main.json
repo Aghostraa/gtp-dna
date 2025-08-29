@@ -23,5 +23,6 @@
 
     "incl_in_da_overview": false,
 
-    "api_in_api_main": true
+    "api_in_api_main": true,
+    "api_api_exclude_metrics": ["blob_count", "blob_producers", "fees_per_mbyte", "fees_paid"]
 }
