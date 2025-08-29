@@ -21,5 +21,7 @@
     "socials_website": "https://ethereum.org/en/",
     "socials_twitter ": "https://x.com/ethereum",
 
-    "incl_in_da_overview": false
+    "incl_in_da_overview": false,
+
+    "api_in_api_main": true
 }
