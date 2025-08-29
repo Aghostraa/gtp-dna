@@ -1,5 +1,5 @@
 {
-    "da_layer": "da_ethereum_blobs",
+    "origin_key": "da_ethereum_blobs",
     "name": "Ethereum Blobs",
     "name_short": "Eth Blobs",
     "block_explorers": {

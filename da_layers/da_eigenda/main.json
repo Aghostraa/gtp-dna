@@ -1,5 +1,5 @@
 {
-    "da_layer": "da_eigenda",
+    "origin_key": "da_eigenda",
     "name": "EigenDA",
     "name_short": "EigenDA",
     "block_explorers": {

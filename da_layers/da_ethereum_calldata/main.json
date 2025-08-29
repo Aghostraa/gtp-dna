@@ -1,5 +1,5 @@
 {
-    "da_layer": "da_ethereum_calldata",
+    "origin_key": "da_ethereum_calldata",
     "name": "Ethereum Calldata",
     "name_short": "Eth Calldata",
     "block_explorers": {

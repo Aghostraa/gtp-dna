@@ -1,5 +1,5 @@
 {
-    "da_layer": "da_celestia",
+    "origin_key": "da_celestia",
     "name": "Celestia",
     "name_short": "Celestia",
     "block_explorers": {
