@@ -51,6 +51,26 @@ trusted_entities:
       - tag_id: "*"
         score: 40
 
+  - attester: "0x8DBAE854E53AEDFC3B8D78F7C1ADD53935939192"
+    description: "Sourcify"
+    tags:
+      - tag_id: "source_code_verified"
+        score: 90
+      - tag_id: "deployment_block"
+        score: 90
+      - tag_id: "deployer_address"
+        score: 90
+      - tag_id: "deployment_tx"
+        score: 90
+      - tag_id: "code_language"
+        score: 90
+      - tag_id: "code_compiler"
+        score: 90
+      - tag_id: "is_contract"
+        score: 90
+      - tag_id: "*"
+        score: 40
+
   - attester: "0x10dBAc4d35f4aD47E85f70c74e4449c632EC4047"
     description: "Krzys Tech"
     tags:
