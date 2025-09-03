@@ -42,7 +42,13 @@
         "market_cap",
         "app_revenue"
     ],
-
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
     "aliases_l2beat": "orderly",
     "aliases_l2beat_slug": "orderly",
     "aliases_coingecko": "orderly-network",

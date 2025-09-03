@@ -1,5 +1,5 @@
 {
-    "da_layer": "da_ethereum_calldata",
+    "origin_key": "da_ethereum_calldata",
     "name": "Ethereum Calldata",
     "name_short": "Eth Calldata",
     "block_explorers": {
@@ -21,5 +21,8 @@
     "socials_website": "https://ethereum.org/en/",
     "socials_twitter ": "https://x.com/ethereum",
 
-    "incl_in_da_overview": false
+    "incl_in_da_overview": false,
+
+    "api_in_api_main": true,
+    "api_api_exclude_metrics": ["blob_count", "blob_producers", "fees_per_mbyte", "fees_paid"]
 }

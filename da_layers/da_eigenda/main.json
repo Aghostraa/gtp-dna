@@ -1,5 +1,5 @@
 {
-    "da_layer": "da_eigenda",
+    "origin_key": "da_eigenda",
     "name": "EigenDA",
     "name_short": "EigenDA",
     "block_explorers": {
@@ -28,5 +28,8 @@
         "l2beat_risk": "https://l2beat.com/data-availability/projects/eigenda/no-bridge"
     },
 
-    "incl_in_da_overview": true
+    "incl_in_da_overview": true,
+
+    "api_in_api_main": true,
+    "api_api_exclude_metrics": []
 }

@@ -39,6 +39,13 @@
         "profit",
         "fdv"
     ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "active",
+        "apps": "active",
+        "blockspace": "active"
+    },
 
     "aliases_l2beat": "ethereum",
     "aliases_l2beat_slug": "ethereum",
@@ -47,7 +54,7 @@
     "aliases_blockscout_url": "https://eth.blockscout.com/api/v2/",
     "aliases_defillama": "ethereum",
 
-    "metadata_description": "Ethereum, proposed by Vitalik Buterin in 2013 and launched in 2015, is the most decentralized smart contract to date and aiming to scale via Layer 2s.",
+    "metadata_description": "Ethereum, proposed by Vitalik Buterin in 2013 and launched in 2015, is the most decentralized and trusted smart contract platform to date.",
     "metadata_symbol": "ETH",
     "metadata_launch_date": "2015-07-30",
     "metadata_da_layer": null,

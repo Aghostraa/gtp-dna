@@ -32,6 +32,13 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
 
     "aliases_l2beat": "polygonzkevm",
     "aliases_l2beat_slug": "polygonzkevm",
@@ -62,8 +69,7 @@
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
 
-    "cross_check_url": "https://zkevm.polygonscan.com/chart/tx?output=csv",
-    "cross_check_type": "etherscan",
+    "cross_check_type": "l2beat",
     
     "circulating_supply_token_address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
     "circulating_supply_token_deployment_date": "2019-04-20",

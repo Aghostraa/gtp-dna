@@ -1,5 +1,5 @@
 {
-    "da_layer": "da_ethereum_blobs",
+    "origin_key": "da_ethereum_blobs",
     "name": "Ethereum Blobs",
     "name_short": "Eth Blobs",
     "block_explorers": {
@@ -28,5 +28,8 @@
         "l2beat_risk": "https://l2beat.com/data-availability/projects/ethereum/enshrined-bridge"
     },
 
-    "incl_in_da_overview": true
+    "incl_in_da_overview": true,
+
+    "api_in_api_main": true,
+    "api_api_exclude_metrics": []
 }

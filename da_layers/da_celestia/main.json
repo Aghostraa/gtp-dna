@@ -1,5 +1,5 @@
 {
-    "da_layer": "da_celestia",
+    "origin_key": "da_celestia",
     "name": "Celestia",
     "name_short": "Celestia",
     "block_explorers": {
@@ -28,5 +28,10 @@
         "l2beat_risk": "https://l2beat.com/data-availability/projects/celestia/no-bridge"
     },
 
-    "incl_in_da_overview": true
+    "incl_in_da_overview": true,
+
+    "api_in_api_main": true,
+    "api_api_exclude_metrics": []
+
+
 }

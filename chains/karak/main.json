@@ -34,6 +34,13 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": ["app_revenue"],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
 
     "aliases_l2beat": "karak",
     "aliases_l2beat_slug": "k2",

@@ -35,6 +35,13 @@
         "blockspace",
         "throughput"
     ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
 
     "aliases_l2beat": "starknet",
     "aliases_l2beat_slug": "starknet",

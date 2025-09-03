@@ -38,6 +38,13 @@
         "throughput",
         "app_revenue"
     ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
 
     "aliases_l2beat": "immutablex",
     "aliases_l2beat_slug": "immutablex",

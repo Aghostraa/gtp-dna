@@ -56,6 +56,13 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": ["blockspace", "stables_mcap", "profit", "market_cap", "fdv"],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "locked",
+        "blockspace": "locked"
+    },
     
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 10,
