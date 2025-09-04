@@ -9,6 +9,12 @@ trusted_entities:
       - tag_id: "*"
         score: 80
 
+  - attester: "0xC139d50144Ee873c8577d682628E045dECe6040E"
+    description: "growthepie automatic attest"
+    tags:
+      - tag_id: "*"
+        score: 10
+
   - attester: "0xdC1d963D21C9c1bFf7b6Bea6e10080dAa9b4fc51"
     description: "mseidl.eth"
     tags:
