@@ -6,10 +6,7 @@
     "name": "Mode Network",
     "name_short": "Mode",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.mode.network/",
-        "Routescan": "https://modescan.io/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -62,8 +59,30 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://mode.network/",
-    "socials_twitter ": "https://twitter.com/modenetwork",
+    "links": {
+        "website": "https://mode.network/",
+        "docs": "https://docs.mode.network/",
+        "github": null,
+        "socials": {
+            "Twitter": "https://twitter.com/modenetwork",
+            "Discord": "https://discord.gg/modenetwork",
+            "Blog": "https://mode.network/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.mode.network/",
+            "Routescan": "https://modescan.io/"
+        },
+        "bridges": {
+            "Mode Bridge": "https://bridge.mode.network/"
+        },
+        "rpcs": {
+            "Mainnet": "https://mainnet.mode.network/"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/mode",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

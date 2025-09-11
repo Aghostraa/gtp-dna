@@ -6,11 +6,7 @@
     "name": "ZKsync Era",
     "name_short": "ZKsync Era",
     "bucket": "Elastic Chain",
-    "block_explorers": {
-        "zkSync Explorer": "https://explorer.zksync.io/",
-        "Blockscout": "https://zksync.blockscout.com/",
-        "Routescan": "https://hyperscan.xyz/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -62,8 +58,31 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://zksync.io/",
-    "socials_twitter ": "https://twitter.com/zksync",
+    "links": {
+        "website": "https://zksync.io/",
+        "docs": "https://docs.zksync.io/",
+        "github": "https://github.com/matter-labs",
+        "socials": {
+            "Twitter": "https://twitter.com/zksync",
+            "Discord": "https://join.zksync.dev/",
+            "Blog": "https://zksync.mirror.xyz/"
+        },
+        "block_explorers": {
+            "zkSync Explorer": "https://explorer.zksync.io/",
+            "Blockscout": "https://zksync.blockscout.com/",
+            "Routescan": "https://hyperscan.xyz/"
+        },
+        "bridges": {
+            "zkSync Bridge": "https://portal.zksync.io/bridge/"
+        },
+        "rpcs": {
+            "Mainnet": "https://mainnet.era.zksync.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/zksync-era",
+            "Governance": "https://forum.zksync.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

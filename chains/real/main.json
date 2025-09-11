@@ -16,9 +16,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Arbitrum Orbit",
-    "block_explorers": {
-        "Blockscout": "https://explorer.re.al/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -47,8 +45,20 @@
     },
     "metadata_raas": "Gelato",
 
-    "socials_website": "https://www.re.al/",
-    "socials_twitter ": "https://x.com/real_rwa",
+    "links": {
+        "website": "https://www.re.al/",
+        "docs": null,
+        "github": null,
+        "socials": {
+            "Twitter": "https://twitter.com/real_rwa"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.re.al/"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {}
+    },
 
     "api_in_api_main": false,
     "api_in_api_fees": false,

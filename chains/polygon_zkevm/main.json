@@ -6,10 +6,7 @@
     "name": "Polygon zkEVM",
     "name_short": "Polygon zk",
     "bucket": "Others",
-    "block_explorers": {
-        "PolygonScan": "https://zkevm.polygonscan.com/",
-        "Blockscout": "https://zkevm.blockscout.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -59,8 +56,30 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://polygon.technology/polygon-zkevm",
-    "socials_twitter ": "https://twitter.com/0xPolygon",
+    "links": {
+        "website": "https://polygon.technology/polygon-zkevm",
+        "docs": "https://docs.polygon.technology/zkEVM/",
+        "github": "https://github.com/0xPolygon",
+        "socials": {
+            "Twitter": "https://twitter.com/0xPolygon",
+            "Discord": "https://discord.com/invite/0xPolygon",
+            "Blog": "https://polygon.technology/blog"
+        },
+        "block_explorers": {
+            "PolygonScan": "https://zkevm.polygonscan.com/",
+            "Blockscout": "https://zkevm.blockscout.com/"
+        },
+        "bridges": {
+            "Polygon Portal Bridge": "https://portal.polygon.technology/bridge"
+        },
+        "rpcs": {
+            "Mainnet": "https://zkevm-rpc.com"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/polygonzkevm",
+            "Governance": "https://forum.polygon.technology/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

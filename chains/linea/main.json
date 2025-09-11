@@ -8,10 +8,7 @@
     "company": "ConsenSys",
 
     "bucket": "Others",
-    "block_explorers": {
-        "LineaScan": "https://lineascan.build/",
-        "Blockscout": "https://explorer.linea.build/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -64,8 +61,30 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://linea.build/",
-    "socials_twitter ": "https://twitter.com/LineaBuild",
+    "links": {
+        "website": "https://linea.build/",
+        "docs": "https://docs.linea.build/",
+        "github": "https://github.com/Consensys/linea-contracts",
+        "socials": {
+            "Twitter": "https://twitter.com/LineaBuild",
+            "Discord": "https://discord.gg/linea",
+            "Blog": "https://linea.build/blog"
+        },
+        "block_explorers": {
+            "LineaScan": "https://lineascan.build/",
+            "Blockscout": "https://explorer.linea.build/"
+        },
+        "bridges": {
+            "Linea Bridge": "https://bridge.linea.build/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.linea.build"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/linea",
+            "Governance": "https://community.linea.build/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

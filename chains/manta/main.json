@@ -10,9 +10,7 @@
     "name": "Manta Pacific",
     "name_short": "Manta",
     "bucket": "Others",
-    "block_explorers": {
-        "Blockscout": "https://pacific-explorer.manta.network/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -63,8 +61,29 @@
     },
     "metadata_raas": "Caldera",
 
-    "socials_website": "https://pacific.manta.network/",
-    "socials_twitter ": "https://twitter.com/MantaNetwork",
+    "links": {
+        "website": "https://pacific.manta.network/",
+        "docs": "https://docs.manta.network/",
+        "github": "https://github.com/Manta-Network",
+        "socials": {
+            "Twitter": "https://twitter.com/MantaNetwork",
+            "Discord": "https://discord.gg/mantanetwork",
+            "Blog": "https://mantanetwork.medium.com/"
+        },
+        "block_explorers": {
+            "Blockscout": "https://pacific-explorer.manta.network/"
+        },
+        "bridges": {
+            "Manta Pacific Bridge": "https://pacific-bridge.manta.network/"
+        },
+        "rpcs": {
+            "Mainnet": "https://pacific-rpc.manta.network/http"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/mantapacific",
+            "Governance": "https://snapshot.org/#/mantanetwork.eth"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

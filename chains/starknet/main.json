@@ -6,10 +6,7 @@
     "name": "Starknet",
     "name_short": "Starknet",
     "bucket": "Starkware",
-    "block_explorers": {
-        "StarkScan": "https://starkscan.co/",
-        "Voyager": "https://voyager.online/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -61,8 +58,30 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://starknet.io/",
-    "socials_twitter ": "https://twitter.com/StarkWareLtd",
+    "links": {
+        "website": "https://starknet.io/",
+        "docs": "https://docs.starknet.io/",
+        "github": "https://github.com/starkware-libs/",
+        "socials": {
+            "Twitter": "https://twitter.com/StarkWareLtd",
+            "Discord": "https://discord.gg/starknet",
+            "Blog": "https://www.starknet.io/en/content"
+        },
+        "block_explorers": {
+            "StarkScan": "https://starkscan.co/",
+            "Voyager": "https://voyager.online/"
+        },
+        "bridges": {
+            "StarkGate": "https://starkgate.starknet.io/"
+        },
+        "rpcs": {
+            "Mainnet": "https://starknet-mainnet.public.blastapi.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/starknet",
+            "Governance": "https://community.starknet.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

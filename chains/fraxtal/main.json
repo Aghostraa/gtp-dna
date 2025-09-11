@@ -16,10 +16,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Etherscan": "https://fraxscan.com/",
-        "Routescan": "https://252.routescan.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -48,8 +45,30 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://www.frax.com/",
-    "socials_twitter ": "https://x.com/fraxfinance",
+    "links": {
+        "website": "https://frax.com/fraxtal",
+        "docs": "https://docs.frax.com/fraxtal",
+        "github": "https://github.com/FraxFinance",
+        "socials": {
+            "Twitter": "https://x.com/fraxfinance",
+            "Discord": "https://discord.gg/frax-finance",
+            "Blog": "https://frax.com/blog"
+        },
+        "block_explorers": {
+            "Fraxscan": "https://fraxscan.com/",
+            "Routescan": "https://252.routescan.io/"
+        },
+        "bridges": {
+            "Fraxtal Bridge": "https://frax.com/fraxtal/bridge"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.frax.com"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/fraxtal",
+            "Governance": "https://gov.frax.finance/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,

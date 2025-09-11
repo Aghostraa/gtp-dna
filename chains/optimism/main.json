@@ -6,11 +6,7 @@
     "name": "OP Mainnet",
     "name_short": "OP Mainnet",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Optimistic Etherscan": "https://optimistic.etherscan.io/",
-        "Blockscout": "https://optimism.blockscout.com/",
-        "Routescan": "https://mainnet.thesuperscan.io/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -63,8 +59,31 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://optimism.io/",
-    "socials_twitter ": "https://twitter.com/Optimism",
+    "links": {
+        "website": "https://optimism.io/",
+        "docs": "https://docs.optimism.io/",
+        "github": "https://github.com/ethereum-optimism",
+        "socials": {
+            "Twitter": "https://twitter.com/Optimism",
+            "Discord": "https://discord-gateway.optimism.io/",
+            "Blog": "https://optimism.mirror.xyz/"
+        },
+        "block_explorers": {
+            "Optimistic Etherscan": "https://optimistic.etherscan.io/",
+            "Blockscout": "https://optimism.blockscout.com/",
+            "Routescan": "https://mainnet.thesuperscan.io/"
+        },
+        "bridges": {
+            "OP Mainnet Bridge": "https://app.optimism.io/bridge/"
+        },
+        "rpcs": {
+            "Mainnet": "https://mainnet.optimism.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/op-mainnet",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

@@ -17,9 +17,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Arbitrum Orbit",
-    "block_explorers": {
-        "Etherscan": "https://nova.arbiscan.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -48,8 +46,29 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://nova.arbitrum.io/",
-    "socials_twitter ": "https://x.com/arbitrum",
+    "links": {
+        "website": "https://nova.arbitrum.io/",
+        "docs": "https://docs.arbitrum.io/nova-gentle-introduction",
+        "github": "https://github.com/OffchainLabs/arbitrum",
+        "socials": {
+            "Twitter": "https://x.com/arbitrum",
+            "Discord": "https://discord.gg/arbitrum",
+            "Blog": "https://blog.arbitrum.io/"
+        },
+        "block_explorers": {
+            "Nova Arbiscan": "https://nova.arbiscan.io/"
+        },
+        "bridges": {
+            "Arbitrum Bridge": "https://bridge.arbitrum.io/"
+        },
+        "rpcs": {
+            "Mainnet": "https://nova.arbitrum.io/rpc"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/nova",
+            "Governance": "https://forum.arbitrum.foundation/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": true,

@@ -8,11 +8,7 @@
     "company": "Coinbase",
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "BaseScan": "https://basescan.org/",
-        "Blockscout": "https://base.blockscout.com/",
-        "Routescan": "https://base.thesuperscan.io/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -68,8 +64,31 @@
     },
     "metadata_raas": "Self-hosted",
     
-    "socials_website": "https://base.org/",
-    "socials_twitter ": "https://twitter.com/base",
+    "links": {
+        "website": "https://base.org/",
+        "docs": "https://docs.base.org/",
+        "github": "https://github.com/base-org",
+        "socials": {
+            "Twitter": "https://twitter.com/base",
+            "Discord": "https://base.org/discord",
+            "Blog": "https://base.org/blog"
+        },
+        "block_explorers": {
+            "BaseScan": "https://basescan.org/",
+            "Blockscout": "https://base.blockscout.com/",
+            "Routescan": "https://base.thesuperscan.io/"
+        },
+        "bridges": {
+            "Base Bridge": "https://bridge.base.org/"
+        },
+        "rpcs": {
+            "Mainnet": "https://mainnet.base.org"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/base",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

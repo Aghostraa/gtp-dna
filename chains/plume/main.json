@@ -17,9 +17,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Arbitrum Orbit",
-    "block_explorers": {
-        "Blockscout": "https://explorer.plume.org/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -48,8 +46,24 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://plume.org/",
-    "socials_twitter ": "https://x.com/plumenetwork",
+    "links": {
+        "website": "https://plume.org/",
+        "docs": "https://docs.plumenetwork.xyz/",
+        "github": "https://github.com/plume-network",
+        "socials": {
+            "Twitter": "https://x.com/plumenetwork",
+            "Discord": "https://discord.gg/plume",
+            "Blog": "https://blog.plumenetwork.xyz/"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.plume.org/"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/plumenetwork"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,

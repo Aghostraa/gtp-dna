@@ -16,10 +16,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.swellnetwork.io/",
-        "Routescan": "https://1923.routescan.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -47,8 +44,27 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "AltLayer",
-    "socials_website": "https://www.swellnetwork.io/",
-    "socials_twitter ": "https://x.com/swellnetworkio",
+    
+    "links": {
+        "website": "https://www.swellnetwork.io/",
+        "docs": "https://docs.swellnetwork.io/",
+        "github": "https://github.com/SwellNetwork",
+        "socials": {
+            "Twitter": "https://x.com/swellnetworkio",
+            "Discord": "https://discord.gg/swellnetwork",
+            "Blog": "https://www.swellnetwork.io/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.swellnetwork.io/",
+            "Routescan": "https://1923.routescan.io/"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/swell",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,

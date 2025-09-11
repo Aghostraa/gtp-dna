@@ -6,10 +6,7 @@
     "name": "Blast",
     "name_short": "Blast",
     "bucket": "Others",
-    "block_explorers": {
-        "Blast Explorer": "https://blastscan.io/",
-        "Routescan": "https://blastexplorer.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -61,8 +58,28 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://blast.io/en",
-    "socials_twitter ": "https://twitter.com/Blast_L2",
+    "links": {
+        "website": "https://blast.io/en",
+        "docs": "https://docs.blast.io/",
+        "github": "https://github.com/blast-io",
+        "socials": {
+            "Twitter": "https://twitter.com/Blast_L2",
+            "Discord": "https://discord.gg/blast-l2"
+        },
+        "block_explorers": {
+            "Blast Explorer": "https://blastscan.io/",
+            "Routescan": "https://blastexplorer.io/"
+        },
+        "bridges": {
+            "Blast Bridge": "https://blast.io/en/bridge"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.blast.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/blast"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

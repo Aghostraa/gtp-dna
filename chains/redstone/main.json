@@ -6,9 +6,7 @@
     "name": "Redstone",
     "name_short": "Redstone",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.redstone.xyz/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -64,8 +62,28 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://redstone.xyz/",
-    "socials_twitter ": "https://twitter.com/redstonexyz",
+    "links": {
+        "website": "https://redstone.xyz/",
+        "docs": "https://redstone.xyz/docs",
+        "github": "https://github.com/latticexyz/redstone",
+        "socials": {
+            "Twitter": "https://twitter.com/redstonexyz",
+            "Discord": "https://discord.gg/latticexyz"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.redstone.xyz/"
+        },
+        "bridges": {
+            "Redstone Bridge": "https://redstone.xyz/deposit"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.redstonechain.com"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/redstone",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

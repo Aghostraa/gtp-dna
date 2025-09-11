@@ -63,8 +63,27 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://www.immutable.com/",
-    "socials_twitter ": "https://twitter.com/immutable",
+    "links": {
+        "website": "https://www.immutable.com/",
+        "docs": "https://docs.immutable.com/docs/x-overview",
+        "github": "https://github.com/immutable",
+        "socials": {
+            "Twitter": "https://twitter.com/immutable",
+            "Discord": "https://discord.com/invite/immutable",
+            "Blog": "https://www.immutable.com/blog"
+        },
+        "block_explorers": {
+            "Immutascan": "https://immutascan.io/"
+        },
+        "bridges": {
+            "Immutable Bridge": "https://toolkit.immutable.com/bridge/"
+        },
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/immutablex",
+            "API Docs": "https://docs.immutable.com/docs/apis-overview"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

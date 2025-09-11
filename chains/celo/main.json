@@ -17,10 +17,7 @@
     "runs_aggregate_apps": true,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Etherscan": "https://celoscan.io/",
-        "Blockscout": "https://celo.blockscout.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -49,8 +46,30 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://celo.org/",
-    "socials_twitter ": "https://x.com/Celo",
+    "links": {
+        "website": "https://celo.org/",
+        "docs": "https://docs.celo.org/",
+        "github": "https://github.com/celo-org",
+        "socials": {
+            "Twitter": "https://x.com/Celo",
+            "Discord": "https://discord.com/invite/celo",
+            "Blog": "https://blog.celo.org/"
+        },
+        "block_explorers": {
+            "Celoscan": "https://celoscan.io/",
+            "Blockscout": "https://celo.blockscout.com/"
+        },
+        "bridges": {
+            "Superbridge": "https://superbridge.app/celo"
+        },
+        "rpcs": {
+            "Mainnet": "https://forno.celo.org"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/celo",
+            "Governance": "https://forum.celo.org/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": true,

@@ -18,9 +18,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Block Explorer": "https://uniscan.xyz/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -49,8 +47,25 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://www.unichain.org/",
-    "socials_twitter ": "https://x.com/unichain",
+    "links": {
+        "website": "https://www.unichain.org/",
+        "docs": null,
+        "github": "https://github.com/Uniswap",
+        "socials": {
+            "Twitter": "https://x.com/unichain",
+            "Discord": "https://discord.com/invite/uniswap",
+            "Blog": "https://blog.uniswap.org/"
+        },
+        "block_explorers": {
+            "Uniscan": "https://uniscan.xyz/"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/unichain",
+            "Governance": "https://gov.uniswap.org/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": true,

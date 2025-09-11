@@ -6,9 +6,7 @@
     "name": "Scroll",
     "name_short": "Scroll",
     "bucket": "Others",
-    "block_explorers": {
-        "ScrollScan": "https://scrollscan.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -57,8 +55,29 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://scroll.io/",
-    "socials_twitter ": "https://twitter.com/scroll_zkp",
+    "links": {
+        "website": "https://scroll.io/",
+        "docs": "https://docs.scroll.io/",
+        "github": "https://github.com/scroll-tech",
+        "socials": {
+            "Twitter": "https://twitter.com/scroll_zkp",
+            "Discord": "https://discord.gg/scroll",
+            "Blog": "https://scroll.io/blog"
+        },
+        "block_explorers": {
+            "ScrollScan": "https://scrollscan.com/"
+        },
+        "bridges": {
+            "Scroll Bridge": "https://scroll.io/bridge"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.scroll.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/scroll",
+            "Governance": "https://community.scroll.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

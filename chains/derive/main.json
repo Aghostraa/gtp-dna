@@ -10,9 +10,7 @@
     "name": "Derive",
     "name_short": "Derive",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.lyra.finance/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -65,8 +63,28 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://www.derive.xyz/",
-    "socials_twitter ": "https://x.com/derivexyz",
+    "links": {
+        "website": "https://www.derive.xyz/",
+        "docs": "https://docs.derive.xyz/",
+        "github": "https://github.com/lyra-finance",
+        "socials": {
+            "Twitter": "https://x.com/derivexyz",
+            "Discord": "https://discord.gg/derivexyz",
+            "Blog": "https://www.derive.xyz/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.lyra.finance/"
+        },
+        "bridges": {
+            "Superbridge": "https://superbridge.app/derive"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.lyra.finance/"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/derive"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

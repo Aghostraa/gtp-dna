@@ -16,10 +16,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.mintchain.io/",
-        "Routescan": "https://mintscan.org/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -50,8 +47,30 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://mintchain.io/",
-    "socials_twitter ": "https://twitter.com/Mint_Blockchain",
+    "links": {
+        "website": "https://mintchain.io/",
+        "docs": "https://docs.mintchain.io/",
+        "github": null,
+        "socials": {
+            "Twitter": "https://twitter.com/Mint_Blockchain",
+            "Discord": "https://discord.com/invite/mint-blockchain",
+            "Blog": "https://mirror.xyz/mintchain.eth"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.mintchain.io/",
+            "Routescan": "https://mintscan.org/"
+        },
+        "bridges": {
+            "Mint Bridge": "https://bridge.mintchain.io/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.mintchain.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/mint",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,

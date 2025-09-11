@@ -6,10 +6,7 @@
     "name": "Metis",
     "name_short": "Metis",
     "bucket": "Others",
-    "block_explorers": {
-        "Blockscout": "https://andromeda-explorer.metis.io/",
-        "Routescan": "https://explorer.metis.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -61,8 +58,30 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://metis.io/",
-    "socials_twitter ": "https://twitter.com/MetisL2",
+    "links": {
+        "website": "https://metis.io/",
+        "docs": "https://docs.metis.io/",
+        "github": "https://github.com/MetisProtocol",
+        "socials": {
+            "Twitter": "https://twitter.com/MetisL2",
+            "Discord": "https://discord.com/invite/metis",
+            "Blog": "https://metisdao.medium.com/"
+        },
+        "block_explorers": {
+            "Blockscout": "https://andromeda-explorer.metis.io/",
+            "Routescan": "https://explorer.metis.io/"
+        },
+        "bridges": {
+            "Metis Bridge": "https://bridge.metis.io/"
+        },
+        "rpcs": {
+            "Mainnet": "https://andromeda.metis.io/?owner=1088"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/metis",
+            "Governance": "https://snapshot.org/#/metisdao.eth"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

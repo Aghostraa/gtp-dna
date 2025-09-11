@@ -17,10 +17,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.inkonchain.com/",
-        "Routescan": "https://57073.routescan.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -49,8 +46,29 @@
     },
     "metadata_raas": "Gelato",
 
-    "socials_website": "https://inkonchain.com/",
-    "socials_twitter ": "https://x.com/inkonchain",
+    "links": {
+        "website": "https://inkonchain.com/",
+        "docs": "https://docs.inkonchain.com/",
+        "github": "https://github.com/gelatodigital",
+        "socials": {
+            "Twitter": "https://x.com/inkonchain",
+            "Blog": "https://inkonchain.com/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.inkonchain.com/",
+            "Routescan": "https://57073.routescan.io/"
+        },
+        "bridges": {
+            "Superbridge": "https://superbridge.app/ink"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.inkonchain.com"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/ink",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,

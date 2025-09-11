@@ -17,9 +17,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://soneium.blockscout.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -48,8 +46,23 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://soneium.org/en/",
-    "socials_twitter ": "https://x.com/soneium",
+    "links": {
+        "website": "https://soneium.org/en/",
+        "docs": "https://docs.soneium.org/",
+        "github": null,
+        "socials": {
+            "Twitter": "https://x.com/soneium"
+        },
+        "block_explorers": {
+            "Blockscout": "https://soneium.blockscout.com/"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/soneium",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,

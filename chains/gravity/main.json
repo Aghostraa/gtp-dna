@@ -5,9 +5,7 @@
     "name": "Gravity",
     "name_short": "Gravity",
     "bucket": "Arbitrum Orbit",
-    "block_explorers": {
-        "Blockscout": "https://explorer.gravity.xyz/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -56,8 +54,28 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://gravity.xyz/",
-    "socials_twitter ": "https://x.com/GravityChain",
+    "links": {
+        "website": "https://gravity.xyz/",
+        "docs": "https://docs.gravity.xyz/",
+        "github": "https://github.com/galxe-com",
+        "socials": {
+            "Twitter": "https://x.com/GravityChain",
+            "Discord": "https://discord.com/invite/gravityxyz",
+            "Blog": "https://blog.galxe.com/"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.gravity.xyz/"
+        },
+        "bridges": {
+            "Gravity Bridge": "https://gravity.xyz/bridge"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.gravity.xyz/"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/galxegravity"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

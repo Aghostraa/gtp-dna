@@ -17,9 +17,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://blockscout.lisk.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -48,8 +46,29 @@
     },
     "metadata_raas": "Gelato",
 
-    "socials_website": "https://lisk.com/",
-    "socials_twitter ": "https://x.com/LiskHQ",
+    "links": {
+        "website": "https://lisk.com/",
+        "docs": "https://lisk.com/documentation",
+        "github": "https://github.com/LiskHQ",
+        "socials": {
+            "Twitter": "https://x.com/LiskHQ",
+            "Discord": "https://discord.gg/lisk",
+            "Blog": "https://lisk.com/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://blockscout.lisk.com/"
+        },
+        "bridges": {
+            "Superbridge": "https://superbridge.app/lisk"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.lisk.com"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/lisk",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,

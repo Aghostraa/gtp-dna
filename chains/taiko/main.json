@@ -6,10 +6,7 @@
     "name": "Taiko Alethia",
     "name_short": "Taiko",
     "bucket": "Based Rollups",
-    "block_explorers": {
-        "Taikoscan": "https://taikoscan.io/",
-        "Routescan": "https://taikoexplorer.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -58,8 +55,30 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://taiko.xyz/",
-    "socials_twitter ": "https://twitter.com/taikoxyz",
+    "links": {
+        "website": "https://taiko.xyz/",
+        "docs": "https://docs.taiko.xyz/",
+        "github": "https://github.com/taikoxyz",
+        "socials": {
+            "Twitter": "https://twitter.com/taikoxyz",
+            "Discord": "https://discord.gg/taikoxyz",
+            "Blog": "https://taiko.mirror.xyz/"
+        },
+        "block_explorers": {
+            "Taikoscan": "https://taikoscan.io/",
+            "Routescan": "https://taikoexplorer.com/"
+        },
+        "bridges": {
+            "Taiko Bridge": "https://bridge.taiko.xyz/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.mainnet.taiko.xyz"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/taiko",
+            "Governance": "https://forum.taiko.xyz/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

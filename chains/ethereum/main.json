@@ -6,11 +6,7 @@
     "name": "Ethereum Mainnet",
     "name_short": "Ethereum L1",
     "bucket": "Layer 1",
-    "block_explorers": {
-        "Etherscan": "https://etherscan.io/",
-        "Blockscout": "https://eth.blockscout.com/",
-        "Routescan": "https://1.routescan.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -66,8 +62,28 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://ethereum.org/",
-    "socials_twitter ": "https://twitter.com/ethereum",
+    "links": {
+        "website": "https://ethereum.org/",
+        "docs": "https://ethereum.org/en/developers/docs/",
+        "github": "https://github.com/ethereum",
+        "socials": {
+            "Twitter": "https://twitter.com/ethereum",
+            "Discord": "https://discord.gg/ethereum-org",
+            "Blog": "https://blog.ethereum.org/"
+        },
+        "block_explorers": {
+            "Etherscan": "https://etherscan.io/",
+            "Blockscout": "https://eth.blockscout.com/",
+            "Routescan": "https://1.routescan.io/"
+        },
+        "bridges": {},
+        "rpcs": {
+            "Mainnet": "https://cloudflare-eth.com"
+        },
+        "others": {
+            "Governance": "https://ethereum-magicians.org/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

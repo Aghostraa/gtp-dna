@@ -7,10 +7,7 @@
     "company": "World",
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Alchemy Explorer": "https://worldchain-mainnet.explorer.alchemy.com/",
-        "Routescan": "https://480.routescan.io/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -61,8 +58,26 @@
     },
     "metadata_raas": "Alchemy",
 
-    "socials_website": "https://world.org/world-chain",
-    "socials_twitter ": "https://x.com/world_chain_",
+    "links": {
+        "website": "https://world.org/world-chain",
+        "docs": "https://docs.worldcoin.org/",
+        "github": "https://github.com/worldcoin",
+        "socials": {
+            "Twitter": "https://x.com/world_chain_",
+            "Discord": "https://discord.gg/worldcoin",
+            "Blog": "https://worldcoin.org/blog"
+        },
+        "block_explorers": {
+            "Alchemy Explorer": "https://worldchain-mainnet.explorer.alchemy.com/",
+            "Routescan": "https://480.routescan.io/"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/world",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

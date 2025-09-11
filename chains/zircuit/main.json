@@ -17,9 +17,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Others",
-    "block_explorers": {
-        "Zircuit Explorer": "https://explorer.zircuit.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -48,8 +46,28 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://www.zircuit.com/",
-    "socials_twitter ": "https://x.com/ZircuitL2",
+    "links": {
+        "website": "https://www.zircuit.com/",
+        "docs": "https://docs.zircuit.com/",
+        "github": "https://github.com/zircuit",
+        "socials": {
+            "Twitter": "https://x.com/ZircuitL2",
+            "Discord": "https://discord.gg/zircuit",
+            "Blog": "https://blog.zircuit.com/"
+        },
+        "block_explorers": {
+            "Zircuit Explorer": "https://explorer.zircuit.com/"
+        },
+        "bridges": {
+            "Zircuit Bridge": "https://bridge.zircuit.com/"
+        },
+        "rpcs": {
+            "Mainnet": "https://zircuit1.p2pify.com/"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/zircuit"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,

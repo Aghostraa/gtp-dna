@@ -6,9 +6,7 @@
     "name": "Mantle",
     "name_short": "Mantle",
     "bucket": "Others",
-    "block_explorers": {
-        "Blockscout": "https://explorer.mantle.xyz/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -60,8 +58,29 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://mantle.xyz/",
-    "socials_twitter ": "https://x.com/Mantle_Official",
+    "links": {
+        "website": "https://mantle.xyz/",
+        "docs": "https://docs.mantle.xyz/",
+        "github": "https://github.com/mantle-xyz",
+        "socials": {
+            "Twitter": "https://x.com/Mantle_Official",
+            "Discord": "https://discord.gg/mantle",
+            "Blog": "https://www.mantle.xyz/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.mantle.xyz/"
+        },
+        "bridges": {
+            "Mantle Bridge": "https://bridge.mantle.xyz/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.mantle.xyz"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/mantle",
+            "Governance": "https://forum.mantle.xyz/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

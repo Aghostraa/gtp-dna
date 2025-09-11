@@ -6,11 +6,6 @@
     "name": "Arbitrum One",
     "name_short": "Arbitrum",
     "bucket": "Arbitrum Orbit",
-    "block_explorers": {
-        "Arbiscan": "https://arbiscan.io/",
-        "Blockscout": "https://arbitrum.blockscout.com/",
-        "Routescan": "https://42161.routescan.io/"
-    },
     "ecosystem_old": [
         "all-chains"
     ],
@@ -61,8 +56,31 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://arbitrum.io/",
-    "socials_twitter ": "https://twitter.com/arbitrum",
+    "links": {
+        "website": "https://arbitrum.io/",
+        "docs": "https://docs.arbitrum.io/",
+        "github": "https://github.com/OffchainLabs/arbitrum",
+        "socials": {
+            "Twitter": "https://twitter.com/arbitrum",
+            "Discord": "https://discord.gg/arbitrum",
+            "Blog": "https://blog.arbitrum.io/"
+        },
+        "block_explorers": {
+            "Arbiscan": "https://arbiscan.io/",
+            "Blockscout": "https://arbitrum.blockscout.com/",
+            "Routescan": "https://42161.routescan.io/"
+        },
+        "bridges": {
+            "Arbitrum Bridge": "https://bridge.arbitrum.io/"
+        },
+        "rpcs": {
+            "Mainnet": "https://arb1.arbitrum.io/rpc"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/arbitrum",
+            "Governance": "https://forum.arbitrum.foundation/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

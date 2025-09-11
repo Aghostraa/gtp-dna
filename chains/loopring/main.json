@@ -6,9 +6,7 @@
     "name": "Loopring",
     "name_short": "Loopring",
     "bucket": "Others",
-    "block_explorers": {
-        "Loopring Explorer": "https://explorer.loopring.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -63,8 +61,27 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://loopring.org/",
-    "socials_twitter ": "https://twitter.com/loopringorg",
+    "links": {
+        "website": "https://loopring.org/",
+        "docs": "https://docs.loopring.io/",
+        "github": "https://github.com/Loopring",
+        "socials": {
+            "Twitter": "https://twitter.com/loopringorg",
+            "Discord": "https://discord.gg/loopring",
+            "Blog": "https://medium.com/loopring-protocol"
+        },
+        "block_explorers": {
+            "Loopring Explorer": "https://explorer.loopring.io/"
+        },
+        "bridges": {
+            "Loopring L2": "https://loopring.io/#/layer2"
+        },
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/loopring",
+            "API Docs": "https://docs.loopring.io/en/developer_tools/API_Reference/"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

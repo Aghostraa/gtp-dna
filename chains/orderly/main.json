@@ -10,10 +10,7 @@
     "name": "Orderly",
     "name_short": "Orderly",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.orderly.network/",
-        "Routescan": "https://291.routescan.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -66,8 +63,30 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://orderly.network/",
-    "socials_twitter ": "https://twitter.com/OrderlyNetwork",
+    "links": {
+        "website": "https://orderly.network/",
+        "docs": "https://docs.orderly.network/",
+        "github": "https://github.com/orderly-network",
+        "socials": {
+            "Twitter": "https://twitter.com/OrderlyNetwork",
+            "Discord": "https://discord.gg/orderlynetwork",
+            "Blog": "https://orderly.network/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.orderly.network/",
+            "Routescan": "https://291.routescan.io/"
+        },
+        "bridges": {
+            "Orderly App": "https://app.orderly.network/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.orderly.network"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/orderly",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
