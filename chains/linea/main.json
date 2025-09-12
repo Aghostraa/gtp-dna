@@ -44,7 +44,7 @@
 
     "aliases_l2beat": "linea",
     "aliases_l2beat_slug": "linea",
-    "aliases_coingecko": null,
+    "aliases_coingecko": "linea",
     "aliases_rhino": "LINEA",
     "aliases_blockscout_url": "https://api-explorer.linea.build/api/v2/",
     "aliases_defillama": "linea",
@@ -96,10 +96,10 @@
     "cross_check_url": "https://lineascan.build/chart/tx?output=csv",
     "cross_check_type": "etherscan",
     
-    "circulating_supply_token_address": null,
-    "circulating_supply_token_deployment_date": null,
-    "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null,
+    "circulating_supply_token_address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "circulating_supply_token_deployment_date": "2025-09-10",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
 
     "events": [
         {
