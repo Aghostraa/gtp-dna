@@ -100,5 +100,32 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2022-06-09",
+            "type": "funding_round",
+            "title": "Seed Funding Round ($20M)",
+            "short_title": "Seed Funding",
+            "description": "Orderly Network raised $20 million in a seed funding round from notable investors to build a decentralized trading infrastructure.",
+            "source": "https://www.coindesk.com/business/2022/06/09/near-based-orderly-network-raises-20m-for-defi-infrastructure/"
+        },
+        {
+            "date": "2022-10-11",
+            "type": "protocol_launch",
+            "title": "Launch on NEAR Protocol",
+            "short_title": "Launch on NEAR",
+            "description": "Orderly Network initially launched its orderbook-based trading protocol on the NEAR blockchain.",
+            "source": "https://medium.com/orderlynetwork/orderly-network-mainnet-is-here-the-start-of-a-new-chapter-in-defi-b97c11f786d7"
+        },
+        {
+            "date": "2024-01-22",
+            "type": "mainnet_launch",
+            "title": "Mainnet Soft Launch",
+            "short_title": "Mainnet Soft Launch",
+            "description": "The initial launch of the Orderly Chain mainnet, laying the groundwork for its full-featured decentralized exchange infrastructure.",
+            "source": "https://orderly.network/blog/orderly-chain-soft-launch-on-mainnet"
+        }
+    ]
 }

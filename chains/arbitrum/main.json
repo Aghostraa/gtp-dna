@@ -95,5 +95,64 @@
     "circulating_supply_token_address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
     "circulating_supply_token_deployment_date": "2023-03-16",
     "circulating_supply_token_deployment_origin_key": "arbitrum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2021-08-31",
+            "type": "mainnet_launch",
+            "title": "Arbitrum One Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The public launch of the Arbitrum One mainnet, opening up the popular Layer 2 scaling solution to all users and developers.",
+            "source": "https://offchain.medium.com/arbitrum-one-mainnet-is-now-open-to-everyone-98781f34a93"
+        },
+        {
+            "date": "2021-08-31",
+            "type": "funding_round",
+            "title": "Series B Funding Round ($120M)",
+            "short_title": "Series B Funding",
+            "description": "Offchain Labs raised $120 million in a Series B funding round led by Lightspeed Venture Partners, announced on the same day as the mainnet launch.",
+            "source": "https://www.coindesk.com/business/2021/08/31/arbitrum-raises-120m-as-offchain-labs-gets-12b-valuation/"
+        },
+        {
+            "date": "2022-06-21",
+            "type": "campaign",
+            "title": "Arbitrum Odyssey Campaign",
+            "short_title": "Arbitrum Odyssey",
+            "description": "A multi-week campaign designed to encourage users to explore top projects in the Arbitrum ecosystem, which drove significant network activity.",
+            "source": "https://arbitrum.foundation/odyssey"
+        },
+        {
+            "date": "2022-08-31",
+            "type": "major_upgrade",
+            "title": "Nitro Upgrade",
+            "short_title": "Nitro Upgrade",
+            "description": "A major technical upgrade that significantly increased transaction throughput, lowered fees, and improved EVM compatibility.",
+            "source": "https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-91e269508552"
+        },
+        {
+            "date": "2023-03-23",
+            "type": "token_launch",
+            "title": "ARB Token Launch and Airdrop",
+            "short_title": "ARB Token Launch",
+            "description": "The launch of the native ARB governance token, distributed via a large-scale airdrop to early users and builders, and the transition to a DAO governance model.",
+            "source": "https://arbitrum.foundation/news/arbitrum-dao-arbitrum-orbit"
+        },
+        {
+            "date": "2024-03-14",
+            "type": "major_upgrade",
+            "title": "Atlas Upgrade (EIP-4844 Support)",
+            "short_title": "Atlas Upgrade",
+            "description": "Arbitrum implemented support for Ethereum's Dencun upgrade (EIP-4844), using 'blobs' for data posting to drastically reduce transaction fees.",
+            "source": "https://docs.arbitrum.io/for-devs/concepts/inside-arbitrum-nitro/node-software/arbos-versions#arbos-20-atlas"
+        },
+        {
+            "date": "2024-09-03",
+            "type": "major_upgrade",
+            "title": "Arbitrum One activates Stylus on mainnet",
+            "short_title": "Stylus Activation",
+            "description": "Arbitrum One enables Stylus on mainnet. A new feature allowing developers to write smart contracts in Rust, C, C++ and other WebAssembly-compatible languages alongside Solidity. The Stylus activation (live on Sept 3, 2024, Arbitrum’s 3rd anniversary) represents a significant expansion of Arbitrum One’s developer capabilities, offering higher performance and broader language support for Layer-2 dApps.",
+            "source": "https://blog.arbitrum.io/arbitrum-stylus-mainnet/"
+        }
+    ]
 }

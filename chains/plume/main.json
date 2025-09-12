@@ -88,5 +88,24 @@
     "circulating_supply_token_address": "0x4c1746a800d224393fe2470c70a35717ed4ea5f1",
     "circulating_supply_token_deployment_date": "2024-08-07",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2024-02-14",
+            "type": "testnet_launch",
+            "title": "Plume Network Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "The first public testnet for Plume, a modular L2 focused on bringing Real World Assets (RWA) on-chain, went live.",
+            "source": "https://medium.com/@plumenetwork/plume-networks-incentivized-testnet-is-live-1b32f41643c7"
+        },
+        {
+            "date": "2025-02-20",
+            "type": "mainnet_launch",
+            "title": "Planned Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The scheduled mainnet launch date for the Plume Network.",
+            "source": "https://www.plume.network/"
+        }
+    ]
 }

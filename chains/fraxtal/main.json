@@ -92,5 +92,32 @@
     "circulating_supply_token_address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
     "circulating_supply_token_deployment_date": "2020-12-16",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2023-06-15",
+            "type": "technology_announcement",
+            "title": "Fraxtal Announcement",
+            "short_title": "Fraxtal Announced",
+            "description": "Frax Finance founder Sam Kazemian announced plans to launch Fraxtal, an EVM-compatible L2 rollup.",
+            "source": "https://www.theblock.co/post/234907/frax-finance-to-launch-layer-2-blockchain-fraxtal"
+        },
+        {
+            "date": "2024-02-28",
+            "type": "mainnet_launch",
+            "title": "Fraxtal Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The Fraxtal mainnet went live, introducing a unique 'Flox' blockspace incentive system.",
+            "source": "https://x.com/fraxfinance/status/1762955146755498305"
+        },
+        {
+            "date": "2024-03-07",
+            "type": "campaign",
+            "title": "FXTL Points Airdrop Campaign",
+            "short_title": "FXTL Points Camp",
+            "description": "Launched a points campaign to reward users for bridging assets and interacting with the Fraxtal ecosystem, leading up to the FXTL token airdrop.",
+            "source": "https://x.com/fraxfinance/status/1765471445703704818"
+        }
+    ]
 }

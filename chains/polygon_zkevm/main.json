@@ -93,5 +93,48 @@
     "circulating_supply_token_address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
     "circulating_supply_token_deployment_date": "2019-04-20",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2021-08-13",
+            "type": "acquisition",
+            "title": "Polygon Acquires Hermez Network",
+            "short_title": "Acquires Hermez",
+            "description": "Polygon acquired Hermez Network for $250 million, merging their teams and technology to build what would become Polygon zkEVM.",
+            "source": "https://polygon.technology/blog/polygon-merges-with-hermez-network-in-250m-deal"
+        },
+        {
+            "date": "2022-10-10",
+            "type": "testnet_launch",
+            "title": "Public Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "The public testnet for Polygon's zkEVM went live, marking a major milestone in the race for EVM-equivalent ZK-rollups.",
+            "source": "https://polygon.technology/blog/the-polygon-zkevm-public-testnet-is-live"
+        },
+        {
+            "date": "2023-03-27",
+            "type": "mainnet_launch",
+            "title": "Mainnet Beta Launch",
+            "short_title": "Mainnet Beta",
+            "description": "The Polygon zkEVM Mainnet Beta was launched, allowing developers and users to experience its high performance and low fees.",
+            "source": "https://polygon.technology/blog/polygon-zkevm-mainnet-beta-is-live"
+        },
+        {
+            "date": "2024-02-27",
+            "type": "major_upgrade",
+            "title": "AggLayer v1 Launch",
+            "short_title": "AggLayer Launch",
+            "description": "As part of the Polygon 2.0 vision, the Aggregation Layer (AggLayer) launched, designed to unify liquidity across Polygon chains.",
+            "source": "https://polygon.technology/blog/agglayer-v1-is-now-live-on-mainnet"
+        },
+        {
+            "date": "2024-05-20",
+            "type": "major_upgrade",
+            "title": "Elderberry Upgrade (EIP-4844 Support)",
+            "short_title": "Elderberry Upgrade",
+            "description": "The network upgraded to support EIP-4844 blobs, significantly reducing data availability costs for transactions.",
+            "source": "https://polygon.technology/blog/polygon-zkevm-elderberry-upgrade-is-coming-to-mainnet-with-eip-4844-support"
+        }
+    ]
 }

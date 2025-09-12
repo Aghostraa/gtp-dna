@@ -94,5 +94,40 @@
     "circulating_supply_token_address": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
     "circulating_supply_token_deployment_date": "2023-06-20",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2023-01-10",
+            "type": "testnet_launch",
+            "title": "Public Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Mantle, incubated by BitDAO, launched its public testnet, featuring a modular design with EigenDA for data availability.",
+            "source": "https://www.mantle.xyz/blog/announcements/mantle-testnet-is-live"
+        },
+        {
+            "date": "2023-05-19",
+            "type": "governance",
+            "title": "BitDAO and Mantle Merger",
+            "short_title": "BitDAO Merger",
+            "description": "The BitDAO community voted to approve a merger with the Mantle project, consolidating the treasury and brand under Mantle.",
+            "source": "https://www.mantle.xyz/blog/announcements/one-brand-one-token"
+        },
+        {
+            "date": "2023-07-17",
+            "type": "mainnet_launch",
+            "title": "Mainnet Alpha Launch",
+            "short_title": "Mainnet Alpha",
+            "description": "Mantle launched its mainnet on the first day of EthCC Paris, establishing itself as a key player in the modular blockchain space.",
+            "source": "https://www.mantle.xyz/blog/announcements/mantle-mainnet-alpha"
+        },
+        {
+            "date": "2024-02-27",
+            "type": "campaign",
+            "title": "Mantle Rewards Station Launch",
+            "short_title": "Rewards Station",
+            "description": "Launched a rewards program allowing users to lock MNT tokens to earn rewards from new and promising ecosystem projects.",
+            "source": "https://www.mantle.xyz/blog/announcements/introducing-mantle-rewards-station"
+        }
+    ]
 }

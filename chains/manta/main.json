@@ -97,5 +97,40 @@
     "circulating_supply_token_address": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
     "circulating_supply_token_deployment_date": "2024-01-24",
     "circulating_supply_token_deployment_origin_key": "manta",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2023-09-12",
+            "type": "mainnet_launch",
+            "title": "Manta Pacific Mainnet Alpha Launch",
+            "short_title": "Mainnet Alpha",
+            "description": "The mainnet for Manta Pacific, an EVM-native modular L2, went live.",
+            "source": "https://mantanetwork.medium.com/manta-pacific-mainnet-alpha-is-live-8a3c5a75b719"
+        },
+        {
+            "date": "2023-12-13",
+            "type": "major_upgrade",
+            "title": "DA Transition to Celestia",
+            "short_title": "Move to Celestia DA",
+            "description": "Manta Pacific transitioned its data availability layer from Ethereum calldata to Celestia, drastically reducing transaction fees for users.",
+            "source": "https://mantanetwork.medium.com/manta-pacific-transitions-to-celestia-da-becoming-the-first-l2-to-do-so-39233642a492"
+        },
+        {
+            "date": "2023-12-19",
+            "type": "campaign",
+            "title": "New Paradigm Campaign",
+            "short_title": "New Paradigm",
+            "description": "Launched a campaign allowing users to bridge assets to earn yield and rewards, attracting over $500M in TVL.",
+            "source": "https://mantanetwork.medium.com/manta-new-paradigm-yield-generation-for-eth-usdc-and-native-token-incentives-9860472f88f5"
+        },
+        {
+            "date": "2024-01-18",
+            "type": "token_launch",
+            "title": "MANTA Token Launch",
+            "short_title": "MANTA Token Launch",
+            "description": "The native MANTA token was launched and airdropped to early users and participants of the New Paradigm campaign.",
+            "source": "https://mantanetwork.medium.com/manta-token-generation-event-tge-details-48197793d508"
+        }
+    ]
 }

@@ -103,5 +103,56 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2023-02-23",
+            "type": "testnet_launch",
+            "title": "Base Announcement and Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Coinbase announced its entry into the L2 space with Base, an OP Stack-based rollup, and launched its public testnet.",
+            "source": "https://www.base.org/blog/introducing-base"
+        },
+        {
+            "date": "2023-07-13",
+            "type": "mainnet_launch",
+            "title": "Mainnet for Builders Launch",
+            "short_title": "Builder Mainnet",
+            "description": "Base opened its mainnet to developers and builders to deploy applications ahead of the public release.",
+            "source": "https://www.base.org/blog/base-mainnet-is-open-for-builders"
+        },
+        {
+            "date": "2023-08-09",
+            "type": "mainnet_launch",
+            "title": "Public Mainnet Launch",
+            "short_title": "Public Mainnet",
+            "description": "Base officially opened its mainnet to the public, allowing users to bridge assets and interact with the ecosystem.",
+            "source": "https://www.base.org/blog/base-is-open-for-business"
+        },
+        {
+            "date": "2023-08-09",
+            "type": "campaign",
+            "title": "Onchain Summer Campaign",
+            "short_title": "Onchain Summer",
+            "description": "A multi-week campaign launched alongside the public mainnet to celebrate onchain art, music, and gaming, driving initial user adoption.",
+            "source": "https://www.base.org/onchainsummer"
+        },
+        {
+            "date": "2023-08-10",
+            "type": "ecosystem_event",
+            "title": "friend.tech Launch",
+            "short_title": "friend.tech Launch",
+            "description": "The decentralized social application friend.tech launched exclusively on Base, becoming a viral phenomenon and a major driver of network activity.",
+            "source": "https://www.coindesk.com/web3/2023/08/21/what-is-friendtech-the-new-crypto-social-app-everyones-talking-about/"
+        },
+        {
+            "date": "2024-03-14",
+            "type": "major_upgrade",
+            "title": "Ecotone Upgrade (EIP-4844 Support)",
+            "short_title": "Ecotone Upgrade",
+            "description": "As part of the OP Stack, Base upgraded to support Ethereum's Dencun upgrade, significantly lowering its transaction fees.",
+            "source": "https://base.mirror.xyz/39352132-05a2-475f-801b-c743a2b72acb"
+        }
+    ]
 }

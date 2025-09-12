@@ -96,5 +96,48 @@
     "circulating_supply_token_address": "0x01a6715d3560241E09E865a46122bf347A576c09",
     "circulating_supply_token_deployment_date": "2024-06-16",
     "circulating_supply_token_deployment_origin_key": "zksync_era",
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2021-06-15",
+            "type": "mainnet_launch",
+            "title": "ZKsync Lite Mainnet Launch",
+            "short_title": "ZKsync Lite Launch",
+            "description": "The first version of ZKsync (now called Lite) launched on mainnet, primarily for token transfers and swaps.",
+            "source": "https://blog.matter-labs.io/zksync-is-live-bringing-trustless-scalable-payments-to-ethereum-85c627c28765"
+        },
+        {
+            "date": "2023-03-24",
+            "type": "mainnet_launch",
+            "title": "ZKsync Era Mainnet Alpha",
+            "short_title": "Era Mainnet Alpha",
+            "description": "The full-featured, EVM-compatible ZK-rollup, ZKsync Era, launched its Mainnet Alpha, opening it to the public.",
+            "source": "https://blog.matter-labs.io/zksync-era-mainnet-alpha-is-live-325b42754fc2"
+        },
+        {
+            "date": "2023-07-16",
+            "type": "campaign",
+            "title": "Libertas Omnibus NFT Collection",
+            "short_title": "Libertas Omnibus",
+            "description": "An experimental NFT collection was launched to celebrate the community and stress-test the network, with over 170,000 NFTs minted.",
+            "source": "https://blog.zksync.io/libertas-omnibus-a-zksync-nft-experiment-in-liberty-and-exploration-1ac60cf1c26c"
+        },
+        {
+            "date": "2024-06-11",
+            "type": "token_launch",
+            "title": "ZK Token Airdrop Announcement",
+            "short_title": "ZK Token Airdrop",
+            "description": "Matter Labs announced the details of the ZK token airdrop and the handover of governance to the ZK Nation community.",
+            "source": "https://blog.zksync.io/zksyncs-token-airdrop-is-live-heres-what-you-need-to-know"
+        },
+        {
+            "date": "2024-06-17",
+            "type": "token_launch",
+            "title": "ZK Token Claim Goes Live",
+            "short_title": "ZK Token Claim",
+            "description": "Eligible users were able to claim their ZK token airdrop, marking a major step towards decentralized governance.",
+            "source": "https://claim.zknation.io/"
+        }
+    ]
 }

@@ -86,5 +86,16 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2025-01-14",
+            "type": "mainnet_launch",
+            "title": "Planned Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The scheduled mainnet launch date for Soneium, focused on creating an open internet for diverse values.",
+            "source": "https://soneium.org/en/"
+        }
+    ]
 }

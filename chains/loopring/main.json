@@ -95,5 +95,40 @@
     "circulating_supply_token_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
     "circulating_supply_token_deployment_date": "2019-04-11",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2017-08-01",
+            "type": "token_launch",
+            "title": "LRC Token Sale (ICO)",
+            "short_title": "LRC Token Sale",
+            "description": "Loopring conducted its ICO for the LRC token, which is central to its zkRollup protocol's operation.",
+            "source": "https://www.coindesk.com/tech/2017/08/29/loopring-protocol-raises-45-million-in-ico/"
+        },
+        {
+            "date": "2019-12-04",
+            "type": "mainnet_launch",
+            "title": "zkRollup Mainnet Launch",
+            "short_title": "zkRollup Launch",
+            "description": "Loopring launched its payment and decentralized exchange protocol on Ethereum mainnet, becoming one of the very first live zkRollups.",
+            "source": "https://medium.com/loopring-protocol/loopring-3-0-is-live-on-mainnet-5c53187a55ac"
+        },
+        {
+            "date": "2021-02-27",
+            "type": "product_launch",
+            "title": "Loopring Smart Wallet Launch",
+            "short_title": "Smart Wallet Launch",
+            "description": "Launched a mobile smart contract wallet with native Loopring L2 integration, simplifying user access to the rollup.",
+            "source": "https://medium.com/loopring-protocol/loopring-wallet-ethereum-s-first-zkrollup-smart-wallet-93c4e2396328"
+        },
+        {
+            "date": "2022-03-23",
+            "type": "partnership",
+            "title": "GameStop NFT Marketplace Partnership",
+            "short_title": "GameStop Partnership",
+            "description": "Announced a partnership with GameStop to power its NFT marketplace, leveraging Loopring's L2 for fast and cheap NFT transactions.",
+            "source": "https://medium.com/loopring-protocol/gamestop-nft-marketplace-powered-by-loopring-l2-is-now-live-beta-d51823338301"
+        }
+    ]
 }

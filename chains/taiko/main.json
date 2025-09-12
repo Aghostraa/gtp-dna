@@ -92,5 +92,40 @@
     "circulating_supply_token_address": "0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800",
     "circulating_supply_token_deployment_date": "2024-06-05",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2022-12-27",
+            "type": "testnet_launch",
+            "title": "Alpha-1 Testnet Launch",
+            "short_title": "Alpha-1 Testnet",
+            "description": "Taiko launched its first public testnet (Alpha-1), beginning a series of iterative testnets to develop its Type-1 zkEVM.",
+            "source": "https://taiko.mirror.xyz/3h3e-32L5fYv2i_YwVmMjyzCs2_ESJwwkbOD2vkeScg"
+        },
+        {
+            "date": "2024-03-02",
+            "type": "funding_round",
+            "title": "Funding Rounds Announced ($37M)",
+            "short_title": "Funding Rounds",
+            "description": "Taiko announced it had raised a total of $37 million across two funding rounds to support the development of its based rollup.",
+            "source": "https://taiko.xyz/blog/taiko-raises-37m-to-build-the-first-based-rollup"
+        },
+        {
+            "date": "2024-05-27",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "Taiko launched its mainnet, bringing a based, permissionless, and decentralized ZK-Rollup to Ethereum.",
+            "source": "https://taiko.xyz/blog/taiko-mainnet-is-live"
+        },
+        {
+            "date": "2024-06-05",
+            "type": "token_launch",
+            "title": "TAIKO Token Launch",
+            "short_title": "TAIKO Token Launch",
+            "description": "The native TAIKO token was launched and airdropped to genesis community members, including testnet users, proposers, and provers.",
+            "source": "https://taiko.xyz/blog/taiko-genesis-airdrop"
+        }
+    ]
 }

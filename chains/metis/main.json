@@ -95,5 +95,48 @@
     "circulating_supply_token_address": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
     "circulating_supply_token_deployment_date": "2020-12-12",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2021-11-19",
+            "type": "mainnet_launch",
+            "title": "Andromeda Mainnet Launch",
+            "short_title": "Andromeda Launch",
+            "description": "Metis launched its EVM-equivalent L2 network, Andromeda, aiming to provide a low-cost and scalable environment for dApps.",
+            "source": "https://metisdao.medium.com/metis-layer-2-mainnet-andromeda-is-live-59311217e221"
+        },
+        {
+            "date": "2023-07-13",
+            "type": "technology_announcement",
+            "title": "Hybrid Rollup Announcement",
+            "short_title": "Hybrid Rollup Plan",
+            "description": "Metis announced plans to become a Hybrid Rollup, combining the speed of optimistic rollups with the security of zero-knowledge proofs.",
+            "source": "https://metisdao.medium.com/metis-the-first-hybrid-rollup-a-technical-deep-dive-part-1-of-3-9f5b6b17042a"
+        },
+        {
+            "date": "2023-12-18",
+            "type": "funding",
+            "title": "Ecosystem Development Fund ($100M)",
+            "short_title": "Eco Dev Fund",
+            "description": "The MetisDAO Foundation announced a $100 million Ecosystem Development Fund to accelerate growth and dApp adoption on the network.",
+            "source": "https://metis.io/blog/metis-launches-a-100m-fund-to-accelerate-the-growth-of-its-layer-2-ecosystem"
+        },
+        {
+            "date": "2024-01-15",
+            "type": "testnet_launch",
+            "title": "Decentralized Sequencer Testnet",
+            "short_title": "Decentralized Seq",
+            "description": "Launched the testnet for its decentralized sequencer, a key step in reducing single points of failure and enhancing censorship resistance.",
+            "source": "https://metis.io/blog/metis-decentralized-sequencer-testnet-is-live"
+        },
+        {
+            "date": "2024-03-12",
+            "type": "major_upgrade",
+            "title": "Decentralized Sequencer Mainnet Launch",
+            "short_title": "Decentralized Seq",
+            "description": "Metis activated the first phase of its decentralized sequencer on mainnet, a major milestone in its roadmap to decentralization.",
+            "source": "https://metis.io/blog/metis-decentralized-sequencer-is-live-on-mainnet"
+        }
+    ]
 }

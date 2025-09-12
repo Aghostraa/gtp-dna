@@ -99,5 +99,48 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2023-03-28",
+            "type": "branding",
+            "title": "ConsenSys zkEVM Rebrands to Linea",
+            "short_title": "Rebrand to Linea",
+            "description": "The project, previously known as ConsenSys zkEVM, was officially rebranded to Linea alongside the launch of its public testnet.",
+            "source": "https://consensys.io/blog/reintroducing-consensys-zkevm-as-linea"
+        },
+        {
+            "date": "2023-05-02",
+            "type": "campaign",
+            "title": "Linea Voyage Campaign",
+            "short_title": "Linea Voyage",
+            "description": "A multi-week campaign on the testnet designed to stress-test the network and onboard early users by having them complete various on-chain tasks.",
+            "source": "https://linea.mirror.xyz/3bVB6ABp6p5f302L0wz28Tj5n2h99W4dGgP22s5xT2E"
+        },
+        {
+            "date": "2023-07-12",
+            "type": "mainnet_launch",
+            "title": "Mainnet Alpha Launch",
+            "short_title": "Mainnet Alpha",
+            "description": "Linea's mainnet went live, opening the developer-centric zkEVM rollup to the public.",
+            "source": "https://linea.mirror.xyz/fYG-fY2eMiG-3ylp8i2zR1Wa2erN4b_lGceG0nH6l_M"
+        },
+        {
+            "date": "2024-02-20",
+            "type": "campaign",
+            "title": "Linea Park Campaign",
+            "short_title": "Linea Park",
+            "description": "A gamified campaign with multiple zones and tasks, aimed at increasing user engagement and dApp discovery on the mainnet.",
+            "source": "https://linea.mirror.xyz/62070f2f-4b0c-4389-9189-e1525a81284d"
+        },
+        {
+            "date": "2024-06-11",
+            "type": "major_upgrade",
+            "title": "Alpha v2 Upgrade",
+            "short_title": "Alpha v2 Upgrade",
+            "description": "A significant network upgrade that included support for EIP-4844 blobs, reducing data costs and transaction fees.",
+            "source": "https://linea.mirror.xyz/g4sCCh3d2_q9dDqlwm0ag-p335EAcXp3q85n00s4eH4"
+        }
+    ]
 }

@@ -97,5 +97,24 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2023-12-04",
+            "type": "testnet_launch",
+            "title": "Redstone Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Redstone launched its public testnet, introducing its high-performance blockchain infrastructure.",
+            "source": "https://redstone.xyz/blog/testnet-launch"
+        },
+        {
+            "date": "2024-05-01",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "Redstone's mainnet went live, offering fast and secure blockchain solutions.",
+            "source": "https://redstone.xyz/blog/mainnet-launch"
+        }
+    ]
 }

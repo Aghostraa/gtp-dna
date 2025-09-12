@@ -93,5 +93,32 @@
 
     "circulating_supply_token_address": "0x471ece3750da237f93b8e339c536989b8978a438",
     "circulating_supply_token_deployment_date": "2020-05-22",
-    "circulating_supply_token_deployment_origin_key": "celo"
+    "circulating_supply_token_deployment_origin_key": "celo",
+
+    "events": [
+        {
+            "date": "2020-04-22",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch as L1",
+            "short_title": "L1 Mainnet Launch",
+            "description": "Celo launched its mainnet as a mobile-first, Proof-of-Stake Layer 1 blockchain focused on user accessibility.",
+            "source": "https://medium.com/celoorg/celo-mainnet-is-live-45a1768212c2"
+        },
+        {
+            "date": "2024-04-17",
+            "type": "major_upgrade",
+            "title": "Donut Hardfork",
+            "short_title": "Donut Hardfork",
+            "description": "A crucial hardfork that prepared the Celo L1 for its transition into an Ethereum L2 by aligning its transaction format with Ethereum's EIP-1559.",
+            "source": "https://blog.celo.org/the-donut-hardfork-is-coming-to-celo-mainnet-42861c16264c"
+        },
+        {
+            "date": "2025-03-26",
+            "type": "mainnet_launch",
+            "title": "Celo L2 Migration",
+            "short_title": "Layer 2 Migration",
+            "description": "Celo successfully migrated from its Layer 1 mainnet to a Layer 2 solution, enhancing scalability and user experience.",
+            "source": "https://blog.celo.org/celo-l2-mainnet-launch"
+        }
+    ]
 }

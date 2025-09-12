@@ -99,5 +99,64 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2015-07-30",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch (Frontier)",
+            "short_title": "Frontier Launch",
+            "description": "The initial live release of the Ethereum network, marking the beginning of decentralized applications and smart contracts on a public blockchain.",
+            "source": "https://blog.ethereum.org/2015/07/30/ethereum-launches"
+        },
+        {
+            "date": "2016-06-17",
+            "type": "security_incident",
+            "title": "The DAO Hack",
+            "short_title": "The DAO Hack",
+            "description": "A major exploit of 'The DAO', a decentralized venture capital fund, which led to a contentious hard fork and the creation of Ethereum Classic.",
+            "source": "https://www.coindesk.com/learn/the-dao-hack-what-it-was-and-how-it-changed-ethereum/"
+        },
+        {
+            "date": "2020-12-01",
+            "type": "major_upgrade",
+            "title": "Beacon Chain Launch",
+            "short_title": "Beacon Chain Launch",
+            "description": "The launch of the Beacon Chain, the first step in Ethereum's transition from Proof-of-Work to a Proof-of-Stake consensus mechanism.",
+            "source": "https://blog.ethereum.org/2020/11/04/eth2-quick-update-no-21"
+        },
+        {
+            "date": "2021-08-05",
+            "type": "major_upgrade",
+            "title": "London Hard Fork (EIP-1559)",
+            "short_title": "London Hard Fork",
+            "description": "A major network upgrade that introduced EIP-1559, which changed Ethereum's fee market mechanism to include a base fee that is burned.",
+            "source": "https://blog.ethereum.org/2021/07/15/london-mainnet-announcement"
+        },
+        {
+            "date": "2022-09-15",
+            "type": "major_upgrade",
+            "title": "The Merge",
+            "short_title": "The Merge",
+            "description": "The historic transition of the Ethereum Mainnet from Proof-of-Work (PoW) to Proof-of-Stake (PoS) consensus by merging with the Beacon Chain.",
+            "source": "https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement"
+        },
+        {
+            "date": "2023-04-12",
+            "type": "major_upgrade",
+            "title": "Shapella Upgrade",
+            "short_title": "Shapella Upgrade",
+            "description": "The Shanghai/Capella upgrade enabled withdrawals for staked ETH, completing the Proof-of-Stake transition.",
+            "source": "https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement"
+        },
+        {
+            "date": "2024-03-13",
+            "type": "major_upgrade",
+            "title": "Dencun Upgrade (Proto-Danksharding)",
+            "short_title": "Dencun Upgrade",
+            "description": "Introduced EIP-4844 (Proto-Danksharding), which created 'blobs' to significantly reduce data fees for Layer 2 rollups.",
+            "source": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement"
+        }
+    ]
 }

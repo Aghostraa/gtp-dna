@@ -93,5 +93,40 @@
     "circulating_supply_token_address": "0xb1a5700fA2358173Fe465e6eA4Ff52E36e88E2ad",
     "circulating_supply_token_deployment_date": "2024-06-26",
     "circulating_supply_token_deployment_origin_key": "blast",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2023-11-21",
+            "type": "testnet_launch",
+            "title": "Announcement and Early Access Launch",
+            "short_title": "Early Access Launch",
+            "description": "Blast was announced as an EVM-compatible L2 with native yield, raising $20M and opening a one-way bridge for users to earn points.",
+            "source": "https://blast.io/en/blog"
+        },
+        {
+            "date": "2024-01-17",
+            "type": "campaign",
+            "title": "Big Bang Developer Competition",
+            "short_title": "Big Bang Comp",
+            "description": "Launched a competition for developers to build on the Blast testnet, with winners receiving a portion of the future airdrop to bootstrap the ecosystem.",
+            "source": "https://twitter.com/Blast_L2/status/1747377519639535697"
+        },
+        {
+            "date": "2024-02-29",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The Blast mainnet went live, allowing users to withdraw their bridged funds and interact with dApps on the network.",
+            "source": "https://twitter.com/Blast_L2/status/1763293673733079435"
+        },
+        {
+            "date": "2024-06-26",
+            "type": "token_launch",
+            "title": "BLAST Token Airdrop",
+            "short_title": "BLAST Token Airdrop",
+            "description": "The native BLAST token was launched and distributed to early access users, developers, and ecosystem projects based on points earned.",
+            "source": "https://twitter.com/Blast_L2/status/1805669614441554167"
+        }
+    ]
 }
