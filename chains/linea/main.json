@@ -94,7 +94,7 @@
     "cross_check_type": "etherscan",
     
     "circulating_supply_token_address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
-    "circulating_supply_token_deployment_date": "2025-09-10",
+    "circulating_supply_token_deployment_date": "2025-09-09",
     "circulating_supply_token_deployment_origin_key": "ethereum",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
 
