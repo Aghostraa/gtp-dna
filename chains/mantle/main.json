@@ -6,9 +6,7 @@
     "name": "Mantle",
     "name_short": "Mantle",
     "bucket": "Others",
-    "block_explorers": {
-        "Blockscout": "https://explorer.mantle.xyz/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -60,8 +58,29 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://mantle.xyz/",
-    "socials_twitter ": "https://x.com/Mantle_Official",
+    "links": {
+        "website": "https://mantle.xyz/",
+        "docs": "https://docs.mantle.xyz/",
+        "github": "https://github.com/mantle-xyz",
+        "socials": {
+            "Twitter": "https://x.com/Mantle_Official",
+            "Discord": "https://discord.gg/mantle",
+            "Blog": "https://www.mantle.xyz/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.mantle.xyz/"
+        },
+        "bridges": {
+            "Mantle Bridge": "https://bridge.mantle.xyz/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.mantle.xyz"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/mantle",
+            "Governance": "https://forum.mantle.xyz/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
@@ -75,5 +94,40 @@
     "circulating_supply_token_address": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
     "circulating_supply_token_deployment_date": "2023-06-20",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2023-01-10",
+            "type": "testnet_launch",
+            "title": "Public Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Mantle, incubated by BitDAO, launched its public testnet, featuring a modular design with EigenDA for data availability.",
+            "source": "https://www.mantle.xyz/blog/announcements/mantle-testnet-is-live"
+        },
+        {
+            "date": "2023-05-19",
+            "type": "governance",
+            "title": "BitDAO and Mantle Merger",
+            "short_title": "BitDAO Merger",
+            "description": "The BitDAO community voted to approve a merger with the Mantle project, consolidating the treasury and brand under Mantle.",
+            "source": "https://www.mantle.xyz/blog/announcements/one-brand-one-token"
+        },
+        {
+            "date": "2023-07-17",
+            "type": "mainnet_launch",
+            "title": "Mainnet Alpha Launch",
+            "short_title": "Mainnet Alpha",
+            "description": "Mantle launched its mainnet on the first day of EthCC Paris, establishing itself as a key player in the modular blockchain space.",
+            "source": "https://www.mantle.xyz/blog/announcements/mantle-mainnet-alpha"
+        },
+        {
+            "date": "2024-02-27",
+            "type": "campaign",
+            "title": "Mantle Rewards Station Launch",
+            "short_title": "Rewards Station",
+            "description": "Launched a rewards program allowing users to lock MNT tokens to earn rewards from new and promising ecosystem projects.",
+            "source": "https://www.mantle.xyz/blog/announcements/introducing-mantle-rewards-station"
+        }
+    ]
 }

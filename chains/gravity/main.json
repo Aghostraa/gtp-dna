@@ -5,9 +5,7 @@
     "name": "Gravity",
     "name_short": "Gravity",
     "bucket": "Arbitrum Orbit",
-    "block_explorers": {
-        "Blockscout": "https://explorer.gravity.xyz/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -56,8 +54,28 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://gravity.xyz/",
-    "socials_twitter ": "https://x.com/GravityChain",
+    "links": {
+        "website": "https://gravity.xyz/",
+        "docs": "https://docs.gravity.xyz/",
+        "github": "https://github.com/galxe-com",
+        "socials": {
+            "Twitter": "https://x.com/GravityChain",
+            "Discord": "https://discord.com/invite/gravityxyz",
+            "Blog": "https://blog.galxe.com/"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.gravity.xyz/"
+        },
+        "bridges": {
+            "Gravity Bridge": "https://gravity.xyz/bridge"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.gravity.xyz/"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/galxegravity"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
@@ -71,5 +89,24 @@
     "circulating_supply_token_address": "0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649",
     "circulating_supply_token_deployment_date": "2024-05-13",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2024-01-24",
+            "type": "testnet_launch",
+            "title": "Public Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Galxe launched the public testnet for Gravity, its own Arbitrum Orbit-based L2 chain designed for its questing and identity data.",
+            "source": "https://blog.galxe.com/introducing-gravity-a-layer-1-blockchain-for-web3-mass-adoption-250c950a649d"
+        },
+        {
+            "date": "2024-08-13",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The official launch of the Gravity mainnet, migrating Galxe's core functionalities to its dedicated Layer 2.",
+            "source": "https://x.com/GravityChain/status/1823372295624790074"
+        }
+    ]
 }

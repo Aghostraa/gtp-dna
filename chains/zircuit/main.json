@@ -11,15 +11,13 @@
     "aliases_rhino": null,
     "aliases_defillama": "zircuit",
 
-    "runs_aggregate_blockspace": false,
+    "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": false,
     "runs_contract_metadata": false,
 
     "bucket": "Others",
-    "block_explorers": {
-        "Zircuit Explorer": "https://explorer.zircuit.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -48,8 +46,28 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://www.zircuit.com/",
-    "socials_twitter ": "https://x.com/ZircuitL2",
+    "links": {
+        "website": "https://www.zircuit.com/",
+        "docs": "https://docs.zircuit.com/",
+        "github": "https://github.com/zircuit",
+        "socials": {
+            "Twitter": "https://x.com/ZircuitL2",
+            "Discord": "https://discord.gg/zircuit",
+            "Blog": "https://blog.zircuit.com/"
+        },
+        "block_explorers": {
+            "Zircuit Explorer": "https://explorer.zircuit.com/"
+        },
+        "bridges": {
+            "Zircuit Bridge": "https://bridge.zircuit.com/"
+        },
+        "rpcs": {
+            "Mainnet": "https://zircuit1.p2pify.com/"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/zircuit"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,
@@ -74,5 +92,32 @@
     "circulating_supply_token_address": "0xfd418e42783382e86ae91e445406600ba144d162",
     "circulating_supply_token_deployment_date": "2024-08-03",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2024-05-30",
+            "type": "program_launch",
+            "title": "Zircuit Staking Program Launch",
+            "short_title": "Staking Program",
+            "description": "Zircuit launched its liquid restaking protocol, allowing users to earn staking rewards through their early access program.",
+            "source": "https://zircuit.com/blog/zircuit-staking-launch"
+        },
+        {
+            "date": "2024-07-15",
+            "type": "testnet_launch",
+            "title": "Zircuit Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "The public testnet for Zircuit's AI-powered L2 was launched, featuring security-focused infrastructure.",
+            "source": "https://zircuit.com/blog/zircuit-testnet-live"
+        },
+        {
+            "date": "2024-12-01",
+            "type": "mainnet_launch",
+            "title": "Planned Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The scheduled mainnet launch date for Zircuit's AI-powered Layer 2 chain.",
+            "source": "https://zircuit.com/blog/zircuit-mainnet-announcement"
+        }
+    ]
 }

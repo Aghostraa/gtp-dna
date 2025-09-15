@@ -6,10 +6,7 @@
     "name": "Zora",
     "name_short": "Zora",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.zora.energy/",
-        "Routescan": "https://zora.thesuperscan.io/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -61,8 +58,29 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://zora.co/",
-    "socials_twitter ": "https://twitter.com/ourzora",
+    "links": {
+        "website": "https://zora.co/",
+        "docs": "https://docs.zora.co/",
+        "github": "https://github.com/ourzora",
+        "socials": {
+            "Twitter": "https://twitter.com/ourzora",
+            "Blog": "https://zora.mirror.xyz/"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.zora.energy/",
+            "Routescan": "https://zora.thesuperscan.io/"
+        },
+        "bridges": {
+            "Zora Bridge": "https://bridge.zora.energy/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.zora.energy"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/zora",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
@@ -76,5 +94,32 @@
     "circulating_supply_token_address": "0x1111111111166b7fe7bd91427724b487980afc69",
     "circulating_supply_token_deployment_date": "2025-04-23",
     "circulating_supply_token_deployment_origin_key": "base",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2022-05-05",
+            "type": "funding_round",
+            "title": "Series A Funding Round ($50M)",
+            "short_title": "Series A Funding",
+            "description": "Zora raised $50 million in a funding round led by Haun Ventures to build out its NFT protocol.",
+            "source": "https://www.coindesk.com/business/2022/05/05/haun-ventures-leads-50m-round-for-nft-protocol-zora/"
+        },
+        {
+            "date": "2023-06-21",
+            "type": "mainnet_launch",
+            "title": "Zora Network Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "Zora launched its own dedicated Layer 2 network using the OP Stack to provide a fast and low-cost environment for minting NFTs.",
+            "source": "https://zora.mirror.xyz/3O22m0hG4gLSW1H1iud5aQ2h70-k2cILJ2Gu2I_e-y0"
+        },
+        {
+            "date": "2024-03-14",
+            "type": "major_upgrade",
+            "title": "EIP-4844 Support",
+            "short_title": "EIP-4844 Support",
+            "description": "As part of the OP Stack ecosystem, Zora Network implemented support for EIP-4844, making the cost of minting on the platform significantly cheaper.",
+            "source": "https://zora.mirror.xyz/e54e5684-2453-4485-a7c8-35639b56f4d3"
+        }
+    ]
 }

@@ -10,9 +10,7 @@
     "name": "Derive",
     "name_short": "Derive",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.lyra.finance/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -65,8 +63,28 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://www.derive.xyz/",
-    "socials_twitter ": "https://x.com/derivexyz",
+    "links": {
+        "website": "https://www.derive.xyz/",
+        "docs": "https://docs.derive.xyz/",
+        "github": "https://github.com/lyra-finance",
+        "socials": {
+            "Twitter": "https://x.com/derivexyz",
+            "Discord": "https://discord.gg/derivexyz",
+            "Blog": "https://www.derive.xyz/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.lyra.finance/"
+        },
+        "bridges": {
+            "Superbridge": "https://superbridge.app/derive"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.lyra.finance/"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/derive"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
@@ -80,5 +98,32 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2021-08-01",
+            "type": "protocol_launch",
+            "title": "Lyra Protocol Launch on Optimism",
+            "short_title": "Launch on Optimism",
+            "description": "The Lyra options trading protocol initially launched on the Optimism L2 network.",
+            "source": "https://blog.lyra.finance/lyra-launches-on-optimism/"
+        },
+        {
+            "date": "2023-11-20",
+            "type": "mainnet_launch",
+            "title": "Lyra Chain Mainnet Launch",
+            "short_title": "Lyra Chain Launch",
+            "description": "Lyra migrated from being a protocol on Optimism to its own dedicated L2, Lyra Chain, built using the OP Stack.",
+            "source": "https://blog.lyra.finance/lyra-chain-is-live/"
+        },
+        {
+            "date": "2024-05-15",
+            "type": "branding",
+            "title": "Rebrand to Derive",
+            "short_title": "Rebrand to Derive",
+            "description": "The Lyra Chain was officially rebranded to Derive to reflect its expanded mission beyond options trading into a full settlement protocol.",
+            "source": "https://blog.derive.xyz/lyra-is-now-derive/"
+        }
+    ]
 }

@@ -6,10 +6,7 @@
     "name": "Starknet",
     "name_short": "Starknet",
     "bucket": "Starkware",
-    "block_explorers": {
-        "StarkScan": "https://starkscan.co/",
-        "Voyager": "https://voyager.online/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -61,8 +58,30 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://starknet.io/",
-    "socials_twitter ": "https://twitter.com/StarkWareLtd",
+    "links": {
+        "website": "https://starknet.io/",
+        "docs": "https://docs.starknet.io/",
+        "github": "https://github.com/starkware-libs/",
+        "socials": {
+            "Twitter": "https://twitter.com/StarkWareLtd",
+            "Discord": "https://discord.gg/starknet",
+            "Blog": "https://www.starknet.io/en/content"
+        },
+        "block_explorers": {
+            "StarkScan": "https://starkscan.co/",
+            "Voyager": "https://voyager.online/"
+        },
+        "bridges": {
+            "StarkGate": "https://starkgate.starknet.io/"
+        },
+        "rpcs": {
+            "Mainnet": "https://starknet-mainnet.public.blastapi.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/starknet",
+            "Governance": "https://community.starknet.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
@@ -76,5 +95,40 @@
     "circulating_supply_token_address": "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766",
     "circulating_supply_token_deployment_date": "2022-11-16",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2021-11-29",
+            "type": "mainnet_launch",
+            "title": "Starknet Alpha Mainnet Launch",
+            "short_title": "Alpha Mainnet",
+            "description": "The first version of the Starknet general-purpose ZK-Rollup went live on Ethereum mainnet.",
+            "source": "https://medium.com/starkware/starknet-planets-alpha-on-mainnet-1033c5631405"
+        },
+        {
+            "date": "2023-07-13",
+            "type": "major_upgrade",
+            "title": "Quantum Leap Upgrade",
+            "short_title": "Quantum Leap",
+            "description": "A major upgrade that transitioned the network to a new Rust-based sequencer and introduced Cairo 1.0, dramatically improving performance.",
+            "source": "https://www.starknet.io/en/posts/ecosystem/starknet-quantum-leap-is-here-starknet-mainnet-upgraded-to-v0120"
+        },
+        {
+            "date": "2024-02-20",
+            "type": "token_launch",
+            "title": "STRK Token Launch and Airdrop",
+            "short_title": "STRK Token Launch",
+            "description": "The native STRK token was launched and distributed to over 1.3 million eligible addresses through the Starknet Provisions Program.",
+            "source": "https://www.starknet.io/en/posts/ecosystem/introducing-the-starknet-provisions-program"
+        },
+        {
+            "date": "2024-03-13",
+            "type": "major_upgrade",
+            "title": "EIP-4844 Support",
+            "short_title": "EIP-4844 Support",
+            "description": "Starknet implemented support for Ethereum's Dencun upgrade, using blobs for data availability to lower network fees.",
+            "source": "https://www.starknet.io/en/posts/ecosystem/ethereums-dencun-upgrade-is-here-starknet-fees-are-dropping-now"
+        }
+    ]
 }

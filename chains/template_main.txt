@@ -19,9 +19,7 @@
 
     // Metadata
     "bucket": "Others", // Superchain, Arbitrum Orbit, Others, etc.
-    "block_explorers": {
-        "EXPLORER_NAME": "EXPLORER_LINK"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -50,8 +48,32 @@
     },
     "metadata_raas": "Self-hosted", // Conduit, Caldera, etc. rollup as a service provider. If no RaaS we put "Self-hosted"
 
-    "socials_website": "https://EXAMPLE.COM",
-    "socials_twitter ": "https://EXAMPLE.COM",
+    // Arbitrum example
+    "links": {
+        "website": "https://arbitrum.io/",
+        "docs": "https://docs.arbitrum.io/",
+        "github": "https://github.com/OffchainLabs/arbitrum",
+        "socials": {
+            "Twitter": "https://twitter.com/arbitrum",
+            "Discord": "https://discord.gg/arbitrum",
+            "Blog": "https://blog.arbitrum.io/"
+        },
+        "block_explorers": {
+            "Arbiscan": "https://arbiscan.io/",
+            "Blockscout": "https://arbitrum.blockscout.com/",
+            "Routescan": "https://42161.routescan.io/"
+        },
+        "bridges": {
+            "Arbitrum Bridge": "https://bridge.arbitrum.io/"
+        },
+        "rpcs": {
+            "Mainnet": "https://arb1.arbitrum.io/rpc"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/arbitrum",
+            "Governance": "https://forum.arbitrum.foundation/"
+        }
+    },
 
     // GTP BACKEND CONFIG
     "api_in_api_main": false,

@@ -6,10 +6,7 @@
     "name": "Mode Network",
     "name_short": "Mode",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.mode.network/",
-        "Routescan": "https://modescan.io/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -62,8 +59,30 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://mode.network/",
-    "socials_twitter ": "https://twitter.com/modenetwork",
+    "links": {
+        "website": "https://mode.network/",
+        "docs": "https://docs.mode.network/",
+        "github": null,
+        "socials": {
+            "Twitter": "https://twitter.com/modenetwork",
+            "Discord": "https://discord.gg/modenetwork",
+            "Blog": "https://mode.network/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.mode.network/",
+            "Routescan": "https://modescan.io/"
+        },
+        "bridges": {
+            "Mode Bridge": "https://bridge.mode.network/"
+        },
+        "rpcs": {
+            "Mainnet": "https://mainnet.mode.network/"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/mode",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
@@ -78,5 +97,32 @@
     "circulating_supply_token_address": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
     "circulating_supply_token_deployment_date": "2024-04-29",
     "circulating_supply_token_deployment_origin_key": "mode",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2023-11-01",
+            "type": "testnet_launch",
+            "title": "Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Mode Network launched its public testnet, introducing its focus on on-chain economic systems and developer revenue sharing.",
+            "source": "https://mode.mirror.xyz/Q_oVjVDKY-5lY1b_zYoyf1sPEpW4qg0-3s7GvLw2sO0"
+        },
+        {
+            "date": "2024-01-31",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch & Airdrop Season 1",
+            "short_title": "Mainnet Launch",
+            "description": "The Mode mainnet went live, accompanied by the 'Mode Sunrise' campaign, a points-based system to reward users for on-chain activity.",
+            "source": "https://mode.mirror.xyz/K0-V_y1SJHbQ35OozT7Tz4g4J5o0s0vpl3wH8Tz_w-Y"
+        },
+        {
+            "date": "2024-05-07",
+            "type": "token_launch",
+            "title": "MODE Token Launch",
+            "short_title": "MODE Token Launch",
+            "description": "The native MODE governance token was launched and airdropped to participants of the first airdrop season.",
+            "source": "https://mode.mirror.xyz/PZXp4y3nUD53So8I5zG9-57nQzCVwgf2JkNs53iJ-vQ"
+        }
+    ]
 }

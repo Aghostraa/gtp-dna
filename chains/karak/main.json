@@ -10,7 +10,7 @@
     "name": "Karak",
     "name_short": "Karak",
     "bucket": "Others",
-    "block_explorers": null,
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -59,8 +59,18 @@
     },
     "metadata_raas": "Caldera",
 
-    "socials_website": "https://karak.network/",
-    "socials_twitter ": "https://twitter.com/Karak_Network",
+    "links": {
+        "website": "https://karak.network/",
+        "docs": null,
+        "github": null,
+        "socials": {
+            "Twitter": "https://twitter.com/Karak_Network"
+        },
+        "block_explorers": {},
+        "bridges": {},
+        "rpcs": {},
+        "others": {}
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,

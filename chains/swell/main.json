@@ -16,10 +16,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.swellnetwork.io/",
-        "Routescan": "https://1923.routescan.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -47,8 +44,27 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "AltLayer",
-    "socials_website": "https://www.swellnetwork.io/",
-    "socials_twitter ": "https://x.com/swellnetworkio",
+    
+    "links": {
+        "website": "https://www.swellnetwork.io/",
+        "docs": "https://docs.swellnetwork.io/",
+        "github": "https://github.com/SwellNetwork",
+        "socials": {
+            "Twitter": "https://x.com/swellnetworkio",
+            "Discord": "https://discord.gg/swellnetwork",
+            "Blog": "https://www.swellnetwork.io/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.swellnetwork.io/",
+            "Routescan": "https://1923.routescan.io/"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/swell",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,
@@ -72,5 +88,32 @@
     "circulating_supply_token_address": "0X0A6E7BA5042B38349E437EC6DB6214AEC7B35676",
     "circulating_supply_token_deployment_date": "2024-07-19",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2023-04-26",
+            "type": "protocol_launch",
+            "title": "Swell LST Protocol Launch",
+            "short_title": "LST Protocol Launch",
+            "description": "Swell initially launched on Ethereum as a liquid staking protocol, introducing the swETH Liquid Staking Token (LST).",
+            "source": "https://www.swellnetwork.io/blog/swell-launches-on-mainnet"
+        },
+        {
+            "date": "2024-07-17",
+            "type": "testnet_launch",
+            "title": "Swellchain Public Testnet",
+            "short_title": "Public Testnet",
+            "description": "The public testnet for Swellchain was launched, allowing users to test its restaking and DeFi functionalities.",
+            "source": "https://www.swellnetwork.io/blog/swell-l2-testnet-is-live"
+        },
+        {
+            "date": "2024-12-19",
+            "type": "mainnet_launch",
+            "title": "Planned Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The scheduled mainnet launch date for Swell's restaking-focused L2 chain.",
+            "source": "https://www.swellnetwork.io/blog/swell-is-building-a-restaking-l2"
+        }
+    ]
 }

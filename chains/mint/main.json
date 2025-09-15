@@ -16,10 +16,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.mintchain.io/",
-        "Routescan": "https://mintscan.org/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -50,8 +47,30 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://mintchain.io/",
-    "socials_twitter ": "https://twitter.com/Mint_Blockchain",
+    "links": {
+        "website": "https://mintchain.io/",
+        "docs": "https://docs.mintchain.io/",
+        "github": null,
+        "socials": {
+            "Twitter": "https://twitter.com/Mint_Blockchain",
+            "Discord": "https://discord.com/invite/mint-blockchain",
+            "Blog": "https://mirror.xyz/mintchain.eth"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.mintchain.io/",
+            "Routescan": "https://mintscan.org/"
+        },
+        "bridges": {
+            "Mint Bridge": "https://bridge.mintchain.io/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.mintchain.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/mint",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,
@@ -75,5 +94,32 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2024-02-09",
+            "type": "testnet_launch",
+            "title": "Public Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Mint Blockchain launched its public testnet, focusing on NFT standards and real-world asset integration.",
+            "source": "https://www.mintchain.io/blog/mint-blockchain-testnet-is-live"
+        },
+        {
+            "date": "2024-05-14",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The Mint Blockchain mainnet went live, built on the OP Stack and joining the Superchain ecosystem.",
+            "source": "https://www.mintchain.io/blog/mint-mainnet-is-live-now"
+        },
+        {
+            "date": "2024-05-15",
+            "type": "campaign",
+            "title": "Mint Forest Campaign",
+            "short_title": "Mint Forest",
+            "description": "Launched Mint Forest, a gamified daily check-in and social campaign to drive user engagement and network activity.",
+            "source": "https://www.mintchain.io/blog/mint-forest-campaign"
+        }
+    ]
 }

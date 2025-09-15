@@ -6,9 +6,7 @@
     "name": "Redstone",
     "name_short": "Redstone",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.redstone.xyz/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -64,8 +62,28 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://redstone.xyz/",
-    "socials_twitter ": "https://twitter.com/redstonexyz",
+    "links": {
+        "website": "https://redstone.xyz/",
+        "docs": "https://redstone.xyz/docs",
+        "github": "https://github.com/latticexyz/redstone",
+        "socials": {
+            "Twitter": "https://twitter.com/redstonexyz",
+            "Discord": "https://discord.gg/latticexyz"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.redstone.xyz/"
+        },
+        "bridges": {
+            "Redstone Bridge": "https://redstone.xyz/deposit"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.redstonechain.com"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/redstone",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
@@ -79,5 +97,24 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2023-12-04",
+            "type": "testnet_launch",
+            "title": "Redstone Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Redstone launched its public testnet, introducing its high-performance blockchain infrastructure.",
+            "source": "https://redstone.xyz/blog/testnet-launch"
+        },
+        {
+            "date": "2024-05-01",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "Redstone's mainnet went live, offering fast and secure blockchain solutions.",
+            "source": "https://redstone.xyz/blog/mainnet-launch"
+        }
+    ]
 }

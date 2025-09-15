@@ -10,7 +10,7 @@
     "name": "Public Goods Network",
     "name_short": "PGN",
     "bucket": "Superchain",
-    "block_explorers": null,
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -58,8 +58,18 @@
     },
     "metadata_raas": "Conduit",
 
-    "socials_website": "https://publicgoods.network/",
-    "socials_twitter ": "https://twitter.com/pgn_eth",
+    "links": {
+        "website": "https://publicgoods.network/",
+        "docs": null,
+        "github": null,
+        "socials": {
+            "Twitter": "https://twitter.com/pgn_eth"
+        },
+        "block_explorers": {},
+        "bridges": {},
+        "rpcs": {},
+        "others": {}
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,

@@ -6,9 +6,7 @@
     "name": "Scroll",
     "name_short": "Scroll",
     "bucket": "Others",
-    "block_explorers": {
-        "ScrollScan": "https://scrollscan.com/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -57,8 +55,29 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://scroll.io/",
-    "socials_twitter ": "https://twitter.com/scroll_zkp",
+    "links": {
+        "website": "https://scroll.io/",
+        "docs": "https://docs.scroll.io/",
+        "github": "https://github.com/scroll-tech",
+        "socials": {
+            "Twitter": "https://twitter.com/scroll_zkp",
+            "Discord": "https://discord.gg/scroll",
+            "Blog": "https://scroll.io/blog"
+        },
+        "block_explorers": {
+            "ScrollScan": "https://scrollscan.com/"
+        },
+        "bridges": {
+            "Scroll Bridge": "https://scroll.io/bridge"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.scroll.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/scroll",
+            "Governance": "https://community.scroll.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
@@ -73,5 +92,56 @@
     "circulating_supply_token_address": "0xd29687c813D741E2F938F4aC377128810E217b1b",
     "circulating_supply_token_deployment_date": "2024-10-21",
     "circulating_supply_token_deployment_origin_key": "scroll",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2022-04-21",
+            "type": "funding_round",
+            "title": "Series A Funding Round ($30M)",
+            "short_title": "Series A Funding",
+            "description": "Scroll announced a $30 million Series A funding round to continue development of its EVM-equivalent zk-rollup.",
+            "source": "https://scroll.io/blog/seriesA"
+        },
+        {
+            "date": "2023-02-27",
+            "type": "testnet_launch",
+            "title": "Alpha Testnet on Goerli",
+            "short_title": "Alpha Testnet",
+            "description": "Launched its Alpha Testnet on Ethereum's Goerli testnet, inviting widespread public testing and dApp deployment.",
+            "source": "https://scroll.io/blog/alphaTestnet"
+        },
+        {
+            "date": "2023-03-06",
+            "type": "funding_round",
+            "title": "New Funding Round ($50M)",
+            "short_title": "New Funding",
+            "description": "Scroll raised an additional $50 million in a new funding round, valuing the project at $1.8 billion.",
+            "source": "https://techcrunch.com/2023/03/06/scroll-zkevm-layer-2-network-ethereum-valuation-1-8-billion/"
+        },
+        {
+            "date": "2023-10-17",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The Scroll mainnet was officially launched, bringing its native zkEVM solution to the Ethereum ecosystem.",
+            "source": "https://scroll.io/blog/scrollMainnet"
+        },
+        {
+            "date": "2024-04-16",
+            "type": "campaign",
+            "title": "Scroll Sessions Loyalty Program",
+            "short_title": "Scroll Sessions",
+            "description": "Launched 'Scroll Sessions', a loyalty program to reward users and developers for their on-chain activity with 'Marks'.",
+            "source": "https://scroll.io/blog/scroll-sessions"
+        },
+        {
+            "date": "2024-04-29",
+            "type": "major_upgrade",
+            "title": "Bernoulli Upgrade",
+            "short_title": "Bernoulli Upgrade",
+            "description": "The Bernoulli network upgrade integrated support for EIP-4844, using blobs for data availability to lower fees.",
+            "source": "https://scroll.io/blog/the-bernoulli-upgrade-is-live-on-scroll-mainnet"
+        }
+    ]
 }

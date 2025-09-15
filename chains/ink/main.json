@@ -17,10 +17,7 @@
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Blockscout": "https://explorer.inkonchain.com/",
-        "Routescan": "https://57073.routescan.io/"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -49,8 +46,29 @@
     },
     "metadata_raas": "Gelato",
 
-    "socials_website": "https://inkonchain.com/",
-    "socials_twitter ": "https://x.com/inkonchain",
+    "links": {
+        "website": "https://inkonchain.com/",
+        "docs": "https://docs.inkonchain.com/",
+        "github": "https://github.com/gelatodigital",
+        "socials": {
+            "Twitter": "https://x.com/inkonchain",
+            "Blog": "https://inkonchain.com/blog"
+        },
+        "block_explorers": {
+            "Blockscout": "https://explorer.inkonchain.com/",
+            "Routescan": "https://57073.routescan.io/"
+        },
+        "bridges": {
+            "Superbridge": "https://superbridge.app/ink"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.inkonchain.com"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/ink",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "api_in_api_main": true,
     "api_in_api_fees": false,
@@ -74,5 +92,24 @@
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
-    "circulating_supply_token_circulating_supply_function": null
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2024-10-16",
+            "type": "branding",
+            "title": "Name 'Ink' Revealed",
+            "short_title": "'Ink' Revealed",
+            "description": "Kraken officially revealed the name of its upcoming L2 as 'Ink', built as an OP Stack Superchain member with Gelato as a RaaS provider.",
+            "source": "https://blog.kraken.com/post/21650/say-hello-to-ink-krakens-superchain-l2/"
+        },
+        {
+            "date": "2024-12-07",
+            "type": "mainnet_launch",
+            "title": "Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The scheduled mainnet launch date for Ink, aiming to be a hub for DeFi within the Superchain ecosystem.",
+            "source": "https://blog.kraken.com/post/21650/say-hello-to-ink-krakens-superchain-l2/"
+        }
+    ]
 }

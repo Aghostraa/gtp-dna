@@ -6,11 +6,7 @@
     "name": "OP Mainnet",
     "name_short": "OP Mainnet",
     "bucket": "Superchain",
-    "block_explorers": {
-        "Optimistic Etherscan": "https://optimistic.etherscan.io/",
-        "Blockscout": "https://optimism.blockscout.com/",
-        "Routescan": "https://mainnet.thesuperscan.io/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -63,8 +59,31 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://optimism.io/",
-    "socials_twitter ": "https://twitter.com/Optimism",
+    "links": {
+        "website": "https://optimism.io/",
+        "docs": "https://docs.optimism.io/",
+        "github": "https://github.com/ethereum-optimism",
+        "socials": {
+            "Twitter": "https://twitter.com/Optimism",
+            "Discord": "https://discord-gateway.optimism.io/",
+            "Blog": "https://optimism.mirror.xyz/"
+        },
+        "block_explorers": {
+            "Optimistic Etherscan": "https://optimistic.etherscan.io/",
+            "Blockscout": "https://optimism.blockscout.com/",
+            "Routescan": "https://mainnet.thesuperscan.io/"
+        },
+        "bridges": {
+            "OP Mainnet Bridge": "https://app.optimism.io/bridge/"
+        },
+        "rpcs": {
+            "Mainnet": "https://mainnet.optimism.io"
+        },
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/op-mainnet",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
@@ -79,5 +98,40 @@
     "circulating_supply_token_address": "0x4200000000000000000000000000000000000042",
     "circulating_supply_token_deployment_date": "2022-04-26",
     "circulating_supply_token_deployment_origin_key": "optimism",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2021-12-16",
+            "type": "mainnet_launch",
+            "title": "Public Mainnet Launch",
+            "short_title": "Public Mainnet",
+            "description": "After an extended whitelisted period, Optimism removed the whitelist for contract deployment, opening the network to all developers.",
+            "source": "https://optimism.mirror.xyz/o_3f_69IOi2Gv0yJtSg8fc2FWv0zstXLjmmDb169pfI"
+        },
+        {
+            "date": "2022-05-31",
+            "type": "token_launch",
+            "title": "OP Token Launch & Airdrop #1",
+            "short_title": "OP Token Launch",
+            "description": "The OP governance token was launched and distributed through a first-of-its-kind airdrop to early adopters, establishing the Optimism Collective.",
+            "source": "https://optimism.mirror.xyz/qvd0WfuG3093O2f2Z2_e-xL14y2aG9hb0dpb92jRR1Q"
+        },
+        {
+            "date": "2023-06-06",
+            "type": "major_upgrade",
+            "title": "Bedrock Upgrade",
+            "short_title": "Bedrock Upgrade",
+            "description": "A major network upgrade that re-architected the OP Stack to be more modular, efficient, and closer to Ethereum equivalence.",
+            "source": "https://blog.optimism.io/bedrock-announcement/"
+        },
+        {
+            "date": "2024-03-14",
+            "type": "major_upgrade",
+            "title": "Ecotone Upgrade (EIP-4844 Support)",
+            "short_title": "Ecotone Upgrade",
+            "description": "OP Mainnet activated support for Ethereum's Dencun upgrade (EIP-4844), using 'blobs' to make transaction fees dramatically lower.",
+            "source": "https://blog.optimism.io/ecotone-is-live/"
+        }
+    ]
 }

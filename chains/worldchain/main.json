@@ -7,10 +7,7 @@
     "company": "World",
 
     "bucket": "Superchain",
-    "block_explorers": {
-        "Alchemy Explorer": "https://worldchain-mainnet.explorer.alchemy.com/",
-        "Routescan": "https://480.routescan.io/"
-    },
+
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -61,8 +58,26 @@
     },
     "metadata_raas": "Alchemy",
 
-    "socials_website": "https://world.org/world-chain",
-    "socials_twitter ": "https://x.com/world_chain_",
+    "links": {
+        "website": "https://world.org/world-chain",
+        "docs": "https://docs.worldcoin.org/",
+        "github": "https://github.com/worldcoin",
+        "socials": {
+            "Twitter": "https://x.com/world_chain_",
+            "Discord": "https://discord.gg/worldcoin",
+            "Blog": "https://worldcoin.org/blog"
+        },
+        "block_explorers": {
+            "Alchemy Explorer": "https://worldchain-mainnet.explorer.alchemy.com/",
+            "Routescan": "https://480.routescan.io/"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/world",
+            "Governance": "https://gov.optimism.io/"
+        }
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
@@ -76,5 +91,24 @@
     "circulating_supply_token_address": "0x163f8C2467924be0ae7B5347228CABF260318753",
     "circulating_supply_token_deployment_date": "2023-07-17",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2023-07-24",
+            "type": "token_launch",
+            "title": "Worldcoin Launch",
+            "short_title": "WLD Token Launch",
+            "description": "Tools for Humanity launched Worldcoin (WLD), introducing a digital identity and currency system based on biometric verification.",
+            "source": "https://worldcoin.org/blog/announcements/worldcoin-launch"
+        },
+        {
+            "date": "2024-12-01",
+            "type": "mainnet_launch",
+            "title": "Planned Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The scheduled mainnet launch date for World Chain.",
+            "source": "https://worldcoin.org/blog/announcements/introducing-world-chain"
+        }
+    ]
 }

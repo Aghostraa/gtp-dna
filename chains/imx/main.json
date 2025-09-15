@@ -63,8 +63,27 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://www.immutable.com/",
-    "socials_twitter ": "https://twitter.com/immutable",
+    "links": {
+        "website": "https://www.immutable.com/",
+        "docs": "https://docs.immutable.com/docs/x-overview",
+        "github": "https://github.com/immutable",
+        "socials": {
+            "Twitter": "https://twitter.com/immutable",
+            "Discord": "https://discord.com/invite/immutable",
+            "Blog": "https://www.immutable.com/blog"
+        },
+        "block_explorers": {
+            "Immutascan": "https://immutascan.io/"
+        },
+        "bridges": {
+            "Immutable Bridge": "https://toolkit.immutable.com/bridge/"
+        },
+        "rpcs": {},
+        "others": {
+            "L2Beat": "https://l2beat.com/scaling/projects/immutablex",
+            "API Docs": "https://docs.immutable.com/docs/apis-overview"
+        }
+    },
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
@@ -79,5 +98,40 @@
     "circulating_supply_token_address": "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF",
     "circulating_supply_token_deployment_date": "2021-10-14",
     "circulating_supply_token_deployment_origin_key": "ethereum",
-    "circulating_supply_token_circulating_supply_function": "totalSupply"
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2021-03-26",
+            "type": "mainnet_launch",
+            "title": "Immutable X Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The platform went live, offering gas-free minting and trading of NFTs using StarkEx's Validium technology.",
+            "source": "https://www.immutable.com/blog/immutable-x-alpha-launch"
+        },
+        {
+            "date": "2021-09-08",
+            "type": "token_launch",
+            "title": "IMX Token Sale",
+            "short_title": "IMX Token Sale",
+            "description": "The launch of the IMX utility and governance token through a public sale, used for fees, staking, and governance.",
+            "source": "https://www.immutable.com/blog/imx-token-sale-on-coinlist"
+        },
+        {
+            "date": "2022-02-03",
+            "type": "partnership",
+            "title": "GameStop Partnership",
+            "short_title": "GameStop Partnership",
+            "description": "Announced a major partnership with GameStop to launch its NFT marketplace, bringing significant mainstream attention.",
+            "source": "https://www.immutable.com/blog/immutable-x-gamestop-partnership"
+        },
+        {
+            "date": "2022-03-07",
+            "type": "funding_round",
+            "title": "Series C Funding Round ($200M)",
+            "short_title": "Series C Funding",
+            "description": "Immutable raised $200 million in a Series C funding round at a $2.5 billion valuation, led by Temasek.",
+            "source": "https://www.immutable.com/blog/immutable-series-c-funding"
+        }
+    ]
 }

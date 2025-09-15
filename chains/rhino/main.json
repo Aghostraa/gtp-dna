@@ -6,9 +6,7 @@
     "name": "rhino.fi",
     "name_short": "rhino.fi",
     "bucket": "Starkware",
-    "block_explorers": {
-        "Rhino Explorer": "https://app.rhino.fi/stats"
-    },
+
     "ecosystem_old": [
         "all-chains"
     ],
@@ -65,8 +63,20 @@
     },
     "metadata_raas": "Self-hosted",
 
-    "socials_website": "https://rhino.fi/",
-    "socials_twitter ": "https://twitter.com/rhinofi",
+    "links": {
+        "website": "https://rhino.fi/",
+        "docs": null,
+        "github": null,
+        "socials": {
+            "Twitter": "https://twitter.com/rhinofi"
+        },
+        "block_explorers": {
+            "Rhino Explorer": "https://app.rhino.fi/stats"
+        },
+        "bridges": {},
+        "rpcs": {},
+        "others": {}
+    },
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

@@ -1,4 +1,5 @@
 {
-    "body": "<g fill=\"none\"><g clip-path=\"url(#svgID0)\"><g fill=\"currentColor\" clip-path=\"url(#svgID1)\"><path d=\"M4.499 10.898v3.64l4.478-6.276-4.478 2.636Zm0-5.514v4.671l4.477-2.642L4.5 5.383Z\"/><path d=\"M4.499 0v5.383l4.477 2.03L4.5 0ZM4.5 10.898v3.64L.021 8.261l4.477 2.636Zm0-5.514v4.671L.021 7.414l4.477-2.03ZM4.499 0v5.383L.022 7.413 4.499 0Z\"/></g></g><defs><clipPath id=\"svgID0\"><path fill=\"#fff\" d=\"M0 0h9v14.539H0z\"/></clipPath><clipPath id=\"svgID1\"><path fill=\"#fff\" d=\"M.021 0h8.957v14.539H.021z\"/></clipPath></defs></g>",
-    "width": 9
+    "body": "<g clip-path=\"url(#clip0_177_32820)\"><path d=\"M7.49997 11.0754L3.02246 8.43961L7.49997 14.7151L11.9775 8.43961L7.49997 11.0754Z\" fill=\"currentColor\"/><path d=\"M7.5 0.177887L11.9774 7.59031L7.5 10.2334L3.02246 7.59065L7.5 0.177887Z\" fill=\"currentColor\"/></g><defs><clipPath id=\"clip0_177_32820\"><rect width=\"15\" height=\"14.5385\" fill=\"white\" transform=\"translate(0 0.17691)\"/></clipPath></defs>",
+    "width": 15,
+    "height": 15
 }
