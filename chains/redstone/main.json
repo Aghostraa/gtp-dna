@@ -33,7 +33,8 @@
     "api_api_exclude_metrics": [
         "profit",
         "fdv",
-        "market_cap"
+        "market_cap",
+        "app_revenue"
     ],
     "api_tab_status": {
         "overview": "active",
