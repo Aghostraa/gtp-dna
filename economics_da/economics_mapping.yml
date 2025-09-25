@@ -1228,6 +1228,10 @@ taiko:
       comment: "proposeBlocksV2 (first used 2024-11-07)"
     - from_address: null
       to_address: null
+      method: "0xe4882785"
+      comment: "proposeBlocksV2Conditionally (first used 2025-03-18, last used 2025-05-21)"
+    - from_address: null
+      to_address: null
       method: "0x47faad14"
       comment: "proposeBatch (first used 2025-05-21)"
     - from_address: null
@@ -1267,6 +1271,10 @@ taiko:
       to_address: null
       method: "0x0c8f4a10"
       comment: "proposeBlocksV2"
+    - from_address: null
+      to_address: null
+      method: "0xe4882785"
+      comment: "proposeBlocksV2Conditionally (first used 2025-03-18, last used 2025-05-21)"
     - from_address: null
       to_address: null
       method: "0x47faad14"
@@ -1942,3 +1950,19 @@ plume:
       comment: "confirmNextNode, stakeOnNewNode, newStakeOnNewNode, stakeOnExistingNode, newStakeOnExistingNode, returnOldDeposit, withdrawStakerFunds (first used 2025-02-20)"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADQSAB6M6v+s="
+
+  river:
+    name: "River"
+    beacon:
+      - from_address: "0x52ee324F2bCD0c5363d713eb9f62D1eE47266ac1"
+        to_address: null
+        method: null
+        comment: "Commit Blob"
+
+  pegglecoin:
+    name: "Pegglecoin"
+    beacon:
+      - from_address: "0x4cfAa5F421714eAE1645DD3276A89B15c9bcF70c"
+        to_address: null
+        method: null
+        comment: "Commit Blob"

@@ -15,6 +15,10 @@ FROM dune.growthepie.l2economics_mapping`
 
 This is a community-driven effort. Please feel free to double-check the [mapping](economics_mapping.yml) and submit a PR to add, update or adjust any mappings. Thank you for your contribution. 
 
+### Find Unlabelled Blob Producers
+
+This [Dune query](https://dune.com/queries/5845376) identifies Ethereum blob producers that aren't yet categorised in this economic mappint. Use it to discover new chains using Ethereum DA or monitor unlabeled blob activity grouped by address and day.
+
 
 ## Mapping Structure
 
