@@ -1966,3 +1966,19 @@ plume:
         to_address: null
         method: null
         comment: "Commit Blob"
+
+  zklighter:
+    name: "zkLighter"
+    beacon:
+      - from_address: "0xfbc0dcd6c3518cb529bc1b585db992a7d40005fa"
+        to_address: null
+        method: null
+        comment: "Commit Batch"
+
+  katana:
+    name: "Katana"
+    beacon:
+      - from_address: "0x1FFDA89C755f6D4Af069897D77CcAbb580Fd412a"
+        to_address: null
+        method: null
+        comment: "Commit Blob"
