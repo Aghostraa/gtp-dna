@@ -15,9 +15,27 @@ FROM dune.growthepie.l2economics_mapping`
 
 This is a community-driven effort. Please feel free to double-check the [mapping](economics_mapping.yml) and submit a PR to add, update or adjust any mappings. Thank you for your contribution. 
 
+## Helpful Tools for Settlement Transactions Identification
+
+### L2Beat Contract Section
+
+L2Beat provides comprehensive contract listings for each L2 chain on their project pages. These show all L1 contracts used by the chain, making it an excellent starting point for identifying settlement patterns.  
+🔗 [Example: Taiko contracts](https://l2beat.com/scaling/projects/taiko#contracts)
+
+### Etherscan Advanced Filter
+
+Etherscan's advanced filter lets you quickly narrow down to specific methods or filter bridge contracts by EOA, making settlement transaction identification much easier.  
+🔗 [Example filtered query](https://etherscan.io/advanced-filter?fadd=0x000000633b68f5d8d3a86593ebb815b4663bcbe0&tadd=0x000000633b68f5d8d3a86593ebb815b4663bcbe0&mtd=0xe4882785%7ePropose+Blocks+V2Conditionally)
+
+### Method/Address/Date Analysis
+
+This Dune query breaks down EOA activity by methods used, target addresses and daily patterns, perfect for analyzing posting behavior over time.  
+🔗 [Method analysis query](https://dune.com/queries/4018237)
+
 ### Find Unlabelled Blob Producers
 
-This [Dune query](https://dune.com/queries/5845376) identifies Ethereum blob producers that aren't yet categorised in this economic mappint. Use it to discover new chains using Ethereum DA or monitor unlabeled blob activity grouped by address and day.
+This Dune query identifies Ethereum blob producers that aren't yet categorised in this economic mapping. Use it to discover new chains using Ethereum DA or monitor unlabeled blob activity grouped by address and day.  
+🔗 [Blob analysis query](https://dune.com/queries/5845376)
 
 
 ## Mapping Structure
