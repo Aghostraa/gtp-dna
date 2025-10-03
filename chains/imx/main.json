@@ -31,6 +31,7 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
+        "blockspace",
         "txcosts",
         "fees",
         "rent_paid",
