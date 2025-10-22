@@ -53,6 +53,7 @@
 
     "metadata_description": "Derive (former Lyra) is built using the OP Stack specially for Derive protocol - a settlement protocol for spot, perpetuals, and options trading.",
     "metadata_symbol": "LYRA",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2023-12-15",
     "metadata_da_layer": "Celestia",
     "metadata_technology": "Optimium",

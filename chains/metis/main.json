@@ -48,6 +48,7 @@
 
     "metadata_description": "Metis Andromeda is an EVM equivalent Optimium. Public launch was in November 2021.",
     "metadata_symbol": "METIS",
+    "metadata_gas_token": "METIS",
     "metadata_launch_date": "2021-11-19",
     "metadata_da_layer": "MEMO",
     "metadata_technology": "Optimium",

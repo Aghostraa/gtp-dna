@@ -52,6 +52,7 @@
 
     "metadata_description": "Ethereum, proposed by Vitalik Buterin in 2013 and launched in 2015, is the most decentralized and trusted smart contract platform to date.",
     "metadata_symbol": "ETH",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2015-07-30",
     "metadata_da_layer": null,
     "metadata_technology": "Mainnet",

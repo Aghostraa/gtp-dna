@@ -48,6 +48,7 @@
 
     "metadata_description": "ZKsync Era uses ZK tech, aiming to boost throughput while preserving Ethereum's core values: freedom, self-sovereignty, and decentralization.",
     "metadata_symbol": "ZK",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2023-03-24",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "ZK Rollup",

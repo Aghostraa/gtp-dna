@@ -48,6 +48,7 @@
 
     "metadata_description": "World Chain is an OP Stack Rollup built to scale Proof of Personhood, aiming to offer priority blockspace for users with a World ID.",
     "metadata_symbol": "WLD",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-10-17",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

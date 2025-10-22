@@ -52,7 +52,8 @@
     "aliases_rhino": null,
 
     "metadata_description": "rhino.fi is a Validium based on StarkEX technology. Its main focus is on bridging assets between other chains.",
-    "metadata_symbol": "-",
+    "metadata_symbol": null,
+    "metadata_gas_token": null,
     "metadata_launch_date": "2022-07-13",
     "metadata_da_layer": "DAC",
     "metadata_technology": "Validium",

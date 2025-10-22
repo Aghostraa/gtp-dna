@@ -48,6 +48,7 @@
 
     "metadata_description": "Linea is a developer-friendly ZK Rollup by ConsenSys, enhancing Ethereum by enabling a new wave of decentralized applications.",
     "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2023-07-12",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "ZK Rollup",

@@ -48,6 +48,7 @@
 
     "metadata_description": "Starknet is a ZK Rollup developed by Starkware. It uses it's own programming language and general purpose virtual machine (Cairo VM).",
     "metadata_symbol": "STRK",
+    "metadata_gas_token": "ETH, STRK",
     "metadata_launch_date": "2021-11-29",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "ZK Rollup",

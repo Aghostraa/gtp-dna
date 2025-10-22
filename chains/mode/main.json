@@ -49,6 +49,7 @@
 
     "metadata_description": "Mode is an Optimistic Rollup and part of the Superchain.",
     "metadata_symbol": "MODE",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-01-31",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

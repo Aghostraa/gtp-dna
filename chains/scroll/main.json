@@ -45,6 +45,7 @@
 
     "metadata_description": "Scroll is a general purpose zkEVM rollup. Public launch was in October 2023.",
     "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2023-10-17",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "ZK Rollup",

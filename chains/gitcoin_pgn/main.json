@@ -48,6 +48,7 @@
 
     "metadata_description": "Public Goods Network is a fully EVM compatible optimistic rollup built on the OP Stack.",
     "metadata_symbol": "GTC",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2023-07-26",
     "metadata_da_layer": "Celestia",
     "metadata_technology": "Optimium",

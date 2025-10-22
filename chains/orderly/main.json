@@ -53,6 +53,7 @@
 
     "metadata_description": "Orderly is an OP stack Optimium on Ethereum using Celestia for data availability. It has a unified ledger for assets from multiple chains and an orderbook that can be used by apps.",
     "metadata_symbol": "ORDER",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-01-22",
     "metadata_da_layer": "Celestia",
     "metadata_technology": "Optimium",

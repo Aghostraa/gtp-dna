@@ -36,7 +36,8 @@
     "chain_type": "L2",
 
     "metadata_description": "Mints mission is to connect global consumers with NFTs and creating a decentralized payment network.",
-    "metadata_symbol": "-",
+    "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-05-14",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

@@ -36,6 +36,7 @@
 
     "metadata_description": "Arbitrum Nova is an Optimium developed by Offchain using AnyTrust protocol. As part of the Nitro stack Arbitrum Nova is fully EVM compatible.",
     "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2022-08-09",
     "metadata_da_layer": "External (DAC)",
     "metadata_technology": "Optimium",

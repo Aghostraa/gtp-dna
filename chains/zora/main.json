@@ -48,6 +48,7 @@
 
     "metadata_description": "Zora is a fully EVM compatible optimistic rollup built on the OP Stack with focus on NFTs.",
     "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2023-06-21",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",
