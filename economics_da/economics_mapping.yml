@@ -872,7 +872,15 @@ mantle:
     - from_address: null
       to_address: "0x31d543e7BE1dA6eFDc2206Ef7822879045B9f481"
       method: "0x9aaab648"
-      comment: "L2OutputOracle, proposeL2Output (used since 2024-03-15)"
+      comment: "L2OutputOracle, proposeL2Output (used since 2024-03-15, last used 2025-11-14)"
+    - from_address: null
+      to_address: "0x31d543e7BE1dA6eFDc2206Ef7822879045B9f481"
+      method: "0x1e856800"
+      comment: "checkpointBlockHash (used since 2025-09-16)"
+    - from_address: null
+      to_address: "0x31d543e7BE1dA6eFDc2206Ef7822879045B9f481"
+      method: "0x9ad84880"
+      comment: "proposeL2Output (used since 2025-09-16)"
     - from_address: "0x2f40D796917ffB642bD2e2bdD2C762A5e40fd749"
       to_address: "0xFFEEDDCcBbAA0000000000000000000000000000"
       method: null
