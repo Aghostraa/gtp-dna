@@ -81,7 +81,7 @@
             "Mainnet": "https://pacific-rpc.manta.network/http"
         },
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/mantapacific",
+            "L2BEAT": "https://l2beat.com/scaling/projects/mantapacific",
             "Governance": "https://snapshot.org/#/mantanetwork.eth"
         }
     },

@@ -78,7 +78,7 @@
             "Mainnet": "https://arb1.arbitrum.io/rpc"
         },
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/arbitrum",
+            "L2BEAT": "https://l2beat.com/scaling/projects/arbitrum",
             "Governance": "https://forum.arbitrum.foundation/"
         }
     },

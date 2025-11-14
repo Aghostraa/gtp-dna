@@ -39,9 +39,9 @@
     "metadata_description": "This is a Layer 2", // to be updated
     "metadata_symbol": "TOKEN_SYMBOl",
     "metadata_gas_token": "ETH", // or Multiple
-    "metadata_launch_date": "LAUNCH_DATE", // YYYY-MM-DD - when mainnet publicly launched (i.e. check L2Beat)
-    "metadata_da_layer": "DA_LAYER", // Celestia, Ethereum (blobs)  - can also be found on L2Beat
-    "metadata_technology": "TECHNOLOGY", // L2Beat category (Optimism, Validium, Optimistic Rollup, ZK Rollup)
+    "metadata_launch_date": "LAUNCH_DATE", // YYYY-MM-DD - when mainnet publicly launched (i.e. check L2BEAT)
+    "metadata_da_layer": "DA_LAYER", // Celestia, Ethereum (blobs)  - can also be found on L2BEAT
+    "metadata_technology": "TECHNOLOGY", // L2BEAT category (Optimism, Validium, Optimistic Rollup, ZK Rollup)
     "metadata_purpose": "PURPOSE", // Universal (EVM), NFTs (EVM), etc.
     "metadata_stack": {
         "label": "OP Stack",
@@ -71,7 +71,7 @@
             "Mainnet": "https://arb1.arbitrum.io/rpc"
         },
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/arbitrum",
+            "L2BEAT": "https://l2beat.com/scaling/projects/arbitrum",
             "Governance": "https://forum.arbitrum.foundation/"
         }
     },

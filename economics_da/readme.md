@@ -17,9 +17,9 @@ This is a community-driven effort. Please feel free to double-check the [mapping
 
 ## Helpful Tools for Settlement Transactions Identification
 
-### L2Beat Contract Section
+### L2BEAT Contract Section
 
-L2Beat provides comprehensive contract listings for each L2 chain on their project pages. These show all L1 contracts used by the chain, making it an excellent starting point for identifying settlement patterns.  
+L2BEAT provides comprehensive contract listings for each L2 chain on their project pages. These show all L1 contracts used by the chain, making it an excellent starting point for identifying settlement patterns.  
 🔗 [Example: Taiko contracts](https://l2beat.com/scaling/projects/taiko#contracts)
 
 ### Etherscan Advanced Filter
