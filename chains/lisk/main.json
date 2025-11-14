@@ -36,6 +36,7 @@
 
     "metadata_description": "Lisk is developed by the Onchain Foundation. It runs on the OP Stack as an EVM‑equivalent Layer 2 with low‑cost, scalable transactions for builders.",
     "metadata_symbol": "LSK",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-11-12",
     "metadata_da_layer": "Ethereum Blobs",
     "metadata_technology": "Optimistic Rollup",

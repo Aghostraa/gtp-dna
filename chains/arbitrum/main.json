@@ -46,6 +46,7 @@
 
     "metadata_description": "Arbitrum One is developed by Offchain Labs. It uses an optimistic rollup approach and is fully EVM compatible, making it developer-friendly.",
     "metadata_symbol": "ARB",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2021-08-31",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

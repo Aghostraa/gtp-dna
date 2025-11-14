@@ -35,6 +35,7 @@
 
     "metadata_description": "Fraxtal is an EVM equivalent Optimium utilizing the OP stack.",
     "metadata_symbol": "FXS",
+    "metadata_gas_token": "$FRAX",
     "metadata_launch_date": "2024-02-03",
     "metadata_da_layer": "Custom DA",
     "metadata_technology": "Optimium",

@@ -28,7 +28,7 @@
     "api_in_api_economics": true,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": [],
+    "api_api_exclude_metrics": ["blockspace"],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
@@ -46,6 +46,7 @@
 
     "metadata_description": "Polygon zkEVM uses zero-knowledge proofs to run EVM-compatible smart contracts, simplifying migration for developers to the Polygon network.",
     "metadata_symbol": "MATIC",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2023-03-24",
     "metadata_da_layer": "Ethereum (calldata)",
     "metadata_technology": "ZK Rollup",

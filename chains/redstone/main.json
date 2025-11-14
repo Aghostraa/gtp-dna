@@ -53,6 +53,7 @@
 
     "metadata_description": "Redstone is a chain built from the ground up for onchain games and autonomous worlds",
     "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-05-01",
     "metadata_da_layer": "RedstoneDA",
     "metadata_technology": "Optimium",

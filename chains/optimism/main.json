@@ -49,6 +49,7 @@
 
     "metadata_description": "OP Mainnet uses an optimistic rollup approach and is one of the oldest rollups. It is fully EVM compatible and it's tech-stack is widely used.",
     "metadata_symbol": "OP",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2021-12-16",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

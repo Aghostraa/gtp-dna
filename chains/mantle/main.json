@@ -48,6 +48,7 @@
 
     "metadata_description": "Mantle is an OVM based EVM-compatible rollup. Public launch was in July 2023.",
     "metadata_symbol": "MNT",
+    "metadata_gas_token": "MNT",
     "metadata_launch_date": "2023-07-14",
     "metadata_da_layer": "EigenDA",
     "metadata_technology": "Optimium",

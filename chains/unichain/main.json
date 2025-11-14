@@ -37,6 +37,7 @@
 
     "metadata_description": "A Layer 2 sepcifically designed to be the home for DeFi and the home for multichain liquidity.",
     "metadata_symbol": "UNI",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2025-02-12",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

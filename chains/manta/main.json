@@ -51,6 +51,7 @@
 
     "metadata_description": "Manta Pacific is an Optimium empowering EVM-native zero-knowledge (ZK) applications and general dapps.",
     "metadata_symbol": "MANTA",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2023-09-12",
     "metadata_da_layer": "Celestia",
     "metadata_technology": "Optimium",

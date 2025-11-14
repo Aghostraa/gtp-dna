@@ -36,6 +36,7 @@
 
     "metadata_description": "This is a Layer 2",
     "metadata_symbol": "PLUME",
+    "metadata_gas_token": "PLUME",
     "metadata_launch_date": "2025-02-20",
     "metadata_da_layer": "CelestiaBlobstream",
     "metadata_technology": "Other",

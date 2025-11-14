@@ -44,6 +44,7 @@
 
     "metadata_description": "Gravity is an Optimium built on the Orbit stack. It has its own gas token - G. A future migration to an L1 of the same name is planned.",
     "metadata_symbol": "G",
+    "metadata_gas_token": "G",
     "metadata_launch_date": "2024-08-13",
     "metadata_da_layer": "Celestia",
     "metadata_technology": "Optimium",

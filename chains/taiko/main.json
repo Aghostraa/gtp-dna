@@ -45,6 +45,7 @@
 
     "metadata_description": "Taiko Alethia is a based, general purpose type-1 zk-rollup built to scale Ethereum without compromising decentralization.",
     "metadata_symbol": "TAIKO",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-05-27",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

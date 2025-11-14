@@ -31,6 +31,7 @@
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
+        "blockspace",
         "txcosts",
         "fees",
         "rent_paid",
@@ -53,6 +54,7 @@
 
     "metadata_description": "Immutable X is a game-specific (not EVM compatible) zk rollup for minting, transferring, and trading tokens/NFTs at high volumes with zero gas fees.",
     "metadata_symbol": "IMX",
+    "metadata_gas_token": null,
     "metadata_launch_date": "2021-03-26",
     "metadata_da_layer": "DAC",
     "metadata_technology": "Validium",

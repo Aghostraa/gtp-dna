@@ -24,7 +24,7 @@
     "chain_type": "L2",
 
     "api_in_api_main": true,
-    "api_in_api_fees": true,
+    "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
@@ -48,6 +48,7 @@
 
     "metadata_description": "Blast is an EVM-compatible Optimistic Rollup which invests bridged funds in order to offer native yield to its users.",
     "metadata_symbol": "BLAST",
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-02-29",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

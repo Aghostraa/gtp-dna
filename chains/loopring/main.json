@@ -51,6 +51,7 @@
 
     "metadata_description": "Loopring is a zk Rollup exchange and payment protocol. It is arguably the oldest rollup with its mainnet launch in December 2019.",
     "metadata_symbol": "LRC",
+    "metadata_gas_token": null,
     "metadata_launch_date": "2019-12-04",
     "metadata_da_layer": "Ethereum (calldata)",
     "metadata_technology": "ZK Rollup",

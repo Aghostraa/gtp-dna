@@ -36,6 +36,7 @@
 
     "metadata_description": "Ink is an Ethereum OP Stack layer 2 blockchain designed to be the house of DeFi for the Superchain.",
     "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-12-07",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",

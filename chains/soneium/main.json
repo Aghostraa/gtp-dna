@@ -36,6 +36,7 @@
 
     "metadata_description": "We dream of an open internet that transcends cultural differences and brings together people with diverse values.",
     "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
     "metadata_launch_date": "2025-01-14",
     "metadata_da_layer": "Ethereum (blobs)",
     "metadata_technology": "Optimistic Rollup",
