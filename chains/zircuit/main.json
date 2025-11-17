@@ -39,7 +39,7 @@
     "metadata_gas_token": "ETH",
     "metadata_launch_date": "2024-08-05",
     "metadata_da_layer": "Ethereum (blobs)",
-    "metadata_technology": "Optimistic Rollup",
+    "metadata_technology": "ZK Rollup",
     "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
         "label": "OP Stack",
@@ -50,7 +50,7 @@
     "links": {
         "website": "https://www.zircuit.com/",
         "docs": "https://docs.zircuit.com/",
-        "github": "https://github.com/zircuit",
+        "github": "https://github.com/zircuit-labs",
         "socials": {
             "Twitter": "https://x.com/ZircuitL2",
             "Discord": "https://discord.gg/zircuit",
