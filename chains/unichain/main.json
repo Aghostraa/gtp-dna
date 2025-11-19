@@ -50,7 +50,7 @@
 
     "links": {
         "website": "https://www.unichain.org/",
-        "docs": null,
+        "docs": "https://docs.unichain.org/docs",
         "github": "https://github.com/Uniswap",
         "socials": {
             "Twitter": "https://x.com/unichain",
