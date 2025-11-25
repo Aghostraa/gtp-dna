@@ -389,6 +389,10 @@ morph:
       to_address: "0x759894Ced0e6af42c26668076Ffa84d02E3CeF60"
       method: "0x13361101"
       comment: "finalizeBatch (first used 2024-10-21)"
+    - from_address: null
+      to_address: "0x759894Ced0e6af42c26668076Ffa84d02E3CeF60"
+      method: "0xb3484425"
+      comment: "proveState, rarely used (first used 2024-10-22)"
   beacon:
     - from_address: null
       to_address: "0x759894Ced0e6af42c26668076Ffa84d02E3CeF60"
