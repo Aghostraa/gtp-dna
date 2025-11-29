@@ -40,7 +40,8 @@
         "fundamentals": "active",
         "economics": "soon",
         "apps": "active",
-        "blockspace": "active"
+        "blockspace": "active",
+        "user_insights": "active"
     },
 
     "aliases_l2beat": "ethereum",
