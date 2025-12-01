@@ -55,9 +55,9 @@ attesters:
     description: "Krzys Tech"
     filters:
       - chain_id: "eip155:48900"
-        confidence: 0.2
+        confidence: 0.3
   - address: "0xb9a3738814Ec6D7F780F5D8E7378E76403D0555B"
     description: "Krzys Tech 2"
     filters:
       - chain_id: "eip155:48900"
-        confidence: 0.2
+        confidence: 0.3
