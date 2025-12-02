@@ -2,12 +2,15 @@ name: Update Dune Table (dune.growthepie.l2economics_mapping)
 
 on: 
   push:
+    branches:
+      - main
     paths:
       - "economics_da/economics_mapping.yml"
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    if: github.repository == 'growthepie/gtp-dna'
 
     steps:
     - name: Checkout Code
@@ -22,7 +25,7 @@ jobs:
       run: |
         pip install pyyaml pandas requests
 
-    - name: Run the Python Script
+    - name: Update Dune Mapping
       env:
         DUNE_KEY: ${{ secrets.DUNE_KEY }}
       run: |

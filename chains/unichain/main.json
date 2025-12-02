@@ -50,7 +50,7 @@
 
     "links": {
         "website": "https://www.unichain.org/",
-        "docs": null,
+        "docs": "https://docs.unichain.org/docs",
         "github": "https://github.com/Uniswap",
         "socials": {
             "Twitter": "https://x.com/unichain",
@@ -63,7 +63,7 @@
         "bridges": {},
         "rpcs": {},
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/unichain",
+            "L2BEAT": "https://l2beat.com/scaling/projects/unichain",
             "Governance": "https://gov.uniswap.org/"
         }
     },
@@ -73,6 +73,7 @@
     "api_in_api_economics": true,
     "api_in_api_labels": true,
     "api_in_api_apps": true,
+    "api_in_api_user_insights": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
     "api_tab_status": {

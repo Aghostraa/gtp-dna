@@ -1,0 +1,63 @@
+owner_name: "growthepie"
+attesters:
+  - address: "0xA725646c05e6Bb813d98C5aBB4E72DF4bcF00B56"
+    description: "growthepie attest"
+    confidence: 0.8
+  - address: "0xC139d50144Ee873c8577d682628E045dECe6040E"
+    description: "growthepie automatic attest"
+    confidence: 0.1
+  - address: "0xdC1d963D21C9c1bFf7b6Bea6e10080dAa9b4fc51"
+    description: "mseidl.eth"
+    confidence: 0.5
+  - address: "0x5C05740dF496ddC881642566C431B88bdf60842e"
+    description: "Lorenz"
+    confidence: 0.5
+  - address: "0x634F22CEB7f99FB507e14E7eC3a658b09E85e998"
+    description: "ahouraz.eth"
+    confidence: 0.5
+  - address: "0x3E22084dFAaca6D5E4d1FB235A675fEa6f5EB6Ee"
+    description: "ETH Wave"
+    confidence: 0.5
+  - address: "0xE7d1405C20A23a8e8f9F1BD572d1320c479233EE"
+    description: "0xKofi"
+    filters:
+      - tag_id: "is_paymaster"
+        confidence: 0.7
+      - tag_id: "paymaster_category"
+        confidence: 0.7
+      - tag_id: "is_bundler"
+        confidence: 0.7
+      - tag_id: "*"
+        confidence: 0.4
+  - address: "0x53AE41B0E48A33eDf13e01b7136025f744c973e3"
+    description: "johncalabrese"
+    confidence: 0.4
+  - address: "0x8DBAE854E53AEDFC3B8D78F7C1ADD53935939192"
+    description: "Sourcify"
+    filters:
+      - tag_id: "source_code_verified"
+        confidence: 0.9
+      - tag_id: "deployment_block"
+        confidence: 0.9
+      - tag_id: "deployer_address"
+        confidence: 0.9
+      - tag_id: "deployment_tx"
+        confidence: 0.9
+      - tag_id: "code_language"
+        confidence: 0.9
+      - tag_id: "code_compiler"
+        confidence: 0.9
+      - tag_id: "is_contract"
+        confidence: 0.9
+      - tag_id: "*"
+        confidence: 0.4
+  - address: "0x10dBAc4d35f4aD47E85f70c74e4449c632EC4047"
+    description: "Krzys Tech"
+    filters:
+      - chain_id: "eip155:48900"
+        confidence: 0.25
+  - address: "0xb9a3738814Ec6D7F780F5D8E7378E76403D0555B"
+    description: "Krzys Tech 2"
+    filters:
+      - chain_id: "eip155:48900"
+        confidence: 0.25

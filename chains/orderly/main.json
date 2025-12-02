@@ -84,7 +84,7 @@
             "Mainnet": "https://rpc.orderly.network"
         },
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/orderly",
+            "L2BEAT": "https://l2beat.com/scaling/projects/orderly",
             "Governance": "https://gov.optimism.io/"
         }
     },

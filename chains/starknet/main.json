@@ -79,7 +79,7 @@
             "Mainnet": "https://starknet-mainnet.public.blastapi.io"
         },
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/starknet",
+            "L2BEAT": "https://l2beat.com/scaling/projects/starknet",
             "Governance": "https://community.starknet.io/"
         }
     },

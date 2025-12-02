@@ -67,7 +67,7 @@
             "Mainnet": "https://forno.celo.org"
         },
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/celo",
+            "L2BEAT": "https://l2beat.com/scaling/projects/celo",
             "Governance": "https://forum.celo.org/"
         }
     },
@@ -77,6 +77,7 @@
     "api_in_api_economics": true,
     "api_in_api_labels": true,
     "api_in_api_apps": true,
+    "api_in_api_user_insights": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
     "api_tab_status": {

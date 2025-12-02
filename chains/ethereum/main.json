@@ -28,12 +28,12 @@
     "api_in_api_economics": false,
     "api_in_api_labels": true,
     "api_in_api_apps": true,
+    "api_in_api_user_insights": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
         "tvl",
         "rent_paid",
-        "profit",
-        "fdv"
+        "profit"
     ],
     "api_tab_status": {
         "overview": "active",

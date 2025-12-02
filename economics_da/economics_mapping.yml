@@ -389,6 +389,10 @@ morph:
       to_address: "0x759894Ced0e6af42c26668076Ffa84d02E3CeF60"
       method: "0x13361101"
       comment: "finalizeBatch (first used 2024-10-21)"
+    - from_address: null
+      to_address: "0x759894Ced0e6af42c26668076Ffa84d02E3CeF60"
+      method: "0xb3484425"
+      comment: "proveState, rarely used (first used 2024-10-22)"
   beacon:
     - from_address: null
       to_address: "0x759894Ced0e6af42c26668076Ffa84d02E3CeF60"
@@ -872,7 +876,15 @@ mantle:
     - from_address: null
       to_address: "0x31d543e7BE1dA6eFDc2206Ef7822879045B9f481"
       method: "0x9aaab648"
-      comment: "L2OutputOracle, proposeL2Output (used since 2024-03-15)"
+      comment: "L2OutputOracle, proposeL2Output (used since 2024-03-15, last used 2025-11-14)"
+    - from_address: null
+      to_address: "0x31d543e7BE1dA6eFDc2206Ef7822879045B9f481"
+      method: "0x1e856800"
+      comment: "checkpointBlockHash (used since 2025-09-16)"
+    - from_address: null
+      to_address: "0x31d543e7BE1dA6eFDc2206Ef7822879045B9f481"
+      method: "0x9ad84880"
+      comment: "proposeL2Output (used since 2025-09-16)"
     - from_address: "0x2f40D796917ffB642bD2e2bdD2C762A5e40fd749"
       to_address: "0xFFEEDDCcBbAA0000000000000000000000000000"
       method: null
@@ -1403,6 +1415,7 @@ bobanetwork:
       method: null
       comment: "blob producer (first used 2025-06-25)"
 
+# chain shut down as of 2025-09-25
 lumio:
   name: "Lumio"
   l1:
@@ -1417,15 +1430,15 @@ lumio:
     - from_address: null
       to_address: "0xEe136B6087070d35D98b1bb1B33C3a00D907F0c1"
       method: "0x82ecf2f6"
-      comment: "Create (first used 2025-07-24)"
+      comment: "Create (first used 2025-07-24, chain shut down as of 2025-09-25)"
     - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
       to_address: null
       method: "0x2810e1d6"
-      comment: "resolve, by central resolver (first used 2025-07-28)"
+      comment: "resolve, by central resolver (first used 2025-07-28, chain shut down as of 2025-09-25)"
     - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
       to_address: null
       method: "0x03c2924d"
-      comment: "resolveClaim, by central resolver (first used 2025-07-28)"
+      comment: "resolveClaim, by central resolver (first used 2025-07-28, chain shut down as of 2025-09-25)"
     - from_address: "0xb6E2Eee22b684f6AAb2083097F7E874994bA930e"
       to_address: null
       method: "0x60e27464"
@@ -1438,7 +1451,7 @@ lumio:
     - from_address: "0x5c53f2fF1030C7fbC0616fD5B8fC6bE97aa27e00"
       to_address: null
       method: null
-      comment: "blob producer (first used 2024-05-15)"
+      comment: "blob producer (first used 2024-05-15, chain shut down as of 2025-09-25)"
 
 debank:
   name: "DeBank Chain"
@@ -1984,11 +1997,28 @@ plume:
 
   zklighter:
     name: "zkLighter"
+    l1:
+      - from_address: null
+        to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
+        method: "0x23ff50e1"
+        comment: "verifyBatch (first used 2025-01-17)"
+      - from_address: null
+        to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
+        method: "0xe415f0f4"
+        comment: "commitBatch (first used 2025-01-17)"
+      - from_address: null
+        to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
+        method: "0x2d320e28"
+        comment: "executeBatches (first used 2025-01-17)"
+      - from_address: "0xfDb36C132fA19f7774d72fA39c89272D1B954A41"
+        to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
+        method: null
+        comment: "misc admin functions (first used 2025-01-17)"
     beacon:
       - from_address: "0xfbc0dcd6c3518cb529bc1b585db992a7d40005fa"
         to_address: null
         method: null
-        comment: "Commit Batch"
+        comment: "commitBatch (first used 2025-01-17)"
 
   katana:
     name: "Katana"

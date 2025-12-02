@@ -48,7 +48,7 @@
     "metadata_raas": "Self-hosted",
 
     "links": {
-        "website": "https://nova.arbitrum.io/",
+        "website": "https://arbitrum.io/anytrust",
         "docs": "https://docs.arbitrum.io/nova-gentle-introduction",
         "github": "https://github.com/OffchainLabs/arbitrum",
         "socials": {
@@ -66,7 +66,7 @@
             "Mainnet": "https://nova.arbitrum.io/rpc"
         },
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/nova",
+            "L2BEAT": "https://l2beat.com/scaling/projects/nova",
             "Governance": "https://forum.arbitrum.foundation/"
         }
     },

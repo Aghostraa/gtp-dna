@@ -82,7 +82,7 @@
             "Mainnet": "https://rpc.redstonechain.com"
         },
         "others": {
-            "L2Beat": "https://l2beat.com/scaling/projects/redstone",
+            "L2BEAT": "https://l2beat.com/scaling/projects/redstone",
             "Governance": "https://gov.optimism.io/"
         }
     },
