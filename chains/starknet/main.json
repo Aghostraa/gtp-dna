@@ -130,6 +130,22 @@
             "short_title": "EIP-4844 Support",
             "description": "Starknet implemented support for Ethereum's Dencun upgrade, using blobs for data availability to lower network fees.",
             "source": "https://www.starknet.io/en/posts/ecosystem/ethereums-dencun-upgrade-is-here-starknet-fees-are-dropping-now"
+        },
+        {
+            "date": "2025-09-01",
+            "type": "major_upgrade",
+            "title": "Decentralized Sequencer architecture on Mainnet",
+            "short_title": "Grinta on Mainnet",
+            "description": "Grinta went live on Mainnet, introducing Starknet’s Decentralized Sequencer architecture and expanding the network from a single sequencer to three running Tendermint consensus.",
+            "source": "https://www.starknet.io/blog/starknet-grinta-the-architecture-of-a-more-decentralized-future/"
+        },
+        {
+            "date": "2025-10-19",
+            "type": "major_upgrade",
+            "title": "Upgraded Prover Stone to Stwo",
+            "short_title": "Upgraded Prover",
+            "description": "Starknet upgraded its proving system from Stone to S-two, improving proving efficiency by roughly 100×",
+            "source": "https://www.starknet.io/blog/s-two-is-live-on-starknet-mainnet-the-fastest-prover-for-a-more-private-future/"
         }
     ]
 }
