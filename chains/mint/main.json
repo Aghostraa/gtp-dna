@@ -12,7 +12,7 @@
     "aliases_defillama": "mint",
 
     "runs_aggregate_blockspace": false,
-    "runs_aggregate_addresses ": true,
+    "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
 
     "bucket": "Superchain",
@@ -73,11 +73,11 @@
         }
     },
 
-    "api_in_api_main": true,
+    "api_in_api_main": false,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_api_deployment_flag": "PROD",
+    "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": ["blockspace", "fdv", "market_cap"],
     "api_tab_status": {
         "overview": "active",
