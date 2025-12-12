@@ -50,6 +50,7 @@
     "aliases_blockscout_url": "https://eth.blockscout.com/api/v2/",
     "aliases_defillama": "ethereum",
 
+    "metadata_chain_type": "l1",
     "metadata_description": "Ethereum, proposed by Vitalik Buterin in 2013 and launched in 2015, is the most decentralized and trusted smart contract platform to date.",
     "metadata_symbol": "ETH",
     "metadata_gas_token": "ETH",

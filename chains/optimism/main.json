@@ -48,6 +48,7 @@
     "aliases_blockscout_url": "https://optimism.blockscout.com/api/v2/",
     "aliases_defillama": "op-mainnet",
 
+    "metadata_chain_type": "rollup",
     "metadata_description": "OP Mainnet uses an optimistic rollup approach and is one of the oldest rollups. It is fully EVM compatible and it's tech-stack is widely used.",
     "metadata_symbol": "OP",
     "metadata_gas_token": "ETH",

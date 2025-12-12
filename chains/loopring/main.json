@@ -49,6 +49,7 @@
     "aliases_coingecko": "loopring",
     "aliases_rhino": null,
 
+    "metadata_chain_type": "rollup",
     "metadata_description": "Loopring is a zk Rollup exchange and payment protocol. It is arguably the oldest rollup with its mainnet launch in December 2019.",
     "metadata_symbol": "LRC",
     "metadata_gas_token": null,

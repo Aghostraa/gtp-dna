@@ -52,6 +52,7 @@
     "aliases_blockscout_url": "https://base.blockscout.com/api/v2/",
     "aliases_defillama": "base",
 
+    "metadata_chain_type": "rollup",
     "metadata_description": "Base is an Ethereum Layer 2 offering a secure, low-cost, builder-friendly way for anyone, anywhere, to build onchain.",
     "metadata_symbol": null,
     "metadata_gas_token": "ETH",

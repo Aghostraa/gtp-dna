@@ -35,6 +35,7 @@
     },
     "chain_type": "L2",
 
+    "metadata_chain_type": "rollup",
     "metadata_description": "A Layer 2 sepcifically designed to be the home for DeFi and the home for multichain liquidity.",
     "metadata_symbol": "UNI",
     "metadata_gas_token": "ETH",

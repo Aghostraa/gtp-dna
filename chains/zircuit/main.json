@@ -34,6 +34,7 @@
     },
     "chain_type": "L2",
 
+    "metadata_chain_type": "rollup",
     "metadata_description": "Zircuit is a ZK Rollup, designed for security and stability.",
     "metadata_symbol": "ZRC",
     "metadata_gas_token": "ETH",

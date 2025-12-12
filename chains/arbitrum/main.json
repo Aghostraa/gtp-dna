@@ -44,6 +44,7 @@
     "aliases_blockscout_url": "https://arbitrum.blockscout.com/api/v2/",
     "aliases_defillama": "arbitrum",
 
+    "metadata_chain_type": "rollup",
     "metadata_description": "Arbitrum One is developed by Offchain Labs. It uses an optimistic rollup approach and is fully EVM compatible, making it developer-friendly.",
     "metadata_symbol": "ARB",
     "metadata_gas_token": "ETH",
