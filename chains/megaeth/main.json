@@ -23,7 +23,7 @@
     },
     "chain_type": "L2",
 
-    "api_in_api_main": false,
+    "api_in_api_main": true,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
