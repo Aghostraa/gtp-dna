@@ -1,8 +1,8 @@
 {
     "origin_key": "megaeth",
-    "caip2": "eip155:XX",
+    "caip2": "eip155:4326",
     "da_mapping": null,
-    "evm_chain_id": 6343,
+    "evm_chain_id": 4326,
     "name": "MegaETH",
     "name_short": "MegaETH",
     "bucket": "Others",
