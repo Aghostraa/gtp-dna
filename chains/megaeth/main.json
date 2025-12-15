@@ -32,16 +32,11 @@
     "api_api_deployment_flag": "DEV",
     "api_api_exclude_metrics": [
         "blockspace",
-        "txcount",
-        "daa",
         "stables_mcap",
-        "fees",
         "rent_paid",
         "profit",
-        "txcosts",
         "fdv",
         "market_cap",
-        "throughput",
         "app_revenue"
     ],
     "api_tab_status": {
