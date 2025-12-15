@@ -30,7 +30,20 @@
     "api_in_api_apps": false,
     "api_in_api_user_insights": false,
     "api_api_deployment_flag": "DEV",
-    "api_api_exclude_metrics": [],
+    "api_api_exclude_metrics": [
+        "blockspace",
+        "txcount",
+        "daa",
+        "stables_mcap",
+        "fees",
+        "rent_paid",
+        "profit",
+        "txcosts",
+        "fdv",
+        "market_cap",
+        "throughput",
+        "app_revenue"
+    ],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "soon",
