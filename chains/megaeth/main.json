@@ -84,6 +84,7 @@
         "block_explorers": {
             "Mega Explorer": "https://www.megaexplorer.xyz/"
         },
+        "bridges": {},
         "others": {
             "L2BEAT": "https://l2beat.com/scaling/projects/megaeth"
         }
