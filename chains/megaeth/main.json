@@ -1,0 +1,99 @@
+{
+    "origin_key": "megaeth",
+    "caip2": "eip155:XX",
+    "da_mapping": null,
+    "evm_chain_id": 6343,
+    "name": "MegaETH",
+    "name_short": "MegaETH",
+    "bucket": "Others",
+
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#8B8B8B",
+            "#8B8B8B"
+        ],
+        "dark": [
+            "#C1C1C1",
+            "#C1C1C1"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+
+    "api_in_api_main": false,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_in_api_apps": false,
+    "api_in_api_user_insights": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": [],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "soon",
+        "economics": "soon",
+        "apps": "soon",
+        "blockspace": "soon"
+    },
+
+    "aliases_l2beat": "megaeth",
+    "aliases_l2beat_slug": "megaeth",
+    "aliases_coingecko": null,
+    "aliases_rhino": null,
+    "aliases_blockscout_url": null,
+    "aliases_defillama": null,
+
+    "metadata_description": "MegaETH is a real-time blockchain. Where crypto applications leverage extreme performance to reach their full potential.",
+    "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
+    "metadata_launch_date": "2025-12-15",
+    "metadata_da_layer": "EigenDA",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "Universal (EVM)",
+    "metadata_stack": {
+        "label": "Custom",
+        "url": null
+    },
+    "metadata_raas": "Self-hosted",
+
+    "links": {
+        "website": "https://www.megaeth.com/",
+        "docs": "https://docs.megaeth.com/",
+        "github": "https://github.com/megaeth-labs",
+        "socials": {
+            "Twitter": "https://x.com/megaeth",
+            "Discord": "https://discord.com/invite/megaeth",
+            "Blog": "https://www.megaeth.com/blog-news"
+        },
+        "block_explorers": {
+            "Mega Explorer": "https://www.megaexplorer.xyz/"
+        },
+        "others": {
+            "L2BEAT": "https://l2beat.com/scaling/projects/megaeth"
+        }
+    },
+
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": false,
+    "runs_aggregate_apps": false,
+    "runs_contract_metadata": false,
+
+    "backfiller_backfiller_on": false,
+    "backfiller_batch_size": 20,
+
+    "cross_check_type": "l2beat",
+
+    "events": [
+        {
+            "date": "2025-12-15",
+            "type": "mainnet_launch",
+            "title": "Frontier Launch",
+            "short_title": "Frontier Mainnet",
+            "description": "Private Mainnet launch of MegaETH's Frontier network.",
+            "source": "https://www.megaeth.com/blog-news"
+        }
+    ]
+}
