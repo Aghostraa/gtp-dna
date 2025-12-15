@@ -46,7 +46,7 @@
     ],
     "api_tab_status": {
         "overview": "active",
-        "fundamentals": "soon",
+        "fundamentals": "active",
         "economics": "soon",
         "apps": "soon",
         "blockspace": "soon"
@@ -102,19 +102,19 @@
 
     "events": [
         {
-            "date": "2025-12-15",
+            "date": "2025-12-18",
             "type": "mainnet_launch",
-            "title": "Frontier Launch",
-            "short_title": "Frontier Mainnet",
-            "description": "Private Mainnet launch of MegaETH's Frontier network.",
+            "title": "Frontier Net Launch",
+            "short_title": "Frontier Net Launch",
+            "description": "A restricted-access phase where only vetted applications and infrastructure providers can deploy and test on mainnet.",
             "source": "https://www.megaeth.com/blog-news"
         },
         {
             "date": "2025-11-26",
             "type": "ecosystem_event",
-            "title": "USDM Bridge (temporarily) Live",
+            "title": "USDM Bridge (Temporarily) Live",
             "short_title": "USDM Bridge Live",
-            "description": "The USDM Bridge goes live, allowing transfers of USDC between Ethereum and MegaETH. This bridge was disabled shortly after launch due to fairness concerns.",
+            "description": "The USDM Bridge goes live, allowing transfers of USDC between Ethereum and MegaETH. This bridge was disabled shortly after launch due to fairness concerns and all funds were returned.",
             "source": "https://www.megaeth.com/blog-news"
         }
     ]
