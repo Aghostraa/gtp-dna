@@ -108,6 +108,14 @@
             "short_title": "Frontier Mainnet",
             "description": "Private Mainnet launch of MegaETH's Frontier network.",
             "source": "https://www.megaeth.com/blog-news"
+        },
+        {
+            "date": "2025-11-26",
+            "type": "ecosystem_event",
+            "title": "USDM Bridge (temporarily) Live",
+            "short_title": "USDM Bridge Live",
+            "description": "The USDM Bridge goes live, allowing transfers of USDC between Ethereum and MegaETH. This bridge was disabled shortly after launch due to fairness concerns.",
+            "source": "https://www.megaeth.com/blog-news"
         }
     ]
 }
