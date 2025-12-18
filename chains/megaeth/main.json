@@ -33,7 +33,6 @@
     "api_api_exclude_metrics": [
         "blockspace",
         "stables_mcap",
-        "rent_paid",
         "profit",
         "fdv",
         "market_cap",
