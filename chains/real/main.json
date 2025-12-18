@@ -15,7 +15,7 @@
     "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
 
-    "bucket": "Arbitrum Orbit",
+    "bucket": "Arbitrum Chains",
 
     "ecosystem_old": [
         "all-chains"
