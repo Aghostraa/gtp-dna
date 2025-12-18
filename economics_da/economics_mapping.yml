@@ -1950,6 +1950,14 @@ megaeth_testnet:
   eigenda:
     - namespace: "0xcd1161b78f01da838ce0d42ec750891ec8708f1d"
 
+megaeth:
+  name: "MegaETH"
+  l1:
+    - from_address: "0xb98c6b1a805b96707a43e1f1acfa163b68098fa6"
+      to_address: "0x00656C604FC470e6a566A695B74455e18a6D75D3"
+      method: null
+      comment: "EigenDA certificate (first used 2025-11-13)"
+
 mantle_testnet:
   name: "Mantle Testnet"
   eigenda:
