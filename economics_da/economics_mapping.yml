@@ -1894,6 +1894,31 @@ ham:
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMod4SpeLVvrm6k="
 
+camp:
+  name: "Camp"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAB7AAAAAAAAAeQ="
+
+embrfun:
+  name: "Embr.Fun"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMbONmnisjTDz4I="
+
+echelon:
+  name: "Echelon"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAItyY42OaTC/skE="
+
+rave:
+  name: "Rave"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAF45zaUciayEPXE="
+
+xomarket:
+  name: "XO market"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAEjr00EdZDGvoMU="
+
 hypr:
   name: "Hypr"
   celestia:
