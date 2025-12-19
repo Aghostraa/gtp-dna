@@ -1098,27 +1098,35 @@ one_world: # 2741
       comment: "commitBatchesSharedBridge (first used 2024-09-10)"
 
 sophon:
-  name: "Sophon"
+  name: "Sophon" # chain_address: 0x05eDE6aD1f39B7A16C949d5C33a0658c9C7241e3
   l1:
     - from_address: "0xf3b07f6744e06cd5074b7d15ed2c33760837ce1f"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22, last used ...)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22, last used ?)"
     - from_address: "0x4cc87b0a504047967ced9a955431b3229237e7de"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2024-10-22, last used ...)"
+      comment: "commitBatchesSharedBridge (first used 2024-10-22, last used ?)"
     - from_address: "0xf3b07f6744e06cd5074b7d15ed2c33760837ce1f"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-27)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-27, last used ?)"
     - from_address: "0x4cc87b0a504047967ced9a955431b3229237e7de"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2025-03-27)"
+      comment: "commitBatchesSharedBridge (first used 2025-03-27, last used ?)"
+    - from_address: "0xcd0b5a01abe9c14f6efbc610c02ecf0fb69855da"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02)"
+    - from_address: "0x78325837c780788ce6aff7883fdf68890010fe30"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-12-02)"
 
 abstract:
-  name: "Abstract"
+  name: "Abstract" # chain_address: 0x2edc71e9991a962c7fe172212d1aa9e50480fbb9
   l1:
     - from_address: "0x54ab716d465be3d5eeca64e63ac0048d7a81659a"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
