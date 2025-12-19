@@ -1265,11 +1265,19 @@ lens:
     - from_address: "0xaaf7b278bac078aa4f9bdc8e0a93cde604aa67d9"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-25)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-25, last used ?)"
     - from_address: "0xb1a0c1f1b50436ac94b8ce9ae919b0e820acb374"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2025-03-25)"
+      comment: "commitBatchesSharedBridge (first used 2025-03-25, last used ?)"
+    - from_address: "0x477c1b7dc1091389cbd3eef21efb00081606ab67"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02)"
+    - from_address: "0x3ea4d1684c65756e892b0b8d3e331e10d9d3a484"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-12-02)"
 
 taiko:
   name: "Taiko"
