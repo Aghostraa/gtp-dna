@@ -5,7 +5,7 @@
     "evm_chain_id": 42161,
     "name": "Arbitrum One",
     "name_short": "Arbitrum",
-    "bucket": "Arbitrum Orbit",
+    "bucket": "Arbitrum Chains",
     "ecosystem_old": [
         "all-chains"
     ],
