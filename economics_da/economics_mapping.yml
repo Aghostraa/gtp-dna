@@ -1012,7 +1012,7 @@ starknet:
       comment: "blob producer"
 
 zksync_era:
-  name: "ZKsync Era"
+  name: "ZKsync Era" # chain_address: 0x2cf3bD6a9056b39999F3883955E183F655345063
   l1:
     - from_address: null
       to_address: "0x3dB52cE065f728011Ac6732222270b3F2360d919"
@@ -1260,7 +1260,7 @@ treasure:
       comment: "commitBatchesSharedBridge (first used 2025-03-25)"
 
 lens:
-  name: "Lens"
+  name: "Lens" # chain_address: 0xc29d04A93F893700015138E3E334eB828dAC3cef
   l1:
     - from_address: "0xaaf7b278bac078aa4f9bdc8e0a93cde604aa67d9"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
