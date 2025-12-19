@@ -1864,6 +1864,11 @@ eternal_ai:
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAABldGVybmFsYWk="
 
+inertia:
+  name: "Inertia"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAEg2If2QGyq4ZRQ="
+
 flame:
   name: "Flame"
   celestia:
@@ -1923,6 +1928,7 @@ lightlink:
   name: "Lightlink"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAABsaWdodGxpbms="
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAB0ZXN0ZGVidWc="
 
 onchain:
   name: "Onchain"
