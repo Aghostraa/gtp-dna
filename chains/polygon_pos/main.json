@@ -1,0 +1,140 @@
+{
+    "origin_key": "polygon_pos",
+    "caip2": "eip155:137",
+    "da_mapping": null,
+    "evm_chain_id": 137,
+    "name": "Polygon PoS",
+    "name_short": "Polygon PoS",
+    "bucket": "Others",
+
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#AD0DC5",
+            "#AD0DC5"
+        ],
+        "dark": [
+            "#F3C0FB",
+            "#F3C0FB"
+        ],
+        "darkTextOnBackground": false
+    },
+    "chain_type": "L2",
+
+    "api_in_api_main": true,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": ["blockspace", "stables_mcap", "rent_paid", "profit", "fdv", "market_cap"],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "soon",
+        "apps": "soon",
+        "blockspace": "soon"
+    },
+
+    "aliases_l2beat": "polygon-pos",
+    "aliases_l2beat_slug": "polygon-pos",
+    "aliases_coingecko": "polygon",
+    "aliases_rhino": null,
+    "aliases_defillama": "polygon",
+
+    "metadata_description": "Polygon PoS is an EVM sidechain for Ethereum, planning to become a Validium. The bridge is validated by Polygon validators.",
+    "metadata_symbol": "POL",
+    "metadata_gas_token": "POL",
+    "metadata_launch_date": "2020-05-31",
+    "metadata_da_layer": "Ethereum (calldata)",
+    "metadata_technology": "Sidechain",
+    "metadata_purpose": "Universal (EVM)",
+    "metadata_stack": {
+        "label": "Polygon PoS",
+        "url": "https://docs.polygon.technology/"
+    },
+    "metadata_raas": "Self-hosted",
+
+    "links": {
+        "website": "https://polygon.technology/polygon-pos",
+        "docs": "https://docs.polygon.technology/pos/",
+        "github": "https://github.com/0xPolygon",
+        "socials": {
+            "Twitter": "https://twitter.com/0xPolygon",
+            "Discord": "https://discord.com/invite/0xPolygon",
+            "Blog": "https://polygon.technology/blog"
+        },
+        "block_explorers": {
+            "PolygonScan": "https://polygonscan.com/",
+            "OKX": "https://web3.okx.com/explorer/polygon"
+        },
+        "bridges": {
+            "Polygon Portal Bridge": "https://portal.polygon.technology/bridge"
+        },
+        "rpcs": {
+            "Mainnet": "https://polygon-rpc.com"
+        },
+        "others": {
+            "L2BEAT": "https://l2beat.com/scaling/projects/polygon-pos",
+            "Governance": "https://forum.polygon.technology/"
+        }
+    },
+
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": false,
+    "runs_contract_metadata": false,
+
+    "backfiller_backfiller_on": false,
+    "backfiller_batch_size": 20,
+
+    "cross_check_type": "l2beat",
+    
+    "circulating_supply_token_address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+    "circulating_supply_token_deployment_date": "2019-04-20",
+    "circulating_supply_token_deployment_origin_key": "ethereum",
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
+
+    "events": [
+        {
+            "date": "2020-05-30",
+            "type": "mainnet_launch",
+            "title": "Matic Network Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "The Matic Network mainnet went live, introducing a Plasma-based sidechain secured by a Proof-of-Stake validator set and checkpoints to Ethereum.",
+            "source": "https://blog.polygon.technology/matic-network-mainnet-is-live/"
+        },
+        {
+            "date": "2021-02-09",
+            "type": "rebrand",
+            "title": "Matic Rebrands to Polygon",
+            "short_title": "Polygon Rebrand",
+            "description": "Matic Network rebranded to Polygon, expanding its vision from a single PoS chain to a multi-chain scaling framework for Ethereum.",
+            "source": "https://blog.polygon.technology/matic-network-becomes-polygon/"
+        },
+        {
+            "date": "2022-01-18",
+            "type": "major_upgrade",
+            "title": "EIP-1559 Fee Burn Introduced",
+            "short_title": "EIP-1559",
+            "description": "Polygon PoS implemented EIP-1559-style fee mechanics, introducing a base fee burn and improving fee predictability for users.",
+            "source": "https://blog.polygon.technology/eip-1559-on-polygon/"
+        },
+        {
+            "date": "2022-12-15",
+            "type": "protocol_upgrade",
+            "title": "Heimdall v2 Upgrade",
+            "short_title": "Heimdall v2",
+            "description": "The Heimdall v2 upgrade improved consensus performance, validator stability, and checkpoint efficiency on the Polygon PoS network.",
+            "source": "https://blog.polygon.technology/heimdall-v2-upgrade-is-live/"
+        },
+        {
+            "date": "2024-06-04",
+            "type": "major_upgrade",
+            "title": "Polygon PoS Hard Fork (Pectra-aligned)",
+            "short_title": "PoS Hard Fork",
+            "description": "Polygon PoS activated a major hard fork aligned with recent Ethereum upgrades, improving compatibility, performance, and long-term maintainability.",
+            "source": "https://blog.polygon.technology/polygon-pos-hardfork/"
+        }
+    ]
+}

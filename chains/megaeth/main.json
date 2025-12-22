@@ -76,7 +76,8 @@
             "Blog": "https://www.megaeth.com/blog-news"
         },
         "block_explorers": {
-            "Mega Explorer": "https://www.megaexplorer.xyz/"
+            "Mega Explorer": "https://www.megaexplorer.xyz/",
+            "Blockscout": "https://megaeth.blockscout.com/"
         },
         "bridges": {},
         "others": {
