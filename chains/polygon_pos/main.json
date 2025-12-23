@@ -25,8 +25,8 @@
 
     "api_in_api_main": true,
     "api_in_api_fees": false,
-    "api_in_api_economics": false,
-    "api_in_api_labels": false,
+    "api_in_api_economics": true,
+    "api_in_api_labels": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": ["blockspace", "stables_mcap", "profit"],
     "api_tab_status": {
@@ -82,8 +82,9 @@
     },
 
     "runs_aggregate_blockspace": false,
-    "runs_aggregate_addresses ": false,
+    "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+    "runs_aggregate_apps": false,
 
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
