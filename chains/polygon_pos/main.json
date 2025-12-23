@@ -28,7 +28,7 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "DEV",
-    "api_api_exclude_metrics": ["blockspace", "stables_mcap", "rent_paid", "profit", "fdv", "market_cap"],
+    "api_api_exclude_metrics": ["blockspace", "stables_mcap", "profit"],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
