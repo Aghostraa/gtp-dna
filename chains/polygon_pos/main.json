@@ -43,7 +43,7 @@
     "aliases_rhino": null,
     "aliases_defillama": "polygon",
 
-    "metadata_description": "Polygon PoS is an EVM sidechain for Ethereum, planning to become a Validium. The bridge is validated by Polygon validators.",
+    "metadata_description": "Polygon Proof-of-Stake is an EVM sidechain for Ethereum, planning to become a Validium. The bridge is validated by Polygon validators.",
     "metadata_symbol": "POL",
     "metadata_gas_token": "POL",
     "metadata_launch_date": "2020-05-31",
@@ -81,10 +81,10 @@
         }
     },
 
-    "runs_aggregate_blockspace": false,
+    "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
-    "runs_aggregate_apps": false,
+    "runs_aggregate_apps": true,
 
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
