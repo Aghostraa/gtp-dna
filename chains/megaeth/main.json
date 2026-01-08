@@ -1,0 +1,114 @@
+{
+    "origin_key": "megaeth",
+    "caip2": "eip155:4326",
+    "da_mapping": null,
+    "evm_chain_id": 4326,
+    "name": "MegaETH",
+    "name_short": "MegaETH",
+    "bucket": "Others",
+
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#DFD9D9",
+            "#DFD9D9"
+        ],
+        "dark": [
+            "#DFD9D9",
+            "#DFD9D9"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+
+    "api_in_api_main": true,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": true,
+    "api_in_api_apps": true,
+    "api_in_api_user_insights": false,
+    "api_api_deployment_flag": "PROD",
+    "api_api_exclude_metrics": [
+        "stables_mcap",
+        "profit",
+        "fdv",
+        "market_cap",
+        "app_revenue"
+    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "soon",
+        "apps": "active",
+        "blockspace": "active"
+    },
+
+    "aliases_l2beat": "megaeth",
+    "aliases_l2beat_slug": "megaeth",
+    "aliases_coingecko": null,
+    "aliases_rhino": null,
+    "aliases_blockscout_url": null,
+    "aliases_defillama": null,
+
+    "metadata_description": "MegaETH is a real-time blockchain. Where crypto applications leverage extreme performance to reach their full potential.",
+    "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
+    "metadata_launch_date": "2025-12-15",
+    "metadata_da_layer": "EigenDA",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "Universal (EVM)",
+    "metadata_stack": {
+        "label": "Custom",
+        "url": null
+    },
+    "metadata_raas": "Self-hosted",
+
+    "links": {
+        "website": "https://www.megaeth.com/",
+        "docs": "https://docs.megaeth.com/",
+        "github": "https://github.com/megaeth-labs",
+        "socials": {
+            "Twitter": "https://x.com/megaeth",
+            "Discord": "https://discord.com/invite/megaeth",
+            "Blog": "https://www.megaeth.com/blog-news"
+        },
+        "block_explorers": {
+            "Blockscout": "https://megaeth.blockscout.com/"
+        },
+        "bridges": {},
+        "others": {
+            "L2BEAT": "https://l2beat.com/scaling/projects/megaeth"
+        }
+    },
+
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_aggregate_apps": true,
+    "runs_contract_metadata": false,
+
+    "backfiller_backfiller_on": false,
+    "backfiller_batch_size": 20,
+
+    "cross_check_type": "l2beat",
+
+    "events": [
+        {
+            "date": "2025-12-18",
+            "type": "mainnet_launch",
+            "title": "Frontier Net Launch",
+            "short_title": "Frontier Net Launch",
+            "description": "A restricted-access phase where only vetted applications and infrastructure providers can deploy and test on mainnet.",
+            "source": "https://www.megaeth.com/blog-news"
+        },
+        {
+            "date": "2025-11-26",
+            "type": "ecosystem_event",
+            "title": "USDM Bridge (Temporarily) Live",
+            "short_title": "USDM Bridge Live",
+            "description": "The USDM Bridge goes live, allowing transfers of USDC between Ethereum and MegaETH. This bridge was disabled shortly after launch due to fairness concerns and all funds were returned.",
+            "source": "https://www.megaeth.com/blog-news"
+        }
+    ]
+}

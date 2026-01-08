@@ -43,6 +43,7 @@
     "aliases_rhino": "SCROLL",
     "aliases_defillama": "scroll",
 
+    "metadata_chain_type": "rollup",
     "metadata_description": "Scroll is a general purpose zkEVM rollup. Public launch was in October 2023.",
     "metadata_symbol": null,
     "metadata_gas_token": "ETH",
@@ -83,6 +84,8 @@
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": true,
+    "runs_archive_raw_tx": true,
+    "runs_delete_archived_raw_tx": true,
 
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,

@@ -15,6 +15,8 @@
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
+    "runs_archive_raw_tx": true,
+    "runs_delete_archived_raw_tx": true,
 
     "bucket": "Superchain",
 
@@ -23,8 +25,8 @@
     ],
     "colors": {
         "light": [
-            "#383735",
-            "#383735"
+            "#B4C7BD",
+            "#B4C7BD"
         ],
         "dark": [
             "#D7E2DC",

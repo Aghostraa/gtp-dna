@@ -5,7 +5,7 @@
     "evm_chain_id": 42161,
     "name": "Arbitrum One",
     "name_short": "Arbitrum",
-    "bucket": "Arbitrum Orbit",
+    "bucket": "Arbitrum Chains",
     "ecosystem_old": [
         "all-chains"
     ],
@@ -44,6 +44,7 @@
     "aliases_blockscout_url": "https://arbitrum.blockscout.com/api/v2/",
     "aliases_defillama": "arbitrum",
 
+    "metadata_chain_type": "rollup",
     "metadata_description": "Arbitrum One is developed by Offchain Labs. It uses an optimistic rollup approach and is fully EVM compatible, making it developer-friendly.",
     "metadata_symbol": "ARB",
     "metadata_gas_token": "ETH",
@@ -87,6 +88,8 @@
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": true,
+    "runs_archive_raw_tx": true,
+    "runs_delete_archived_raw_tx": true,
 
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,

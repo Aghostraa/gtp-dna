@@ -14,8 +14,10 @@
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
+    "runs_archive_raw_tx": true,
+    "runs_delete_archived_raw_tx": true,
 
-    "bucket": "Arbitrum Orbit",
+    "bucket": "Arbitrum Chains",
 
     "ecosystem_old": [
         "all-chains"

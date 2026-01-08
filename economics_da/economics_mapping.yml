@@ -897,6 +897,13 @@ mantle:
   eigenda:
     - namespace: "0x24f0a3716805e8973bf48eb908d6d4a2f34af785"
 
+polygon_pos:
+  name: "Polygon"
+  l1:
+    - from_address: null
+      to_address: "0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287"
+      method: "0x4e43e495"
+      comment: "submit Checkpoint (first used 2020-05-30)"
 
 polygon_zkevm:
   name: "Polygon zkEVM"
@@ -1005,7 +1012,7 @@ starknet:
       comment: "blob producer"
 
 zksync_era:
-  name: "ZKsync Era"
+  name: "ZKsync Era" # chain_address: 0x32400084C286CF3E17e7B677ea9583e60a000324 (or 0x6e96d1172a6593d5027af3c2664c5112ca75f2b9)
   l1:
     - from_address: null
       to_address: "0x3dB52cE065f728011Ac6732222270b3F2360d919"
@@ -1067,6 +1074,14 @@ zksync_era:
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
       comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-05-12, last used 2025-07-28)"
+    - from_address: "0x14f19299476664665eda17dbb7da7e62e3253aa8"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02)"
+    - from_address: "0x7d95f0b9d3383d58e39a75a67760aa2153d355a2"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-12-02)"
   beacon:
     - from_address: "0x0d3250c3d5facb74ac15834096397a3ef790ec99"
       to_address: null
@@ -1076,29 +1091,41 @@ zksync_era:
       to_address: null
       method: null
       comment: "blob producer (first used 2025-05-12, last used 2025-07-28)"
+    - from_address: "0x7d95f0b9d3383d58e39a75a67760aa2153d355a2"
+      to_address: null
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-10-21)"
 
 sophon:
-  name: "Sophon"
+  name: "Sophon" # chain_address: 0x05eDE6aD1f39B7A16C949d5C33a0658c9C7241e3
   l1:
     - from_address: "0xf3b07f6744e06cd5074b7d15ed2c33760837ce1f"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22, last used ...)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22, last used ?)"
     - from_address: "0x4cc87b0a504047967ced9a955431b3229237e7de"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2024-10-22, last used ...)"
+      comment: "commitBatchesSharedBridge (first used 2024-10-22, last used ?)"
     - from_address: "0xf3b07f6744e06cd5074b7d15ed2c33760837ce1f"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-27)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-27, last used ?)"
     - from_address: "0x4cc87b0a504047967ced9a955431b3229237e7de"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2025-03-27)"
+      comment: "commitBatchesSharedBridge (first used 2025-03-27, last used ?)"
+    - from_address: "0xcd0b5a01abe9c14f6efbc610c02ecf0fb69855da"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02)"
+    - from_address: "0x78325837c780788ce6aff7883fdf68890010fe30"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-12-02)"
 
 abstract:
-  name: "Abstract"
+  name: "Abstract" # chain_address: 0x2edc71e9991a962c7fe172212d1aa9e50480fbb9
   l1:
     - from_address: "0x54ab716d465be3d5eeca64e63ac0048d7a81659a"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
@@ -1119,16 +1146,24 @@ abstract:
     - from_address: "0x415ed64d42bc0c37aeaaef79aa767d963ef38807"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-05-26)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-05-26, last used ?)"
     - from_address: "0x4b2d036d2c27192549ad5a2f2d9875e1843833de"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2025-05-26)"
+      comment: "commitBatchesSharedBridge (first used 2025-05-26, last used ?)"
+    - from_address: "0x415ed64d42bc0c37aeaaef79aa767d963ef38807"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02)"
+    - from_address: "0x4b2d036d2c27192549ad5a2f2d9875e1843833de"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-12-02)"
   beacon:
     - from_address: "0x11805594be0229ef08429d775af0c55f7c4535de"
       to_address: null
       method: null
-      comment: "blob producer (last used 2025-05-26)"
+      comment: "blob producer (last used 2025-05-26, last used ?)"
     - from_address: "0x4b2d036d2c27192549ad5a2f2d9875e1843833de"
       to_address: null
       method: null
@@ -1172,16 +1207,16 @@ grvt:
       comment: "commitBatchesSharedBridge (first used 2025-03-24)"
 
 cronos:
-  name: "Cronos zkEVM"
+  name: "Cronos zkEVM" # chain_address: 0x7b2DA4e77BAE0e0d23c53C3BE6650497d0576CFc
   l1:
     - from_address: "0x7fea26a181a792b5107ee0a31e434f5dbcbbe0b7"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-07-27, last used ...)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-07-27, last used ?)"
     - from_address: "0xb9d48daf26f3cbe01a959f09f98e8a2ec8204122"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2024-07-27, last used ...)"
+      comment: "commitBatchesSharedBridge (first used 2024-07-27, last used ?)"
     - from_address: "0xb9d48daf26f3cbe01a959f09f98e8a2ec8204122"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
@@ -1189,7 +1224,15 @@ cronos:
     - from_address: "0x7fea26a181a792b5107ee0a31e434f5dbcbbe0b7"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2025-03-26)"
+      comment: "commitBatchesSharedBridge (first used 2025-03-26, last used ?)"
+    - from_address: "0xb9d48daf26f3cbe01a959f09f98e8a2ec8204122"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02)"
+    - from_address: "0x7fea26a181a792b5107ee0a31e434f5dbcbbe0b7"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-12-02)"
 
 treasure:
   name: "Treasure"
@@ -1212,16 +1255,24 @@ treasure:
       comment: "commitBatchesSharedBridge (first used 2025-03-25)"
 
 lens:
-  name: "Lens"
+  name: "Lens" # chain_address: 0xc29d04A93F893700015138E3E334eB828dAC3cef
   l1:
     - from_address: "0xaaf7b278bac078aa4f9bdc8e0a93cde604aa67d9"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-25)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-25, last used ?)"
     - from_address: "0xb1a0c1f1b50436ac94b8ce9ae919b0e820acb374"
       to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2025-03-25)"
+      comment: "commitBatchesSharedBridge (first used 2025-03-25, last used ?)"
+    - from_address: "0x477c1b7dc1091389cbd3eef21efb00081606ab67"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02)"
+    - from_address: "0x3ea4d1684c65756e892b0b8d3e331e10d9d3a484"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-12-02)"
 
 taiko:
   name: "Taiko"
@@ -1813,6 +1864,11 @@ eternal_ai:
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAABldGVybmFsYWk="
 
+inertia:
+  name: "Inertia"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAEg2If2QGyq4ZRQ="
+
 flame:
   name: "Flame"
   celestia:
@@ -1837,6 +1893,31 @@ ham:
   name: "Ham"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMod4SpeLVvrm6k="
+
+camp:
+  name: "Camp"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAB7AAAAAAAAAeQ="
+
+embrfun:
+  name: "Embr.Fun"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAMbONmnisjTDz4I="
+
+echelon:
+  name: "Echelon"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAItyY42OaTC/skE="
+
+rave:
+  name: "Rave"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAF45zaUciayEPXE="
+
+xomarket:
+  name: "XO market"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAEjr00EdZDGvoMU="
 
 hypr:
   name: "Hypr"
@@ -1872,6 +1953,7 @@ lightlink:
   name: "Lightlink"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAABsaWdodGxpbms="
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAB0ZXN0ZGVidWc="
 
 onchain:
   name: "Onchain"
@@ -1949,6 +2031,16 @@ megaeth_testnet:
   name: "MegaETH Testnet"
   eigenda:
     - namespace: "0xcd1161b78f01da838ce0d42ec750891ec8708f1d"
+
+megaeth:
+  name: "MegaETH"
+  l1:
+    - from_address: "0xb98c6b1a805b96707a43e1f1acfa163b68098fa6"
+      to_address: "0x00656C604FC470e6a566A695B74455e18a6D75D3"
+      method: null
+      comment: "EigenDA certificate (first used 2025-11-13)"
+  eigenda:
+    - namespace: "0x42b5ea5238752cc6f70d93fa4249feae480a0b39"
 
 mantle_testnet:
   name: "Mantle Testnet"
