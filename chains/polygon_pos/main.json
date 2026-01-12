@@ -86,6 +86,10 @@
     "runs_contract_metadata": false,
     "runs_aggregate_apps": true,
 
+    "archive_tables": [
+        "fact_active_addresses_contract"
+    ],
+
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
 
