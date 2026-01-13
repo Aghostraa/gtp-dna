@@ -89,7 +89,8 @@
     "runs_contract_metadata": false,
     
     "archive_tables": [
-        "fact_active_addresses_contract"
+        "fact_active_addresses_contract",
+        "fact_active_addresses"
     ],
 
     "backfiller_backfiller_on": false,

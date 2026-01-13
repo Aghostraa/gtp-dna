@@ -87,7 +87,8 @@
     "runs_aggregate_apps": true,
 
     "archive_tables": [
-        "fact_active_addresses_contract"
+        "fact_active_addresses_contract",
+        "fact_active_addresses"
     ],
 
     "backfiller_backfiller_on": false,
