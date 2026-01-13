@@ -85,10 +85,6 @@
     "runs_archive_raw_tx": false,
     "runs_delete_archived_raw_tx": false,
 
-    "archive_tables": [
-        "fact_active_addresses"
-    ],
-
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 20,
 
