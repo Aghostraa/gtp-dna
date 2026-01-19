@@ -31,7 +31,6 @@
     "api_in_api_user_insights": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
-        "stables_mcap",
         "profit",
         "fdv",
         "market_cap",
