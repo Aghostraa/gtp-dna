@@ -29,7 +29,8 @@
     "api_in_api_labels": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
-        "throughput"
+        "throughput",
+        "txcosts"
     ],
     "api_tab_status": {
         "overview": "active",
@@ -91,6 +92,10 @@
     "runs_contract_metadata": true,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
+
+    "archive_tables": [
+        "fact_active_addresses"
+    ],
 
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,

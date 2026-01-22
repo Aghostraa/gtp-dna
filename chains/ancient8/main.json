@@ -64,7 +64,7 @@
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 0,
 
-    "cross_check_type": "l2beat",
+    "cross_check_type": null,
 
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,

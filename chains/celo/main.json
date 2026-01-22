@@ -18,6 +18,10 @@
     "runs_delete_archived_raw_tx": true,
     "runs_aggregate_apps": true,
 
+    "archive_tables": [
+        "fact_active_addresses"
+    ],
+
     "bucket": "Superchain",
 
     "ecosystem_old": [
@@ -25,8 +29,8 @@
     ],
     "colors": {
         "light": [
-            "#919200",
-            "#919200"
+            "#BEC004",
+            "#BEC004"
         ],
         "dark": [
             "#FCFF52",

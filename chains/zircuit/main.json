@@ -18,6 +18,10 @@
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
 
+    "archive_tables": [
+        "fact_active_addresses"
+    ],
+
     "bucket": "Others",
 
     "ecosystem_old": [

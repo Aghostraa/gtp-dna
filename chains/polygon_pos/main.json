@@ -27,14 +27,16 @@
     "api_in_api_fees": false,
     "api_in_api_economics": true,
     "api_in_api_labels": true,
+    "api_in_api_apps": true,
+    
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": ["blockspace"],
+    "api_api_exclude_metrics": [],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
         "economics": "soon",
-        "apps": "soon",
-        "blockspace": "soon"
+        "apps": "active",
+        "blockspace": "active"
     },
 
     "aliases_l2beat": "polygon-pos",
@@ -85,6 +87,11 @@
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
     "runs_aggregate_apps": true,
+
+    "archive_tables": [
+        "fact_active_addresses_contract",
+        "fact_active_addresses"
+    ],
 
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
