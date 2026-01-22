@@ -31,7 +31,6 @@
     "api_in_api_user_insights": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
-        "stables_mcap",
         "profit",
         "fdv",
         "market_cap",
@@ -87,6 +86,11 @@
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": false,
+    
+    "archive_tables": [
+        "fact_active_addresses_contract",
+        "fact_active_addresses"
+    ],
 
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,

@@ -12,8 +12,8 @@
     ],
     "colors": {
         "light": [
-            "#9A0F66",
-            "#9A0F66"
+            "#BA127A",
+            "#BA127A"
         ],
         "dark": [
             "#E81899",
@@ -86,6 +86,10 @@
     "runs_contract_metadata": true,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
+
+    "archive_tables": [
+        "fact_active_addresses"
+    ],
 
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 2,
