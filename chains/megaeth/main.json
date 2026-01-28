@@ -74,7 +74,8 @@
             "Blog": "https://www.megaeth.com/blog-news"
         },
         "block_explorers": {
-            "Blockscout": "https://megaeth.blockscout.com/"
+            "Blockscout": "https://megaeth.blockscout.com/",
+            "Etherscan": "https://mega.etherscan.io/"
         },
         "bridges": {},
         "others": {
