@@ -100,6 +100,14 @@
 
     "events": [
         {
+            "date": "2026-01-22",
+            "type": "ecosystem_event",
+            "title": "Stress Test on MegaETH",
+            "short_title": "Stress Test",
+            "description": "MegaETH undergoes a comprehensive stress test to evaluate its performance and reliability under high transaction volumes, pushing 10-50k TPS.",
+            "source": "https://www.megaeth.com/blog-news"
+        },
+        {
             "date": "2025-12-18",
             "type": "mainnet_launch",
             "title": "Frontier Net Launch",
