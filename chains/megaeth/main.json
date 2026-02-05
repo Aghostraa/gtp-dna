@@ -47,6 +47,7 @@
     "aliases_l2beat": "megaeth",
     "aliases_l2beat_slug": "megaeth",
     "aliases_coingecko": null,
+    "aliases_coingecko_chain": "megaeth",
     "aliases_rhino": null,
     "aliases_blockscout_url": null,
     "aliases_defillama": null,

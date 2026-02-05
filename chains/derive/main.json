@@ -48,6 +48,7 @@
     "aliases_l2beat": "lyra",
     "aliases_l2beat_slug": "derive",
     "aliases_coingecko": "derive",
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
     "aliases_defillama": "derive-chain",
 

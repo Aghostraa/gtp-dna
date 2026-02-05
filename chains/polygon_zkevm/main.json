@@ -40,6 +40,7 @@
     "aliases_l2beat": "polygonzkevm",
     "aliases_l2beat_slug": "polygonzkevm",
     "aliases_coingecko": null,
+    "aliases_coingecko_chain": "polygon-zkevm",
     "aliases_rhino": "ZKEVM",
     "aliases_blockscout_url": "https://zkevm.blockscout.com/api/v2/",
     "aliases_defillama": "polygon-zkevm",

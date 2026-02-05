@@ -43,6 +43,7 @@
     "aliases_l2beat": "blast",
     "aliases_l2beat_slug": "blast",
     "aliases_coingecko": "blast",
+    "aliases_coingecko_chain": "blast",
     "aliases_rhino": "BLAST",
     "aliases_defillama": "blast",
 

@@ -42,6 +42,7 @@
     "aliases_l2beat": "polygon-pos",
     "aliases_l2beat_slug": "polygon-pos",
     "aliases_coingecko": "polygon-ecosystem-token",
+    "aliases_coingecko_chain": "polygon-pos",
     "aliases_rhino": null,
     "aliases_defillama": "polygon",
 

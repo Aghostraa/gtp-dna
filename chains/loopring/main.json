@@ -47,6 +47,7 @@
     "aliases_l2beat": "loopring",
     "aliases_l2beat_slug": "loopring",
     "aliases_coingecko": "loopring",
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
 
     "metadata_chain_type": "rollup",

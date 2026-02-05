@@ -49,6 +49,8 @@
 
     "aliases_l2beat": null,
     "aliases_l2beat_slug": null,
+    "aliases_coingecko": null,
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
 
     "metadata_description": "rhino.fi is a Validium based on StarkEX technology. Its main focus is on bridging assets between other chains.",

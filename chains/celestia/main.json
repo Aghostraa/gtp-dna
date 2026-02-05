@@ -31,6 +31,7 @@
     "api_api_exclude_metrics": [],
     "aliases_l2beat": null,
     "aliases_coingecko": "celestia",
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
     "metadata_description": null,
     "metadata_symbol": null,

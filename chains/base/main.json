@@ -48,6 +48,7 @@
     "aliases_l2beat": "base",
     "aliases_l2beat_slug": "base",
     "aliases_coingecko": null,
+    "aliases_coingecko_chain": "base",
     "aliases_rhino": "BASE",
     "aliases_blockscout_url": "https://base.blockscout.com/api/v2/",
     "aliases_defillama": "base",

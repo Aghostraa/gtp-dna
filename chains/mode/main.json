@@ -43,6 +43,7 @@
     "aliases_l2beat": "mode",
     "aliases_l2beat_slug": "mode",
     "aliases_coingecko": "mode",
+    "aliases_coingecko_chain": "mode",
     "aliases_rhino": "MODE",
     "aliases_blockscout_url": "https://explorer.mode.network/api/v2/",
     "aliases_defillama": "mode",
