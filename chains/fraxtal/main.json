@@ -3,7 +3,7 @@
     "caip2": "eip155:252",
     "evm_chain_id": 252,
     "name": "Fraxtal",
-    "name_short": "fraxtal",
+    "name_short": "Fraxtal",
 
     "aliases_l2beat": "fraxtal",
     "aliases_l2beat_slug": "fraxtal",
