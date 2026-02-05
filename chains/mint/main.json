@@ -14,6 +14,8 @@
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
+    "runs_archive_raw_tx": true,
+    "runs_delete_archived_raw_tx": true,
 
     "bucket": "Superchain",
 
@@ -77,7 +79,7 @@
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_api_deployment_flag": "DEV",
+    "api_api_deployment_flag": "ARCHIVE",
     "api_api_exclude_metrics": ["blockspace", "fdv", "market_cap"],
     "api_tab_status": {
         "overview": "active",
@@ -87,7 +89,7 @@
         "blockspace": "locked"
     },
     
-    "backfiller_backfiller_on": true,
+    "backfiller_backfiller_on": false,
     "backfiller_batch_size": 10,
 
     "cross_check_type": null,

@@ -27,12 +27,10 @@
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": true,
-    "api_in_api_apps": false,
+    "api_in_api_apps": true,
     "api_in_api_user_insights": false,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
-        "blockspace",
-        "stables_mcap",
         "profit",
         "fdv",
         "market_cap",
@@ -42,8 +40,8 @@
         "overview": "active",
         "fundamentals": "active",
         "economics": "soon",
-        "apps": "soon",
-        "blockspace": "soon"
+        "apps": "active",
+        "blockspace": "active"
     },
 
     "aliases_l2beat": "megaeth",
@@ -76,7 +74,8 @@
             "Blog": "https://www.megaeth.com/blog-news"
         },
         "block_explorers": {
-            "Mega Explorer": "https://www.megaexplorer.xyz/"
+            "Blockscout": "https://megaeth.blockscout.com/",
+            "Etherscan": "https://mega.etherscan.io/"
         },
         "bridges": {},
         "others": {
@@ -88,6 +87,11 @@
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": false,
+    
+    "archive_tables": [
+        "fact_active_addresses_contract",
+        "fact_active_addresses"
+    ],
 
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
@@ -95,6 +99,14 @@
     "cross_check_type": "l2beat",
 
     "events": [
+        {
+            "date": "2026-01-22",
+            "type": "ecosystem_event",
+            "title": "Stress Test on MegaETH",
+            "short_title": "Stress Test",
+            "description": "MegaETH undergoes a comprehensive stress test to evaluate its performance and reliability under high transaction volumes, pushing 10-50k TPS.",
+            "source": "https://www.megaeth.com/blog-news"
+        },
         {
             "date": "2025-12-18",
             "type": "mainnet_launch",

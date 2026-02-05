@@ -16,6 +16,8 @@
     "runs_aggregate_addresses ": true, // only disable if it's a non EVM chain
     "runs_aggregate_apps": false,
     "runs_contract_metadata": false,
+    "runs_archive_raw_tx": false,
+    "runs_delete_archived_raw_tx": false,
 
     // Metadata
     "bucket": "Others", // Superchain, Arbitrum Orbit, Others, etc.
