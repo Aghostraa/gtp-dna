@@ -43,6 +43,7 @@
     "aliases_l2beat": "starknet",
     "aliases_l2beat_slug": "starknet",
     "aliases_coingecko": "starknet",
+    "aliases_coingecko_chain": "starknet",
     "aliases_rhino": "STARKNET",
     "aliases_defillama": "starknet",
 

@@ -8,6 +8,7 @@
     "aliases_l2beat": "nova",
     "aliases_l2beat_slug": "nova",
     "aliases_coingecko": null,
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
     "aliases_defillama": "arbitrum-nova",
 

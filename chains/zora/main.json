@@ -35,6 +35,7 @@
     "aliases_l2beat": "zora",
     "aliases_l2beat_slug": "zora",
     "aliases_coingecko": "zora",
+    "aliases_coingecko_chain": "zora-network",
     "aliases_rhino": null,
     "aliases_blockscout_url": "https://explorer.zora.energy/api/v2/",
     "aliases_defillama": "zora",

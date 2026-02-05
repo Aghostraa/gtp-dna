@@ -43,6 +43,7 @@
     "aliases_l2beat": "metis",
     "aliases_l2beat_slug": "metis",
     "aliases_coingecko": "metis-token",
+    "aliases_coingecko_chain": "metis-andromeda",
     "aliases_rhino": null,
     "aliases_defillama": "metis",
 

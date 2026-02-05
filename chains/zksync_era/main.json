@@ -43,6 +43,7 @@
     "aliases_l2beat": "zksync2",
     "aliases_l2beat_slug": "zksync-era",
     "aliases_coingecko": "zksync",
+    "aliases_coingecko_chain": "zksync",
     "aliases_rhino": "ZKSYNC",
     "aliases_blockscout_url": "https://zksync.blockscout.com/api/v2/",
     "aliases_defillama": "zksync-era",

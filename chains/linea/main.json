@@ -42,6 +42,7 @@
     "aliases_l2beat": "linea",
     "aliases_l2beat_slug": "linea",
     "aliases_coingecko": "linea",
+    "aliases_coingecko_chain": "linea",
     "aliases_rhino": "LINEA",
     "aliases_blockscout_url": "https://api-explorer.linea.build/api/v2/",
     "aliases_defillama": "linea",

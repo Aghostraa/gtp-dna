@@ -43,6 +43,7 @@
     "aliases_l2beat": "worldchain",
     "aliases_l2beat_slug": "world",
     "aliases_coingecko": "worldcoin-wld",
+    "aliases_coingecko_chain": "world-chain",
     "aliases_rhino": null,
     "aliases_defillama": "world-chain",
 
