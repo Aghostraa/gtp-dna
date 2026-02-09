@@ -11,6 +11,9 @@
     "aliases_coingecko_chain": "plume-network",
     "aliases_rhino": null,
     "aliases_defillama": null,
+    "aliases_dune": "plume",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,

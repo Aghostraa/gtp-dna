@@ -46,6 +46,9 @@
     "aliases_coingecko_chain": "metis-andromeda",
     "aliases_rhino": null,
     "aliases_defillama": "metis",
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "metadata_description": "Metis Andromeda is an EVM equivalent Optimium. Public launch was in November 2021.",
     "metadata_symbol": "METIS",

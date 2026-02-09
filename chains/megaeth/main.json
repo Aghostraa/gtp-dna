@@ -51,6 +51,9 @@
     "aliases_rhino": null,
     "aliases_blockscout_url": null,
     "aliases_defillama": null,
+    "aliases_dune": "megaeth",
+    
+    "deployed_supplyreader": null,
 
     "metadata_description": "MegaETH is a real-time blockchain. Where crypto applications leverage extreme performance to reach their full potential.",
     "metadata_symbol": null,

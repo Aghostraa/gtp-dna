@@ -52,6 +52,9 @@
     "aliases_coingecko": "immutable-x",
     "aliases_coingecko_chain": null,
     "aliases_rhino": null,
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
 
     "metadata_description": "Immutable X is a game-specific (not EVM compatible) zk rollup for minting, transferring, and trading tokens/NFTs at high volumes with zero gas fees.",
     "metadata_symbol": "IMX",

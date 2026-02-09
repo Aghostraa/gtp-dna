@@ -43,6 +43,9 @@
     "aliases_coingecko_chain": "scroll",
     "aliases_rhino": "SCROLL",
     "aliases_defillama": "scroll",
+    "aliases_dune": "scroll",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "metadata_chain_type": "rollup",
     "metadata_description": "Scroll is a general purpose zkEVM rollup. Public launch was in October 2023.",

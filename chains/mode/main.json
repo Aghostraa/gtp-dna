@@ -47,6 +47,9 @@
     "aliases_rhino": "MODE",
     "aliases_blockscout_url": "https://explorer.mode.network/api/v2/",
     "aliases_defillama": "mode",
+    "aliases_dune": "mode",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "metadata_description": "Mode is an Optimistic Rollup and part of the Superchain.",
     "metadata_symbol": "MODE",

@@ -47,6 +47,9 @@
     "aliases_rhino": "ZKSYNC",
     "aliases_blockscout_url": "https://zksync.blockscout.com/api/v2/",
     "aliases_defillama": "zksync-era",
+    "aliases_dune": "zksync",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "metadata_chain_type": "rollup",
     "metadata_description": "ZKsync Era uses ZK tech, aiming to boost throughput while preserving Ethereum's core values: freedom, self-sovereignty, and decentralization.",

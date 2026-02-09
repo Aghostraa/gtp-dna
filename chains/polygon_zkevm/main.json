@@ -44,6 +44,9 @@
     "aliases_rhino": "ZKEVM",
     "aliases_blockscout_url": "https://zkevm.blockscout.com/api/v2/",
     "aliases_defillama": "polygon-zkevm",
+    "aliases_dune": "zkevm",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "metadata_description": "Polygon zkEVM uses zero-knowledge proofs to run EVM-compatible smart contracts, simplifying migration for developers to the Polygon network.",
     "metadata_symbol": "MATIC",
