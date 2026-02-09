@@ -47,6 +47,9 @@
     "aliases_coingecko": null,
     "aliases_coingecko_chain": null,
     "aliases_rhino": null,
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
 
     "metadata_description": null,
     "metadata_symbol": null,

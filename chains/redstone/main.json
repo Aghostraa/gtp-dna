@@ -51,6 +51,9 @@
     "aliases_rhino": null,
     "aliases_blockscout_url": "https://explorer.redstone.xyz/api/v2/",
     "aliases_defillama": "redstone",
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "metadata_description": "Redstone is a chain built from the ground up for onchain games and autonomous worlds",
     "metadata_symbol": null,

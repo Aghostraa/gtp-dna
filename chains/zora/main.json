@@ -39,6 +39,10 @@
     "aliases_rhino": null,
     "aliases_blockscout_url": "https://explorer.zora.energy/api/v2/",
     "aliases_defillama": "zora",
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": "2025-09-23",
+
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",

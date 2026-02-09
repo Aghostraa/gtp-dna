@@ -51,6 +51,9 @@
     "aliases_coingecko_chain": null,
     "aliases_rhino": null,
     "aliases_defillama": "derive-chain",
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
 
     "metadata_description": "Derive (former Lyra) is built using the OP Stack specially for Derive protocol - a settlement protocol for spot, perpetuals, and options trading.",
     "metadata_symbol": "LYRA",

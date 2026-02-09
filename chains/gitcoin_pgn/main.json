@@ -46,6 +46,9 @@
     "aliases_coingecko": "gitcoin",
     "aliases_coingecko_chain": null,
     "aliases_rhino": null,
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
 
     "metadata_description": "Public Goods Network is a fully EVM compatible optimistic rollup built on the OP Stack.",
     "metadata_symbol": "GTC",

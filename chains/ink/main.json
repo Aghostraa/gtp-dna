@@ -12,6 +12,9 @@
     "aliases_coingecko_chain": "ink",
     "aliases_rhino": "INK",
     "aliases_defillama": "ink",
+    "aliases_dune": "ink",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true,
