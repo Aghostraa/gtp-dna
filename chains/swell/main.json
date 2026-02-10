@@ -8,8 +8,12 @@
     "aliases_l2beat": "swell",
     "aliases_l2beat_slug": "swell",
     "aliases_coingecko": "swell-network", 
+    "aliases_coingecko_chain": "swellchain",
     "aliases_rhino": null,
     "aliases_defillama": "swellchain",
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

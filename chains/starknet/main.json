@@ -43,8 +43,12 @@
     "aliases_l2beat": "starknet",
     "aliases_l2beat_slug": "starknet",
     "aliases_coingecko": "starknet",
+    "aliases_coingecko_chain": "starknet",
     "aliases_rhino": "STARKNET",
     "aliases_defillama": "starknet",
+    "aliases_dune": "starknet",
+    
+    "deployed_supplyreader": null,
 
     "metadata_chain_type": "rollup",
     "metadata_description": "Starknet is a ZK Rollup developed by Starkware. It uses it's own programming language and general purpose virtual machine (Cairo VM).",

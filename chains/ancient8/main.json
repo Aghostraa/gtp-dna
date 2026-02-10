@@ -37,8 +37,12 @@
     "aliases_l2beat": "ancient",
     "aliases_l2beat_slug": "ancient8",
     "aliases_coingecko": "ancient8",
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
     "aliases_defillama": "ancient8",
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
 
     "metadata_description": null,
     "metadata_symbol": "A8",

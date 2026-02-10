@@ -49,7 +49,11 @@
     "aliases_l2beat": "orderly",
     "aliases_l2beat_slug": "orderly",
     "aliases_coingecko": "orderly-network",
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
 
     "metadata_description": "Orderly is an OP stack Optimium on Ethereum using Celestia for data availability. It has a unified ledger for assets from multiple chains and an orderbook that can be used by apps.",
     "metadata_symbol": "ORDER",

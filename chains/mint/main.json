@@ -8,8 +8,12 @@
     "aliases_l2beat": "mint",
     "aliases_l2beat_slug": "mint",
     "aliases_coingecko": null,
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
     "aliases_defillama": "mint",
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,
