@@ -9,8 +9,12 @@
     "aliases_l2beat": "unichain",
     "aliases_l2beat_slug": "unichain",
     "aliases_coingecko": "uniswap",
+    "aliases_coingecko_chain": "unichain",
     "aliases_rhino": null,
     "aliases_defillama": "unichain",
+    "aliases_dune": "unichain",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

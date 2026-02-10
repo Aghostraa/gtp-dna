@@ -45,7 +45,11 @@
     "aliases_l2beat": "karak",
     "aliases_l2beat_slug": "k2",
     "aliases_coingecko": null,
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
 
     "metadata_description": null,
     "metadata_symbol": null,

@@ -8,8 +8,12 @@
     "aliases_l2beat": null,
     "aliases_l2beat_slug": null,
     "aliases_coingecko": null,
+    "aliases_coingecko_chain": null,
     "aliases_rhino": null,
     "aliases_defillama": null,
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,

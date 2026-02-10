@@ -8,8 +8,12 @@
     "aliases_l2beat": "celo",
     "aliases_l2beat_slug": "celo",
     "aliases_coingecko": "celo",
+    "aliases_coingecko_chain": "celo",
     "aliases_rhino": null,
     "aliases_defillama": "celo",
+    "aliases_dune": "celo",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

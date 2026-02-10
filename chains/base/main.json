@@ -48,9 +48,13 @@
     "aliases_l2beat": "base",
     "aliases_l2beat_slug": "base",
     "aliases_coingecko": null,
+    "aliases_coingecko_chain": "base",
     "aliases_rhino": "BASE",
     "aliases_blockscout_url": "https://base.blockscout.com/api/v2/",
     "aliases_defillama": "base",
+    "aliases_dune": "base",
+    
+    "deployed_supplyreader": "2025-09-23",
 
     "metadata_chain_type": "rollup",
     "metadata_description": "Base is an Ethereum Layer 2 offering a secure, low-cost, builder-friendly way for anyone, anywhere, to build onchain.",

@@ -8,9 +8,13 @@
 
     "aliases_l2beat": "L2BEAT_BACKEND_ALIAS", // what is used in the backend
     "aliases_l2beat_slug": "L2BEAT_SLUG", // what is used in the URL
-    "aliases_coingecko": "COINGECKO_API_ID", //found on coingecko token page
+    "aliases_coingecko": "COINGECKO_API_ID", //token id on coingecko of the native token
+    "aliases_coingecko_chain": null, //chain id on coingecko
     "aliases_rhino": null,
     "aliases_defillama": "DEFILLAMA_ID",
+    "aliases_dune": null, //chain id on dune, null if not listed on dune
+    
+    "deployed_supplyreader": null, //date "YYYY-MM-DD" when supplyreader contract was deployed (https://github.com/growthepie/backend-internal/tree/main/SupplyReader)
 
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": true, // only disable if it's a non EVM chain
