@@ -42,8 +42,8 @@
         "overview": "active",
         "fundamentals": "active",
         "economics": "soon",
-        "apps": "lock",
-        "blockspace": "lock"
+        "apps": "locked",
+        "blockspace": "locked"
     },
 
     "aliases_l2beat": "ronin-network",
