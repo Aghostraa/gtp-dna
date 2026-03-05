@@ -49,7 +49,7 @@
     "aliases_l2beat": "ronin-network",
     "aliases_l2beat_slug": "ronin-network",
     "aliases_coingecko": "ronin",
-    "aliases_coingecko_chain": null,
+    "aliases_coingecko_chain": "ronin",
     "aliases_rhino": null,
     "aliases_blockscout_url": null,
     "aliases_defillama": null,
