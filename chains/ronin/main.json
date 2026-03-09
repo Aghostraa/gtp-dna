@@ -53,7 +53,7 @@
     "aliases_defillama": "ronin",
     "aliases_dune": "ronin",
     
-    "deployed_supplyreader": null,
+    "deployed_supplyreader": "2026-03-05",
 
     "metadata_description": "Ronin is a blockchain designed for gaming and digital assets, providing fast and low-cost transactions.",
     "metadata_symbol": "RON",
