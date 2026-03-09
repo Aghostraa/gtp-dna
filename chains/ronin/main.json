@@ -33,9 +33,7 @@
     "api_api_exclude_metrics": [
         "blockspace",
         "stables_mcap",
-        "daa",
         "fdv",
-        "market_cap",
         "app_revenue"
     ],
     "api_tab_status": {
@@ -52,7 +50,7 @@
     "aliases_coingecko_chain": "ronin",
     "aliases_rhino": null,
     "aliases_blockscout_url": null,
-    "aliases_defillama": null,
+    "aliases_defillama": "ronin",
     "aliases_dune": "ronin",
     
     "deployed_supplyreader": "2026-03-05",
