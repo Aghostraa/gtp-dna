@@ -89,6 +89,11 @@
     "runs_aggregate_apps": false,
     "runs_contract_metadata": false,
 
+    "archive_tables": [
+        "fact_active_addresses_contract",
+        "fact_active_addresses"
+    ],
+
     "cross_check_type": "l2beat",
 
     "events": [
