@@ -100,7 +100,6 @@
     "runs_delete_archived_raw_tx": true,
 
     "archive_tables": [
-        "fact_active_addresses",
         "uops"
     ],
 
