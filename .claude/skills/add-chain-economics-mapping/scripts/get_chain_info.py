@@ -12,9 +12,13 @@ Output (JSON to stdout):
         "metadata_da_layer": "Ethereum (blobs)",
         "suggested_layers": ["l1", "beacon"],
         "note": "...",
-        "aliases_l2beat": "arbitrum",
-        "aliases_l2beat_slug": "arbitrum"
+        "aliases_l2beat": "arbitrum"
     }
+
+Note: `aliases_l2beat` is the correct identifier to use when looking up a chain in the
+L2Beat GitHub repository (packages/config/src/projects/<aliases_l2beat>/). It is NOT
+always the same as `aliases_l2beat_slug` — e.g. for Derive: aliases_l2beat='lyra',
+slug='derive'. Always use `aliases_l2beat` for the GitHub path.
 """
 
 import json
@@ -64,7 +68,6 @@ def main():
             "manually determine which fee layers apply."
         ),
         "aliases_l2beat": data.get("aliases_l2beat") or None,
-        "aliases_l2beat_slug": data.get("aliases_l2beat_slug") or None,
     }
 
     print(json.dumps(result, indent=2))

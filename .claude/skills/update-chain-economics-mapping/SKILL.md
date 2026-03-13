@@ -42,7 +42,7 @@ Run `get_chain_info.py` first to get the L2Beat slug and check whether the chain
 python .claude/skills/add-chain-economics-mapping/scripts/get_chain_info.py <origin_key>
 ```
 
-This returns `suggested_layers` (derived from `metadata_da_layer`) and `aliases_l2beat_slug`.
+This returns `suggested_layers` (derived from `metadata_da_layer`) and `aliases_l2beat`.
 
 Compare `suggested_layers` against the fee layer sections currently in the mapping:
 - If the mapping has only `l1` entries but `suggested_layers` now includes `beacon` → the chain likely migrated to blobs; this is a strong signal that new entries are needed.
@@ -53,10 +53,10 @@ Tell the user what you observe about the layer comparison before proceeding.
 
 ## Step 4 — Fetch current contracts from L2Beat
 
-Using the `aliases_l2beat_slug` from the previous step, fetch the latest known contracts and EOAs:
+Using the `aliases_l2beat` from the previous step, fetch the latest known contracts and EOAs:
 
 ```bash
-python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat_slug>
+python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat>
 ```
 
 The script returns contracts split into `settlement_contracts` and `bridge_contracts`. Prioritise `settlement_contracts` as candidates — bridge/escrow/portal contracts receive transactions from end users, not from the chain's settlement system, and querying them via Dune returns massive irrelevant volumes that are hard to interpret. Only fall back to `bridge_contracts` as a last resort if `settlement_contracts` yield no useful results.

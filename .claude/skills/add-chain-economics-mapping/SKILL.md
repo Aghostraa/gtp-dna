@@ -23,17 +23,17 @@ The script outputs JSON with:
 - `name` — use this as the chain name in the mapping
 - `suggested_layers` — fee layers inferred from `metadata_da_layer` (e.g. `["l1", "beacon"]`)
 - `note` — explanation of the suggestion
-- `aliases_l2beat_slug` — the L2Beat project slug (used in the next step)
+- `aliases_l2beat` — the L2Beat project slug (used in the next step)
 - `error` — set if the chain file was not found; tell the user and stop
 
 Show the user the chain name and suggested fee layers. The user can add or remove layers — confirm before proceeding.
 
 ## Step 3 — Fetch contract and operator addresses from L2Beat
 
-If `aliases_l2beat_slug` is set, run:
+If `aliases_l2beat` is set, run:
 
 ```bash
-python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat_slug>
+python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat>
 ```
 
 This fetches `discovered.json` from L2Beat's GitHub and returns contracts split into two groups:
