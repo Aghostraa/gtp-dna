@@ -59,6 +59,14 @@ Using the `aliases_l2beat` from the previous step, fetch the latest known contra
 python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat>
 ```
 
+**If `get_chain_info.py` failed, `aliases_l2beat` is null, or `fetch_l2beat_contracts.py` returns a 404**, try to find the correct L2Beat slug by fetching the full list of L2Beat projects via the GitHub API:
+
+```
+https://api.github.com/repos/l2beat/l2beat/contents/packages/config/src/projects
+```
+
+This returns a JSON array of directory entries — each has a `name` field. Find the entry whose `name` best matches the chain's `origin_key` or display name (try lowercase, replace spaces with hyphens/underscores, strip common suffixes like `-mainnet`). Once you identify the likely slug, retry `fetch_l2beat_contracts.py` with it.
+
 The script returns contracts split into `settlement_contracts` and `bridge_contracts`. Prioritise `settlement_contracts` as candidates — bridge/escrow/portal contracts receive transactions from end users, not from the chain's settlement system, and querying them via Dune returns massive irrelevant volumes that are hard to interpret. Only fall back to `bridge_contracts` as a last resort if `settlement_contracts` yield no useful results.
 
 Compare the `settlement_contracts` and EOAs against what is already in the mapping (case-insensitive). Identify **addresses present in L2Beat but missing from the current mapping** — these are the candidates for new entries.

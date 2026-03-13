@@ -457,6 +457,10 @@ hashkey:
       to_address: "0x0004cb44C80b6Fbf8ceb1d80AF688C9f7C0b2aB5"
       method: null
       comment: "commit blob (first used 2025-04-10)"
+    - from_address: "0x5e70713222FaF60c9e9fB69240D06ae6D688563A"
+      to_address: "0x0004cb44C80b6Fbf8ceb1d80AF688C9f7C0b2aB5"
+      method: null
+      comment: "commit blob (first used 2026-03-04)"
     - from_address: "0xAdC9eAdA4070f9f363F41c21fA1C2d84FF2E0803"
       to_address: null
       method: "0x2810e1d6"
@@ -490,6 +494,10 @@ hashkey:
       to_address: null
       method: null
       comment: "blob producer (first used 2025-04-10)"
+    - from_address: "0x5e70713222FaF60c9e9fB69240D06ae6D688563A"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2026-03-04)"
 
 zora:
   name: "Zora"

@@ -36,6 +36,14 @@ If `aliases_l2beat` is set, run:
 python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat>
 ```
 
+**If `get_chain_info.py` failed, `aliases_l2beat` is null, or `fetch_l2beat_contracts.py` returns a 404**, try to find the correct L2Beat slug by fetching the full list of L2Beat projects via the GitHub API:
+
+```
+https://api.github.com/repos/l2beat/l2beat/contents/packages/config/src/projects
+```
+
+This returns a JSON array of directory entries — each has a `name` field. Find the entry whose `name` best matches the chain's `origin_key` or display name (try lowercase, replace spaces with hyphens/underscores, strip common suffixes like `-mainnet`). Once you identify the likely slug, retry `fetch_l2beat_contracts.py` with it.
+
 This fetches `discovered.json` from L2Beat's GitHub and returns contracts split into two groups:
 - `settlement_contracts` — contracts likely relevant to the mapping (inbox, oracle, rollup, dispute game, etc.)
 - `bridge_contracts` — filtered out because they are bridge/escrow/portal/token contracts. End users send transactions to bridges, not the chain's settlement system — querying them returns massive irrelevant tx volumes that are hard to interpret. Only query these as a last resort if `settlement_contracts` yield no results.
