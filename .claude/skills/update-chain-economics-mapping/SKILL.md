@@ -103,7 +103,7 @@ Results are sorted by `no_of_trx` descending — focus on the top rows. A handfu
 
 Interpret results:
 - High `no_of_trx` + recurring pattern → confirmed settlement activity, add to mapping
-- `tx_type = 3` → EIP-4844 blob transaction → add to **both** `l1` and `beacon` layers. Type 3 transactions pay fees in two separate fee markets: the L1 execution layer (gas) and the beacon chain blob fee market. The same `from_address`/`to_address`/`method` entry must appear under both sections.
+- `tx_type = 3` → EIP-4844 blob transaction → add to **both** `l1` and `beacon` layers. Type 3 transactions pay fees in two separate fee markets: the L1 execution layer (gas) and the beacon chain blob fee market. The same `from_address`/`to_address`/`method` entry must appear under both sections. **Beacon entries should be as lightweight as possible** — prefer setting `to_address` and `method` to `null` and only keeping `from_address`, since the blob fee is determined by who sends the transaction, not where it goes.
 - `tx_type != 3` → regular L1 call → `l1` layer only
 - `function` field → 4-byte method selector to include in the entry
 - `first_used` / `last_used` → use in the `comment` field
