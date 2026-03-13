@@ -49,9 +49,12 @@ From these results, identify **candidate addresses to investigate** — only fro
 
 For each candidate address from Step 3, run the Dune transaction analysis query. This verifies which addresses actually have onchain settlement activity before writing anything to the mapping. Skip addresses that have no results or only look like regular user transactions.
 
+Use `recommended_dune_query_id` from `get_chain_info.py` output as the `--query-id`. The correct query ID is selected automatically by the script: `6819777` for most chains, `6823319` for **Elastic Chain** chains (`chain_bucket == "Elastic Chain"`) — this query additionally returns `chain_address` (the diamond address that identifies the specific chain within shared zkStack contracts).
+
 **For `to_address` candidates** (check what is being sent to this contract):
 ```bash
 python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
+  --query-id <recommended_dune_query_id> \
   --to-address <contract_address> \
   --from-address all \
   --from-date 2023-01-01
@@ -60,12 +63,13 @@ python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
 **For `from_address` candidates** (check what this EOA sends):
 ```bash
 python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
+  --query-id <recommended_dune_query_id> \
   --to-address all \
   --from-address <eoa_address> \
   --from-date 2023-01-01
 ```
 
-The query returns rows grouped by `(function, to, from)` sorted by `no_of_trx` descending, with `first_used`, `last_used`, `no_of_trx`, `avg_data_length`, and `tx_type`. Focus on the top rows — high transaction counts are the clearest signal of settlement activity.
+The query returns rows grouped by `(function, to, from)` sorted by `no_of_trx` descending, with `first_used`, `last_used`, `no_of_trx`, `avg_data_length`, and `tx_type`. For Elastic zkStack chains, also check the `chain_address` column — it contains the diamond address that should be used as the mapping identifier. Focus on the top rows — high transaction counts are the clearest signal of settlement activity.
 
 **Interpreting results:**
 - High `no_of_trx` + recurring pattern → strong candidate for the mapping
@@ -85,7 +89,7 @@ If `DUNE_API_KEY` is not set, tell the user and ask them to set it or provide it
 Show the user the proposed mapping entries derived from the Dune results. For each entry include:
 - The layer (`l1` or `beacon`)
 - `from_address`, `to_address`, `method` (null if not applicable)
-- A suggested `comment` with the method name (if known) and `first_used` / `last_used` dates from Dune
+- A suggested `comment` with the method name (if known) and both `first_used` and `last_used` dates from Dune, e.g. `"commitBatches (first used 2024-03-14, last used 2025-01-01)"`
 
 Ask the user to confirm, correct, or add any missing entries before writing.
 

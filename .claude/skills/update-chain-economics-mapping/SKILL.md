@@ -69,9 +69,12 @@ Use the existing alert address to understand the **role** being rotated (e.g. if
 
 For each candidate address not yet in the mapping, confirm it has real settlement activity using the Dune query. Use the same approach as in the add-chain skill:
 
+Use `recommended_dune_query_id` from `get_chain_info.py` output as the `--query-id`. The correct query ID is selected automatically by the script: `6819777` for most chains, `6823319` for **Elastic Chain** chains (`chain_bucket == "Elastic Chain"`) — this query additionally returns `chain_address` (the diamond address identifying the specific chain within shared zkStack contracts).
+
 **Contract address (to_address candidate):**
 ```bash
 python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
+  --query-id <recommended_dune_query_id> \
   --to-address <contract_address> \
   --from-address all \
   --from-date 2023-01-01
@@ -80,10 +83,13 @@ python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
 **EOA address (from_address candidate):**
 ```bash
 python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
+  --query-id <recommended_dune_query_id> \
   --to-address all \
   --from-address <eoa_address> \
   --from-date 2023-01-01
 ```
+
+For Elastic zkStack chains, also check the `chain_address` column in results — it contains the diamond address that identifies the specific chain and should be used in the mapping.
 
 Results are sorted by `no_of_trx` descending — focus on the top rows. A handful of high-count rows with consistent `function` and `to`/`from` patterns is the clearest signal of settlement activity. Many low-count rows likely indicate user interactions, not chain-level settlement.
 
@@ -101,7 +107,7 @@ If an alert address is confirmed active but missing from the mapping, that's the
 Show the user the proposed additions as YAML entries. For each new entry include:
 - The layer (`l1` or `beacon`)
 - `from_address`, `to_address`, `method` (null where not applicable)
-- A `comment` with the method name (if known) and `first_used` date from Dune
+- A `comment` with the method name (if known) and both `first_used` and `last_used` dates from Dune, e.g. `"commitBatches (first used 2024-03-14, last used 2025-01-01)"`
 
 Only propose **additions**. If an old entry appears to be superseded (same contract, same method, but a newer version now exists), mention it to the user but do not remove it without explicit confirmation.
 

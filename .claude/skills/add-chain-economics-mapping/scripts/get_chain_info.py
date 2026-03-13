@@ -12,8 +12,17 @@ Output (JSON to stdout):
         "metadata_da_layer": "Ethereum (blobs)",
         "suggested_layers": ["l1", "beacon"],
         "note": "...",
-        "aliases_l2beat": "arbitrum"
+        "aliases_l2beat": "arbitrum",
+        "chain_bucket": "OP Stack",
+        "recommended_dune_query_id": 6819777
     }
+
+`chain_bucket` is the raw bucket value from main.json (e.g. "OP Stack", "Elastic Chain", null).
+`recommended_dune_query_id` is automatically set to 6823319 for Elastic Chain chains and
+6819777 for all others. Elastic zkStack chains use query 6823319 which also returns
+`chain_address` (the diamond address identifying the specific chain within the shared
+zkStack contracts).
+
 
 Note: `aliases_l2beat` is the correct identifier to use when looking up a chain in the
 L2Beat GitHub repository (packages/config/src/projects/<aliases_l2beat>/). It is NOT
@@ -58,6 +67,9 @@ def main():
     da_key = da_layer.lower()
     mapping = DA_LAYER_MAP.get(da_key)
 
+    chain_bucket = data.get("bucket") or None
+    is_elastic_chain = (chain_bucket or "").lower() == "elastic chain"
+
     result = {
         "origin_key": data.get("origin_key", origin_key),
         "name": data.get("name", ""),
@@ -68,6 +80,8 @@ def main():
             "manually determine which fee layers apply."
         ),
         "aliases_l2beat": data.get("aliases_l2beat") or None,
+        "chain_bucket": chain_bucket,
+        "recommended_dune_query_id": 6823319 if is_elastic_chain else 6819777,
     }
 
     print(json.dumps(result, indent=2))
