@@ -46,7 +46,7 @@ This returns `suggested_layers` (derived from `metadata_da_layer`) and `aliases_
 
 Compare `suggested_layers` against the fee layer sections currently in the mapping:
 - If the mapping has only `l1` entries but `suggested_layers` now includes `beacon` → the chain likely migrated to blobs; this is a strong signal that new entries are needed.
-- If a new AltDA layer (`celestia`, `eigenda`) appears in `suggested_layers` but is absent from the mapping → the chain added an AltDA; new namespace entries are needed.
+- If a new AltDA layer (`celestia`, `eigenda`) appears in `suggested_layers` but is absent from the mapping → the chain added an AltDA; new namespace entries are needed. For Celestia, ask the user to look up the namespace on Celenium — namespaces typically start with `AAAAAAA...`. Direct them to: `https://celenium.io/network/{chain-name}?tab=Namespaces` (replace `{chain-name}` with the chain's network name on Celenium, e.g. `https://celenium.io/network/gravity-alpha?tab=Namespaces`).
 - If `suggested_layers` matches what is already mapped → no layer-level change; focus on contract/EOA rotation within the existing layers.
 
 Tell the user what you observe about the layer comparison before proceeding.
@@ -107,7 +107,7 @@ If an alert address is confirmed active but missing from the mapping, that's the
 Show the user the proposed additions as YAML entries. For each new entry include:
 - The layer (`l1` or `beacon`)
 - `from_address`, `to_address`, `method` (null where not applicable)
-- A `comment` with the method name (if known) and both `first_used` and `last_used` dates from Dune, e.g. `"commitBatches (first used 2024-03-14, last used 2025-01-01)"`
+- A `comment` with the method name (if known) and the `first_used` date from Dune. Only append `last_used` if it is **not today's date** — `last_used` is a deprecation marker for entries that are no longer active. Examples: active entry: `"commitBatches (first used 2024-03-14)"`, deprecated entry: `"commitBatches (first used 2024-03-14, last used 2024-11-30)"`
 
 Only propose **additions**. If an old entry appears to be superseded (same contract, same method, but a newer version now exists), mention it to the user but do not remove it without explicit confirmation.
 

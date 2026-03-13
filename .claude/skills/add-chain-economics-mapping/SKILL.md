@@ -89,11 +89,13 @@ If `DUNE_API_KEY` is not set, tell the user and ask them to set it or provide it
 Show the user the proposed mapping entries derived from the Dune results. For each entry include:
 - The layer (`l1` or `beacon`)
 - `from_address`, `to_address`, `method` (null if not applicable)
-- A suggested `comment` with the method name (if known) and both `first_used` and `last_used` dates from Dune, e.g. `"commitBatches (first used 2024-03-14, last used 2025-01-01)"`
+- A suggested `comment` with the method name (if known) and the `first_used` date from Dune. Only append `last_used` if it is **not today's date** — `last_used` is a deprecation marker for entries that are no longer active. Examples: active entry: `"commitBatches (first used 2024-03-14)"`, deprecated entry: `"commitBatches (first used 2024-03-14, last used 2024-11-30)"`
 
 Ask the user to confirm, correct, or add any missing entries before writing.
 
-**For `celestia` or `eigenda` layers** (no Dune data available): ask the user directly for the namespace values.
+**For `celestia` layers** (no Dune data available): direct the user to Celenium to find the namespace — namespaces typically start with `AAAAAAA...`. Send them to: `https://celenium.io/network/{chain-name}?tab=Namespaces` (replace `{chain-name}` with the chain's network name on Celenium, e.g. `https://celenium.io/network/gravity-alpha?tab=Namespaces`).
+
+**For `eigenda` layers** (no Dune data available): ask the user directly for the namespace value.
 
 ## Step 6 — Show and confirm YAML
 
