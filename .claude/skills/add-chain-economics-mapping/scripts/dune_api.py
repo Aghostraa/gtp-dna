@@ -38,9 +38,12 @@ Output (JSON to stdout):
 
 import argparse
 import json
+import logging
 import os
 import sys
 from pathlib import Path
+
+logging.getLogger("dune_client").setLevel(logging.WARNING)
 
 
 def load_dotenv():
@@ -81,9 +84,7 @@ def run_query(query_id: int, params: dict, api_key: str) -> list[dict]:
     query = QueryBase(name=f"query_{query_id}", query_id=query_id)
     query.params = [QueryParameter.text_type(name=k, value=str(v)) for k, v in params.items()]
 
-    print(f"Running Dune query {query_id} with params: {params}", file=sys.stderr)
     df = client.refresh_into_dataframe(query)
-    print(f"Returned {len(df)} rows.", file=sys.stderr)
 
     # Convert to JSON-serialisable records
     rows = []
