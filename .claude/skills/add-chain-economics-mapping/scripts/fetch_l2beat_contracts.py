@@ -15,16 +15,23 @@ Usage:
 Output (JSON to stdout):
     {
         "slug": "blast",
-        "contracts": [
+        "settlement_contracts": [
             {"name": "SystemConfig", "address": "0xABC...", "description": "..."},
             ...
         ],
-        "eoas": [
-            {"address": "0xDEF...", "roles": ["Sequencer", "Batcher"]},
+        "bridge_contracts": [
+            {"name": "L1StandardBridge", "address": "0xDEF...", "description": "..."},
             ...
         ],
-        "note": "Run `python get_chain_info.py <origin_key>` to get the slug."
+        "eoas": [
+            {"address": "0xGHI...", "roles": ["Sequencer", "Batcher"]},
+            ...
+        ]
     }
+
+Contracts are split into `settlement_contracts` (likely relevant to the mapping) and
+`bridge_contracts` (likely irrelevant — end users send transactions to bridges, not
+the chain's settlement system).
 """
 
 import json
@@ -88,7 +95,15 @@ def main():
         print(json.dumps({"error": str(e)}))
         sys.exit(1)
 
-    contracts = []
+    # Name fragments that strongly suggest a bridge / escrow rather than a settlement contract.
+    # End users send transactions to these — they are not relevant for the economics mapping.
+    BRIDGE_KEYWORDS = {
+        "bridge", "escrow", "portal", "vault", "erc20", "erc721",
+        "messenger", "multicall", "token",
+    }
+
+    settlement_contracts = []
+    bridge_contracts = []
     eoas = []
 
     for entry in data.get("entries", []):
@@ -96,12 +111,18 @@ def main():
         etype = entry.get("type", "")
 
         if etype == "Contract":
-            contracts.append({
-                "name": entry.get("name", ""),
+            name = entry.get("name", "")
+            record = {
+                "name": name,
                 "address": addr,
                 "description": entry.get("description", "") or "",
                 "proxy_type": entry.get("proxyType", ""),
-            })
+            }
+            name_lower = name.lower()
+            if any(kw in name_lower for kw in BRIDGE_KEYWORDS):
+                bridge_contracts.append(record)
+            else:
+                settlement_contracts.append(record)
         elif etype == "EOA":
             roles = extract_roles(entry)
             eoas.append({
@@ -112,7 +133,8 @@ def main():
     result = {
         "slug": slug,
         "source_url": url,
-        "contracts": contracts,
+        "settlement_contracts": settlement_contracts,
+        "bridge_contracts": bridge_contracts,
         "eoas": eoas,
     }
 

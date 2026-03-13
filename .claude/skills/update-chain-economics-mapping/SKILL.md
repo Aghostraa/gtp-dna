@@ -59,9 +59,11 @@ Using the `aliases_l2beat_slug` from the previous step, fetch the latest known c
 python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat_slug>
 ```
 
-Compare the L2Beat contracts and EOAs against what is already in the mapping. Identify **addresses present in L2Beat but missing from the current mapping** — these are the candidates for new entries. Address comparison must be case-insensitive.
+The script returns contracts split into `settlement_contracts` and `bridge_contracts`. Prioritise `settlement_contracts` as candidates — bridge/escrow/portal contracts receive transactions from end users, not from the chain's settlement system, and querying them via Dune returns massive irrelevant volumes that are hard to interpret. Only fall back to `bridge_contracts` as a last resort if `settlement_contracts` yield no useful results.
 
-Use the existing alert address to understand the **role** being rotated (e.g. if `0x7cb1...` is a proposer EOA in L2Beat, look for other proposer EOAs or contracts that are in L2Beat but not yet in the mapping — those are the likely replacements).
+Compare the `settlement_contracts` and EOAs against what is already in the mapping (case-insensitive). Identify **addresses present in L2Beat but missing from the current mapping** — these are the candidates for new entries.
+
+Use the existing alert address to understand the **role** being rotated (e.g. if `0x7cb1...` is a proposer EOA in L2Beat, look for other proposer EOAs or contracts in `settlement_contracts` that are not yet in the mapping — those are the likely replacements).
 
 ## Step 5 — Verify new addresses via Dune
 
@@ -83,10 +85,12 @@ python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
   --from-date 2023-01-01
 ```
 
+Results are sorted by `no_of_trx` descending — focus on the top rows. A handful of high-count rows with consistent `function` and `to`/`from` patterns is the clearest signal of settlement activity. Many low-count rows likely indicate user interactions, not chain-level settlement.
+
 Interpret results:
 - High `no_of_trx` + recurring pattern → confirmed settlement activity, add to mapping
-- `tx_type = 3` → EIP-4844 blob transaction → `beacon` layer
-- `tx_type != 3` → regular L1 call → `l1` layer
+- `tx_type = 3` → EIP-4844 blob transaction → add to **both** `l1` and `beacon` layers. Type 3 transactions pay fees in two separate fee markets: the L1 execution layer (gas) and the beacon chain blob fee market. The same `from_address`/`to_address`/`method` entry must appear under both sections.
+- `tx_type != 3` → regular L1 call → `l1` layer only
 - `function` field → 4-byte method selector to include in the entry
 - `first_used` / `last_used` → use in the `comment` field
 
