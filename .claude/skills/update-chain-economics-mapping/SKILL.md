@@ -23,10 +23,14 @@ If the user provided an **alert message**, parse it for clues. Alerts typically 
 
 > "The economics mapping function for bob has changed. Details: settlement on l1, 10 trx per day, from_address: 0x7cb1022d30b9860c36b243e7b181a1d46f618c69, to_address: \<nil\>, method: 0x2810e1d6."
 
-From this, extract:
+**Important — how alerts work**: alerts fire on addresses that are **already in the mapping** and are detecting a change in their activity pattern. The address in the alert is the **existing/known** one that may be getting deprecated or rotated away from. Do not check whether the alert address is already in the mapping — it always will be. Instead, treat the alert as a signal that a **new** contract or EOA may have taken over and is not yet in the mapping.
+
+From an alert, extract:
 - `origin_key` — the chain name in the alert (e.g. "bob")
-- Any addresses or method selectors mentioned
-- The fee layer (`l1`, `beacon`, etc.)
+- The fee layer mentioned (`l1`, `beacon`, etc.)
+- The existing address and method — useful context for understanding the role being rotated
+
+Address casing is irrelevant — `0xABC...` and `0xabc...` are the same address. Never flag a casing difference as a mismatch.
 
 If no alert was provided, ask the user what changed (new contract address, upgrade announcement, etc.).
 
@@ -55,9 +59,9 @@ Using the `aliases_l2beat_slug` from the previous step, fetch the latest known c
 python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat_slug>
 ```
 
-Compare the L2Beat contracts and EOAs against what is already in the mapping. Identify **addresses present in L2Beat but missing from the current mapping** — these are candidates for new entries.
+Compare the L2Beat contracts and EOAs against what is already in the mapping. Identify **addresses present in L2Beat but missing from the current mapping** — these are the candidates for new entries. Address comparison must be case-insensitive.
 
-Also cross-reference any addresses mentioned in the alert against the L2Beat output to understand their role (e.g. is `0x7cb1...` a known sequencer EOA?).
+Use the existing alert address to understand the **role** being rotated (e.g. if `0x7cb1...` is a proposer EOA in L2Beat, look for other proposer EOAs or contracts that are in L2Beat but not yet in the mapping — those are the likely replacements).
 
 ## Step 5 — Verify new addresses via Dune
 
