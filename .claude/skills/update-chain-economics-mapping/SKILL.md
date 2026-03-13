@@ -110,6 +110,8 @@ Interpret results:
 
 If an alert address is confirmed active but missing from the mapping, that's the entry to add.
 
+> **State root proposers also resolve**: When Dune shows a `proposeL2Output` / `commitBatches` / similar state-root function from an EOA, that same EOA almost always also calls a **resolve or finalize function** (e.g. `resolveGame`, `finalizeWithdrawalTransaction`, `deleteL2Outputs`). Check the Dune results for **all** method selectors from that EOA — don't stop at the proposal call. Each distinct method needs its own mapping entry.
+
 ## Step 6 — Propose new entries
 
 Show the user the proposed additions as YAML entries. For each new entry include:
