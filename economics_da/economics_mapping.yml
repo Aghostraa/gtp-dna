@@ -2118,7 +2118,7 @@ arbitrum_nova:
     - from_address: null
       to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
       method: "0x69cacded"
-      comment: "addSequencerL2BatchFromOriginDelayBufferable (SequencerInbox, first used 2025-02-12)"
+      comment: "addSequencerL2BatchFromOriginDelayProof (SequencerInbox, first used 2025-02-12)"
     - from_address: null
       to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
       method: "0x6f12b0c9"

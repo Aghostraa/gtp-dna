@@ -1,56 +1,110 @@
 ---
 name: update-chain-economics-mapping
-description: Update an existing chain entry in economics_da/economics_mapping.yml. Use this skill whenever the user wants to edit, fix, change, or extend a chain that already exists in the mapping — for example adding a new contract address, correcting a method selector, adding a new fee layer like blobs or Celestia, removing an outdated entry, or updating a chain name.
+description: Update an existing chain entry in economics_da/economics_mapping.yml by adding newly discovered contracts or EOAs. Use this skill whenever a chain's settlement contracts have changed, a new sequencer EOA or inbox contract was deployed, an alert fires about unexpected addresses or methods, or the user says anything like "update chain", "new contract", "rotated to", "upgrade", or pastes an alert message about a chain's economics mapping changing. IMPORTANT: this skill only adds entries, never removes them.
 ---
 
-You are helping update an existing chain in `economics_da/economics_mapping.yml`.
+You are helping extend an existing chain's entry in `economics_da/economics_mapping.yml`.
 
-## Step 1 — Identify the chain
+**Core principle**: updates should only ever **add** new entries. Do not remove existing entries unless an old address directly conflicts with a newly confirmed one (e.g. same `to_address`+`method` pair that now routes differently). Keeping old entries preserves historical cost attribution.
 
-Ask the user which chain to update (by key or name). Read `economics_da/economics_mapping.yml`, find the existing entry, and show it to the user so they can see what's there.
+## Step 1 — Get the origin_key and load current mapping
 
-If the chain key does **not** exist, stop and suggest the `add-chain-economics-mapping` skill instead.
+Ask the user for the **origin_key** if not already clear from context (e.g. from an alert message). The file is keyed by `origin_key`, so this must be exact.
 
-## Step 2 — Determine what to change
+Read `economics_da/economics_mapping.yml` and show the user the **current entry** for that chain so both of you have a shared baseline.
 
-Ask the user what they want to update. Common operations:
+If the key does **not** exist, stop and suggest the `add-chain-economics-mapping` skill instead.
 
-1. **Add a new entry** to an existing fee layer (`l1`, `beacon`, `celestia`, `eigenda`)
-2. **Remove an entry** from a fee layer
-3. **Edit an existing entry** — correct an address, fix a comment, add/change a method
-4. **Add a new fee layer** section — e.g. chain is now also posting blobs
-5. **Remove an entire fee layer** section
-6. **Update the chain name**
+## Step 2 — Understand what changed
 
-Collect required fields for the change:
+Most updates fall into one pattern: **a contract or EOA was rotated or added as part of a chain upgrade** — a new sequencer inbox, a new output oracle, a new proposer EOA, or a new DA namespace.
 
-**`l1` / `beacon` entries** (at least one must be non-null):
-- `from_address`, `to_address`, `method`, `comment`
+If the user provided an **alert message**, parse it for clues. Alerts typically look like:
 
-**`celestia` entries**:
-- `namespace` — base64 e.g. `"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVjbGlwc2U="`
-- `comment` — optional
+> "The economics mapping function for bob has changed. Details: settlement on l1, 10 trx per day, from_address: 0x7cb1022d30b9860c36b243e7b181a1d46f618c69, to_address: \<nil\>, method: 0x2810e1d6."
 
-**`eigenda` entries**:
-- `namespace` — hex address or IP string
-- `comment` — optional
+From this, extract:
+- `origin_key` — the chain name in the alert (e.g. "bob")
+- Any addresses or method selectors mentioned
+- The fee layer (`l1`, `beacon`, etc.)
 
-## Step 3 — Validate
+If no alert was provided, ask the user what changed (new contract address, upgrade announcement, etc.).
 
-- Confirm the target entry is unambiguous when removing or editing (identify by address, method, or namespace).
-- Every modified/added `l1`/`beacon` entry must still have at least one non-null field.
-- Warn the user if removing the last entry in a fee layer — the whole section will be removed.
+## Step 3 — Load chain metadata and check for settlement layer changes
 
-## Step 4 — Show diff and confirm
+Run `get_chain_info.py` first to get the L2Beat slug and check whether the chain's settlement layer has changed:
 
-Show a before/after comparison of the affected YAML block and ask for confirmation before writing.
+```bash
+python .claude/skills/add-chain-economics-mapping/scripts/get_chain_info.py <origin_key>
+```
 
-## Step 5 — Apply the change
+This returns `suggested_layers` (derived from `metadata_da_layer`) and `aliases_l2beat_slug`.
 
-Use the Edit tool to make a targeted, minimal change to `economics_da/economics_mapping.yml`. Preserve all surrounding content and formatting exactly.
+Compare `suggested_layers` against the fee layer sections currently in the mapping:
+- If the mapping has only `l1` entries but `suggested_layers` now includes `beacon` → the chain likely migrated to blobs; this is a strong signal that new entries are needed.
+- If a new AltDA layer (`celestia`, `eigenda`) appears in `suggested_layers` but is absent from the mapping → the chain added an AltDA; new namespace entries are needed.
+- If `suggested_layers` matches what is already mapped → no layer-level change; focus on contract/EOA rotation within the existing layers.
 
-## Step 6 — Done
+Tell the user what you observe about the layer comparison before proceeding.
 
-Confirm the change was applied and remind the user:
+## Step 4 — Fetch current contracts from L2Beat
+
+Using the `aliases_l2beat_slug` from the previous step, fetch the latest known contracts and EOAs:
+
+```bash
+python .claude/skills/add-chain-economics-mapping/scripts/fetch_l2beat_contracts.py <aliases_l2beat_slug>
+```
+
+Compare the L2Beat contracts and EOAs against what is already in the mapping. Identify **addresses present in L2Beat but missing from the current mapping** — these are candidates for new entries.
+
+Also cross-reference any addresses mentioned in the alert against the L2Beat output to understand their role (e.g. is `0x7cb1...` a known sequencer EOA?).
+
+## Step 5 — Verify new addresses via Dune
+
+For each candidate address not yet in the mapping, confirm it has real settlement activity using the Dune query. Use the same approach as in the add-chain skill:
+
+**Contract address (to_address candidate):**
+```bash
+python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
+  --to-address <contract_address> \
+  --from-address all \
+  --from-date 2023-01-01
+```
+
+**EOA address (from_address candidate):**
+```bash
+python .claude/skills/add-chain-economics-mapping/scripts/dune_api.py \
+  --to-address all \
+  --from-address <eoa_address> \
+  --from-date 2023-01-01
+```
+
+Interpret results:
+- High `no_of_trx` + recurring pattern → confirmed settlement activity, add to mapping
+- `tx_type = 3` → EIP-4844 blob transaction → `beacon` layer
+- `tx_type != 3` → regular L1 call → `l1` layer
+- `function` field → 4-byte method selector to include in the entry
+- `first_used` / `last_used` → use in the `comment` field
+
+If an alert address is confirmed active but missing from the mapping, that's the entry to add.
+
+## Step 6 — Propose new entries
+
+Show the user the proposed additions as YAML entries. For each new entry include:
+- The layer (`l1` or `beacon`)
+- `from_address`, `to_address`, `method` (null where not applicable)
+- A `comment` with the method name (if known) and `first_used` date from Dune
+
+Only propose **additions**. If an old entry appears to be superseded (same contract, same method, but a newer version now exists), mention it to the user but do not remove it without explicit confirmation.
+
+Ask the user to confirm before writing.
+
+## Step 7 — Apply the change
+
+Use the Edit tool to insert the new entries into the correct fee layer section of the chain's block. Preserve all surrounding YAML exactly — indentation, null values, comment style.
+
+## Step 8 — Done
+
+Confirm the update and remind the user:
 - The mapping syncs to Dune as `dune.growthepie.l2economics_mapping`.
 - Open a PR if this is a community contribution.
