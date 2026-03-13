@@ -103,7 +103,13 @@ Ask the user to confirm, correct, or add any missing entries before writing.
 
 **For `celestia` layers** (no Dune data available): direct the user to Celenium to find the namespace — namespaces typically start with `AAAAAAA...`. Send them to: `https://celenium.io/network/{chain-name}?tab=Namespaces` (replace `{chain-name}` with the chain's network name on Celenium, e.g. `https://celenium.io/network/gravity-alpha?tab=Namespaces`).
 
-**For `eigenda` layers** (no Dune data available): ask the user directly for the namespace value.
+**For `eigenda` layers** (no Dune data available): run the EigenDA namespace script to find active `customer_id` values and which are not yet mapped:
+
+```bash
+python .claude/skills/add-chain-economics-mapping/scripts/fetch_eigenda_namespaces.py --unmapped-only
+```
+
+This fetches today's EigenDA blob data, groups by `account_name` / `customer_id`, and shows everything not yet in the mapping. Match the chain's name against `account_name` to find its `customer_id` — that is the `namespace` value to add.
 
 ## Step 6 — Show and confirm YAML
 
