@@ -94,7 +94,7 @@
         "fact_active_addresses"
     ],
 
-    "cross_check_type": "l2beat",
+    "cross_check_type": null,
 
     "events": [
         {
