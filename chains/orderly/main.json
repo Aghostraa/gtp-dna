@@ -99,10 +99,6 @@
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
 
-    "archive_tables": [
-        "uops"
-    ],
-
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
 
