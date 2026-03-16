@@ -1541,6 +1541,34 @@ coin_mapping = [
         "fiat": "usd",
         "logo": "https://coin-images.coingecko.com/coins/images/33503/large/LUAUSD.png?1702038709",
         "color_hex": "#4A90D9"
+    },
+    {
+        "owner_project": "ion-digital-corp",
+        "token_id": "ion-digital-corp_pmusd",
+        "symbol": "pmUSD",
+        "coingecko_id": [
+            "precious-metals-usd"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/71149/large/pmUSD.png?1766015276",
+        "color_hex": "#07075F"
+    },
+    {
+        "owner_project": "ondoprotocol",
+        "token_id": "ondoprotocol_usdon",
+        "symbol": "USDON",
+        "coingecko_id": [
+            "ondo-u-s-dollar-token"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/68688/large/usdon_160x160.png?1756268513",
+        "color_hex": "#0A510B"
     }
 ]
 
@@ -1852,6 +1880,14 @@ address_mapping = {
         "straitsx_xidr": {
             "address": "0xebf2096e01455108badcbaf86ce30b6e5a72aa52",
             "decimals": 6
+        },
+        "ion-digital-corp_pmusd": {
+            "address": "0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf",
+            "decimals": 18
+        },
+        "ondoprotocol_usdon": {
+            "address": "0xace8e719899f6e91831b18ae746c9a965c2119f1",
+            "decimals": 18
         }
     },
     "zksync_era": {
