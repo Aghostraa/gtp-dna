@@ -119,10 +119,22 @@ Match by symbol to an existing entry in `coin_mapping`. If a match is found, not
 
 If **no match exists**, propose a new `coin_mapping` entry. First determine whether the token is **natively issued** or **bridged (lock-and-mint)** based on the available data (L2Beat `bridged_using`, CoinGecko name, token symbol like "USDC.e", or source field), then use the appropriate format:
 
+#### Resolving `owner_project`
+
+The `owner_project` field must match a slug in the growthepie OSO-directory (projects API). **Always run the lookup script** before proposing a new entry:
+
+```bash
+python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_owner_project.py <keyword1> [keyword2 ...]
+```
+
+- Use the token symbol, issuer name, or project name as keywords (e.g. `lumi luausd`, `circle usdc`).
+- If one or more matches are returned, pick the most relevant `owner_project` slug and show it to the user for confirmation.
+- **If no match is found**, set `owner_project` to `null` and **explicitly warn the user** that this field should be filled in with the correct OSO-directory slug before merging. The full directory is at `https://api.growthepie.com/v1/labels/projects.json`. The user might need to create a new project in the OSO-directory if none currently exists. Suggest using the following tool: https://www.openlabelsinitiative.org/project
+
 **Natively issued stablecoin** (`metric_key: "direct"`):
 ```python
 {
-    "owner_project": "<issuer_slug>",         # e.g. "circlefin", "fraxfinance"
+    "owner_project": "<issuer_slug>",         # slug from OSO-directory, or null if not found
     "token_id": "<owner_project>_<symbol>",   # e.g. "fraxfinance_frxusd"
     "symbol": "FRXUSD",
     "coingecko_id": ["frax-usd"],             # list, from CoinGecko fetch
@@ -138,7 +150,7 @@ If **no match exists**, propose a new `coin_mapping` entry. First determine whet
 **Bridged / lock-and-mint stablecoin** (`metric_key: "bridged"`):
 ```python
 {
-    "owner_project": "<issuer_slug>",         # same as the origin token's issuer
+    "owner_project": "<issuer_slug>",         # slug from OSO-directory, or null if not found
     "token_id": "<owner_project>_<symbol>",   # e.g. "circlefin_usdce"
     "symbol": "USDC.e",
     "coingecko_id": ["usd-coin-ethereum-bridged"],  # CoinGecko ID for the bridged variant

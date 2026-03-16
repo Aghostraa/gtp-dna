@@ -1527,6 +1527,20 @@ coin_mapping = [
         "fiat": "php",
         "logo": "https://coin-images.coingecko.com/coins/images/34190/large/86735260.png?1704268343",
         "color_hex": "#7070B0"
+    },
+    {
+        "owner_project": "lumifinance",
+        "token_id": "lumifinance_luausd",
+        "symbol": "LUAUSD",
+        "coingecko_id": [
+            "lumi-finance-luausd"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/33503/large/LUAUSD.png?1702038709",
+        "color_hex": "#4A90D9"
     }
 ]
 
@@ -2935,9 +2949,13 @@ address_mapping = {
             "address": "0x0b7007c13325c48911f73a2dad5fa5dcbf808adc",
             "decimals": 6
         },
+        "lumifinance_luausd": {
+            "address": "0x18d2bdef572c67127e218c425f546fe64430a92c",
+            "decimals": 18
+        },
         "phpcoin-phpc": {
             "address": "0x63c6e9f027947be84d390cfa7b2332d13b529353",
             "decimals": 6
-        },
+        }
     }
 }

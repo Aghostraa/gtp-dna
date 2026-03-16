@@ -25,7 +25,8 @@ Output (JSON to stdout):
                 "coingecko_id": "usd-coin",
                 "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
                 "decimals": 6,
-                "price_usd": 1.0
+                "price_usd": 1.0,
+                "logo": "https://assets.coingecko.com/coins/images/6319/large/usdc.png"
             },
             ...
         ]
@@ -231,6 +232,7 @@ def main():
                 "address": platform_data["contract_address"],
                 "decimals": platform_data.get("decimal_place"),
                 "price_usd": price,
+                "logo": coin.get("image"),
             })
 
     stablecoins.sort(key=lambda t: t["symbol"].upper())
