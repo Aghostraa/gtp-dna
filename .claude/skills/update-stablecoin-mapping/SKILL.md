@@ -102,18 +102,15 @@ Script-specific notes:
 
 ### Scenario B — Finding all chains a token is deployed on
 
-Use the CoinGecko coin detail API to get a cross-chain platform map. Fetch:
+Use the token discovery script to get a full cross-chain platform map:
 
+```bash
+python .claude/skills/update-stablecoin-mapping/scripts/fetch_coingecko_token.py <coingecko_id>
 ```
-GET https://api.coingecko.com/api/v3/coins/{coingecko_id}
-```
-(Use pro API if `COINGECKO_API` env var is set: `https://pro-api.coingecko.com/api/v3/coins/{coingecko_id}` with header `x-cg-pro-api-key`.)
 
-From the response:
-- `coin_data["detail_platforms"][aliases_coingecko_chain]["contract_address"]` → address
-- `coin_data["detail_platforms"][aliases_coingecko_chain]["decimal_place"]` → decimals
+This returns the token's symbol, name, logo, and a `deployments` list — one entry per chain — with `platform` (the `aliases_coingecko_chain` key), `address`, and `decimals`.
 
-To map platform keys back to chains: for each chain already in `address_mapping`, run `get_chain_info.py <origin_key>` and compare `aliases_coingecko_chain` against the platforms in the CoinGecko response. Only keep chains already present in `address_mapping`.
+To map each `platform` back to a growthepie `origin_key`: compare against `aliases_coingecko_chain` from `get_chain_info.py <origin_key>` for chains already in `address_mapping`. Only add entries for chains already present in `address_mapping` (use `add-chain-stablecoin-mapping` for new chains).
 
 ---
 
