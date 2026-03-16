@@ -2462,6 +2462,10 @@ address_mapping = {
         "satoshi_satusd": {
             "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
             "decimals": 18
+        },
+        "lumifinance_luausd": {
+            "address": "0x1dd6b5f9281c6b4f043c02a83a46c2772024636c",
+            "decimals": 18
         }
     },
     "starknet": {
