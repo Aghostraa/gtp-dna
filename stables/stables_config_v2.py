@@ -1529,7 +1529,7 @@ coin_mapping = [
         "color_hex": "#7070B0"
     },
     {
-        "owner_project": "lumifinance",
+        "owner_project": "lumi-finance",
         "token_id": "lumifinance_luausd",
         "symbol": "LUAUSD",
         "coingecko_id": [
