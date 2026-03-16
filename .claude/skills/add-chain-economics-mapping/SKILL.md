@@ -53,6 +53,8 @@ From these results, identify **candidate addresses to investigate** — only fro
 - **`to_address` candidates**: Focus on `settlement_contracts` with names like `Inbox`, `OutputOracle`, `DisputeGame`, `Rollup`, `SequencerInbox`, `BatchSubmitter`, `StateCommitmentChain`, or descriptions mentioning batches, state roots, or proofs.
 - **`from_address` candidates**: EOAs whose roles contain `Sequence`, `Propose`, or `Batch`.
 
+> **State root proposers also resolve**: When Dune returns a `proposeL2Output` / `commitBatches` / similar state-root function from an EOA, that same EOA almost always also calls a **resolve or finalize function** (e.g. `resolveGame`, `finalizeWithdrawalTransaction`, `deleteL2Outputs`). Make sure to check the Dune results for **all** method selectors from that EOA — don't stop at the proposal call. Each distinct method needs its own mapping entry.
+
 ## Step 4 — Verify settlement transactions via Dune
 
 For each candidate address from Step 3, run the Dune transaction analysis query. This verifies which addresses actually have onchain settlement activity before writing anything to the mapping. Skip addresses that have no results or only look like regular user transactions.
@@ -81,7 +83,7 @@ The query returns rows grouped by `(function, to, from)` sorted by `no_of_trx` d
 
 **Interpreting results:**
 - High `no_of_trx` + recurring pattern → strong candidate for the mapping
-- `tx_type = 3` → EIP-4844 blob transaction → add to **both** `l1` and `beacon` layers. Type 3 transactions pay fees in two separate fee markets: the L1 execution layer (gas) and the beacon chain blob fee market. The same `from_address`/`to_address`/`method` entry must appear under both sections.
+- `tx_type = 3` → EIP-4844 blob transaction → add to **both** `l1` and `beacon` layers. Type 3 transactions pay fees in two separate fee markets: the L1 execution layer (gas) and the beacon chain blob fee market. The same `from_address`/`to_address`/`method` entry must appear under both sections. **Beacon entries should be as lightweight as possible** — prefer setting `to_address` and `method` to `null` and only keeping `from_address`, since the blob fee is determined by who sends the transaction, not where it goes.
 - `tx_type != 3` → regular L1 transaction → belongs in `l1` layer only
 - `function` field is the 4-byte method selector (e.g. `0x3e5aa082`) — include this in the mapping entry
 - If `from` address is the same EOA for all rows → use as `from_address`; set `to_address` + `method` from results
