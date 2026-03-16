@@ -231,12 +231,14 @@ def main():
             key = (symbol.lower(), (info.get("address") or "").lower())
             if key not in seen_native:
                 seen_native.add(key)
+                info.pop("category", None)
                 native.append(info)
 
         elif bucket == "bridged_via_l1_escrow":
             key = (symbol.lower(), (info.get("l1_token_address") or "").lower())
             if key not in seen_bridged:
                 seen_bridged.add(key)
+                info.pop("category", None)
                 bridged.append(info)
 
     native.sort(key=lambda t: t["symbol"].upper())

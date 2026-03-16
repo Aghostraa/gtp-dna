@@ -5,7 +5,44 @@ description: Add a new chain to the address_mapping in stables/stables_config_v2
 
 You are helping add a new chain's stablecoin addresses to `address_mapping` in `stables/stables_config_v2.py`.
 
-The goal is to identify which stablecoins already in `coin_mapping` are deployed on the new chain, find their local contract addresses and decimals, and add a new entry under `address_mapping[origin_key]`.
+The goal is to identify which stablecoins already in `coin_mapping` are deployed on the new chain, find their contract addresses and decimals, and add a new entry under `address_mapping[origin_key]`.
+
+## Tracking modes
+
+There are two ways to track stablecoin supply for a chain. Ask the user which they want, or recommend based on the chain's architecture:
+
+### Option A — Direct tracking (recommended)
+
+Calls `totalSupply()` directly on each stablecoin contract deployed on the L2. Requires knowing the local token address on the chain.
+
+```python
+"<origin_key>": {
+    "<token_id>": {
+        "address": "0x...",
+        "decimals": 6
+    },
+    ...
+}
+```
+
+Use this whenever the chain has EVM-compatible contracts and a working RPC. This is the preferred approach.
+
+### Option B — `track_on_l1` (not recommended)
+
+Instead of reading supply on the L2, this sums the balances held in L1 Ethereum bridge escrow contracts. Only works for **lock-and-mint canonical bridges** — tokens that are minted on L2 only when ETH-side tokens are locked in an escrow.
+
+```python
+"<origin_key>": {
+    "track_on_l1": [
+        "0x674bdf20A0F284D710BC40872100128e2d66Bd3f",
+        "0xD97D09f3bd931a14382ac60f156C1285a56Bb51B"
+    ]
+}
+```
+
+The list contains the L1 escrow/bridge contract addresses (not token addresses). The backend sums all ERC-20 balances held by these contracts on Ethereum to estimate total stablecoin supply locked on the L2.
+
+**Limitations:** misses natively issued stablecoins (USDC via CCTP, USDe, etc.), third-party bridges, and any token not routed through the canonical bridge. Only use this for chains where direct L2 RPC access is unavailable or the chain is not EVM-compatible.
 
 ## Step 1 — Get the origin_key and validate
 
@@ -23,27 +60,32 @@ python .claude/skills/add-chain-stablecoin-mapping/scripts/get_chain_info.py <or
 
 The script outputs JSON with:
 - `name` — human-readable chain name
-- `aliases_coingecko_chain` — platform key used in CoinGecko's coin API (e.g. `"arbitrum-one"`)
-- `aliases_coingecko` — used for CoinGecko ecosystem page
-- `aliases_defillama` — used for DeFi Llama stablecoins page
-- `aliases_l2beat` — used to fetch the L2Beat TVS JSON
+- `aliases_coingecko_chain` — platform key used in CoinGecko's contract address API (e.g. `"arbitrum-one"`). Used by `fetch_coingecko_ecosystem.py`.
+- `aliases_defillama` — chain slug for DefiLlama. Used by `fetch_defillama_assets.py`.
+- `aliases_l2beat` — chain slug for L2Beat TVS JSON. Used by `fetch_l2beat_tvs.py`.
 - `deployed_supplyreader` — date stablecoin supply reading was set up (null = not yet configured)
-- `coingecko_ecosystem_url` — direct link to browse ecosystem tokens
-- `defillama_stablecoins_url` — direct link to DeFi Llama stablecoins page
-- `l2beat_tvs_url` — direct link to L2Beat TVS JSON
 - `error` — set if the chain file was not found; stop and tell the user
 
-Show the user the chain name and the relevant URLs. Note if `deployed_supplyreader` is null — the chain may not be fully set up for stablecoin tracking yet; mention this to the user.
+Show the user the chain name and aliases. Note if `deployed_supplyreader` is null — the chain may not be fully set up for stablecoin tracking yet; mention this to the user. Documentation on how to set up the supply reader can be found [here](https://github.com/growthepie/backend-internal/tree/main/SupplyReader).
 
-## Step 3 — Discover stablecoin addresses from L2Beat
+> **If the chain file is missing or many fields are null**, the chain's `chains/<origin_key>/main.json` may not exist yet or may be incomplete. In that case, create or fill out `main.json` first before continuing — the discovery scripts depend on `aliases_coingecko_chain`, `aliases_defillama`, and `aliases_l2beat` to find the right data sources. Prompt the user here to help fill it out.
 
-Fetch the L2Beat TVS JSON to get a preliminary list of stablecoin addresses deployed on the chain:
+## Step 3 — Discover stablecoin addresses
+
+Run **all three** discovery scripts in parallel — they are independent read-only fetches with no dependencies on each other:
 
 ```bash
 python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_l2beat_tvs.py <aliases_l2beat>
+python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_defillama_assets.py <aliases_defillama>
+python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_coingecko_ecosystem.py <aliases_coingecko_chain>
 ```
 
-The script returns `stablecoin_candidates` — a list of tokens with `symbol`, `address`, `decimals`, and `category`. These are L2Beat's known stablecoin tokens for this chain and are a good starting point.
+### L2Beat TVS (`fetch_l2beat_tvs.py`)
+
+Returns two buckets:
+
+- **`native`** — `amount.type == "totalSupply"` tracked on-chain. The `address` field is the **actual local token address** on the chain. Also includes `bridged_using` if the token arrived via a bridge (e.g. LayerZero OFT) but is tracked by total supply on the L2. These addresses are ready to use.
+- **`bridged_via_l1_escrow`** — tracked via L1 escrow balances. Only `l1_token_address` and `escrow_addresses` (on Ethereum) are available — **no local L2 address**. Use CoinGecko or a block explorer to find the actual L2 address.
 
 **If the script returns a 404 or `aliases_l2beat` is null**, try finding the correct slug by fetching:
 ```
@@ -51,50 +93,114 @@ https://api.github.com/repos/l2beat/l2beat/contents/packages/config/src/tvs/json
 ```
 This returns directory entries — each has a `name` field. Match against the chain's `origin_key` or display name, then retry.
 
-Show the user the stablecoin candidates list. For each one, note which `token_id` in `coin_mapping` it corresponds to (match by symbol). Candidates with no matching `token_id` can be skipped for now.
+### DefiLlama coreAssets (`fetch_defillama_assets.py`)
+
+Returns `stablecoins` — a flat list of `{ symbol, address }` pairs from DefiLlama's curated asset registry for this chain. These are canonical addresses used by DeFi protocols and are generally reliable.
+
+**If the script errors with "Chain not found"**, the chain may use a different slug in DefiLlama (e.g. `avax` instead of `avalanche`). Check `aliases_defillama` from Step 2.
+
+### CoinGecko ecosystem (`fetch_coingecko_ecosystem.py`)
+
+Returns `stablecoins` — coins from the chain's CoinGecko ecosystem category that match stablecoin symbols, with their contract address and decimals looked up directly from CoinGecko's platform data. Also returns `no_address_found` for stablecoins in the category that CoinGecko doesn't have a contract address for on this platform.
+
+**If the script errors with "Category not found"**, the chain may use a different prefix. Browse `https://www.coingecko.com/en/categories` to find the right slug.
+
+### Merging results
+
+Combine all three sources into a single candidate list. Where two or more sources agree on an address for the same symbol, that address is highly reliable. Where they disagree or only one source has it, flag for manual verification. Show the user the merged candidate list.
 
 ## Step 4 — Match against coin_mapping and cross-check addresses
 
-Read `stables/stables_config_v2.py` and show the user the current `coin_mapping` entries. For each stablecoin candidate from Step 3:
+Read `stables/stables_config_v2.py`. For each stablecoin candidate from Step 3, do the following:
 
-1. **Match by symbol** to a `token_id` in `coin_mapping`.
-2. **Verify the address** — L2Beat may list bridge escrow addresses rather than local token addresses. We always want the **local token address on the chain**, not the bridge contract.
-   - Cross-check using CoinGecko: if `aliases_coingecko_chain` is set, the address under `coin_data["detail_platforms"][aliases_coingecko_chain]` is authoritative.
-   - Use the DeFi Llama stablecoins page or the chain's block explorer to verify if needed.
-   - For bridged tokens (`metric_key == "bridged"`), confirm the address is the bridged token contract on the chain, not an L1 escrow.
+### 4a — Match to coin_mapping
 
-Tell the user which addresses you were able to verify and which need manual confirmation. Do **not** write any entries until addresses are confirmed.
+Match by symbol to an existing entry in `coin_mapping`. If a match is found, note the `token_id` — that will be the key used in `address_mapping`.
 
-## Step 5 — Confirm entries with user
+If **no match exists**, propose a new `coin_mapping` entry. First determine whether the token is **natively issued** or **bridged (lock-and-mint)** based on the available data (L2Beat `bridged_using`, CoinGecko name, token symbol like "USDC.e", or source field), then use the appropriate format:
 
-Show the user the proposed `address_mapping` block for this chain:
+**Natively issued stablecoin** (`metric_key: "direct"`):
+```python
+{
+    "owner_project": "<issuer_slug>",         # e.g. "circlefin", "fraxfinance"
+    "token_id": "<owner_project>_<symbol>",   # e.g. "fraxfinance_frxusd"
+    "symbol": "FRXUSD",
+    "coingecko_id": ["frax-usd"],             # list, from CoinGecko fetch
+    "metric_key": "direct",
+    "bridged_origin_chain": None,
+    "bridged_origin_token_id": None,
+    "fiat": "usd",                            # "usd", "eur", etc. based on peg
+    "logo": "https://...",                    # from CoinGecko iconUrl or coin detail
+    "color_hex": "#XXXXXX"                    # dominant color from logo, best guess
+}
+```
+
+**Bridged / lock-and-mint stablecoin** (`metric_key: "bridged"`):
+```python
+{
+    "owner_project": "<issuer_slug>",         # same as the origin token's issuer
+    "token_id": "<owner_project>_<symbol>",   # e.g. "circlefin_usdce"
+    "symbol": "USDC.e",
+    "coingecko_id": ["usd-coin-ethereum-bridged"],  # CoinGecko ID for the bridged variant
+    "metric_key": "bridged",
+    "bridged_origin_chain": "ethereum",       # chain where the canonical token lives
+    "bridged_origin_token_id": "circlefin_usdc",  # token_id of the origin token in coin_mapping
+    "fiat": "usd",
+    "logo": "https://...",
+    "color_hex": "#XXXXXX"
+}
+```
+
+Signals that a token is bridged: symbol suffix like `.e`, `(bridged)` in the name, L2Beat `source == "canonical"` or `bridged_using` field present with a bridge name, or a CoinGecko ID containing "bridged".
+
+Present all proposed new `coin_mapping` entries to the user for confirmation before writing anything.
+
+### 4b — Build address_mapping entries
+
+**If using `track_on_l1`** (chosen in the Tracking modes section): skip Steps 4a and the token matching entirely. The entry only needs the L1 bridge escrow contract addresses — no `token_id` keys are needed:
+
+```python
+"<origin_key>": {
+    "track_on_l1": [
+        "0x...",   # L1 bridge escrow contract 1
+        "0x...",   # L1 bridge escrow contract 2
+    ]
+}
+```
+
+Ask the user for the L1 escrow contract addresses (find via the chain's official bridge docs or L2Beat's escrow list). Then skip to Step 5.
+
+---
+
+**If using direct tracking**: for each matched or newly proposed token, build:
 
 ```python
 "<origin_key>": {
     "<token_id>": {
-        "address": "0x...",
+        "address": "0x...",   # local token address on this chain (lowercase)
         "decimals": 6
     },
     ...
 }
 ```
 
-Ask the user to:
-- Confirm or correct addresses and decimals
-- Identify any stablecoins present on the chain that are missing from the list
-- Decide whether to skip any tokens that have negligible liquidity or are not yet live
+**Rules:**
+- Only include candidates where the address is the **local token address on the chain** — not an L1 escrow or bridge contract. For `bridged_via_l1_escrow` entries from L2Beat, the local L2 address must first be confirmed via CoinGecko (`detail_platforms[aliases_coingecko_chain]`) or a block explorer.
+- **Do not remove existing entries** in `address_mapping[origin_key]`. Only flag conflicts (same `token_id` with a different address or different decimals) and ask the user how to resolve them.
+- Skip tokens with negligible liquidity or that are clearly not yet live.
 
-Note any tokens from `coin_mapping` that have a `coingecko_id` but **no** matching address found for this chain — list them explicitly so the user is aware.
+Present the full proposed changes (new `coin_mapping` entries + updated `address_mapping` block) to the user for confirmation before writing anything.
 
-## Step 6 — Write the entry
+## Step 5 — Write the entry
 
-Insert the confirmed block into `address_mapping` in `stables/stables_config_v2.py`. Add it in alphabetical order by `origin_key` among the existing entries, or at the end if that is cleaner. Preserve the existing formatting (4-space indent, lowercase addresses).
+Once the user confirms, write both sets of changes to `stables/stables_config_v2.py`:
 
-Do **not** modify `coin_mapping` — that is handled by the `update-stablecoin-mapping` skill.
+1. **New `coin_mapping` entries** — append after the last existing entry in `coin_mapping`.
+2. **`address_mapping[origin_key]`** — insert in alphabetical order by `origin_key`, or append if cleaner. Preserve existing formatting (4-space indent, lowercase addresses).
 
-## Step 7 — Done
+## Step 6 — Done
+
 
 After writing, confirm success and remind the user:
-- If `deployed_supplyreader` was null, the chain still needs to be configured in the backend before supply data will be collected.
-- If `aliases_coingecko_chain` is missing from the chain's `main.json`, the semi-automated CoinGecko update script (described in `stables/stables_README.md`) won't be able to auto-discover future tokens for this chain.
+- If `deployed_supplyreader` was null, suggest to the user to deploy the supply reader contract for more efficient RPC calls and better performance.
 - Open a PR if this is a community contribution.
