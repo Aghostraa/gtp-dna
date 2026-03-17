@@ -2,6 +2,8 @@
 
 This document explains the structure and maintenance workflow for stablecoin metadata and address mappings in `backend/src/stables_config_v2.py`.
 
+Use Claude Code to take advantage of custom skills found in `.claude/skills/add-chain-stablecoin-mapping` and `.claude/skills/update-stablecoin-mapping`.
+
 ## Overview
 
 `stables_config_v2.py` contains two main structures:
@@ -75,7 +77,7 @@ import json
 import os
 import time
 import requests
-from src.stables_config_v2 import coin_mapping, address_mapping
+from stables.stables_config_v2 import coin_mapping, address_mapping
 
 def get_coin_data(coin_id):
     response = requests.get(

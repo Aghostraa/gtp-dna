@@ -13,7 +13,9 @@ FROM dune.growthepie.l2economics_mapping`
 
 ### Community Contribution
 
-This is a community-driven effort. Please feel free to double-check the [mapping](economics_mapping.yml) and submit a PR to add, update or adjust any mappings. Thank you for your contribution. 
+This is a community-driven effort. Please feel free to double-check the [mapping](economics_mapping.yml) and submit a PR to add, update or adjust any mappings. Thank you for your contribution.
+
+Use Claude Code to take advantage of custom skills found in `.claude/skills/add-chain-economics-mapping` and `.claude/skills/update-chain-economics-mapping`.
 
 ## Helpful Tools for Settlement Transactions Identification
 
