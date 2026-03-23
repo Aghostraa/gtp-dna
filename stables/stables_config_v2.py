@@ -1569,6 +1569,20 @@ coin_mapping = [
         "fiat": "usd",
         "logo": "https://coin-images.coingecko.com/coins/images/68688/large/usdon_160x160.png?1756268513",
         "color_hex": "#0A510B"
+    },
+    {
+        "owner_project": "cngn",
+        "token_id": "cngn_cngn",
+        "symbol": "CNGN",
+        "coingecko_id": [
+            "compliant-naira"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "ngn",
+        "logo": "https://coin-images.coingecko.com/coins/images/69200/large/cNGN_Logo_Icon_Purple.png?1757836603",
+        "color_hex": "#6B3FA0"
     }
 ]
 
@@ -1888,6 +1902,10 @@ address_mapping = {
         "ondoprotocol_usdon": {
             "address": "0xace8e719899f6e91831b18ae746c9a965c2119f1",
             "decimals": 18
+        },
+        "cngn_cngn": {
+            "address": "0x17cdb2a01e7a34cbb3dd4b83260b05d0274c8dab",
+            "decimals": 6
         }
     },
     "zksync_era": {
@@ -2150,6 +2168,10 @@ address_mapping = {
         "openusdt": {
             "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
             "decimals": 6
+        },
+        "cngn_cngn": {
+            "address": "0xc930784d6e14e2fc2a1f49be1068dc40f24762d3",
+            "decimals": 6
         }
     },
     "celo": {
@@ -2157,7 +2179,7 @@ address_mapping = {
             "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c",
             "decimals": 6
         },
-        "tetherto_usdt": {
+        "tetherto_usdte": {
             "address": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
             "decimals": 6
         },
@@ -2359,6 +2381,10 @@ address_mapping = {
         },
         "straitsx_xidr": {
             "address": "0x2c826035c1c36986117a0e949bd6ad4bab54afe2",
+            "decimals": 6
+        },
+        "cngn_cngn": {
+            "address": "0x52828daa48c1a9a06f37500882b42daf0be04c3b",
             "decimals": 6
         }
     },
