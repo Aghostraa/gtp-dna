@@ -2179,7 +2179,7 @@ address_mapping = {
             "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c",
             "decimals": 6
         },
-        "tetherto_usdt": {
+        "tetherto_usdte": {
             "address": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
             "decimals": 6
         },
