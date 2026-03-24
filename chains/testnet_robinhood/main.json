@@ -86,7 +86,7 @@
         "blockspace": "locked"
     },
 
-    "backfiller_backfiller_on": true,
+    "backfiller_backfiller_on": false,
     "backfiller_batch_size": 10,
 
     "circulating_supply_token_address": null,
