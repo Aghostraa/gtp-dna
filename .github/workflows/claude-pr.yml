@@ -49,6 +49,8 @@ jobs:
       - name: Run Claude
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
         run: |
           claude -p "${{ github.event.inputs.task }}" \
             --allowedTools "Read,Write,Edit,Bash(git add *),Bash(git diff *),Bash(npm *),Bash(python *)" \
