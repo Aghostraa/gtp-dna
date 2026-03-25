@@ -41,4 +41,7 @@ url = "https://api.dune.com/api/v1/table/growthepie/l2economics_mapping/insert"
 headers['Content-Type'] = "text/csv"
 with open("./economics_mapping.csv", "rb") as data:
   response = requests.request("POST", url, data=data, headers=headers)
-  print(response.json())
+  result = response.json()
+  print(result)
+  if 'error' in result or not response.ok:
+    raise RuntimeError(f"Dune API upload failed: {result}")
