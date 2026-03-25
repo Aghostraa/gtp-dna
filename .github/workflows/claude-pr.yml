@@ -95,6 +95,7 @@ jobs:
           PR_TITLE: ${{ github.event.inputs.pr_title }}
           PR_URL: ${{ steps.pr.outputs.pr_url }}
         run: |
+          pip install requests -q
           python -c "
           import os, requests
           msg = '🤖 growthepAI opened a new PR: **{}**\n{}'.format(os.environ['PR_TITLE'], os.environ['PR_URL'])
