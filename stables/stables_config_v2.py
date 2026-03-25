@@ -1949,6 +1949,10 @@ address_mapping = {
             "address": "0x17cdb2a01e7a34cbb3dd4b83260b05d0274c8dab",
             "decimals": 6
         },
+        "vnx-li_veur": {
+            "address": "0x6bA75D640bEbfe5dA1197bb5A2aff3327789b5d3",
+            "decimals": 18
+        },
         "vnx-li_vchf": {
             "address": "0x79d4f0232a66c4c91b89c76362016a1707cfbf4f",
             "decimals": 18
