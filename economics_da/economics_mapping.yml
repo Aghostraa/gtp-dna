@@ -2055,7 +2055,7 @@ megaeth_testnet:
     - from_address: "0x454ef2f69f91527856e06659f92a66f464c1ca4e"
       to_address: "0x870679E138bCdf293b7Ff14dD44b70FC97e12fc0"
       method: "0x7794965a"
-      comment: "EigenDA v1 confirmBatch via EigenDAServiceManager (first used 2024-05-22, last used 2026-02-05)"
+      comment: "EigenDA v1 confirmBatch EigenDAServiceManager (first used 2024-05-22, last used 2026-02-05)"
   eigenda:
     - namespace: "0xcd1161b78f01da838ce0d42ec750891ec8708f1d"
 
