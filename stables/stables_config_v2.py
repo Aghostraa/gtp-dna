@@ -1583,6 +1583,48 @@ coin_mapping = [
         "fiat": "ngn",
         "logo": "https://coin-images.coingecko.com/coins/images/69200/large/cNGN_Logo_Icon_Purple.png?1757836603",
         "color_hex": "#6B3FA0"
+    },
+    {
+        "owner_project": "vnx-li",
+        "token_id": "vnx-li_veur",
+        "symbol": "VEUR",
+        "coingecko_id": [
+            "vnx-euro"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "eur",
+        "logo": "https://coin-images.coingecko.com/coins/images/29351/large/VNXEUR_%281%29.png?1696528300",
+        "color_hex": "#004096"
+    },
+    {
+        "owner_project": "vnx-li",
+        "token_id": "vnx-li_vchf",
+        "symbol": "VCHF",
+        "coingecko_id": [
+            "vnx-swiss-franc"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "chf",
+        "logo": "https://coin-images.coingecko.com/coins/images/29547/large/VNXCHF_%282%29.png?1696528488",
+        "color_hex": "#CC0000"
+    },
+    {
+        "owner_project": "vnx-li",
+        "token_id": "vnx-li_vgbp",
+        "symbol": "VGBP",
+        "coingecko_id": [
+            "vnx-british-pound"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "gbp",
+        "logo": "https://coin-images.coingecko.com/coins/images/55301/large/VGBP_2.png?1747482092",
+        "color_hex": "#012169"
     }
 ]
 
@@ -1906,6 +1948,10 @@ address_mapping = {
         "cngn_cngn": {
             "address": "0x17cdb2a01e7a34cbb3dd4b83260b05d0274c8dab",
             "decimals": 6
+        },
+        "vnx-li_vchf": {
+            "address": "0x79d4f0232a66c4c91b89c76362016a1707cfbf4f",
+            "decimals": 18
         }
     },
     "zksync_era": {
@@ -2172,6 +2218,18 @@ address_mapping = {
         "cngn_cngn": {
             "address": "0xc930784d6e14e2fc2a1f49be1068dc40f24762d3",
             "decimals": 6
+        },
+        "vnx-li_veur": {
+            "address": "0x4ed9df25d38795a47f52614126e47f564d37f347",
+            "decimals": 18
+        },
+        "vnx-li_vchf": {
+            "address": "0x1fca74d9ef54a6ac80ffe7d3b14e76c4330fd5d8",
+            "decimals": 18
+        },
+        "vnx-li_vgbp": {
+            "address": "0xaeb4bb7debd1e5e82266f7c3b5cff56b3a7bf411",
+            "decimals": 18
         }
     },
     "celo": {
@@ -2249,6 +2307,18 @@ address_mapping = {
         },
         "angle_eura": {
             "address": "0xc16b81af351ba9e64c1a069e3ab18c244a1e3049",
+            "decimals": 18
+        },
+        "vnx-li_veur": {
+            "address": "0x9346f43c1588b6df1d52bdd6bf846064f92d9cba",
+            "decimals": 18
+        },
+        "vnx-li_vchf": {
+            "address": "0xc5ebea9984c485ec5d58ca5a2d376620d93af871",
+            "decimals": 18
+        },
+        "vnx-li_vgbp": {
+            "address": "0x7ae4265ecfc1f31bc0e112dfcfe3d78e01f4bb7f",
             "decimals": 18
         }
     },
@@ -2386,6 +2456,14 @@ address_mapping = {
         "cngn_cngn": {
             "address": "0x52828daa48c1a9a06f37500882b42daf0be04c3b",
             "decimals": 6
+        },
+        "vnx-li_veur": {
+            "address": "0xe4095d9372e68d108225c306a4491cacfb33b097",
+            "decimals": 18
+        },
+        "vnx-li_vchf": {
+            "address": "0xcdb3867935247049e87c38ea270edd305d84c9ae",
+            "decimals": 18
         }
     },
     "arbitrum": {
@@ -2527,6 +2605,14 @@ address_mapping = {
         },
         "lumifinance_luausd": {
             "address": "0x1dd6b5f9281c6b4f043c02a83a46c2772024636c",
+            "decimals": 18
+        },
+        "vnx-li_veur": {
+            "address": "0x4883c8f0529f37e40ebea870f3c13cdfad5d01f8",
+            "decimals": 18
+        },
+        "vnx-li_vchf": {
+            "address": "0x02cea97794d2cfb5f560e1ff4e9c59d1bec75969",
             "decimals": 18
         }
     },
@@ -2900,6 +2986,14 @@ address_mapping = {
         "openusdt": {
             "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
             "decimals": 6
+        },
+        "vnx-li_veur": {
+            "address": "0x4c0bd74da8237c08840984fdb33a84b4586aaee6",
+            "decimals": 18
+        },
+        "vnx-li_vchf": {
+            "address": "0x418126bb59457afdba1ecf376f97400b4157425d",
+            "decimals": 18
         }
     },
     "manta": {
