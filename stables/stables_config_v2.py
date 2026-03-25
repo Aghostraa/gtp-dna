@@ -1596,7 +1596,7 @@ coin_mapping = [
         "bridged_origin_token_id": None,
         "fiat": "eur",
         "logo": "https://coin-images.coingecko.com/coins/images/29351/large/VNXEUR_%281%29.png?1696528300",
-        "color_hex": "#004096"
+        "color_hex": "#cbb132"
     },
     {
         "owner_project": "vnx-li",
@@ -1610,7 +1610,7 @@ coin_mapping = [
         "bridged_origin_token_id": None,
         "fiat": "chf",
         "logo": "https://coin-images.coingecko.com/coins/images/29547/large/VNXCHF_%282%29.png?1696528488",
-        "color_hex": "#CC0000"
+        "color_hex": "#d7c574"
     },
     {
         "owner_project": "vnx-li",
@@ -1624,7 +1624,7 @@ coin_mapping = [
         "bridged_origin_token_id": None,
         "fiat": "gbp",
         "logo": "https://coin-images.coingecko.com/coins/images/55301/large/VGBP_2.png?1747482092",
-        "color_hex": "#012169"
+        "color_hex": "#c2ab3c"
     }
 ]
 
