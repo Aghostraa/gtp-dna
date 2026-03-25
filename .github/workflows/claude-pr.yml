@@ -51,6 +51,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+          DISCORD_ALERTS: ${{ secrets.DISCORD_ALERTS }}
         run: |
           claude -p "${{ github.event.inputs.task }}" \
             --allowedTools "Read,Write,Edit,Bash(git add *),Bash(git diff *),Bash(npm *),Bash(python *)" \
@@ -68,6 +69,7 @@ jobs:
         run: git push origin ${{ steps.branch.outputs.branch }}
  
       - name: Open PR
+        id: pr
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -85,3 +87,15 @@ jobs:
               gh pr edit "$PR_URL" --add-label "$label"
             done
           fi
+          echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
+
+      - name: Notify Discord
+        env:
+          DISCORD_ALERTS: ${{ secrets.DISCORD_ALERTS }}
+          PR_TITLE: ${{ github.event.inputs.pr_title }}
+          PR_URL: ${{ steps.pr.outputs.pr_url }}
+        run: |
+          cd backend
+          pip install requests -q
+          export MSG=$(printf "🤖 growthepAI opened a new PR: **%s**\n%s" "$PR_TITLE" "$PR_URL")
+          python -c "import sys,os; sys.path.insert(0,'.'); from src.misc.helper_functions import send_discord_message; send_discord_message(os.environ['MSG'])"
