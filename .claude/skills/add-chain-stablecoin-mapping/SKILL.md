@@ -72,13 +72,20 @@ Show the user the chain name and aliases. Note if `deployed_supplyreader` is nul
 
 ## Step 3 — Discover stablecoin addresses
 
-Run **all three** discovery scripts in parallel — they are independent read-only fetches with no dependencies on each other:
+Run **all four** discovery scripts in parallel — they are independent read-only fetches with no dependencies on each other:
 
 ```bash
 python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_l2beat_tvs.py <aliases_l2beat>
 python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_defillama_assets.py <aliases_defillama>
 python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_coingecko_ecosystem.py <aliases_coingecko_chain>
+python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_dune.py --chain <aliases_dune_chain>
 ```
+
+The `aliases_dune_chain` value is the Dune chain identifier for the chain (e.g. `ethereum`, `base`, `arbitrum`). Use the chain's common lowercase name — it typically matches the `origin_key` or a close variant. If unsure, omit `--chain` to get all results and filter manually.
+
+### Dune (`fetch_dune.py`)
+
+Returns stablecoin addresses from Dune Analytics query 6910797. Useful as an independent on-chain data source that cross-validates CoinGecko, L2Beat, and DefiLlama results. Requires `DUNE_API_KEY` to be set in `.env` or the environment.
 
 ### L2Beat TVS (`fetch_l2beat_tvs.py`)
 
@@ -107,7 +114,7 @@ Returns `stablecoins` — coins from the chain's CoinGecko ecosystem category th
 
 ### Merging results
 
-Combine all three sources into a single candidate list. Where two or more sources agree on an address for the same symbol, that address is highly reliable. Where they disagree or only one source has it, flag for manual verification. Show the user the merged candidate list.
+Combine all four sources into a single candidate list. Where two or more sources agree on an address for the same symbol, that address is highly reliable. Where they disagree or only one source has it, flag for manual verification. Show the user the merged candidate list.
 
 ## Step 4 — Match against coin_mapping and cross-check addresses
 

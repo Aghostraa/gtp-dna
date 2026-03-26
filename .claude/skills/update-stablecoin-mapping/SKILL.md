@@ -81,15 +81,18 @@ First, get the chain's aliases:
 python .claude/skills/add-chain-stablecoin-mapping/scripts/get_chain_info.py <origin_key>
 ```
 
-Then run all three discovery scripts **in parallel** — they are independent read-only fetches:
+Then run all four discovery scripts **in parallel** — they are independent read-only fetches:
 
 ```bash
 python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_l2beat_tvs.py <aliases_l2beat>
 python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_defillama_assets.py <aliases_defillama>
 python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_coingecko_ecosystem.py <aliases_coingecko_chain>
+python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_dune.py --chain <aliases_dune_chain> --symbol <symbol>
 ```
 
-Filter all results by matching symbol. Merge the three outputs:
+The `aliases_dune_chain` is the Dune chain identifier (e.g. `ethereum`, `base`, `arbitrum`) — typically the lowercase `origin_key` or a close variant.
+
+Filter all results by matching symbol. Merge the four outputs:
 - Where two or more sources agree on an address → highly reliable, use it.
 - Single-source results → flag for manual verification.
 
@@ -97,20 +100,24 @@ Script-specific notes:
 - **`fetch_l2beat_tvs.py`**: returns `native` (address ready to use) and `bridged_via_l1_escrow` (no local L2 address — look up via CoinGecko or block explorer). If the script errors with 404, find the correct slug at `https://api.github.com/repos/l2beat/l2beat/contents/packages/config/src/tvs/json`.
 - **`fetch_defillama_assets.py`**: returns curated `{ symbol, address }` pairs. If it errors with "Chain not found", check `aliases_defillama` from `get_chain_info.py`.
 - **`fetch_coingecko_ecosystem.py`**: returns stablecoins in the chain's ecosystem category with address and decimals. If it errors with "Category not found", the chain may use a different CoinGecko ecosystem slug.
+- **`fetch_dune.py`**: queries Dune Analytics (query 6910797) for on-chain stablecoin data filtered by chain and symbol. Requires `DUNE_API_KEY`. Returns address and decimals per chain.
 
 ---
 
 ### Scenario B — Finding all chains a token is deployed on
 
-Use the token discovery script to get a full cross-chain platform map:
+Run both discovery scripts **in parallel**:
 
 ```bash
 python .claude/skills/update-stablecoin-mapping/scripts/fetch_coingecko_token.py <coingecko_id>
+python .claude/skills/add-chain-stablecoin-mapping/scripts/fetch_dune.py --symbol <symbol>
 ```
 
-This returns the token's symbol, name, logo, and a `deployments` list — one entry per chain — with `platform` (the `aliases_coingecko_chain` key), `address`, and `decimals`.
+`fetch_coingecko_token.py` returns the token's symbol, name, logo, and a `deployments` list — one entry per chain — with `platform` (the `aliases_coingecko_chain` key), `address`, and `decimals`.
 
-To map each `platform` back to a growthepie `origin_key`: compare against `aliases_coingecko_chain` from `get_chain_info.py <origin_key>` for chains already in `address_mapping`. Only add entries for chains already present in `address_mapping` (use `add-chain-stablecoin-mapping` for new chains).
+`fetch_dune.py` returns rows from Dune query 6910797 filtered by symbol across all chains. Use this to cross-validate CoinGecko results and discover chains that CoinGecko may be missing. Requires `DUNE_API_KEY`.
+
+To map each result back to a growthepie `origin_key`: compare chain names against `aliases_coingecko_chain` and `aliases_dune_chain` from `get_chain_info.py <origin_key>` for chains already in `address_mapping`. Only add entries for chains already present in `address_mapping` (use `add-chain-stablecoin-mapping` for new chains).
 
 ---
 
