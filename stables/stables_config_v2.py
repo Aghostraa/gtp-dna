@@ -1625,6 +1625,20 @@ coin_mapping = [
         "fiat": "gbp",
         "logo": "https://coin-images.coingecko.com/coins/images/55301/large/VGBP_2.png?1747482092",
         "color_hex": "#c2ab3c"
+    },
+    {
+        "owner_project": "brla-digital",
+        "token_id": "brla-digital_brla",
+        "symbol": "BRLA",
+        "coingecko_id": [
+            "brla-digital-brla"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "brl",
+        "logo": "https://coin-images.coingecko.com/coins/images/40062/large/IconGreen400.png?1725459580",
+        "color_hex": "#00e17c"
     }
 ]
 
@@ -2324,6 +2338,10 @@ address_mapping = {
         "vnx-li_vgbp": {
             "address": "0x7ae4265ecfc1f31bc0e112dfcfe3d78e01f4bb7f",
             "decimals": 18
+        },
+        "brla-digital_brla": {
+            "address": "0xfecb3f7c54e2caae9dc6ac9060a822d47e053760",
+            "decimals": 18
         }
     },
     "worldchain": {
@@ -2467,6 +2485,10 @@ address_mapping = {
         },
         "vnx-li_vchf": {
             "address": "0xcdb3867935247049e87c38ea270edd305d84c9ae",
+            "decimals": 18
+        },
+        "brla-digital_brla": {
+            "address": "0xe6a537a407488807f0bbeb0038b79004f19dddfb",
             "decimals": 18
         }
     },
