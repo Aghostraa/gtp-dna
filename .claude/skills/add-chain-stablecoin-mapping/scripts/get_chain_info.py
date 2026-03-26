@@ -13,11 +13,15 @@ Output (JSON to stdout):
         "aliases_coingecko_chain": "arbitrum-one",
         "aliases_defillama": "arbitrum",
         "aliases_l2beat": "arbitrum",
+        "aliases_dune": "arbitrum",
         "deployed_supplyreader": "2025-09-23"
     }
 
 `aliases_coingecko_chain` is the platform key used in CoinGecko's coin detail API
 (e.g. coin_data["platforms"]["arbitrum-one"]).
+
+`aliases_dune` is the chain identifier used in Dune Analytics queries (passed as
+the `--chain` argument to `fetch_dune.py`).
 
 `deployed_supplyreader` indicates when stablecoin supply reading was set up for this
 chain — null means it hasn't been configured yet.
@@ -54,6 +58,7 @@ def main():
         "aliases_coingecko_chain": data.get("aliases_coingecko_chain") or None,
         "aliases_defillama": data.get("aliases_defillama") or None,
         "aliases_l2beat": data.get("aliases_l2beat") or None,
+        "aliases_dune": data.get("aliases_dune") or None,
         "deployed_supplyreader": data.get("deployed_supplyreader") or None,
     }
 

@@ -90,7 +90,7 @@ NON_STABLE_OVERRIDES = {
 # Uses global market cap from CoinGecko markets endpoint (not chain-specific).
 # For stablecoin tracking we only care about tokens with meaningful supply.
 # Set to 0 to disable (not recommended on free tier — too many API calls).
-MIN_MARKET_CAP = 5_000_000
+MIN_MARKET_CAP = 1_000_000
 
 
 def is_stablecoin_by_symbol(symbol: str) -> bool:
