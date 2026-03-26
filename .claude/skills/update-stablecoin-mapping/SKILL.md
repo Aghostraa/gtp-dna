@@ -1,6 +1,6 @@
 ---
 name: update-stablecoin-mapping
-description: Add a new stablecoin or new addresses for an existing stablecoin in stables/stables_config_v2.py. Use this skill whenever the user wants to add a new stablecoin token, add addresses for an existing token on additional chains, a chain already exists in address_mapping and needs new tokens added, or the user says anything like "add stablecoin", "new token", "add token", "missing stablecoin", or "add addresses" in the context of stablecoin tracking.
+description: Add a new stablecoin or new addresses for an existing stablecoin in stables/stables_config_v2.py. Use this skill whenever the user wants to add a new stablecoin token, add addresses for an existing token on additional chains, a chain already exists in address_mapping and needs new tokens added, wants to verify or audit which stablecoins are mapped for a specific chain, or the user says anything like "add stablecoin", "new token", "add token", "missing stablecoin", "add addresses", "double check", "check stablecoin mapping", "verify stablecoins", or "all stablecoins mapped" in the context of stablecoin tracking.
 ---
 
 You are helping update `stables/stables_config_v2.py` — either by adding a new stablecoin to `coin_mapping`, adding `address_mapping` entries for an existing token on new chains, or both.
