@@ -101,7 +101,6 @@
 
     "archive_tables": [
         "fact_active_addresses",
-        "fact_active_addresses_contract_hourly_hll",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
