@@ -25,6 +25,10 @@ If the user provided an **alert message**, parse it for clues. Alerts typically 
 
 **Important — how alerts work**: alerts fire on addresses that are **already in the mapping** and are detecting a change in their activity pattern. The address in the alert is the **existing/known** one that may be getting deprecated or rotated away from. Do not check whether the alert address is already in the mapping — it always will be. Instead, treat the alert as a signal that a **new** contract or EOA may have taken over and is not yet in the mapping.
 
+> **COMMON MISTAKE — do not do this**: After seeing that the alerted address is already in the mapping, do NOT conclude "the mapping is up to date, no changes needed." That conclusion is always wrong when an alert fires. The alert address being in the mapping is expected — it is the starting point, not the answer. Your job is to find what REPLACED or JOINED it.
+
+> **False positive — chain outage**: Alerts can also fire when a chain experiences an outage and simply stops posting transactions for a day, then resumes normally. In this case, no mapping changes are required. Check Dune for recent activity on the alerted address — if transactions resume at the normal rate with no new addresses taking over, treat it as a false positive and inform the user.
+
 From an alert, extract:
 - `origin_key` — the chain name in the alert (e.g. "bob")
 - The fee layer mentioned (`l1`, `beacon`, etc.)
@@ -70,6 +74,13 @@ This returns a JSON array of directory entries — each has a `name` field. Find
 The script returns contracts split into `settlement_contracts` and `bridge_contracts`. Prioritise `settlement_contracts` as candidates — bridge/escrow/portal contracts receive transactions from end users, not from the chain's settlement system, and querying them via Dune returns massive irrelevant volumes that are hard to interpret. Only fall back to `bridge_contracts` as a last resort if `settlement_contracts` yield no useful results.
 
 Compare the `settlement_contracts` and EOAs against what is already in the mapping (case-insensitive). Identify **addresses present in L2Beat but missing from the current mapping** — these are the candidates for new entries.
+
+**Null values mean "any"**: in any mapping entry, a null field is a wildcard that matches anything. This applies to all three fields:
+- `from_address: null` → matches ALL senders
+- `to_address: null` → matches ALL destination contracts
+- `method: null` → matches ALL method selectors
+
+Before proposing a new entry, check whether an existing entry already covers it via a null wildcard. For example: if an entry already has `from_address: null, to_address: X, method: Y`, then adding a new entry with a specific `from_address` but the same `to_address: X, method: Y` is redundant and would cause double-counting. The same logic applies to null `to_address` or null `method` — any existing null in that field already covers the specific value you would add.
 
 Use the existing alert address to understand the **role** being rotated (e.g. if `0x7cb1...` is a proposer EOA in L2Beat, look for other proposer EOAs or contracts in `settlement_contracts` that are not yet in the mapping — those are the likely replacements).
 
