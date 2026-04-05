@@ -24,7 +24,6 @@
 
     "archive_tables": [
         "fact_active_addresses",
-        "blockspace_fact_contract_level_hourly",
         "uops"
     ],
 
