@@ -1639,6 +1639,20 @@ coin_mapping = [
         "fiat": "brl",
         "logo": "https://coin-images.coingecko.com/coins/images/40062/large/IconGreen400.png?1725459580",
         "color_hex": "#00e17c"
+    },
+    {
+        "owner_project": "jpycoin",
+        "token_id": "jpycoin_jpyc",
+        "symbol": "JPYC",
+        "coingecko_id": [
+            "jpycoin"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "jpy",
+        "logo": "https://coin-images.coingecko.com/coins/images/70314/large/JPYC_400x400.jpg?1761556080",
+        "color_hex": "#1A56C0"
     }
 ]
 
@@ -1969,6 +1983,10 @@ address_mapping = {
         },
         "vnx-li_vchf": {
             "address": "0x79d4f0232a66c4c91b89c76362016a1707cfbf4f",
+            "decimals": 18
+        },
+        "jpycoin_jpyc": {
+            "address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
             "decimals": 18
         }
     },
@@ -2489,6 +2507,10 @@ address_mapping = {
         },
         "brla-digital_brla": {
             "address": "0xe6a537a407488807f0bbeb0038b79004f19dddfb",
+            "decimals": 18
+        },
+        "jpycoin_jpyc": {
+            "address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
             "decimals": 18
         }
     },
