@@ -27,6 +27,8 @@ If the user provided an **alert message**, parse it for clues. Alerts typically 
 
 > **COMMON MISTAKE — do not do this**: After seeing that the alerted address is already in the mapping, do NOT conclude "the mapping is up to date, no changes needed." That conclusion is always wrong when an alert fires. The alert address being in the mapping is expected — it is the starting point, not the answer. Your job is to find what REPLACED or JOINED it.
 
+> **COMMON MISTAKE — variant**: Even if the **exact combination** of `from_address` + `to_address` + `method` from the alert already exists as an entry in the mapping, do NOT stop. The alert is still signaling a change in activity for that entry — a new contract or EOA may have taken over and is not yet mapped. Always continue to Steps 3–5 (chain info, L2Beat contracts, Dune verification) regardless of whether the alerted combination is already present.
+
 > **False positive — chain outage**: Alerts can also fire when a chain experiences an outage and simply stops posting transactions for a day, then resumes normally. In this case, no mapping changes are required. Check Dune for recent activity on the alerted address — if transactions resume at the normal rate with no new addresses taking over, treat it as a false positive and inform the user.
 
 From an alert, extract:
