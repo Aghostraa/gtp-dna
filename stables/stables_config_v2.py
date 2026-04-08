@@ -1162,7 +1162,7 @@ coin_mapping = [
         "bridged_origin_token_id": None,
         "fiat": "chf",
         "logo": "https://coin-images.coingecko.com/coins/images/102172200/large/chfau-logo.jpg?1772097364",
-        "color_hex": "#00E0E0"
+        "color_hex": "#D00B0B"
     },
     {
         "owner_project": "coinvertible",
