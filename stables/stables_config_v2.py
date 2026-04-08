@@ -1151,6 +1151,20 @@ coin_mapping = [
         "color_hex": "#00E0E0"
     },
     {
+        "owner_project": "allunity",
+        "token_id": "allunity_chfau",
+        "symbol": "CHFAU",
+        "coingecko_id": [
+            "allunity-chfau"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "chf",
+        "logo": "https://coin-images.coingecko.com/coins/images/102172200/large/chfau-logo.jpg?1772097364",
+        "color_hex": "#00E0E0"
+    },
+    {
         "owner_project": "coinvertible",
         "token_id": "coinvertible_eurcv",
         "symbol": "EURCV",
