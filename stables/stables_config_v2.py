@@ -1132,7 +1132,19 @@ coin_mapping = [
         "bridged_origin_token_id": None,
         "fiat": "isk",
         "logo": "https://monerium.app/tokens/isk/isk.png",
-        "color_hex": "#003897"
+        "color_hex": "#1a9bdb"
+    },
+    {
+        "owner_project": "monerium",
+        "token_id": "monerium_usde",
+        "symbol": "USDe",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://monerium.app/tokens/usd/usd.png",
+        "color_hex": "#49c2ff"
     },
     {
         "owner_project": "stasis",
@@ -1889,6 +1901,10 @@ address_mapping = {
             "address": "0x38d22bd604c4549e2cc15e94b8e22e6fe4ae82b4",
             "decimals": 18
         },
+        "monerium_usde": {
+            "address": "0x05968f40939fdc016ad58f82cd08da884825ad55",
+            "decimals": 18
+        },
         "EURe_eureold": {
             "address": "0x3231cb76718cdef2155fc47b5286d82e6eda273f",
             "decimals": 18
@@ -2513,6 +2529,10 @@ address_mapping = {
             "address": "0xd053fc09e8f05a43da4ecc40a750559c938c8131",
             "decimals": 18
         },
+        "monerium_usde": {
+            "address": "0x91e2b584908c2807efc9f846e0c2a1fe875c5141",
+            "decimals": 18
+        },
         "EURe_eureold": {
             "address": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
             "decimals": 18
@@ -2697,6 +2717,10 @@ address_mapping = {
         },
         "monerium_iske": {
             "address": "0x845a96969e8d84ff32b8939934d9771005178920",
+            "decimals": 18
+        },
+        "monerium_usde": {
+            "address": "0x0fc041a4b6a3f634445804daafd03f202337c125",
             "decimals": 18
         },
         "angle_eura": {
@@ -2939,6 +2963,10 @@ address_mapping = {
             "address": "0x331e7481b22ca68efc28fdcbaa33f23c4504bacf",
             "decimals": 18
         },
+        "monerium_usde": {
+            "address": "0x0ec9e243c07b752845ba900fe5464fe5026ff948",
+            "decimals": 18
+        },
         "paxosglobal_usdp": {
             "address": "0xd2bc272ea0154a93bf00191c8a1db23e67643ec5",
             "decimals": 18
@@ -2979,6 +3007,10 @@ address_mapping = {
         },
         "monerium_iske": {
             "address": "0x9b4e8238d3efd628e64d8a75bb29b309dad6080e",
+            "decimals": 18
+        },
+        "monerium_usde": {
+            "address": "0x673541d0d71dc324a6c94acdcd540bca8c5ea289",
             "decimals": 18
         }
     },
