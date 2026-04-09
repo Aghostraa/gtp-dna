@@ -1109,6 +1109,44 @@ coin_mapping = [
         "color_hex": "#0050B0"
     },
     {
+        "owner_project": "monerium",
+        "token_id": "monerium_gbpe",
+        "symbol": "GBPe",
+        "coingecko_id": [
+            "monerium-gbp-emoney"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "gbp",
+        "logo": "https://coin-images.coingecko.com/coins/images/39004/large/gbp.png?1719840784",
+        "color_hex": "#007ab5"
+    },
+    {
+        "owner_project": "monerium",
+        "token_id": "monerium_iske",
+        "symbol": "ISKe",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "isk",
+        "logo": "https://monerium.app/tokens/isk/isk.png",
+        "color_hex": "#1a9bdb"
+    },
+    {
+        "owner_project": "monerium",
+        "token_id": "monerium_usde",
+        "symbol": "USDe",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://monerium.app/tokens/usd/usd.png",
+        "color_hex": "#49c2ff"
+    },
+    {
         "owner_project": "stasis",
         "token_id": "stasis_eurs",
         "symbol": "EURS",
@@ -1855,6 +1893,18 @@ address_mapping = {
             "address": "0x39b8b6385416f4ca36a20319f70d28621895279d",
             "decimals": 18
         },
+        "monerium_gbpe": {
+            "address": "0x78a20b7af85156b4389a349aa4c96efc2e509768",
+            "decimals": 18
+        },
+        "monerium_iske": {
+            "address": "0x38d22bd604c4549e2cc15e94b8e22e6fe4ae82b4",
+            "decimals": 18
+        },
+        "monerium_usde": {
+            "address": "0x05968f40939fdc016ad58f82cd08da884825ad55",
+            "decimals": 18
+        },
         "EURe_eureold": {
             "address": "0x3231cb76718cdef2155fc47b5286d82e6eda273f",
             "decimals": 18
@@ -2280,6 +2330,14 @@ address_mapping = {
         "vnx-li_vgbp": {
             "address": "0xaeb4bb7debd1e5e82266f7c3b5cff56b3a7bf411",
             "decimals": 18
+        },
+        "monerium_gbpe": {
+            "address": "0xc4759ed641da77cbdc9fa2f37e9260a29bf7cc52",
+            "decimals": 18
+        },
+        "monerium_iske": {
+            "address": "0x1a3237ae46886e416ae25499ec9cd7bf437f25da",
+            "decimals": 18
         }
     },
     "celo": {
@@ -2463,6 +2521,18 @@ address_mapping = {
             "address": "0xe0aea583266584dafbb3f9c3211d5588c73fea8d",
             "decimals": 18
         },
+        "monerium_gbpe": {
+            "address": "0x646beea7a02fdada34c8e118949fe32350ab2206",
+            "decimals": 18
+        },
+        "monerium_iske": {
+            "address": "0xd053fc09e8f05a43da4ecc40a750559c938c8131",
+            "decimals": 18
+        },
+        "monerium_usde": {
+            "address": "0x91e2b584908c2807efc9f846e0c2a1fe875c5141",
+            "decimals": 18
+        },
         "EURe_eureold": {
             "address": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
             "decimals": 18
@@ -2639,6 +2709,18 @@ address_mapping = {
         },
         "monerium_eure": {
             "address": "0x0c06ccf38114ddfc35e07427b9424adcca9f44f8",
+            "decimals": 18
+        },
+        "monerium_gbpe": {
+            "address": "0x2d80dbf04d0802abd7a342dafa5d7cb42bfbb52f",
+            "decimals": 18
+        },
+        "monerium_iske": {
+            "address": "0x845a96969e8d84ff32b8939934d9771005178920",
+            "decimals": 18
+        },
+        "monerium_usde": {
+            "address": "0x0fc041a4b6a3f634445804daafd03f202337c125",
             "decimals": 18
         },
         "angle_eura": {
@@ -2873,6 +2955,18 @@ address_mapping = {
             "address": "0x3ff47c5bf409c86533fe1f4907524d304062428d",
             "decimals": 18
         },
+        "monerium_gbpe": {
+            "address": "0x3bce82cf1a2bc357f956dd494713fe11dc54780f",
+            "decimals": 18
+        },
+        "monerium_iske": {
+            "address": "0x331e7481b22ca68efc28fdcbaa33f23c4504bacf",
+            "decimals": 18
+        },
+        "monerium_usde": {
+            "address": "0x0ec9e243c07b752845ba900fe5464fe5026ff948",
+            "decimals": 18
+        },
         "paxosglobal_usdp": {
             "address": "0xd2bc272ea0154a93bf00191c8a1db23e67643ec5",
             "decimals": 18
@@ -2906,6 +3000,18 @@ address_mapping = {
         "tetherto_usdte": {
             "address": "0xf55bec9cafdbe8730f096aa55dad6d22d44099df",
             "decimals": 6
+        },
+        "monerium_gbpe": {
+            "address": "0x484d0d40773fa021b3d30232b4caac6c7db283fb",
+            "decimals": 18
+        },
+        "monerium_iske": {
+            "address": "0x9b4e8238d3efd628e64d8a75bb29b309dad6080e",
+            "decimals": 18
+        },
+        "monerium_usde": {
+            "address": "0x673541d0d71dc324a6c94acdcd540bca8c5ea289",
+            "decimals": 18
         }
     },
     "mantle": {
