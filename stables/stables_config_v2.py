@@ -1109,6 +1109,20 @@ coin_mapping = [
         "color_hex": "#0050B0"
     },
     {
+        "owner_project": "monerium",
+        "token_id": "monerium_gbpe",
+        "symbol": "GBPe",
+        "coingecko_id": [
+            "monerium-gbp-emoney"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "gbp",
+        "logo": "https://coin-images.coingecko.com/coins/images/39004/large/gbp.png?1719840784",
+        "color_hex": "#8B0000"
+    },
+    {
         "owner_project": "stasis",
         "token_id": "stasis_eurs",
         "symbol": "EURS",
@@ -1855,6 +1869,10 @@ address_mapping = {
             "address": "0x39b8b6385416f4ca36a20319f70d28621895279d",
             "decimals": 18
         },
+        "monerium_gbpe": {
+            "address": "0x78a20B7AF85156B4389a349Aa4c96efC2E509768",
+            "decimals": 18
+        },
         "EURe_eureold": {
             "address": "0x3231cb76718cdef2155fc47b5286d82e6eda273f",
             "decimals": 18
@@ -2280,6 +2298,10 @@ address_mapping = {
         "vnx-li_vgbp": {
             "address": "0xaeb4bb7debd1e5e82266f7c3b5cff56b3a7bf411",
             "decimals": 18
+        },
+        "monerium_gbpe": {
+            "address": "0xc4759ed641da77cbdc9fa2f37e9260a29bf7cc52",
+            "decimals": 18
         }
     },
     "celo": {
@@ -2463,6 +2485,10 @@ address_mapping = {
             "address": "0xe0aea583266584dafbb3f9c3211d5588c73fea8d",
             "decimals": 18
         },
+        "monerium_gbpe": {
+            "address": "0x646BEea7a02FdAdA34c8e118949fE32350aB2206",
+            "decimals": 18
+        },
         "EURe_eureold": {
             "address": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
             "decimals": 18
@@ -2639,6 +2665,10 @@ address_mapping = {
         },
         "monerium_eure": {
             "address": "0x0c06ccf38114ddfc35e07427b9424adcca9f44f8",
+            "decimals": 18
+        },
+        "monerium_gbpe": {
+            "address": "0x2d80dbf04d0802abd7a342dafa5d7cb42bfbb52f",
             "decimals": 18
         },
         "angle_eura": {
@@ -2871,6 +2901,10 @@ address_mapping = {
         },
         "monerium_eure": {
             "address": "0x3ff47c5bf409c86533fe1f4907524d304062428d",
+            "decimals": 18
+        },
+        "monerium_gbpe": {
+            "address": "0x3bce82cf1a2bc357f956dd494713fe11dc54780f",
             "decimals": 18
         },
         "paxosglobal_usdp": {
