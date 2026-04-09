@@ -36,6 +36,9 @@ jobs:
         with:
           node-version: "20"
  
+      - name: Install Python dependencies
+        run: pip install pandas requests pyyaml oli-python -q
+ 
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
  
