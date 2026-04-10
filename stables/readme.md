@@ -68,6 +68,25 @@ ORDER BY date DESC;
 - We track **local token addresses on each chain** (not bridge contracts).
 - Always track `decimals` per address because decimal places can differ across chains.
 
+### Date window fields (`min_date` / `max_date`)
+
+Both fields are optional and can be added to any individual address entry under `address_mapping` to restrict the backfill window to a date range (doesn't work for `track_on_l1`).
+
+| Field | Behaviour |
+|---|---|
+| `max_date` | When the backfill loop reaches a date **after** `max_date`, this coin is skipped. Any already-computed rows strictly after `max_date` are dropped from the final output. |
+| `min_date` | When the backfill loop reaches a date **at or before** `min_date`, this coin is removed from further processing. |
+
+Example: token was replaced on 2024-12-16, so supply should only be tracked up to that date:
+
+```python
+"monerium_eure_old": {
+    "address": "0x3231cb76718cdef2155fc47b5286d82e6eda273f",
+    "decimals": 18,
+    "max_date": "2024-12-16"
+}
+```
+
 If `coingecko_id` is provided in `stables_metadata`, you can generate new mappings via the script below. It prints a full `address_mapping` blob for copy‑paste into `stables_config_v2.py`. **Do not comment the `address_mapping` section in the file**, to keep auto‑generated diffs clean. Also make sure `aliases_coingecko_chain` is populated in the gtp_dna GitHub chain mapping.
 
 ### Semi‑automated update script
