@@ -2019,7 +2019,8 @@ address_mapping = {
         },
         "monerium_eure_old": {
             "address": "0x3231cb76718cdef2155fc47b5286d82e6eda273f",
-            "decimals": 18
+            "decimals": 18,
+            "max_date": "2024-12-16"
         },
         "noon_capital_usn": {
             "address": "0xda67b4284609d2d48e5d10cfac411572727dc1ed",
@@ -2571,7 +2572,8 @@ address_mapping = {
         },
         "monerium_eure_old": {
             "address": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
-            "decimals": 18
+            "decimals": 18,
+            "max_date": "2024-08-17"
         },
         "straitsx_xidr": {
             "address": "0x2c826035c1c36986117a0e949bd6ad4bab54afe2",
