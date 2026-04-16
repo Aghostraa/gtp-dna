@@ -1707,8 +1707,8 @@ coin_mapping = [
         "color_hex": "#1A56C0"
     },
     {
-        "owner_project": "mxnb",
-        "token_id": "mxnb_mxnb",
+        "owner_project": "bitso",
+        "token_id": "bitso_mxnb",
         "symbol": "MXNB",
         "coingecko_id": [
             "mxnb"
@@ -1719,6 +1719,20 @@ coin_mapping = [
         "fiat": "mxn",
         "logo": "https://coin-images.coingecko.com/coins/images/39136/large/MNXB_Logo.png?1746088156",
         "color_hex": "#baf2c9"
+    },
+    {
+        "owner_project": "bitso",
+        "token_id": "bitso_brl1",
+        "symbol": "BRL1",
+        "coingecko_id": [
+            "brl1"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "brl",
+        "logo": "https://coin-images.coingecko.com/coins/images/70996/large/brl1-logo.jpeg?1765021153",
+        "color_hex": "#1C7A3E"
     },
     {
         "owner_project": "paytrie",
@@ -2244,7 +2258,7 @@ address_mapping = {
             "address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
             "decimals": 18
         },
-        "mxnb_mxnb": {
+        "bitso_mxnb": {
             "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
             "decimals": 6
         },
@@ -2861,9 +2875,13 @@ address_mapping = {
             "address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
             "decimals": 18
         },
-        "mxnb_mxnb": {
+        "bitso_mxnb": {
             "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
             "decimals": 6
+        },
+        "bitso_brl1": {
+            "address": "0x5c067c80c00ecd2345b05e83a3e758ef799c40b5",
+            "decimals": 18
         },
         "paytrie_cadc": {
             "address": "0x9de41aff9f55219d5bf4359f167d1d0c772a396d",
@@ -3039,7 +3057,7 @@ address_mapping = {
             "address": "0x02cea97794d2cfb5f560e1ff4e9c59d1bec75969",
             "decimals": 18
         },
-        "mxnb_mxnb": {
+        "bitso_mxnb": {
             "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
             "decimals": 6
         },
