@@ -2185,3 +2185,20 @@ arbitrum_nova:
       to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
       method: "0x6f12b0c9"
       comment: "addSequencerL2BatchFromOrigin (first used 2022-06-25, last used 2022-09-18)"
+
+hemi:
+  name: "Hemi"
+  l1:
+    - from_address: "0x65115c6d23274e0a29a63b69130efe901aa52e7a"
+      to_address: "0xff00000000000000000000000000000000043111"
+      method: null
+      comment: "blob submission to sequencer precompile (first used 2024-09-09)"
+    - from_address: "0x2bd42d6cfa838fb15187f3d59dc19ed169b2659e"
+      to_address: "0x6daf3a3497d8abdfe12915add9829f83a79c0d51"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-09-09)"
+  beacon:
+    - from_address: "0x65115c6d23274e0a29a63b69130efe901aa52e7a"
+      to_address: null
+      method: null
+      comment: "blob submission (first used 2024-09-09)"
