@@ -1705,6 +1705,88 @@ coin_mapping = [
         "fiat": "jpy",
         "logo": "https://coin-images.coingecko.com/coins/images/70314/large/JPYC_400x400.jpg?1761556080",
         "color_hex": "#1A56C0"
+    },
+    {
+        "owner_project": "mxnb",
+        "token_id": "mxnb_mxnb",
+        "symbol": "MXNB",
+        "coingecko_id": [
+            "mxnb"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "mxn",
+        "logo": "https://coin-images.coingecko.com/coins/images/39136/large/MNXB_Logo.png?1746088156",
+        "color_hex": "#baf2c9"
+    },
+    {
+        "owner_project": "paytrie",
+        "token_id": "paytrie_cadc",
+        "symbol": "CADC",
+        "coingecko_id": [
+            "cad-coin"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cad",
+        "logo": "https://coin-images.coingecko.com/coins/images/14149/large/CADC_FINAL_PNG.png?1768979043",
+        "color_hex": "#a71c1c"
+    },
+    {
+        "owner_project": "zarp-stablecoin",
+        "token_id": "zarp-stablecoin_zarp",
+        "symbol": "ZARP",
+        "coingecko_id": [
+            "zarp-stablecoin"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "zar",
+        "logo": "https://coin-images.coingecko.com/coins/images/27333/large/zarp_coin.png?1696526381",
+        "color_hex": "#1A5632"
+    },
+    {
+        "owner_project": "idrx",
+        "token_id": "idrx_idrx",
+        "symbol": "IDRX",
+        "coingecko_id": [
+            "idrx"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "idr",
+        "logo": "https://coin-images.coingecko.com/coins/images/34883/large/IDRX_BLUE_COIN_200x200.png?1734983273",
+        "color_hex": "#2468E0"
+    },
+    {
+        "owner_project": "blox-my",
+        "token_id": "blox-my_myrc",
+        "symbol": "MYRC",
+        "coingecko_id": [
+            "blox-myrc"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "myr",
+        "logo": "https://coin-images.coingecko.com/coins/images/38632/large/myrc-token-trans-200x200.png?1718172187",
+        "color_hex": "#0A1A9C"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_argt",
+        "symbol": "ARGt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "ars",
+        "logo": "https://basescan.org/token/images/twin_argt.svg",
+        "color_hex": "#f6b40e"
     }
 ]
 
@@ -2053,6 +2135,18 @@ address_mapping = {
         "jpycoin_jpyc": {
             "address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
             "decimals": 18
+        },
+        "mxnb_mxnb": {
+            "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
+            "decimals": 6
+        },
+        "paytrie_cadc": {
+            "address": "0xcadc0acd4b445166f12d2c07eac6e2544fbe2eef",
+            "decimals": 18
+        },
+        "zarp-stablecoin_zarp": {
+            "address": "0xb755506531786c8ac63b756bab1ac387bacb0c04",
+            "decimals": 18
         }
     },
     "zksync_era": {
@@ -2339,6 +2433,26 @@ address_mapping = {
         "monerium_iske": {
             "address": "0x1a3237ae46886e416ae25499ec9cd7bf437f25da",
             "decimals": 18
+        },
+        "paytrie_cadc": {
+            "address": "0x043eb4b75d0805c43d7c834902e335621983cf03",
+            "decimals": 18
+        },
+        "zarp-stablecoin_zarp": {
+            "address": "0xb755506531786c8ac63b756bab1ac387bacb0c04",
+            "decimals": 18
+        },
+        "idrx_idrx": {
+            "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
+            "decimals": 2
+        },
+        "blox-my_myrc": {
+            "address": "0x3ed03e95dd894235090b3d4a49e0c3239edce59e",
+            "decimals": 18
+        },
+        "twin-finance_argt": {
+            "address": "0xf016413834e6d1a14f3d628b11d6ef725a6bdbdd",
+            "decimals": 18
         }
     },
     "celo": {
@@ -2447,6 +2561,10 @@ address_mapping = {
         "bilira-org_tryb": {
             "address": "0x2c537e5624e4af88a7ae4060c022609376c8d0eb",
             "decimals": 6
+        },
+        "idrx_idrx": {
+            "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
+            "decimals": 2
         }
     },
     "polygon_pos": {
@@ -2598,6 +2716,22 @@ address_mapping = {
         "jpycoin_jpyc": {
             "address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
             "decimals": 18
+        },
+        "mxnb_mxnb": {
+            "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
+            "decimals": 6
+        },
+        "paytrie_cadc": {
+            "address": "0x9de41aff9f55219d5bf4359f167d1d0c772a396d",
+            "decimals": 18
+        },
+        "zarp-stablecoin_zarp": {
+            "address": "0xb755506531786c8ac63b756bab1ac387bacb0c04",
+            "decimals": 18
+        },
+        "idrx_idrx": {
+            "address": "0x649a2da7b28e0d54c13d5eff95d3a660652742cc",
+            "decimals": 0
         }
     },
     "arbitrum": {
@@ -2759,6 +2893,18 @@ address_mapping = {
         },
         "vnx-li_vchf": {
             "address": "0x02cea97794d2cfb5f560e1ff4e9c59d1bec75969",
+            "decimals": 18
+        },
+        "mxnb_mxnb": {
+            "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
+            "decimals": 6
+        },
+        "paytrie_cadc": {
+            "address": "0x2b28e826b55e399f4d4699b85f68666ac51e6f70",
+            "decimals": 18
+        },
+        "blox-my_myrc": {
+            "address": "0x3ed03e95dd894235090b3d4a49e0c3239edce59e",
             "decimals": 18
         }
     },
@@ -2971,6 +3117,10 @@ address_mapping = {
         },
         "paxosglobal_usdp": {
             "address": "0xd2bc272ea0154a93bf00191c8a1db23e67643ec5",
+            "decimals": 18
+        },
+        "paytrie_cadc": {
+            "address": "0xa0b18e70387ba72d1c7038bc0bd3a05e5a2287f6",
             "decimals": 18
         }
     },
@@ -3272,6 +3422,10 @@ address_mapping = {
         "openusdt": {
             "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
             "decimals": 6
+        },
+        "idrx_idrx": {
+            "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
+            "decimals": 2
         }
     },
     "ronin": {
