@@ -10,6 +10,16 @@ headers = {
     "Content-Type": "application/json"
 }
 
+# Delete the existing table (ignore 404 if it doesn't exist yet)
+delete_url = "https://api.dune.com/api/v1/table/growthepie/l2economics_mapping"
+delete_response = requests.delete(delete_url, headers=headers)
+if delete_response.ok:
+    print("Existing table deleted.")
+elif delete_response.status_code == 404:
+    print("Table does not exist yet, skipping delete.")
+else:
+    raise RuntimeError(f"Dune API table deletion failed: {delete_response.json()}")
+
 # Create the table with the schema matching economics_mapping.csv
 url = "https://api.dune.com/api/v1/table/create"
 payload = {

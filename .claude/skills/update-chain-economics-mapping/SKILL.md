@@ -131,6 +131,7 @@ Show the user the proposed additions as YAML entries. For each new entry include
 - The layer (`l1` or `beacon`)
 - `from_address`, `to_address`, `method` (null where not applicable)
 - A `comment` with the method name (if known) and the `first_used` date from Dune. Only append `last_used` if it is **not today's date** — `last_used` is a deprecation marker for entries that are no longer active. Examples: active entry: `"commitBatches (first used 2024-03-14)"`, deprecated entry: `"commitBatches (first used 2024-03-14, last used 2024-11-30)"`
+- `start_block` / `end_block` (optional) — L1 block numbers that restrict the range over which this entry is counted. Use these when a contract or EOA was only active for a specific block range, such as after a migration cutover where the same address was previously used for a different purpose (e.g. testnet). Omit both fields if the entry should apply to all blocks. If only one bound is known, include only that one. Block numbers can be looked up on Etherscan by finding the first or last transaction for the address.
 
 Only propose **additions**. If an old entry appears to be superseded (same contract, same method, but a newer version now exists), mention it to the user but do not remove it without explicit confirmation.
 
