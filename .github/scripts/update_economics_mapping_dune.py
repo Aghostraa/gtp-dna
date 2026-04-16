@@ -32,6 +32,8 @@ table = [
     for f in filters
 ]
 df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace', 'start_block', 'end_block'])
+df['start_block'] = df['start_block'].astype('Int64')
+df['end_block'] = df['end_block'].astype('Int64')
 df.to_csv('economics_mapping.csv', index=False)
 
 # clear the current table:
