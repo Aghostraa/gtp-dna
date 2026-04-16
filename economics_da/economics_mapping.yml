@@ -2157,6 +2157,10 @@ zklighter:
       to_address: null
       method: null
       comment: "commitBatch (first used 2025-01-17)"
+    - from_address: "0x191ff0ec830f83916a427d169a234c33e48aa79f"
+      to_address: null
+      method: null
+      comment: "commitBatch (first used 2025-12-18)"
 
 katana:
   name: "Katana"
