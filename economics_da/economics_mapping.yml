@@ -2202,17 +2202,17 @@ hemi:
       to_address: null
       method: null
       comment: "blob submission (first used 2024-09-09)"
-      
+
 xlayer:
   name: "X Layer"
   l1:
     - from_address: "0x98245d0adf4595c66f0a9db8e13c44cbff6be459"
       to_address: "0x002bde9b0c0857aee2cffdea6b8723eaf5989449"
-      method: "0x"
+      method: null
       comment: "blob batch submission (first used 2025-12-24)"
     - from_address: "0xdfd6c636dcb5a013c2431316c4a0762b84e70a5d"
       to_address: "0x002bde9b0c0857aee2cffdea6b8723eaf5989449"
-      method: "0x"
+      method: null
       comment: "blob batch submission (first used 2025-10-27, last used 2025-12-24)"
     - from_address: "0xe43944421681170648e10007f73816e04f74394f"
       to_address: "0x9d4c8faeaddddeee1ed0c92dabad815c2484f675"
