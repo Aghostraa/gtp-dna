@@ -31,9 +31,9 @@ payload = {
         {"name": "l2",               "type": "varchar"},
         {"name": "name",             "type": "varchar"},
         {"name": "settlement_layer", "type": "varchar"},
-        {"name": "from_address",     "type": "varchar"},
-        {"name": "to_address",       "type": "varchar"},
-        {"name": "method",           "type": "varchar"},
+        {"name": "from_address",     "type": "varbinary"},
+        {"name": "to_address",       "type": "varbinary"},
+        {"name": "method",           "type": "varbinary"},
         {"name": "namespace",        "type": "varchar"},
         {"name": "start_block",      "type": "bigint"},
         {"name": "end_block",        "type": "bigint"}

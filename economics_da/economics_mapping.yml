@@ -2157,6 +2157,10 @@ zklighter:
       to_address: null
       method: null
       comment: "commitBatch (first used 2025-01-17)"
+    - from_address: "0x191ff0ec830f83916a427d169a234c33e48aa79f"
+      to_address: null
+      method: null
+      comment: "commitBatch (first used 2025-12-18)"
 
 katana:
   name: "Katana"
@@ -2181,3 +2185,45 @@ arbitrum_nova:
       to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
       method: "0x6f12b0c9"
       comment: "addSequencerL2BatchFromOrigin (first used 2022-06-25, last used 2022-09-18)"
+
+hemi:
+  name: "Hemi"
+  l1:
+    - from_address: "0x65115c6d23274e0a29a63b69130efe901aa52e7a"
+      to_address: "0xff00000000000000000000000000000000043111"
+      method: null
+      comment: "blob submission to sequencer precompile (first used 2024-09-09)"
+    - from_address: "0x2bd42d6cfa838fb15187f3d59dc19ed169b2659e"
+      to_address: "0x6daf3a3497d8abdfe12915add9829f83a79c0d51"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-09-09)"
+  beacon:
+    - from_address: "0x65115c6d23274e0a29a63b69130efe901aa52e7a"
+      to_address: null
+      method: null
+      comment: "blob submission (first used 2024-09-09)"
+
+xlayer:
+  name: "X Layer"
+  l1:
+    - from_address: "0x98245d0adf4595c66f0a9db8e13c44cbff6be459"
+      to_address: "0x002bde9b0c0857aee2cffdea6b8723eaf5989449"
+      method: null
+      comment: "blob batch submission (first used 2025-12-24)"
+    - from_address: "0xdfd6c636dcb5a013c2431316c4a0762b84e70a5d"
+      to_address: "0x002bde9b0c0857aee2cffdea6b8723eaf5989449"
+      method: null
+      comment: "blob batch submission (first used 2025-10-27, last used 2025-12-24)"
+    - from_address: "0xe43944421681170648e10007f73816e04f74394f"
+      to_address: "0x9d4c8faeaddddeee1ed0c92dabad815c2484f675"
+      method: "0x82ecf2f6"
+      comment: "create / propose dispute game (DisputeGameFactory, first used 2025-10-27)"
+  beacon:
+    - from_address: "0x98245d0adf4595c66f0a9db8e13c44cbff6be459"
+      to_address: null
+      method: null
+      comment: "blob batch submission (first used 2025-12-24)"
+    - from_address: "0xdfd6c636dcb5a013c2431316c4a0762b84e70a5d"
+      to_address: null
+      method: null
+      comment: "blob batch submission (first used 2025-10-27, last used 2025-12-24)"
