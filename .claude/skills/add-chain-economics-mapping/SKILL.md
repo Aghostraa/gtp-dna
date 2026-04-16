@@ -100,6 +100,7 @@ Show the user the proposed mapping entries derived from the Dune results. For ea
 - The layer (`l1` or `beacon`)
 - `from_address`, `to_address`, `method` (null if not applicable)
 - A suggested `comment` with the method name (if known) and the `first_used` date from Dune. Only append `last_used` if it is **not today's date** — `last_used` is a deprecation marker for entries that are no longer active. Examples: active entry: `"commitBatches (first used 2024-03-14)"`, deprecated entry: `"commitBatches (first used 2024-03-14, last used 2024-11-30)"`
+- `start_block` / `end_block` (optional) — L1 block numbers that restrict the range over which this entry is counted. Use these when a contract or EOA was only active for a specific block range (e.g. an address shared with a testnet deployment, or one that was rotated mid-chain-lifetime). Omit both fields if the entry should apply to all blocks. Block numbers can be looked up on Etherscan.
 
 Ask the user to confirm, correct, or add any missing entries before writing.
 
