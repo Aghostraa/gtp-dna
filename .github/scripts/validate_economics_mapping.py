@@ -25,7 +25,9 @@ try:
                         f.get('from_address'),
                         f.get('to_address'),
                         f.get('method'),
-                        f.get('namespace') if settlement_layer in ['celestia', 'eigenda'] else None
+                        f.get('namespace') if settlement_layer in ['celestia', 'eigenda'] else None,
+                        f.get('start_block'),
+                        f.get('end_block')
                     ]
                     table.append(row)
 except Exception as e:
@@ -35,7 +37,7 @@ except Exception as e:
 
 # Create DataFrame
 try:
-    df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
+    df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace', 'start_block', 'end_block'])
 except Exception as e:
     print("❌ ERROR: Failed to create DataFrame from extracted data")
     print(f"Error details: {e}")
