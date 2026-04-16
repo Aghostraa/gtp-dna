@@ -2071,7 +2071,7 @@ megaeth:
     - from_address: "0xb98c6b1a805b96707a43e1f1acfa163b68098fa6"
       to_address: "0x02B8d1329B653d6f53A8420C8DDbBbb5518F51b2"
       method: "0x01010002"
-      comment: "EigenDA certificate via BunnyInbox (first used 2026-02-09, last used 2026-04-14)"
+      comment: "EigenDA certificate BunnyInbox (first used 2026-02-09, last used 2026-04-14)"
     - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
       to_address: "0xE4e456c64B9b0de5FE8a90d809180cA71534D623"
       method: "0xca0dc973"
