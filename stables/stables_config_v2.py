@@ -1859,7 +1859,7 @@ coin_mapping = [
         "bridged_origin_chain": None,
         "bridged_origin_token_id": None,
         "fiat": "clp",
-        "logo": None,
+        "logo": "https://cdn.prod.website-files.com/691604fea8353e631ea3e0e7/692f51fc8f158992cd380af0_chl.avif",
         "color_hex": "#db281c"
     },
     {
@@ -1871,7 +1871,7 @@ coin_mapping = [
         "bridged_origin_chain": None,
         "bridged_origin_token_id": None,
         "fiat": "bob",
-        "logo": None,
+        "logo": "https://cdn.prod.website-files.com/691604fea8353e631ea3e0e7/691a1d452fa84bbebe66474a_bol.avif",
         "color_hex": "#d52a1f"
     },
     {
@@ -1883,7 +1883,7 @@ coin_mapping = [
         "bridged_origin_chain": None,
         "bridged_origin_token_id": None,
         "fiat": "pyg",
-        "logo": None,
+        "logo": "https://cdn.prod.website-files.com/691604fea8353e631ea3e0e7/691a1d7754c188be4e924285_par.avif",
         "color_hex": "#871c17"
     },
     {
@@ -1895,7 +1895,7 @@ coin_mapping = [
         "bridged_origin_chain": None,
         "bridged_origin_token_id": None,
         "fiat": "uyu",
-        "logo": None,
+        "logo": "https://cdn.prod.website-files.com/691604fea8353e631ea3e0e7/691a1d846437a3b0acce1f8c_uru.avif",
         "color_hex": "#1638a7"
     },
     {
@@ -1907,7 +1907,7 @@ coin_mapping = [
         "bridged_origin_chain": None,
         "bridged_origin_token_id": None,
         "fiat": "ves",
-        "logo": None,
+        "logo": "https://cdn.prod.website-files.com/691604fea8353e631ea3e0e7/691a1d90f40ad957b6845238_ven.avif",
         "color_hex": "#ceae1e"
     }
 ]
