@@ -17,19 +17,21 @@ with open('economics_da/economics_mapping.yml') as f:
     data = yaml.load(f, Loader=yaml.FullLoader)
 table = [
     [
-        L2, 
+        L2,
         layers.get('name'),
-        settlement_layer, 
-        f.get('from_address'), 
-        f.get('to_address'), 
-        f.get('method'), 
-        f.get('namespace') if settlement_layer == 'celestia' else None
+        settlement_layer,
+        f.get('from_address'),
+        f.get('to_address'),
+        f.get('method'),
+        f.get('namespace') if settlement_layer == 'celestia' else None,
+        f.get('start_block'),
+        f.get('end_block')
     ]
     for L2, layers in data.items()
     for settlement_layer, filters in layers.items() if isinstance(filters, list)
     for f in filters
 ]
-df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
+df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace', 'start_block', 'end_block'])
 df.to_csv('economics_mapping.csv', index=False)
 
 # clear the current table:

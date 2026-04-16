@@ -24,7 +24,9 @@ payload = {
         {"name": "from_address",     "type": "varchar"},
         {"name": "to_address",       "type": "varchar"},
         {"name": "method",           "type": "varchar"},
-        {"name": "namespace",        "type": "varchar"}
+        {"name": "namespace",        "type": "varchar"},
+        {"name": "start_block",      "type": "bigint"},
+        {"name": "end_block",        "type": "bigint"}
     ]
 }
 
