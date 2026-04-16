@@ -1786,7 +1786,115 @@ coin_mapping = [
         "bridged_origin_token_id": None,
         "fiat": "ars",
         "logo": "https://basescan.org/token/images/twin_argt.svg",
-        "color_hex": "#f6b40e"
+        "color_hex": "#74ace0"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_brat",
+        "symbol": "BRAt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "brl",
+        "logo": "https://basescan.org/token/images/twinfinance_brat.svg",
+        "color_hex": "#2d9440"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_colt",
+        "symbol": "COLt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cop",
+        "logo": "https://basescan.org/token/images/twinfinance_colt.svg",
+        "color_hex": "#0a2057"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_pert",
+        "symbol": "PERt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "pen",
+        "logo": "https://basescan.org/token/images/twinfinance_pert.svg",
+        "color_hex": "#cacaca"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_mext",
+        "symbol": "MEXt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "mxn",
+        "logo": "https://basescan.org/token/images/twinfinance_mext.svg",
+        "color_hex": "#1d6746"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_chlt",
+        "symbol": "CHLt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "clp",
+        "logo": None,
+        "color_hex": "#db281c"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_bolt",
+        "symbol": "BOLt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "bob",
+        "logo": None,
+        "color_hex": "#d52a1f"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_pryt",
+        "symbol": "PRYt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "pyg",
+        "logo": None,
+        "color_hex": "#871c17"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_uryt",
+        "symbol": "URYt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "uyu",
+        "logo": None,
+        "color_hex": "#1638a7"
+    },
+    {
+        "owner_project": "twin-finance",
+        "token_id": "twin-finance_vent",
+        "symbol": "VENt",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "ves",
+        "logo": None,
+        "color_hex": "#ceae1e"
     }
 ]
 
@@ -2452,6 +2560,42 @@ address_mapping = {
         },
         "twin-finance_argt": {
             "address": "0xf016413834e6d1a14f3d628b11d6ef725a6bdbdd",
+            "decimals": 18
+        },
+        "twin-finance_brat": {
+            "address": "0xfee29845569570f8e0119291dff77b7b93283aab",
+            "decimals": 18
+        },
+        "twin-finance_colt": {
+            "address": "0xd70ad085684b2a9f4b5d54d7bdb2eca37a273216",
+            "decimals": 18
+        },
+        "twin-finance_pert": {
+            "address": "0xd09aba2969b822d66dc4bc3bb58ee520bcf9f0c3",
+            "decimals": 18
+        },
+        "twin-finance_mext": {
+            "address": "0x59863989d080b22476db95656d0c3cc18be92214",
+            "decimals": 18
+        },
+        "twin-finance_chlt": {
+            "address": "0x95ef2370166b250e7ce3b8f236c7e7e9fed12c2e",
+            "decimals": 18
+        },
+        "twin-finance_bolt": {
+            "address": "0x1d2e8c1fe82ab2ad8dc43ed98a2f507dfb5b4995",
+            "decimals": 18
+        },
+        "twin-finance_pryt": {
+            "address": "0x9d5855c52e2c3d07dc5120789f484e6d1d32a985",
+            "decimals": 18
+        },
+        "twin-finance_uryt": {
+            "address": "0xc5f7edbedb4c61bc351dbb69d12077af491270cb",
+            "decimals": 18
+        },
+        "twin-finance_vent": {
+            "address": "0xa1685112cb61210ab2a929c9ce370a4fd381d8be",
             "decimals": 18
         }
     },
