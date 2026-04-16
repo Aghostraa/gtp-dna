@@ -129,6 +129,8 @@ Append to the **end** of `economics_da/economics_mapping.yml`. Only include fee 
     - from_address: {value or null}
       to_address: {value or null}
       method: {value or null}
+      start_block: {block number or omit}   # optional: first L1 block this entry is valid from
+      end_block: {block number or omit}     # optional: last L1 block this entry is valid up to
       comment: "{description}"
   beacon:
     - from_address: {value or null}
@@ -141,6 +143,8 @@ Append to the **end** of `economics_da/economics_mapping.yml`. Only include fee 
   eigenda:
     - namespace: "{hex_or_ip_namespace}"
 ```
+
+Only include `start_block` / `end_block` when needed — omit them entirely for entries that apply to all blocks.
 
 ## Step 8 — Done
 
