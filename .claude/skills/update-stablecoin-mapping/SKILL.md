@@ -169,7 +169,26 @@ Ask the user to confirm before writing anything.
 ## Step 6 — Write the changes
 
 1. **`coin_mapping`** (new token only): append the new dict at the end of the `coin_mapping` list, before the closing `]`. Match existing formatting (4-space indent).
-2. **`address_mapping`** (new chain addresses): insert the new `token_id` entry inside the existing chain block. Keep addresses lowercase. Do not add comments inside `address_mapping`.
+2. **`address_mapping`** (new chain addresses): **always** look up the exact line range first, then insert into the correct chain block:
+
+```bash
+python .claude/skills/update-stablecoin-mapping/scripts/get_address_mapping_lines.py <origin_key>
+```
+
+This returns:
+```json
+{
+  "polygon_pos": {
+    "block_start": 2728,
+    "last_entry_end": 2897,
+    "block_end": 2898
+  }
+}
+```
+
+Read from `last_entry_end - 5` to `block_end` to see the final token entry, then insert the new entry after it (before the closing `}`). **Never rely on string-matching a token address or token_id to locate the insertion point** — the same token_id (e.g. `tetherto_usdte`) appears in many chains and will match the wrong block. Always use the line numbers from this script.
+
+Keep addresses lowercase. Do not add comments inside `address_mapping`.
 
 ## Step 7 — Done
 
