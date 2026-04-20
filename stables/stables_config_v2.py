@@ -1909,6 +1909,20 @@ coin_mapping = [
         "fiat": "ves",
         "logo": "https://cdn.prod.website-files.com/691604fea8353e631ea3e0e7/691a1d90f40ad957b6845238_ven.avif",
         "color_hex": "#ceae1e"
+    },
+    {
+        "owner_project": "anchorx",
+        "token_id": "anchorx_axcnh",
+        "symbol": "AXCNH",
+        "coingecko_id": [
+            "axcnh"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cnh",
+        "logo": "https://coin-images.coingecko.com/coins/images/70634/large/AnchorX_logo_RGB-01.png?1762887300",
+        "color_hex": "#1A5F9A"
     }
 ]
 
@@ -2269,6 +2283,10 @@ address_mapping = {
         "zarp-stablecoin_zarp": {
             "address": "0xb755506531786c8ac63b756bab1ac387bacb0c04",
             "decimals": 18
+        },
+        "anchorx_axcnh": {
+            "address": "0x2925ac3be7d585874b88ea51ed50add376ad8239",
+            "decimals": 6
         }
     },
     "zksync_era": {
