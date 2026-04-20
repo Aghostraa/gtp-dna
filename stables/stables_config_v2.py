@@ -2620,7 +2620,10 @@ address_mapping = {
         },
         "tetherto_usdt": {
             "address": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbB0a0Afe71e0F007B949"
+            ]
         },
         "mountainprotocol_usdm": {
             "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
