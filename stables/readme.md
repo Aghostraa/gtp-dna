@@ -68,6 +68,20 @@ ORDER BY date DESC;
 - We track **local token addresses on each chain** (not bridge contracts).
 - Always track `decimals` per address because decimal places can differ across chains.
 
+### `exclude_balances`
+
+Optional list of wallet/contract addresses whose token balances should be **excluded** from the total supply calculation for this token on this chain. Useful for excluding treasury wallets, foundation reserves, or any address that holds tokens not in circulation.
+
+```json
+"tetherto_cnht": {
+    "address": "0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef",
+    "decimals": 6,
+    "exclude_balances": [
+        "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+    ]
+}
+```
+
 ### Date window fields (`min_date` / `max_date`)
 
 Both fields are optional and can be added to any individual address entry under `address_mapping` to restrict the backfill window to a date range (doesn't work for `track_on_l1`).

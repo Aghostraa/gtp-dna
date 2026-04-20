@@ -158,7 +158,10 @@ Present exactly what will be written.
 # Under address_mapping["<origin_key>"]:
 "<token_id>": {
     "address": "0x...",    # local token address on this chain, lowercase
-    "decimals": 6
+    "decimals": 6,
+    "exclude_balances": [  # optional: addresses to exclude from supply (e.g. treasury, reserves)
+        "0x..."
+    ]
 }
 ```
 
