@@ -2420,7 +2420,10 @@ address_mapping = {
         },
         "makerdao_usds": {
             "address": "0x7E10036Acc4B56d4dFCa3b77810356CE52313F9C",
-            "decimals": 18
+            "decimals": 18,
+            "exclude_balances": [
+                "0x345E368fcCd62266B3f5F37C9a131FD1c39f5869"
+            ]
         },
         "makerdao_daie": {
             "address": "0x20CAb320A855b39F724131C69424240519573f81",
@@ -2480,7 +2483,10 @@ address_mapping = {
         },
         "makerdao_usds": {
             "address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
-            "decimals": 18
+            "decimals": 18,
+            "exclude_balances": [
+                "0x2917956eFF0B5eaF030abDB4EF4296DF775009cA"
+            ]
         },
         "makerdao_daie": {
             "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
@@ -2976,7 +2982,10 @@ address_mapping = {
         },
         "makerdao_usds": {
             "address": "0x6491c05a82219b8d1479057361ff1654749b876b",
-            "decimals": 18
+            "decimals": 18,
+            "exclude_balances": [
+                "0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709"
+            ]
         },
         "makerdao_daie": {
             "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
@@ -3192,7 +3201,10 @@ address_mapping = {
         },
         "makerdao_usds": {
             "address": "0x4f13a96ec5c4cf34e442b46bbd98a0791f20edc3",
-            "decimals": 18
+            "decimals": 18,
+            "exclude_balances": [
+                "0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB"
+            ]
         },
         "ethena_usde": {
             "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
