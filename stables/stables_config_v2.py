@@ -2314,11 +2314,17 @@ address_mapping = {
         },
         "tetherto_cnht": {
             "address": "0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
         },
         "tetherto_mxnt": {
             "address": "0xed03ed872159e199065401b6d0d487d78d9464aa",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
         }
     },
     "zksync_era": {
@@ -2672,7 +2678,7 @@ address_mapping = {
             "address": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
             "decimals": 6,
             "exclude_balances": [
-                "0x5754284f345afc66a98fbB0a0Afe71e0F007B949"
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
             ]
         },
         "mountainprotocol_usdm": {
