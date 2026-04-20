@@ -1969,11 +1969,17 @@ address_mapping = {
         },
         "tetherto_usdt": {
             "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
         },
         "tetherto_eurt": {
             "address": "0xc581b735a1688071a1746c968e0798d642ede491",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
         },
         "tetherto_usat": {
             "address": "0x07041776f5007aca2a54844f50503a18a72a8b68",
