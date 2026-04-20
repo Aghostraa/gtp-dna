@@ -44,7 +44,7 @@ Example entry:
 - `token_id`: unique identifier. Recommended format: `owner_project + "_" + symbol`.
 - `metric_key`: either `direct` or `bridged`.
 - If `metric_key == "bridged"`, then both `bridged_origin_chain` and `bridged_origin_token_id` are required. These define the canonical stablecoin to deduct bridged amounts from to avoid double counting.
-- `fiat`: must match a fiat key defined in `backend/src/currency_config.py` (see the `fiat_*` entries in the DB).
+- `fiat`: must match a fiat key defined in [fiat.json](https://raw.githubusercontent.com/growthepie/gtp-frontend/a570d6bf4856df66734eb6b4ddc6e2cdc164a71f/public/dicts/fiat.json).
 
 Reference query for fiat keys:
 
@@ -67,6 +67,20 @@ ORDER BY date DESC;
 - Maps `token_id` to per‑chain addresses.
 - We track **local token addresses on each chain** (not bridge contracts).
 - Always track `decimals` per address because decimal places can differ across chains.
+
+### `exclude_balances`
+
+Optional list of wallet/contract addresses whose token balances should be **excluded** from the total supply calculation for this token on this chain. Useful for excluding treasury wallets, foundation reserves, or any address that holds tokens not in circulation.
+
+```json
+"tetherto_cnht": {
+    "address": "0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef",
+    "decimals": 6,
+    "exclude_balances": [
+        "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+    ]
+}
+```
 
 ### Date window fields (`min_date` / `max_date`)
 

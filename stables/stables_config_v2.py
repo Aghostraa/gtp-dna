@@ -162,6 +162,30 @@ coin_mapping = [
         "color_hex": "#D0B050"
     },
     {
+        "owner_project": "tetherto",
+        "token_id": "tetherto_cnht",
+        "symbol": "CNHT",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cny",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4513.png",
+        "color_hex": "#009076"
+    },
+    {
+        "owner_project": "tetherto",
+        "token_id": "tetherto_mxnt",
+        "symbol": "MXNT",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "mxn",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20322.png",
+        "color_hex": "#006847"
+    },
+    {
         "owner_project": "makerdao",
         "token_id": "makerdao_dai",
         "symbol": "DAI",
@@ -1909,6 +1933,20 @@ coin_mapping = [
         "fiat": "ves",
         "logo": "https://cdn.prod.website-files.com/691604fea8353e631ea3e0e7/691a1d90f40ad957b6845238_ven.avif",
         "color_hex": "#ceae1e"
+    },
+    {
+        "owner_project": "anchorx",
+        "token_id": "anchorx_axcnh",
+        "symbol": "AXCNH",
+        "coingecko_id": [
+            "axcnh"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cny",
+        "logo": "https://coin-images.coingecko.com/coins/images/70634/large/AnchorX_logo_RGB-01.png?1762887300",
+        "color_hex": "#1A5F9A"
     }
 ]
 
@@ -1931,11 +1969,17 @@ address_mapping = {
         },
         "tetherto_usdt": {
             "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
         },
         "tetherto_eurt": {
             "address": "0xc581b735a1688071a1746c968e0798d642ede491",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
         },
         "tetherto_usat": {
             "address": "0x07041776f5007aca2a54844f50503a18a72a8b68",
@@ -2269,6 +2313,24 @@ address_mapping = {
         "zarp-stablecoin_zarp": {
             "address": "0xb755506531786c8ac63b756bab1ac387bacb0c04",
             "decimals": 18
+        },
+        "anchorx_axcnh": {
+            "address": "0x2925ac3be7d585874b88ea51ed50add376ad8239",
+            "decimals": 6
+        },
+        "tetherto_cnht": {
+            "address": "0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef",
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
+        },
+        "tetherto_mxnt": {
+            "address": "0xed03ed872159e199065401b6d0d487d78d9464aa",
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
         }
     },
     "zksync_era": {
@@ -2620,7 +2682,10 @@ address_mapping = {
         },
         "tetherto_usdt": {
             "address": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
+            ]
         },
         "mountainprotocol_usdm": {
             "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
