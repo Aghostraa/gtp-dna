@@ -44,7 +44,7 @@ Example entry:
 - `token_id`: unique identifier. Recommended format: `owner_project + "_" + symbol`.
 - `metric_key`: either `direct` or `bridged`.
 - If `metric_key == "bridged"`, then both `bridged_origin_chain` and `bridged_origin_token_id` are required. These define the canonical stablecoin to deduct bridged amounts from to avoid double counting.
-- `fiat`: must match a fiat key defined in `backend/src/currency_config.py` (see the `fiat_*` entries in the DB).
+- `fiat`: must match a fiat key defined in [fiat.json](https://raw.githubusercontent.com/growthepie/gtp-frontend/a570d6bf4856df66734eb6b4ddc6e2cdc164a71f/public/dicts/fiat.json).
 
 Reference query for fiat keys:
 

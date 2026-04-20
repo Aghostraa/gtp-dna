@@ -162,6 +162,30 @@ coin_mapping = [
         "color_hex": "#D0B050"
     },
     {
+        "owner_project": "tetherto",
+        "token_id": "tetherto_cnht",
+        "symbol": "CNHT",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cny",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4513.png",
+        "color_hex": "#009076"
+    },
+    {
+        "owner_project": "tetherto",
+        "token_id": "tetherto_mxnt",
+        "symbol": "MXNT",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "mxn",
+        "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20322.png",
+        "color_hex": "#006847"
+    },
+    {
         "owner_project": "makerdao",
         "token_id": "makerdao_dai",
         "symbol": "DAI",
@@ -1920,7 +1944,7 @@ coin_mapping = [
         "metric_key": "direct",
         "bridged_origin_chain": None,
         "bridged_origin_token_id": None,
-        "fiat": "cnh",
+        "fiat": "cny",
         "logo": "https://coin-images.coingecko.com/coins/images/70634/large/AnchorX_logo_RGB-01.png?1762887300",
         "color_hex": "#1A5F9A"
     }
@@ -2286,6 +2310,14 @@ address_mapping = {
         },
         "anchorx_axcnh": {
             "address": "0x2925ac3be7d585874b88ea51ed50add376ad8239",
+            "decimals": 6
+        },
+        "tetherto_cnht": {
+            "address": "0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef",
+            "decimals": 6
+        },
+        "tetherto_mxnt": {
+            "address": "0xed03ed872159e199065401b6d0d487d78d9464aa",
             "decimals": 6
         }
     },
