@@ -1217,7 +1217,7 @@ coin_mapping = [
         "token_id": "allunity_chfau",
         "symbol": "CHFAU",
         "coingecko_id": [
-            "allunity-chfau"
+            "allunity-chf"
         ],
         "metric_key": "direct",
         "bridged_origin_chain": None,
@@ -2331,6 +2331,10 @@ address_mapping = {
             "exclude_balances": [
                 "0x5754284f345afc66a98fbb0a0afe71e0f007b949"
             ]
+        },
+        "allunity_chfau": {
+            "address": "0xbd4dfc058eb95b8de5ceaf39966a1a70f5556f78",
+            "decimals": 6
         }
     },
     "zksync_era": {
