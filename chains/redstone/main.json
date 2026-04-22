@@ -53,7 +53,7 @@
     "aliases_defillama": "redstone",
     "aliases_dune": null,
     
-    "deployed_supplyreader": "2025-09-23",
+    "deployed_supplyreader": null,
 
     "metadata_description": "Redstone is a chain built from the ground up for onchain games and autonomous worlds",
     "metadata_symbol": null,
@@ -94,14 +94,8 @@
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
-    "runs_archive_raw_tx": true,
-    "runs_delete_archived_raw_tx": true,
-
-    "archive_tables": [
-        "fact_active_addresses",
-        "blockspace_fact_contract_level_hourly",
-        "uops"
-    ],
+    "runs_archive_raw_tx": false,
+    "runs_delete_archived_raw_tx": false,
 
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 50,

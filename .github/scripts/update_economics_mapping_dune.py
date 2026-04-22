@@ -17,19 +17,23 @@ with open('economics_da/economics_mapping.yml') as f:
     data = yaml.load(f, Loader=yaml.FullLoader)
 table = [
     [
-        L2, 
+        L2,
         layers.get('name'),
-        settlement_layer, 
-        f.get('from_address'), 
-        f.get('to_address'), 
-        f.get('method'), 
-        f.get('namespace') if settlement_layer == 'celestia' else None
+        settlement_layer,
+        f.get('from_address'),
+        f.get('to_address'),
+        f.get('method'),
+        f.get('namespace') if settlement_layer == 'celestia' else None,
+        f.get('start_block'),
+        f.get('end_block')
     ]
     for L2, layers in data.items()
     for settlement_layer, filters in layers.items() if isinstance(filters, list)
     for f in filters
 ]
-df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace'])
+df = pd.DataFrame(table, columns=['l2', 'name', 'settlement_layer', 'from_address', 'to_address', 'method', 'namespace', 'start_block', 'end_block'])
+df['start_block'] = df['start_block'].astype('Int64')
+df['end_block'] = df['end_block'].astype('Int64')
 df.to_csv('economics_mapping.csv', index=False)
 
 # clear the current table:
@@ -41,4 +45,7 @@ url = "https://api.dune.com/api/v1/table/growthepie/l2economics_mapping/insert"
 headers['Content-Type'] = "text/csv"
 with open("./economics_mapping.csv", "rb") as data:
   response = requests.request("POST", url, data=data, headers=headers)
-  print(response.json())
+  result = response.json()
+  print(result)
+  if 'error' in result or not response.ok:
+    raise RuntimeError(f"Dune API upload failed: {result}")

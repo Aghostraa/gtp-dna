@@ -21,12 +21,6 @@
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
 
-    "archive_tables": [
-        "fact_active_addresses",
-        "blockspace_fact_contract_level_hourly",
-        "uops"
-    ],
-
     "bucket": "Superchain",
 
     "ecosystem_old": [

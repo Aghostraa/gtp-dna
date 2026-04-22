@@ -51,7 +51,13 @@ attesters:
         confidence: 0.4
   - address: "0x53AE41B0E48A33eDf13e01b7136025f744c973e3"
     description: "johncalabrese"
-    confidence: 0.4
+    filters:
+      - tag_id: "contract_name"
+        confidence: 0.4
+      - tag_id: "track_outflow"
+        confidence: 0.4
+      - tag_id: "etf_ticker"
+        confidence: 0.4
   - address: "0x8DBAE854E53AEDFC3B8D78F7C1ADD53935939192"
     description: "Sourcify"
     filters:

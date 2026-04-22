@@ -99,11 +99,6 @@
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
 
-    "archive_tables": [
-        "fact_active_addresses",
-        "uops"
-    ],
-
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
 

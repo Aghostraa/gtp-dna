@@ -18,8 +18,8 @@
     "runs_aggregate_blockspace": false,
     "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
-    "runs_archive_raw_tx": true,
-    "runs_delete_archived_raw_tx": true,
+    "runs_archive_raw_tx": false,
+    "runs_delete_archived_raw_tx": false,
 
     "bucket": "Arbitrum Chains",
 
@@ -71,7 +71,7 @@
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_api_deployment_flag": "DEV",
+    "api_api_deployment_flag": "ARCHIVE",
     "api_api_exclude_metrics": ["blockspace", "stables_mcap", "profit", "market_cap", "fdv"],
     "api_tab_status": {
         "overview": "active",

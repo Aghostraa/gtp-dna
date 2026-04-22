@@ -158,9 +158,19 @@ gravity:
       method: "0x54ce8961"
       comment: "stakeOnNewNode (first used 2024-05-21)"
     - from_address: null
+      to_address: "0x2807B1d5d94ca823ca7d8642A5F5DDac120ce48f"
+      method: "0x3b86de19"
+      comment: "stakeOnNewAssertion (first used 2026-02-13, last used 2026-03-13)"
+    - from_address: null
+      to_address: "0x2807B1d5d94ca823ca7d8642A5F5DDac120ce48f"
+      method: "0x10b98a35"
+      comment: "confirmAssertion (first used 2026-02-15, last used 2026-03-13)"
+    - from_address: null
       to_address: "0x8D99372612e8cFE7163B1a453831Bc40eAeb3cF3"
       method: "0x8f111f3c"
       comment: "addSequencerL2BatchFromOrigin (first used 2024-05-19)"
+  celestia:
+    - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABH1QsY4w6WU="
 
 optimism:
   name: "OP Mainnet"
@@ -447,6 +457,10 @@ hashkey:
       to_address: "0x0004cb44C80b6Fbf8ceb1d80AF688C9f7C0b2aB5"
       method: null
       comment: "commit blob (first used 2025-04-10)"
+    - from_address: "0x5e70713222FaF60c9e9fB69240D06ae6D688563A"
+      to_address: "0x0004cb44C80b6Fbf8ceb1d80AF688C9f7C0b2aB5"
+      method: null
+      comment: "commit blob (first used 2026-03-04)"
     - from_address: "0xAdC9eAdA4070f9f363F41c21fA1C2d84FF2E0803"
       to_address: null
       method: "0x2810e1d6"
@@ -480,6 +494,10 @@ hashkey:
       to_address: null
       method: null
       comment: "blob producer (first used 2025-04-10)"
+    - from_address: "0x5e70713222FaF60c9e9fB69240D06ae6D688563A"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2026-03-04)"
 
 zora:
   name: "Zora"
@@ -1012,7 +1030,7 @@ starknet:
       comment: "blob producer"
 
 zksync_era:
-  name: "ZKsync Era" # chain_address: 0x32400084C286CF3E17e7B677ea9583e60a000324 (or 0x6e96d1172a6593d5027af3c2664c5112ca75f2b9)
+  name: "ZKsync Era"
   l1:
     - from_address: null
       to_address: "0x3dB52cE065f728011Ac6732222270b3F2360d919"
@@ -1077,11 +1095,19 @@ zksync_era:
     - from_address: "0x14f19299476664665eda17dbb7da7e62e3253aa8"
       to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-12-02, last used 2026-02-20)"
     - from_address: "0x7d95f0b9d3383d58e39a75a67760aa2153d355a2"
       to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2025-12-02)"
+      comment: "commitBatchesSharedBridge (first used 2025-12-02, last used 2026-02-20)"
+    - from_address: "0x882a6c2ecbabffc40686d599a9375ad3b35427fd"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2026-02-01)"
+    - from_address: "0xc75cdcbeef3ae3365abf0217815748586f9047f1"
+      to_address: "0x2e5110cF18678Ec99818bFAa849B8C881744b776"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2026-02-01)"
   beacon:
     - from_address: "0x0d3250c3d5facb74ac15834096397a3ef790ec99"
       to_address: null
@@ -1094,7 +1120,11 @@ zksync_era:
     - from_address: "0x7d95f0b9d3383d58e39a75a67760aa2153d355a2"
       to_address: null
       method: null
-      comment: "commitBatchesSharedBridge (first used 2025-10-21)"
+      comment: "commitBatchesSharedBridge (first used 2025-10-21, last used 2026-02-20)"
+    - from_address: "0xc75cdcbeef3ae3365abf0217815748586f9047f1"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2026-02-01)"
 
 sophon:
   name: "Sophon" # chain_address: 0x05eDE6aD1f39B7A16C949d5C33a0658c9C7241e3
@@ -1759,18 +1789,6 @@ soneium:
       method: null
       comment: "Commit Blob (first used 2024-12-02)"
 
-arbitrum_nova:
-  name: "Arbitrum Nova"
-  l1:
-    - from_address: null
-      to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
-      method: "0x8f111f3c"
-      comment: "addSequencerL2BatchFromOrigin (first used 2022-09-18)"
-    - from_address: null
-      to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
-      method: "0x6f12b0c9"
-      comment: "addSequencerL2BatchFromOrigin (first used 2022-06-25, last used 2022-09-18)"
-
 # chain shut down as of 2025-07-20
 real:
   name: "Re.al"
@@ -2029,6 +2047,16 @@ polymer:
 
 megaeth_testnet:
   name: "MegaETH Testnet"
+  l1:
+    - from_address: "0xb98c6b1a805b96707a43e1f1acfa163b68098fa6"
+      to_address: "0x00656C604FC470e6a566A695B74455e18a6D75D3"
+      method: null
+      end_block: 24416445
+      comment: "EigenDA certificate (first used 2025-11-13, last used 2026-02-09)"
+    - from_address: "0x454ef2f69f91527856e06659f92a66f464c1ca4e"
+      to_address: "0x870679E138bCdf293b7Ff14dD44b70FC97e12fc0"
+      method: "0x7794965a"
+      comment: "EigenDA v1 confirmBatch EigenDAServiceManager (first used 2024-05-22, last used 2026-02-05)"
   eigenda:
     - namespace: "0xcd1161b78f01da838ce0d42ec750891ec8708f1d"
 
@@ -2036,9 +2064,27 @@ megaeth:
   name: "MegaETH"
   l1:
     - from_address: "0xb98c6b1a805b96707a43e1f1acfa163b68098fa6"
-      to_address: "0x00656C604FC470e6a566A695B74455e18a6D75D3"
-      method: null
-      comment: "EigenDA certificate (first used 2025-11-13)"
+      to_address: "0x00656c604fc470e6a566a695b74455e18a6d75d3"
+      method: "0x01010002"
+      start_block: 24875177
+      comment: "EigenDA certificate via batch inbox (first used 2026-04-14)"
+    - from_address: "0xb98c6b1a805b96707a43e1f1acfa163b68098fa6"
+      to_address: "0x02B8d1329B653d6f53A8420C8DDbBbb5518F51b2"
+      method: "0x01010002"
+      comment: "EigenDA certificate via BunnyInbox (first used 2026-02-09, last used 2026-04-14)"
+    - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
+      to_address: "0xE4e456c64B9b0de5FE8a90d809180cA71534D623"
+      method: "0xca0dc973"
+      comment: "state root proposal via KailuaTreasury (first used 2025-11-27)"
+    - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
+      to_address: null
+      method: "0x2810e1d6"
+      comment: "resolveGame on KailuaGame instances (first used 2025-12-04)"
+  beacon:
+    - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
+      to_address: "0xE4e456c64B9b0de5FE8a90d809180cA71534D623"
+      method: "0xca0dc973"
+      comment: "state root proposal via KailuaTreasury (first used 2025-11-27)"
   eigenda:
     - namespace: "0x42b5ea5238752cc6f70d93fa4249feae480a0b39"
 
@@ -2071,51 +2117,113 @@ plume:
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAADQSAB6M6v+s="
 
-  river:
-    name: "River"
-    beacon:
-      - from_address: "0x52ee324F2bCD0c5363d713eb9f62D1eE47266ac1"
-        to_address: null
-        method: null
-        comment: "Commit Blob"
+river:
+  name: "River"
+  beacon:
+    - from_address: "0x52ee324F2bCD0c5363d713eb9f62D1eE47266ac1"
+      to_address: null
+      method: null
+      comment: "Commit Blob"
 
-  pegglecoin:
-    name: "Pegglecoin"
-    beacon:
-      - from_address: "0x4cfAa5F421714eAE1645DD3276A89B15c9bcF70c"
-        to_address: null
-        method: null
-        comment: "Commit Blob"
+pegglecoin:
+  name: "Pegglecoin"
+  beacon:
+    - from_address: "0x4cfAa5F421714eAE1645DD3276A89B15c9bcF70c"
+      to_address: null
+      method: null
+      comment: "Commit Blob"
 
-  zklighter:
-    name: "zkLighter"
-    l1:
-      - from_address: null
-        to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
-        method: "0x23ff50e1"
-        comment: "verifyBatch (first used 2025-01-17)"
-      - from_address: null
-        to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
-        method: "0xe415f0f4"
-        comment: "commitBatch (first used 2025-01-17)"
-      - from_address: null
-        to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
-        method: "0x2d320e28"
-        comment: "executeBatches (first used 2025-01-17)"
-      - from_address: "0xfDb36C132fA19f7774d72fA39c89272D1B954A41"
-        to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
-        method: null
-        comment: "misc admin functions (first used 2025-01-17)"
-    beacon:
-      - from_address: "0xfbc0dcd6c3518cb529bc1b585db992a7d40005fa"
-        to_address: null
-        method: null
-        comment: "commitBatch (first used 2025-01-17)"
+zklighter:
+  name: "zkLighter"
+  l1:
+    - from_address: null
+      to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
+      method: "0x23ff50e1"
+      comment: "verifyBatch (first used 2025-01-17)"
+    - from_address: null
+      to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
+      method: "0xe415f0f4"
+      comment: "commitBatch (first used 2025-01-17)"
+    - from_address: null
+      to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
+      method: "0x2d320e28"
+      comment: "executeBatches (first used 2025-01-17)"
+    - from_address: "0xfDb36C132fA19f7774d72fA39c89272D1B954A41"
+      to_address: "0x3B4D794a66304F130a4Db8F2551B0070dfCf5ca7"
+      method: null
+      comment: "misc admin functions (first used 2025-01-17)"
+  beacon:
+    - from_address: "0xfbc0dcd6c3518cb529bc1b585db992a7d40005fa"
+      to_address: null
+      method: null
+      comment: "commitBatch (first used 2025-01-17)"
+    - from_address: "0x191ff0ec830f83916a427d169a234c33e48aa79f"
+      to_address: null
+      method: null
+      comment: "commitBatch (first used 2025-12-18)"
 
-  katana:
-    name: "Katana"
-    beacon:
-      - from_address: "0x1FFDA89C755f6D4Af069897D77CcAbb580Fd412a"
-        to_address: null
-        method: null
-        comment: "Commit Blob"
+katana:
+  name: "Katana"
+  beacon:
+    - from_address: "0x1FFDA89C755f6D4Af069897D77CcAbb580Fd412a"
+      to_address: null
+      method: null
+      comment: "Commit Blob"
+
+arbitrum_nova:
+  name: "Arbitrum Nova"
+  l1:
+    - from_address: null
+      to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
+      method: "0x8f111f3c"
+      comment: "addSequencerL2BatchFromOrigin (SequencerInbox, first used 2023-01-04)"
+    - from_address: null
+      to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
+      method: "0x69cacded"
+      comment: "addSequencerL2BatchFromOriginDelayProof (SequencerInbox, first used 2025-02-12)"
+    - from_address: null
+      to_address: "0x211E1c4c7f1bF5351Ac850Ed10FD68CFfCF6c21b"
+      method: "0x6f12b0c9"
+      comment: "addSequencerL2BatchFromOrigin (first used 2022-06-25, last used 2022-09-18)"
+
+hemi:
+  name: "Hemi"
+  l1:
+    - from_address: "0x65115c6d23274e0a29a63b69130efe901aa52e7a"
+      to_address: "0xff00000000000000000000000000000000043111"
+      method: null
+      comment: "blob submission to sequencer precompile (first used 2024-09-09)"
+    - from_address: "0x2bd42d6cfa838fb15187f3d59dc19ed169b2659e"
+      to_address: "0x6daf3a3497d8abdfe12915add9829f83a79c0d51"
+      method: "0x9aaab648"
+      comment: "proposeL2Output (first used 2024-09-09)"
+  beacon:
+    - from_address: "0x65115c6d23274e0a29a63b69130efe901aa52e7a"
+      to_address: null
+      method: null
+      comment: "blob submission (first used 2024-09-09)"
+
+xlayer:
+  name: "X Layer"
+  l1:
+    - from_address: "0x98245d0adf4595c66f0a9db8e13c44cbff6be459"
+      to_address: "0x002bde9b0c0857aee2cffdea6b8723eaf5989449"
+      method: null
+      comment: "blob batch submission (first used 2025-12-24)"
+    - from_address: "0xdfd6c636dcb5a013c2431316c4a0762b84e70a5d"
+      to_address: "0x002bde9b0c0857aee2cffdea6b8723eaf5989449"
+      method: null
+      comment: "blob batch submission (first used 2025-10-27, last used 2025-12-24)"
+    - from_address: "0xe43944421681170648e10007f73816e04f74394f"
+      to_address: "0x9d4c8faeaddddeee1ed0c92dabad815c2484f675"
+      method: "0x82ecf2f6"
+      comment: "create / propose dispute game (DisputeGameFactory, first used 2025-10-27)"
+  beacon:
+    - from_address: "0x98245d0adf4595c66f0a9db8e13c44cbff6be459"
+      to_address: null
+      method: null
+      comment: "blob batch submission (first used 2025-12-24)"
+    - from_address: "0xdfd6c636dcb5a013c2431316c4a0762b84e70a5d"
+      to_address: null
+      method: null
+      comment: "blob batch submission (first used 2025-10-27, last used 2025-12-24)"

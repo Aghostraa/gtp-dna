@@ -23,11 +23,11 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
-    "api_in_api_main": true,
-    "api_in_api_fees": true,
+    "api_in_api_main": false,
+    "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_api_deployment_flag": "PROD",
+    "api_api_deployment_flag": "ARCHIVE",
     "api_api_exclude_metrics": ["blockspace"],
     "aliases_l2beat": "zora",
     "aliases_l2beat_slug": "zora",
@@ -80,17 +80,12 @@
             "Governance": "https://gov.optimism.io/"
         }
     },
-    "runs_aggregate_blockspace": true,
-    "runs_aggregate_addresses ": true,
+    "runs_aggregate_blockspace": false,
+    "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
-    "runs_archive_raw_tx": true,
-    "runs_delete_archived_raw_tx": true,
-    "archive_tables": [
-        "fact_active_addresses",
-        "blockspace_fact_contract_level_hourly",
-        "uops"
-    ],
-    "backfiller_backfiller_on": true,
+    "runs_archive_raw_tx": false,
+    "runs_delete_archived_raw_tx": false,
+    "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
     "cross_check_type": "l2beat",
     "circulating_supply_token_address": "0x1111111111166b7fe7bd91427724b487980afc69",
