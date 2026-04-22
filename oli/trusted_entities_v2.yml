@@ -6,6 +6,26 @@ attesters:
   - address: "0xC139d50144Ee873c8577d682628E045dECe6040E"
     description: "growthepie automatic attest"
     confidence: 0.1
+  - address: "0xaDbf2b56995b57525Aa9a45df19091a2C5a2A970"
+    description: "growthepAI automatic attest"
+    filters:
+      - tag_id: "usage_category"
+        confidence: 0.4
+      - tag_id: "contract_name"
+        confidence: 0.25
+      - tag_id: "owner_project"
+        confidence: 0.05
+      - tag_id: "*"
+        confidence: 0.1
+  - address: "0xab81887E560e7C7b5993cE45D1c584d7FC22e898"
+    description: "growthepAI automatic attest - trading specialist"
+    filters:
+      - tag_id: "usage_category"
+        confidence: 0.5
+      - tag_id: "contract_name"
+        confidence: 0.6
+      - tag_id: "*"
+        confidence: 0.05
   - address: "0xdC1d963D21C9c1bFf7b6Bea6e10080dAa9b4fc51"
     description: "mseidl.eth"
     confidence: 0.5

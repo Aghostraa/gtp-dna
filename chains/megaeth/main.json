@@ -6,7 +6,6 @@
     "name": "MegaETH",
     "name_short": "MegaETH",
     "bucket": "Others",
-
     "ecosystem_old": [
         "all-chains"
     ],
@@ -22,7 +21,6 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
-
     "api_in_api_main": true,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
@@ -43,7 +41,6 @@
         "apps": "active",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "megaeth",
     "aliases_l2beat_slug": "megaeth",
     "aliases_coingecko": null,
@@ -52,9 +49,7 @@
     "aliases_blockscout_url": null,
     "aliases_defillama": null,
     "aliases_dune": "megaeth",
-    
     "deployed_supplyreader": null,
-
     "metadata_description": "MegaETH is a real-time blockchain. Where crypto applications leverage extreme performance to reach their full potential.",
     "metadata_symbol": null,
     "metadata_gas_token": "ETH",
@@ -67,7 +62,6 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://www.megaeth.com/",
         "docs": "https://docs.megaeth.com/",
@@ -86,22 +80,17 @@
             "L2BEAT": "https://l2beat.com/scaling/projects/megaeth"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": false,
-    
     "archive_tables": [
         "fact_active_addresses_contract",
         "fact_active_addresses"
     ],
-
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
-
     "cross_check_type": "l2beat",
-
     "events": [
         {
             "date": "2026-01-22",
@@ -127,5 +116,11 @@
             "description": "The USDM Bridge goes live, allowing transfers of USDC between Ethereum and MegaETH. This bridge was disabled shortly after launch due to fairness concerns and all funds were returned.",
             "source": "https://www.megaeth.com/blog-news"
         }
+    ],
+    "labeling_tenderly_slug": "megaeth",
+    "labeling_avg_block_time_seconds": 0.01,
+    "labeling_blockscout_name_aliases": [
+        "mega eth",
+        "mega-eth"
     ]
 }
