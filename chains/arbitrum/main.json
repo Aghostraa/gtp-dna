@@ -154,14 +154,10 @@
             "type": "major_upgrade",
             "title": "Arbitrum One activates Stylus on mainnet",
             "short_title": "Stylus Activation",
-            "description": "Arbitrum One enables Stylus on mainnet. A new feature allowing developers to write smart contracts in Rust, C, C++ and other WebAssembly-compatible languages alongside Solidity. The Stylus activation (live on Sept 3, 2024, Arbitrum’s 3rd anniversary) represents a significant expansion of Arbitrum One’s developer capabilities, offering higher performance and broader language support for Layer-2 dApps.",
+            "description": "Arbitrum One enables Stylus on mainnet. A new feature allowing developers to write smart contracts in Rust, C, C++ and other WebAssembly-compatible languages alongside Solidity. The Stylus activation (live on Sept 3, 2024, Arbitrum's 3rd anniversary) represents a significant expansion of Arbitrum One's developer capabilities, offering higher performance and broader language support for Layer-2 dApps.",
             "source": "https://blog.arbitrum.io/arbitrum-stylus-mainnet/"
         }
     ],
     "labeling_tenderly_slug": "arbitrum",
-    "labeling_avg_block_time_seconds": 0.25,
-    "labeling_blockscout_name_aliases": [
-        "arbitrum one",
-        "arbitrum mainnet"
-    ]
+    "labeling_avg_block_time_seconds": 0.25
 }

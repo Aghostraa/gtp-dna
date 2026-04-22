@@ -132,6 +132,5 @@
         }
     ],
     "labeling_tenderly_slug": "mantle",
-    "labeling_avg_block_time_seconds": 2.0,
-    "labeling_blockscout_name_aliases": []
+    "labeling_avg_block_time_seconds": 2.0
 }

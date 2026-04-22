@@ -138,9 +138,5 @@
         }
     ],
     "labeling_tenderly_slug": "optimism",
-    "labeling_avg_block_time_seconds": 2.0,
-    "labeling_blockscout_name_aliases": [
-        "op mainnet",
-        "optimism mainnet"
-    ]
+    "labeling_avg_block_time_seconds": 2.0
 }

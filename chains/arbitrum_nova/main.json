@@ -79,7 +79,13 @@
     "api_in_api_labels": false,
     "api_in_api_apps": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": ["blockspace","fdv", "market_cap", "profit", "txcosts"],
+    "api_api_exclude_metrics": [
+        "blockspace",
+        "fdv",
+        "market_cap",
+        "profit",
+        "txcosts"
+    ],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
@@ -121,8 +127,5 @@
         }
     ],
     "labeling_tenderly_slug": "arbitrum-nova",
-    "labeling_avg_block_time_seconds": 1.0,
-    "labeling_blockscout_name_aliases": [
-        "arbitrum nova"
-    ]
+    "labeling_avg_block_time_seconds": 1.0
 }

@@ -26,7 +26,9 @@
     "api_in_api_economics": true,
     "api_in_api_labels": true,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": ["blockspace"],
+    "api_api_exclude_metrics": [
+        "blockspace"
+    ],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
@@ -130,8 +132,5 @@
         }
     ],
     "labeling_tenderly_slug": "taiko",
-    "labeling_avg_block_time_seconds": 12.0,
-    "labeling_blockscout_name_aliases": [
-        "taiko alethia"
-    ]
+    "labeling_avg_block_time_seconds": 12.0
 }

@@ -132,8 +132,5 @@
         }
     ],
     "labeling_tenderly_slug": "polygon-zkevm",
-    "labeling_avg_block_time_seconds": 4.0,
-    "labeling_blockscout_name_aliases": [
-        "polygon zkevm"
-    ]
+    "labeling_avg_block_time_seconds": 4.0
 }

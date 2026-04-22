@@ -162,10 +162,5 @@
         }
     ],
     "labeling_tenderly_slug": "mainnet",
-    "labeling_avg_block_time_seconds": 12.0,
-    "labeling_blockscout_name_aliases": [
-        "ethereum mainnet",
-        "eth mainnet",
-        "mainnet"
-    ]
+    "labeling_avg_block_time_seconds": 12.0
 }

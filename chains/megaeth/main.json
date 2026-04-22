@@ -119,9 +119,5 @@
         }
     ],
     "labeling_tenderly_slug": "megaeth",
-    "labeling_avg_block_time_seconds": 0.01,
-    "labeling_blockscout_name_aliases": [
-        "mega eth",
-        "mega-eth"
-    ]
+    "labeling_avg_block_time_seconds": 0.01
 }

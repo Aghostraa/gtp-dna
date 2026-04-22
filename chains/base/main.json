@@ -157,9 +157,5 @@
         }
     ],
     "labeling_tenderly_slug": "base",
-    "labeling_avg_block_time_seconds": 2.0,
-    "labeling_blockscout_name_aliases": [
-        "base mainnet",
-        "base chain"
-    ]
+    "labeling_avg_block_time_seconds": 2.0
 }

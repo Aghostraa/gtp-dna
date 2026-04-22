@@ -146,6 +146,5 @@
         }
     ],
     "labeling_tenderly_slug": "scroll",
-    "labeling_avg_block_time_seconds": 3.0,
-    "labeling_blockscout_name_aliases": []
+    "labeling_avg_block_time_seconds": 3.0
 }
