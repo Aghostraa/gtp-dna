@@ -50,12 +50,12 @@
     
     "deployed_supplyreader": "2026-02-11",
 
-    "metadata_description": "Mantle is an OVM based EVM-compatible rollup. Public launch was in July 2023.",
+    "metadata_description": "Mantle is a modular ZK rollup built on the OP Stack with OP Succinct (SP1) ZK validity proofs. Public launch was in July 2023.",
     "metadata_symbol": "MNT",
     "metadata_gas_token": "MNT",
     "metadata_launch_date": "2023-07-14",
     "metadata_da_layer": "EigenDA",
-    "metadata_technology": "Optimium",
+    "metadata_technology": "ZK Rollup",
     "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
         "label": "OP Stack",
