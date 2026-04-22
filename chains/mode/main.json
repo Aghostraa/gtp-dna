@@ -6,7 +6,6 @@
     "name": "Mode Network",
     "name_short": "Mode",
     "bucket": "Superchain",
-
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -24,7 +23,6 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
-
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -39,7 +37,6 @@
         "apps": "active",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "mode",
     "aliases_l2beat_slug": "mode",
     "aliases_coingecko": "mode",
@@ -48,9 +45,7 @@
     "aliases_blockscout_url": "https://explorer.mode.network/api/v2/",
     "aliases_defillama": "mode",
     "aliases_dune": "mode",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "metadata_description": "Mode is an Optimistic Rollup and part of the Superchain.",
     "metadata_symbol": "MODE",
     "metadata_gas_token": "ETH",
@@ -63,7 +58,6 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Conduit",
-
     "links": {
         "website": "https://mode.network/",
         "docs": "https://docs.mode.network/",
@@ -88,30 +82,24 @@
             "Governance": "https://gov.optimism.io/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": false,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-
     "cross_check_type": "l2beat",
-    
     "circulating_supply_token_address": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
     "circulating_supply_token_deployment_date": "2024-04-29",
     "circulating_supply_token_deployment_origin_key": "mode",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
-
     "events": [
         {
             "date": "2023-11-01",
@@ -137,5 +125,7 @@
             "description": "The native MODE governance token was launched and airdropped to participants of the first airdrop season.",
             "source": "https://mode.mirror.xyz/PZXp4y3nUD53So8I5zG9-57nQzCVwgf2JkNs53iJ-vQ"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "mode",
+    "labeling_avg_block_time_seconds": 2.0
 }

@@ -6,7 +6,6 @@
     "name": "Scroll",
     "name_short": "Scroll",
     "bucket": "Others",
-
     "ecosystem_old": [
         "all-chains"
     ],
@@ -22,7 +21,6 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
-
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -36,7 +34,6 @@
         "apps": "locked",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "scroll",
     "aliases_l2beat_slug": "scroll",
     "aliases_coingecko": "scroll",
@@ -44,9 +41,7 @@
     "aliases_rhino": "SCROLL",
     "aliases_defillama": "scroll",
     "aliases_dune": "scroll",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "metadata_chain_type": "rollup",
     "metadata_description": "Scroll is a general purpose zkEVM rollup. Public launch was in October 2023.",
     "metadata_symbol": null,
@@ -60,7 +55,6 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://scroll.io/",
         "docs": "https://docs.scroll.io/",
@@ -84,29 +78,23 @@
             "Governance": "https://community.scroll.io/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": true,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-
     "cross_check_type": "l2beat",
-    
     "circulating_supply_token_address": "0xd29687c813D741E2F938F4aC377128810E217b1b",
     "circulating_supply_token_deployment_date": "2024-10-21",
     "circulating_supply_token_deployment_origin_key": "scroll",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
-
     "events": [
         {
             "date": "2022-04-21",
@@ -156,5 +144,7 @@
             "description": "The Bernoulli network upgrade integrated support for EIP-4844, using blobs for data availability to lower fees.",
             "source": "https://scroll.io/blog/the-bernoulli-upgrade-is-live-on-scroll-mainnet"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "scroll",
+    "labeling_avg_block_time_seconds": 3.0
 }

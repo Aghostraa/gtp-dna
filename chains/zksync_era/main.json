@@ -6,7 +6,6 @@
     "name": "ZKsync Era",
     "name_short": "ZKsync Era",
     "bucket": "Elastic Chain",
-
     "ecosystem_old": [
         "all-chains"
     ],
@@ -22,7 +21,6 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
-    
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -40,7 +38,6 @@
         "apps": "locked",
         "blockspace": "locked"
     },
-
     "aliases_l2beat": "zksync2",
     "aliases_l2beat_slug": "zksync-era",
     "aliases_coingecko": "zksync",
@@ -49,9 +46,7 @@
     "aliases_blockscout_url": "https://zksync.blockscout.com/api/v2/",
     "aliases_defillama": "zksync-era",
     "aliases_dune": "zksync",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "metadata_chain_type": "rollup",
     "metadata_description": "ZKsync Era uses ZK tech, aiming to boost throughput while preserving Ethereum's core values: freedom, self-sovereignty, and decentralization.",
     "metadata_symbol": "ZK",
@@ -65,7 +60,6 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://zksync.io/",
         "docs": "https://docs.zksync.io/",
@@ -91,29 +85,23 @@
             "Governance": "https://forum.zksync.io/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": true,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-
     "cross_check_type": "l2beat",
-
     "circulating_supply_token_address": "0x01a6715d3560241E09E865a46122bf347A576c09",
     "circulating_supply_token_deployment_date": "2024-06-16",
     "circulating_supply_token_deployment_origin_key": "zksync_era",
     "circulating_supply_token_circulating_supply_function": null,
-
     "events": [
         {
             "date": "2021-06-15",
@@ -155,5 +143,7 @@
             "description": "Eligible users were able to claim their ZK token airdrop, marking a major step towards decentralized governance.",
             "source": "https://claim.zknation.io/"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "zksync-era",
+    "labeling_avg_block_time_seconds": 1.0
 }

@@ -6,7 +6,6 @@
     "name": "OP Mainnet",
     "name_short": "OP Mainnet",
     "bucket": "Superchain",
-
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -24,7 +23,6 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
-
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -40,7 +38,6 @@
         "apps": "active",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "optimism",
     "aliases_l2beat_slug": "op-mainnet",
     "aliases_coingecko": "optimism",
@@ -49,9 +46,7 @@
     "aliases_blockscout_url": "https://optimism.blockscout.com/api/v2/",
     "aliases_defillama": "op-mainnet",
     "aliases_dune": "optimism",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "metadata_chain_type": "rollup",
     "metadata_description": "OP Mainnet uses an optimistic rollup approach and is one of the oldest rollups. It is fully EVM compatible and it's tech-stack is widely used.",
     "metadata_symbol": "OP",
@@ -65,7 +60,6 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://optimism.io/",
         "docs": "https://docs.optimism.io/",
@@ -91,30 +85,24 @@
             "Governance": "https://gov.optimism.io/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": true,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-
     "cross_check_type": "l2beat",
-    
     "circulating_supply_token_address": "0x4200000000000000000000000000000000000042",
     "circulating_supply_token_deployment_date": "2022-04-26",
     "circulating_supply_token_deployment_origin_key": "optimism",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
-
     "events": [
         {
             "date": "2021-12-16",
@@ -148,5 +136,7 @@
             "description": "OP Mainnet activated support for Ethereum's Dencun upgrade (EIP-4844), using 'blobs' to make transaction fees dramatically lower.",
             "source": "https://blog.optimism.io/ecotone-is-live/"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "optimism",
+    "labeling_avg_block_time_seconds": 2.0
 }

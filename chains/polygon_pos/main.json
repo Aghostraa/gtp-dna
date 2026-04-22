@@ -6,7 +6,6 @@
     "name": "Polygon PoS",
     "name_short": "Polygon PoS",
     "bucket": "Others",
-
     "ecosystem_old": [
         "all-chains"
     ],
@@ -22,13 +21,11 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
-
     "api_in_api_main": true,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": true,
     "api_in_api_apps": true,
-    
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [],
     "api_tab_status": {
@@ -38,7 +35,6 @@
         "apps": "active",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "polygon-pos",
     "aliases_l2beat_slug": "polygon-pos",
     "aliases_coingecko": "polygon-ecosystem-token",
@@ -46,9 +42,7 @@
     "aliases_rhino": null,
     "aliases_defillama": "polygon",
     "aliases_dune": "polygon",
-    
     "deployed_supplyreader": "2026-02-11",
-
     "metadata_description": "Polygon Proof-of-Stake is an EVM sidechain for Ethereum, planning to become a Validium. The bridge is validated by Polygon validators.",
     "metadata_symbol": "POL",
     "metadata_gas_token": "POL",
@@ -61,7 +55,6 @@
         "url": "https://docs.polygon.technology/"
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://polygon.technology/polygon-pos",
         "docs": "https://docs.polygon.technology/pos/",
@@ -86,29 +79,23 @@
             "Governance": "https://forum.polygon.technology/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
     "runs_aggregate_apps": true,
-
     "archive_tables": [
         "fact_active_addresses_contract",
         "fact_active_addresses_contract_hourly",
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly"
     ],
-
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
-
     "cross_check_type": "l2beat",
-    
     "circulating_supply_token_address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
     "circulating_supply_token_deployment_date": "2019-04-20",
     "circulating_supply_token_deployment_origin_key": "ethereum",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
-
     "events": [
         {
             "date": "2020-05-30",
@@ -150,5 +137,7 @@
             "description": "Polygon PoS activated a major hard fork aligned with recent Ethereum upgrades, improving compatibility, performance, and long-term maintainability.",
             "source": "https://blog.polygon.technology/polygon-pos-hardfork/"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "polygon",
+    "labeling_avg_block_time_seconds": 2.0
 }

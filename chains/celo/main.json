@@ -4,7 +4,6 @@
     "evm_chain_id": 42220,
     "name": "Celo",
     "name_short": "Celo",
-
     "aliases_l2beat": "celo",
     "aliases_l2beat_slug": "celo",
     "aliases_coingecko": "celo",
@@ -12,24 +11,19 @@
     "aliases_rhino": null,
     "aliases_defillama": "celo",
     "aliases_dune": "celo",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
     "runs_aggregate_apps": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "bucket": "Superchain",
-
     "ecosystem_old": [
         "all-chains"
     ],
@@ -45,7 +39,6 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
-
     "metadata_description": "Mobile-first. Celo has the mission to build a regenerative digital economy that fosters prosperity for all. It migrated from being an L1 to an L2 in 2025.",
     "metadata_symbol": "CELO",
     "metadata_gas_token": "Multiple",
@@ -58,7 +51,6 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://celo.org/",
         "docs": "https://docs.celo.org/",
@@ -83,7 +75,6 @@
             "Governance": "https://forum.celo.org/"
         }
     },
-
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -99,16 +90,12 @@
         "apps": "active",
         "blockspace": "active"
     },
-    
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,
-
     "cross_check_type": "l2beat",
-
     "circulating_supply_token_address": "0x471ece3750da237f93b8e339c536989b8978a438",
     "circulating_supply_token_deployment_date": "2020-05-22",
     "circulating_supply_token_deployment_origin_key": "celo",
-
     "events": [
         {
             "date": "2020-04-22",
@@ -134,5 +121,7 @@
             "description": "Celo successfully migrated from its Layer 1 mainnet to a Layer 2 solution, enhancing scalability and user experience.",
             "source": "https://blog.celo.org/celo-l2-mainnet-launch"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "celo",
+    "labeling_avg_block_time_seconds": 5.0
 }
