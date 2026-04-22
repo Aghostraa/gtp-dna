@@ -27,6 +27,7 @@
     "api_in_api_labels": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
+        "blockspace",
         "throughput",
         "txcosts"
     ],
@@ -35,7 +36,7 @@
         "fundamentals": "active",
         "economics": "soon",
         "apps": "locked",
-        "blockspace": "active"
+        "blockspace": "locked"
     },
     "aliases_l2beat": "zksync2",
     "aliases_l2beat_slug": "zksync-era",
@@ -90,7 +91,9 @@
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
     "archive_tables": [
-        "fact_active_addresses"
+        "fact_active_addresses",
+        "blockspace_fact_contract_level_hourly",
+        "uops"
     ],
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,

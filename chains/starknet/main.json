@@ -97,6 +97,12 @@
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
 
+    "archive_tables": [
+        "fact_active_addresses_contract",
+        "blockspace_fact_contract_level_hourly",
+        "uops"
+    ],
+
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 5,
 
