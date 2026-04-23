@@ -38,7 +38,7 @@ Collect or derive the following:
 | `metric_key` | `"direct"` if natively issued; `"bridged"` if it represents a bridged canonical token |
 | `bridged_origin_chain` | If `metric_key == "bridged"`: chain where the canonical token lives (e.g. `"ethereum"`) |
 | `bridged_origin_token_id` | If `metric_key == "bridged"`: the `token_id` of the origin token in `coin_mapping` |
-| `fiat` | Peg currency: `usd`, `eur`, `gbp`, `chf`, `aud`, `jpy`, etc. Must exist in `currency_config.py` |
+| `fiat` | Peg currency: `usd`, `eur`, `gbp`, `chf`, `aud`, `jpy`, etc. Must exist in [fiat.json](https://raw.githubusercontent.com/growthepie/gtp-frontend/a570d6bf4856df66734eb6b4ddc6e2cdc164a71f/public/dicts/fiat.json) |
 | `logo` | CoinGecko large image URL |
 | `color_hex` | Brand color for charts (best guess from logo) |
 
@@ -158,7 +158,10 @@ Present exactly what will be written.
 # Under address_mapping["<origin_key>"]:
 "<token_id>": {
     "address": "0x...",    # local token address on this chain, lowercase
-    "decimals": 6
+    "decimals": 6,
+    "exclude_balances": [  # optional: addresses to exclude from supply (e.g. treasury, reserves)
+        "0x..."
+    ]
 }
 ```
 

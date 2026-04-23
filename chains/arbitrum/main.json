@@ -21,7 +21,6 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
-
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -36,7 +35,6 @@
         "apps": "active",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "arbitrum",
     "aliases_l2beat_slug": "arbitrum",
     "aliases_coingecko": "arbitrum",
@@ -45,9 +43,7 @@
     "aliases_blockscout_url": "https://arbitrum.blockscout.com/api/v2/",
     "aliases_defillama": "arbitrum",
     "aliases_dune": "arbitrum",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "metadata_chain_type": "rollup",
     "metadata_description": "Arbitrum One is developed by Offchain Labs. It uses an optimistic rollup approach and is fully EVM compatible, making it developer-friendly.",
     "metadata_symbol": "ARB",
@@ -61,7 +57,6 @@
         "url": "https://arbitrum.io/orbit"
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://arbitrum.io/",
         "docs": "https://docs.arbitrum.io/",
@@ -87,30 +82,24 @@
             "Governance": "https://forum.arbitrum.foundation/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": true,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-
     "cross_check_type": "l2beat",
-    
     "circulating_supply_token_address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
     "circulating_supply_token_deployment_date": "2023-03-16",
     "circulating_supply_token_deployment_origin_key": "arbitrum",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
-
     "events": [
         {
             "date": "2021-08-31",
@@ -165,8 +154,10 @@
             "type": "major_upgrade",
             "title": "Arbitrum One activates Stylus on mainnet",
             "short_title": "Stylus Activation",
-            "description": "Arbitrum One enables Stylus on mainnet. A new feature allowing developers to write smart contracts in Rust, C, C++ and other WebAssembly-compatible languages alongside Solidity. The Stylus activation (live on Sept 3, 2024, Arbitrum’s 3rd anniversary) represents a significant expansion of Arbitrum One’s developer capabilities, offering higher performance and broader language support for Layer-2 dApps.",
+            "description": "Arbitrum One enables Stylus on mainnet. A new feature allowing developers to write smart contracts in Rust, C, C++ and other WebAssembly-compatible languages alongside Solidity. The Stylus activation (live on Sept 3, 2024, Arbitrum's 3rd anniversary) represents a significant expansion of Arbitrum One's developer capabilities, offering higher performance and broader language support for Layer-2 dApps.",
             "source": "https://blog.arbitrum.io/arbitrum-stylus-mainnet/"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "arbitrum",
+    "labeling_avg_block_time_seconds": 0.25
 }

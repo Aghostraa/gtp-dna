@@ -6,7 +6,6 @@
     "name": "Ethereum Mainnet",
     "name_short": "Ethereum L1",
     "bucket": "Layer 1",
-
     "ecosystem_old": [
         "all-chains"
     ],
@@ -22,7 +21,6 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L1",
-
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": false,
@@ -42,7 +40,6 @@
         "apps": "active",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "ethereum",
     "aliases_l2beat_slug": "ethereum",
     "aliases_coingecko": "ethereum",
@@ -51,9 +48,7 @@
     "aliases_blockscout_url": "https://eth.blockscout.com/api/v2/",
     "aliases_defillama": "ethereum",
     "aliases_dune": "ethereum",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "metadata_chain_type": "l1",
     "metadata_description": "Ethereum, proposed by Vitalik Buterin in 2013 and launched in 2015, is the most decentralized and trusted smart contract platform to date.",
     "metadata_symbol": "ETH",
@@ -67,7 +62,6 @@
         "url": null
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://ethereum.org/",
         "docs": "https://ethereum.org/en/developers/docs/",
@@ -90,31 +84,25 @@
             "Governance": "https://ethereum-magicians.org/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": false,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 3,
-
     "cross_check_url": "https://etherscan.io/chart/tx?output=csv",
     "cross_check_type": "etherscan",
-
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
     "circulating_supply_token_circulating_supply_function": null,
-
     "events": [
         {
             "date": "2015-07-30",
@@ -172,5 +160,7 @@
             "description": "Introduced EIP-4844 (Proto-Danksharding), which created 'blobs' to significantly reduce data fees for Layer 2 rollups.",
             "source": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "mainnet",
+    "labeling_avg_block_time_seconds": 12.0
 }

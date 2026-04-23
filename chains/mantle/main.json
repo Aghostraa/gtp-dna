@@ -6,7 +6,6 @@
     "name": "Mantle",
     "name_short": "Mantle",
     "bucket": "Others",
-
     "ecosystem_old": [
         "all-chains"
     ],
@@ -22,7 +21,6 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
-
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": false,
@@ -39,7 +37,6 @@
         "apps": "locked",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "mantle",
     "aliases_l2beat_slug": "mantle",
     "aliases_coingecko": "mantle",
@@ -47,22 +44,19 @@
     "aliases_rhino": "MANTLE",
     "aliases_defillama": "mantle",
     "aliases_dune": "mantle",
-    
     "deployed_supplyreader": "2026-02-11",
-
-    "metadata_description": "Mantle is an OVM based EVM-compatible rollup. Public launch was in July 2023.",
+    "metadata_description": "Mantle is a modular ZK rollup built on the OP Stack with OP Succinct (SP1) ZK validity proofs. Public launch was in July 2023.",
     "metadata_symbol": "MNT",
     "metadata_gas_token": "MNT",
     "metadata_launch_date": "2023-07-14",
     "metadata_da_layer": "EigenDA",
-    "metadata_technology": "Optimium",
+    "metadata_technology": "ZK Rollup",
     "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
         "label": "OP Stack",
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://mantle.xyz/",
         "docs": "https://docs.mantle.xyz/",
@@ -86,29 +80,23 @@
             "Governance": "https://forum.mantle.xyz/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_contract_metadata": false,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
-
     "cross_check_type": "l2beat",
-    
     "circulating_supply_token_address": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
     "circulating_supply_token_deployment_date": "2023-06-20",
     "circulating_supply_token_deployment_origin_key": "ethereum",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
-
     "events": [
         {
             "date": "2023-01-10",
@@ -142,5 +130,7 @@
             "description": "Launched a rewards program allowing users to lock MNT tokens to earn rewards from new and promising ecosystem projects.",
             "source": "https://www.mantle.xyz/blog/announcements/introducing-mantle-rewards-station"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "mantle",
+    "labeling_avg_block_time_seconds": 2.0
 }

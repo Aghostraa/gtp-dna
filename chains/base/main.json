@@ -6,9 +6,7 @@
     "name": "Base Chain",
     "name_short": "Base",
     "company": "Coinbase",
-
     "bucket": "Superchain",
-
     "ecosystem_old": [
         "op-stack",
         "op-super",
@@ -26,7 +24,6 @@
         "darkTextOnBackground": false
     },
     "chain_type": "L2",
-    
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -44,7 +41,6 @@
         "apps": "active",
         "blockspace": "active"
     },
-
     "aliases_l2beat": "base",
     "aliases_l2beat_slug": "base",
     "aliases_coingecko": null,
@@ -53,9 +49,7 @@
     "aliases_blockscout_url": "https://base.blockscout.com/api/v2/",
     "aliases_defillama": "base",
     "aliases_dune": "base",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "metadata_chain_type": "rollup",
     "metadata_description": "Base is an Ethereum Layer 2 offering a secure, low-cost, builder-friendly way for anyone, anywhere, to build onchain.",
     "metadata_symbol": null,
@@ -69,7 +63,6 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
-    
     "links": {
         "website": "https://base.org/",
         "docs": "https://docs.base.org/",
@@ -95,30 +88,24 @@
             "Governance": "https://gov.optimism.io/"
         }
     },
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": true,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 5,
-
     "cross_check_type": "l2beat",
-
     "circulating_supply_token_address": null,
     "circulating_supply_token_deployment_date": null,
     "circulating_supply_token_deployment_origin_key": null,
     "circulating_supply_token_circulating_supply_function": null,
-
     "events": [
         {
             "date": "2023-02-23",
@@ -168,5 +155,7 @@
             "description": "As part of the OP Stack, Base upgraded to support Ethereum's Dencun upgrade, significantly lowering its transaction fees.",
             "source": "https://base.mirror.xyz/39352132-05a2-475f-801b-c743a2b72acb"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "base",
+    "labeling_avg_block_time_seconds": 2.0
 }

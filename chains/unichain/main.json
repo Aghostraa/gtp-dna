@@ -5,7 +5,6 @@
     "name": "Unichain",
     "name_short": "Unichain",
     "company": "Uniswap",
-
     "aliases_l2beat": "unichain",
     "aliases_l2beat_slug": "unichain",
     "aliases_coingecko": "uniswap",
@@ -13,24 +12,19 @@
     "aliases_rhino": null,
     "aliases_defillama": "unichain",
     "aliases_dune": "unichain",
-    
     "deployed_supplyreader": "2025-09-23",
-
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,
     "runs_aggregate_apps": true,
     "runs_contract_metadata": false,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
-
     "archive_tables": [
         "fact_active_addresses",
         "blockspace_fact_contract_level_hourly",
         "uops"
     ],
-
     "bucket": "Superchain",
-
     "ecosystem_old": [
         "all-chains"
     ],
@@ -46,7 +40,6 @@
         "darkTextOnBackground": true
     },
     "chain_type": "L2",
-
     "metadata_chain_type": "rollup",
     "metadata_description": "A Layer 2 sepcifically designed to be the home for DeFi and the home for multichain liquidity.",
     "metadata_symbol": "UNI",
@@ -60,7 +53,6 @@
         "url": "https://docs.optimism.io/stack/getting-started"
     },
     "metadata_raas": "Self-hosted",
-
     "links": {
         "website": "https://www.unichain.org/",
         "docs": "https://docs.unichain.org/docs",
@@ -80,7 +72,6 @@
             "Governance": "https://gov.uniswap.org/"
         }
     },
-
     "api_in_api_main": true,
     "api_in_api_fees": true,
     "api_in_api_economics": true,
@@ -96,17 +87,13 @@
         "apps": "active",
         "blockspace": "active"
     },
-    
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 10,
-
     "cross_check_type": "l2beat",
-
     "circulating_supply_token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
     "circulating_supply_token_deployment_date": "2020-09-14",
     "circulating_supply_token_deployment_origin_key": "ethereum",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
-
     "events": [
         {
             "date": "2025-02-01",
@@ -116,5 +103,7 @@
             "description": "The scheduled mainnet launch date for Unichain, Uniswap's dedicated Layer 2 chain.",
             "source": "https://blog.uniswap.org/unichain-announcement"
         }
-    ]
+    ],
+    "labeling_tenderly_slug": "unichain",
+    "labeling_avg_block_time_seconds": 1.0
 }
