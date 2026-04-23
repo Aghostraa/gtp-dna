@@ -25,7 +25,7 @@
         "block_time": "12s",
         "blob_size": "128 kB",
         "bandwidth": "0.064 MB/s",
-        "l2beat_risk": "https://l2beat.com/data-availability/projects/ethereum/enshrined-bridge"
+        "l2beat_risk": "https://l2beat.com/data-availability/projects/ethereum/ethereum#da-layer-risk-analysis"
     },
 
     "incl_in_da_overview": true,

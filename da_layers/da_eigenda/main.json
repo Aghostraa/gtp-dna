@@ -25,7 +25,7 @@
         "block_time": "10s",
         "blob_size": "16 MiB",
         "bandwidth": "-",
-        "l2beat_risk": "https://l2beat.com/data-availability/projects/eigenda/no-bridge"
+        "l2beat_risk": "https://l2beat.com/data-availability/projects/eigenda/eigenda-v2#da-layer-risk-analysis"
     },
 
     "incl_in_da_overview": true,
