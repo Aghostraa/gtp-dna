@@ -160,11 +160,11 @@ gravity:
     - from_address: null
       to_address: "0x2807B1d5d94ca823ca7d8642A5F5DDac120ce48f"
       method: "0x3b86de19"
-      comment: "stakeOnNewAssertion (first used 2026-02-13, last used 2026-03-13)"
+      comment: "stakeOnNewAssertion (first used 2026-02-13)"
     - from_address: null
       to_address: "0x2807B1d5d94ca823ca7d8642A5F5DDac120ce48f"
       method: "0x10b98a35"
-      comment: "confirmAssertion (first used 2026-02-15, last used 2026-03-13)"
+      comment: "confirmAssertion (first used 2026-02-15)"
     - from_address: null
       to_address: "0x8D99372612e8cFE7163B1a453831Bc40eAeb3cF3"
       method: "0x8f111f3c"
